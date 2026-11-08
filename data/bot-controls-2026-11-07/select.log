@@ -1,0 +1,71 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:43:13:254 INFO] Starting Server
+SERVER [2026-11-07 08:43:13:254 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:43:13:254 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:43:13:254 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:43:13:254 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:43:13:254 INFO] Configuration: Publish
+SERVER [2026-11-07 08:43:13:254 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 08:43:13:255 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:43:13:255 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:43:13:255 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:43:13:255 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:43:13:611 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:43:13:611 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 08:43:13:955 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:43:13:955 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:43:13:955 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:43:13:955 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:43:13:163 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:43:13:163 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:43:13:233 INFO] Server started.
+SERVER [2026-11-07 08:43:13:234 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:43:13:234 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:43:13:234 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:43:13:234 INFO] 
+SERVER [2026-11-07 08:43:13:234 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:43:13:234 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:43:13:234 INFO] ======================================================
+SERVER [2026-11-07 08:43:16:267 INFO] Player connected: ArenaSelect, xuid: 
+BOT CUSTOM ITEMS [{"name":"effect:lapis_sword","runtime_id":276,"component_based":true},{"name":"effect:fire_sword","runtime_id":269,"component_based":true}]
+BOT HOTBAR [{"network_id":0},{"network_id":0}]
+SERVER [2026-11-07 08:43:22:586 INFO] Player Spawned: ArenaSelect xuid: , BOT SPAWN
+COMMAND tp ArenaSelect 10 100 10
+SERVER [2026-11-07 08:43:22:758 INFO] Teleported ArenaSelect to 10.50, 100.00, 10.50
+COMMAND gamemode survival ArenaSelect
+SERVER [2026-11-07 08:43:30:639 INFO] Set ArenaSelect's game mode to Survival
+COMMAND clear ArenaSelect
+SERVER [2026-11-07 08:43:31:639 ERROR] Could not clear the inventory of ArenaSelect, no items to remove
+BOT HOTBAR [{"network_id":0},{"network_id":0}]
+COMMAND replaceitem entity ArenaSelect slot.hotbar 0 effect:fire_sword 1
+SERVER [2026-11-07 08:43:32:688 INFO] Replaced slot.hotbar slot 0 of ArenaSelect with 1 * item.effect:fire_sword
+BOT HOTBAR [{"network_id":269,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":0}]
+COMMAND replaceitem entity ArenaSelect slot.hotbar 1 effect:lapis_sword 1
+SERVER [2026-11-07 08:43:34:689 INFO] Replaced slot.hotbar slot 1 of ArenaSelect with 1 * item.effect:lapis_sword
+BOT HOTBAR [{"network_id":269,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":276,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}]
+COMMAND testfor @a[name=ArenaSelect,hasitem={item=effect:fire_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:43:36:688 INFO] Found ArenaSelect
+COMMAND testfor @a[name=ArenaSelect,family=lapis_sword]
+SERVER [2026-11-07 08:43:37:688 ERROR] No targets matched selector
+HARNESS 1
+BOT SELECT 1 {"network_id":276,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT SELECT SENT
+COMMAND testfor @a[name=ArenaSelect,hasitem={item=effect:lapis_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:43:39:688 INFO] Found ArenaSelect
+COMMAND testfor @a[name=ArenaSelect,family=lapis_sword]
+SERVER [2026-11-07 08:43:43:639 INFO] Found ArenaSelect
+HARNESS 0
+BOT SELECT 0 {"network_id":269,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT SELECT SENT
+COMMAND testfor @a[name=ArenaSelect,hasitem={item=effect:fire_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:43:45:638 INFO] Found ArenaSelect
+COMMAND testfor @a[name=ArenaSelect,family=lapis_sword]
+SERVER [2026-11-07 08:43:49:638 ERROR] No targets matched selector
+SERVER [2026-11-07 08:43:50:639 INFO] Server stop requested.
+SERVER [2026-11-07 08:43:50:678 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

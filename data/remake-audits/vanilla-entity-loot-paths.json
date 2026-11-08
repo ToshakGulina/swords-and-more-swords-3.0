@@ -1,0 +1,72 @@
+{
+  "repository": "Mojang/bedrock-samples",
+  "ref": "v1.26.60.5",
+  "commit": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "scope": "Base minecraft:loot component of the eight official sample entity definitions only; not all component groups, engine defaults, packs, old versions, loot outcomes, or loaded-game state.",
+  "entities": [
+    {
+      "id": "minecraft:shulker",
+      "file": "behavior_pack/entities/shulker.json",
+      "sha256": "dcc921f59d419b723a686abbb030b01fd73a0c9327f543cd71315c81b404991e",
+      "base_loot": {
+        "table": "loot_tables/entities/shulker.json"
+      }
+    },
+    {
+      "id": "minecraft:elder_guardian",
+      "file": "behavior_pack/entities/elder_guardian.json",
+      "sha256": "e1632d9ae1a5f43045357972ac05bf02608c2231d2e158ea4bcfb74c3f106cab",
+      "base_loot": {
+        "table": "loot_tables/entities/elder_guardian.json"
+      }
+    },
+    {
+      "id": "minecraft:wither_skeleton",
+      "file": "behavior_pack/entities/wither_skeleton.json",
+      "sha256": "552b9ed6b38ceb31ac81f234c4747c16da5471c7fe98dc6c931965079cef866a",
+      "base_loot": {
+        "table": "loot_tables/entities/wither_skeleton.json"
+      }
+    },
+    {
+      "id": "minecraft:blaze",
+      "file": "behavior_pack/entities/blaze.json",
+      "sha256": "753c79c3733ef2c9a60076b2739fe0acc6cb00da6867c1c5ecea3e04aa498900",
+      "base_loot": {
+        "table": "loot_tables/entities/blaze.json"
+      }
+    },
+    {
+      "id": "minecraft:enderman",
+      "file": "behavior_pack/entities/enderman.json",
+      "sha256": "34122f03b84142c70ded9f3f64d0f6231a6eeedeb249c605882a7b10beeee777",
+      "base_loot": {
+        "table": "loot_tables/entities/enderman.json"
+      }
+    },
+    {
+      "id": "minecraft:spider",
+      "file": "behavior_pack/entities/spider.json",
+      "sha256": "fafb5b83d554610c54093d7ca8a5d04ec7fb3016149871565843017096c53760",
+      "base_loot": {
+        "table": "loot_tables/entities/spider.json"
+      }
+    },
+    {
+      "id": "minecraft:player",
+      "file": "behavior_pack/entities/player.json",
+      "sha256": "91d833706b33477293053921af7604c29c687b33e7064130342b37e3b6614434",
+      "base_loot": {
+        "table": "loot_tables/empty.json"
+      }
+    },
+    {
+      "id": "minecraft:witch",
+      "file": "behavior_pack/entities/witch.json",
+      "sha256": "cc1808d4ca354c1a1a5317371b494646e2ad2650a45d6f95ab00ae2be7fcb271",
+      "base_loot": {
+        "table": "loot_tables/entities/witch.json"
+      }
+    }
+  ]
+}

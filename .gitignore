@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+# Не включать запрещённый для текущего ремейка исходный архив в коммиты.
+sources/swordsandmoreswords-2-8-14.mcaddon

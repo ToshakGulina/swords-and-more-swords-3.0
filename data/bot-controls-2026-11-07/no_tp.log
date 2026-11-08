@@ -1,0 +1,146 @@
+SERVER NO LOG FILE! - setting up server logging...
+
+SERVER [2026-11-07 08:36:39:507 INFO] Starting Server
+
+SERVER [2026-11-07 08:36:39:507 INFO] Version: 1.20.50.03
+
+SERVER [2026-11-07 08:36:39:507 INFO] Build ID: 19782165
+
+SERVER [2026-11-07 08:36:39:507 INFO] Branch: r/20_u5
+
+SERVER [2026-11-07 08:36:39:507 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+
+SERVER [2026-11-07 08:36:39:507 INFO] Configuration: Publish
+
+SERVER [2026-11-07 08:36:39:507 INFO] Level Name: Bot movement
+
+SERVER [2026-11-07 08:36:39:508 INFO] No CDN config file found for dedicated server
+
+SERVER [2026-11-07 08:36:39:508 INFO] Game mode: 1 Creative
+
+SERVER [2026-11-07 08:36:39:508 INFO] Difficulty: 1 EASY
+
+SERVER [2026-11-07 08:36:39:509 INFO] Content logging to console is enabled.
+
+SERVER [2026-11-07 08:36:39:830 INFO] Opening level 'worlds/Bot movement/db'
+
+SERVER [2026-11-07 08:36:40:336 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+
+SERVER [2026-11-07 08:36:40:336 INFO] IPv6 supported, port: 19133: Used for gameplay
+
+SERVER [2026-11-07 08:36:40:342 INFO] Server started.
+
+SERVER [2026-11-07 08:36:40:343 INFO] ================ TELEMETRY MESSAGE ===================
+
+SERVER [2026-11-07 08:36:40:343 INFO] Server Telemetry is currently not enabled. 
+
+SERVER [2026-11-07 08:36:40:343 INFO] Enabling this telemetry helps us improve the game.
+
+SERVER [2026-11-07 08:36:40:343 INFO] 
+
+SERVER [2026-11-07 08:36:40:343 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+
+SERVER [2026-11-07 08:36:40:343 INFO] to the server.properties file in the handheld/src-server directory
+
+SERVER [2026-11-07 08:36:40:343 INFO] ======================================================
+
+SERVER [2026-11-07 08:36:42:528 INFO] Player connected: ArenaBot, xuid: 
+
+BOT START {"position":{"x":137.5,"y":32769.62109375,"z":148.5},"movement":"server","tick":"46"}
+BOT RESPAWN {"position":{"x":137.5,"y":32769.62109375,"z":148.5},"state":0,"runtime_entity_id":"0"}
+BOT RESPAWN READY
+BOT RESPAWN {"position":{"x":137.5,"y":32768,"z":148.5},"state":0,"runtime_entity_id":"0"}
+BOT RESPAWN READY
+BOT SYNC 1794040602301 48
+BOT RESPAWN {"position":{"x":137.5,"y":74.62001037597656,"z":148.5},"state":1,"runtime_entity_id":"0"}
+BOT SPAWN POSITION {"x":137.5,"y":74.62001037597656,"z":148.5}
+BOT ACTION RESPAWN
+SERVER [2026-11-07 08:36:48:478 INFO] Player Spawned: ArenaBot xuid: , 
+BOT SPAWN
+BOT SYNC 0 173
+BOT SYNC 173 183
+COMMAND querytarget ArenaBot
+SERVER [2026-11-07 08:36:49:039 INFO] Target data: [
+
+SERVER    {
+
+SERVER       "dimension" : 0,
+
+SERVER       "id" : -4294967295,
+
+SERVER       "position" : {
+
+SERVER          "x" : 137.50,
+
+SERVER          "y" : 74.62001037597656,
+
+SERVER          "z" : 148.50
+
+SERVER       },
+
+SERVER       "uniqueId" : "[redacted]",
+
+SERVER       "yRot" : 0.0
+
+SERVER    }
+
+SERVER ]
+
+SERVER 
+
+BOT SYNC 183 193
+BOT SYNC 193 203
+HARNESS instruct bot WALK
+BOT BEGIN WALK {"x":137.5,"y":74.62001037597656,"z":148.5}
+BOT HEARTBEAT {"position":{"x":137.58,"y":74.62001037597656,"z":148.5},"tick":"212","remaining":59,"serverTick":"203"}
+BOT RECEIVED TEXT {"type":"chat","needs_translation":false,"source_name":"ArenaBot","message":"arena_control_test","xuid":"","platform_chat_id":""}
+BOT SYNC 203 213
+BOT SYNC 213 223
+BOT HEARTBEAT {"position":{"x":139.18000000000026,"y":74.62001037597656,"z":148.5},"tick":"232","remaining":39,"serverTick":"223"}
+BOT SYNC 223 233
+BOT SYNC 233 243
+BOT HEARTBEAT {"position":{"x":140.7800000000005,"y":74.62001037597656,"z":148.5},"tick":"252","remaining":19,"serverTick":"243"}
+BOT SYNC 243 253
+BOT SYNC 253 263
+BOT SYNC 263 273
+BOT SYNC 273 283
+BOT SYNC 283 293
+BOT SYNC 293 303
+COMMAND querytarget ArenaBot
+BOT SYNC 303 313
+SERVER [2026-11-07 08:36:55:030 INFO] Target data: [
+
+SERVER    {
+
+SERVER       "dimension" : 0,
+
+SERVER       "id" : -4294967295,
+
+SERVER       "position" : {
+
+SERVER          "x" : 137.50,
+
+SERVER          "y" : 74.62001037597656,
+
+SERVER          "z" : 148.50
+
+SERVER       },
+
+SERVER       "uniqueId" : "[redacted]",
+
+SERVER       "yRot" : 0.0
+
+SERVER    }
+
+SERVER ]
+
+SERVER 
+
+BOT SYNC 313 323
+SERVER [2026-11-07 08:36:56:029 INFO] Server stop requested.
+
+SERVER [2026-11-07 08:36:56:031 INFO] Stopping server...
+
+SERVER Quit correctly
+
+HARNESS RESULT player_spawned= True server_exit= 0

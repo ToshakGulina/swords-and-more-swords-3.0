@@ -1,0 +1,747 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 17:09:07:602 INFO] Starting Server
+SERVER [2026-11-07 17:09:07:602 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 17:09:07:602 INFO] Build ID: 19782165
+SERVER [2026-11-07 17:09:07:602 INFO] Branch: r/20_u5
+SERVER [2026-11-07 17:09:07:602 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 17:09:07:602 INFO] Configuration: Publish
+SERVER [2026-11-07 17:09:07:603 INFO] Level Name: Arena test
+SERVER [2026-11-07 17:09:07:603 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 17:09:07:603 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 17:09:07:603 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 17:09:07:604 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 17:09:07:974 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 17:09:07:974 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 17:09:08:355 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:09:08:355 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 17:09:08:355 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:09:08:355 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 17:09:08:576 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 17:09:08:576 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 17:09:08:651 INFO] Server started.
+SERVER [2026-11-07 17:09:08:651 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 17:09:08:651 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 17:09:08:651 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 17:09:08:651 INFO]
+SERVER [2026-11-07 17:09:08:651 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 17:09:08:651 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 17:09:08:651 INFO] ======================================================
+SERVER [2026-11-07 17:09:09:240 INFO] Player connected: ArenaSea, xuid:
+BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"2","position":{"x":-2.8882064819335938,"y":111,"z":57.497901916503906}}
+BOT BOT ENTITY {"type":"minecraft:witch","runtime":"4","position":{"x":-2.127406597137451,"y":109,"z":44.46304702758789}}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"3","position":{"x":-9.746441841125488,"y":109,"z":43.92140197753906}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"5","position":{"x":13,"y":65,"z":4}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"8","position":{"x":-11.194719314575195,"y":106,"z":31.86771011352539}}
+BOT BOT ENTITY {"type":"minecraft:zombie","runtime":"9","position":{"x":-9.6305570602417,"y":71,"z":11.969139099121094}}
+SERVER [2026-11-07 17:09:14:705 INFO] Player Spawned: ArenaSea xuid: ,
+BOT BOT SPAWN
+COMMAND gamemode creative ArenaSea
+SERVER [2026-11-07 17:09:14:857 INFO] Set ArenaSea's game mode to Creative
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"12","position":{"x":45.00001525878906,"y":87,"z":33.37900161743164}}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"11","position":{"x":36.01066970825195,"y":89,"z":37.48716354370117}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"10","position":{"x":18.299999237060547,"y":97,"z":34.29999923706055}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"13","position":{"x":-17.700000762939453,"y":110,"z":1.4725532531738281}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"16","position":{"x":8.300000190734863,"y":92,"z":-26.597415924072266}}
+BOT BOT ENTITY {"type":"minecraft:fox","runtime":"14","position":{"x":7.314848899841309,"y":94,"z":-20.500274658203125}}
+BOT BOT ENTITY {"type":"minecraft:fox","runtime":"15","position":{"x":12.465643882751465,"y":91,"z":-23.122798919677734}}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"17","position":{"x":35.016605377197266,"y":88,"z":28.603010177612305}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"19","position":{"x":17.825468063354492,"y":102,"z":12.828577041625977}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"18","position":{"x":31.593990325927734,"y":95,"z":11.934226036071777}}
+COMMAND tp ArenaSea 50 100 50
+SERVER [2026-11-07 17:09:15:560 INFO] Teleported ArenaSea to 50.50, 100.00, 50.50
+BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"25","position":{"x":52.414878845214844,"y":62.64410400390625,"z":90.70246887207031}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"23","position":{"x":57.95304489135742,"y":60,"z":66.25874328613281}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"22","position":{"x":55.96797180175781,"y":65,"z":69.46329498291016}}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"21","position":{"x":57.97850799560547,"y":65,"z":72.76932525634766}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"20","position":{"x":57.29999923706055,"y":78,"z":76.30000305175781}}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"24","position":{"x":36.89128875732422,"y":75,"z":84.0023193359375}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"32","position":{"x":62.178138732910156,"y":80.38731384277344,"z":55.28276824951172}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"33","position":{"x":62.70000076293945,"y":57.0013313293457,"z":62.16596221923828}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"31","position":{"x":63.002079010009766,"y":80,"z":55.27290725708008}}
+BOT BOT ENTITY {"type":"minecraft:rabbit","runtime":"34","position":{"x":66.9159927368164,"y":84,"z":37.498653411865234}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"36","position":{"x":86.30000305175781,"y":62.20000076293945,"z":80.30000305175781}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"38","position":{"x":81.69999694824219,"y":76.23106384277344,"z":53.275672912597656}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"41","position":{"x":87.77107238769531,"y":77.125,"z":38.23124313354492}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"39","position":{"x":81.30000305175781,"y":79,"z":40.29999923706055}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"42","position":{"x":93.39949035644531,"y":73,"z":42.03145980834961}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"46","position":{"x":74,"y":77,"z":62}}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"45","position":{"x":74,"y":77,"z":62}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"47","position":{"x":90.68512725830078,"y":73,"z":31.457420349121094}}
+COMMAND fill 45 99 45 65 99 55 stone
+SERVER [2026-11-07 17:09:18:562 ERROR] 0 blocks filled
+COMMAND fill 45 100 45 65 106 55 air
+SERVER [2026-11-07 17:09:19:362 INFO] 325 blocks filled
+COMMAND fill 59 100 48 63 104 52 water
+SERVER [2026-11-07 17:09:20:163 INFO] 125 blocks filled
+COMMAND clear ArenaSea
+SERVER [2026-11-07 17:09:20:963 ERROR] Could not clear the inventory of ArenaSea, no items to remove
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"46","event_id":"eat_grass_animation","data":0}
+COMMAND effect ArenaSea clear
+SERVER [2026-11-07 17:09:21:762 ERROR] Couldn't take any effects from ArenaSea as they do not have any
+MARK AIR
+COMMAND replaceitem entity ArenaSea slot.weapon.mainhand 0 effect:sea_sword 1
+SERVER [2026-11-07 17:09:22:562 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSea with 1 * item.effect:sea_sword
+BOT BOT HELD CONTENT {"network_id":285,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY {"type":"minecraft:fox","runtime":"48","position":{"x":32,"y":86,"z":71}}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+COMMAND testfor @a[name=ArenaSea,family=sea_sword]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+SERVER [2026-11-07 17:09:27:612 INFO] Found ArenaSea
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+COMMAND testfor @a[name=ArenaSea,hasitem={item=effect:sea_sword,location=slot.weapon.mainhand}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+SERVER [2026-11-07 17:09:28:413 INFO] Found ArenaSea
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+MARK WATER
+COMMAND tp ArenaSea 61 101 50
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+SERVER [2026-11-07 17:09:32:164 INFO] Teleported ArenaSea to 61.50, 101.00, 50.50
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT POSITION {"x":61.5,"y":102.62001037597656,"z":50.5}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+COMMAND execute as ArenaSea at @s if block ~ ~ ~ water run say IN_WATER_BLOCK
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"ArenaSea","message":"[ArenaSea] IN_WATER_BLOCK","xuid":"","platform_chat_id":""}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+MARK AIR AGAIN
+COMMAND tp ArenaSea 50 100 50
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+SERVER [2026-11-07 17:09:39:162 INFO] Teleported ArenaSea to 50.50, 100.00, 50.50
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.07000000029802322,"default":0.07000000029802322,"name":"minecraft:underwater_movement","modifiers":[]}]
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":26,"amplifier":0,"particles":false,"duration":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+COMMAND execute as ArenaSea at @s if block ~ ~ ~ air run say IN_AIR_BLOCK
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"ArenaSea","message":"[ArenaSea] IN_AIR_BLOCK","xuid":"","platform_chat_id":""}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+MARK REMOVE
+COMMAND replaceitem entity ArenaSea slot.weapon.mainhand 0 air
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+SERVER [2026-11-07 17:09:46:165 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSea with 1 * Air
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.05999999865889549,"default":0.05999999865889549,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT OWN MOVEMENT [{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.019999999552965164,"default":0.019999999552965164,"name":"minecraft:underwater_movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]},{"min":0,"max":3.4028234663852886e+38,"current":0.10000000149011612,"default":0.10000000149011612,"name":"minecraft:movement","modifiers":[]}]
+BOT BOT ENTITY EVENT {"runtime_entity_id":"46","event_id":"eat_grass_animation","data":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaSea,family=sea_sword]
+SERVER [2026-11-07 17:09:50:212 ERROR] No targets matched selector
+SERVER [2026-11-07 17:09:52:013 INFO] Server stop requested.
+SERVER [2026-11-07 17:09:52:016 INFO] Stopping server...
+SERVER Quit correctly
+DONE

@@ -1,0 +1,8 @@
+const bedrock = require('/home/user/swords-analysis/bot/node_modules/bedrock-protocol')
+const client = bedrock.createClient({host:'127.0.0.1',port:19132,version:'1.20.50',username:'ArenaBot',offline:true,skipPing:true,raknetBackend:'jsp-raknet',useRaknetWorkers:false})
+client.on('error', e=>console.log('BOT ERROR', e?.stack||String(e)))
+client.on('disconnect', p=>console.log('BOT DISCONNECT',JSON.stringify(p)))
+client.on('close',()=>{console.log('BOT CLOSE'); process.exit(0)})
+client.on('start_game',p=>console.log('BOT START_GAME',JSON.stringify({runtime_id:String(p.runtime_entity_id),position:p.player_position})))
+client.on('spawn',()=>console.log('BOT SPAWN'))
+setTimeout(()=>{console.log('BOT DONE');client.close()},50000)

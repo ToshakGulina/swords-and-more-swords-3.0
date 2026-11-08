@@ -1,0 +1,381 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:55:40:930 INFO] Starting Server
+SERVER [2026-11-07 16:55:40:930 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:55:40:930 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:55:40:930 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:55:40:930 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:55:40:930 INFO] Configuration: Publish
+SERVER [2026-11-07 16:55:40:930 INFO] Level Name: Arena test
+SERVER [2026-11-07 16:55:40:931 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:55:40:931 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:55:40:931 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:55:40:932 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:55:41:307 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:55:41:308 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 16:55:41:688 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:55:41:688 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:55:41:688 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:55:41:688 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:55:41:912 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:55:41:912 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:55:41:991 INFO] Server started.
+SERVER [2026-11-07 16:55:41:991 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:55:41:991 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:55:41:991 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:55:41:991 INFO]
+SERVER [2026-11-07 16:55:41:991 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:55:41:991 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:55:41:991 INFO] ======================================================
+SERVER [2026-11-07 16:55:42:617 INFO] Player connected: ArenaBlaze, xuid:
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"2","position":{"x":-0.48944002389907837,"y":109,"z":74.6784896850586}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 16:55:47:397 INFO] Player Spawned: ArenaBlaze xuid: ,
+BOT SPAWN
+COMMAND gamemode survival ArenaBlaze
+SERVER [2026-11-07 16:55:47:512 INFO] Set ArenaBlaze's game mode to Survival
+COMMAND tp ArenaBlaze 50 100 50
+SERVER [2026-11-07 16:55:48:049 INFO] Teleported ArenaBlaze to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"13","position":{"x":57.29999923706055,"y":78,"z":76.30000305175781}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"21","position":{"x":35.61823272705078,"y":87,"z":53.997066497802734}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"6","position":{"x":25,"y":93,"z":81}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"22","position":{"x":36.08097839355469,"y":86,"z":72.92198944091797}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"7","position":{"x":25,"y":93,"z":81}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"27","position":{"x":73.86297607421875,"y":78,"z":57.86906433105469}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"26","position":{"x":64.7952880859375,"y":81,"z":54.52360916137695}}
+BOT ENTITY {"type":"minecraft:wolf","runtime":"30","position":{"x":37.078365325927734,"y":92,"z":12.499655723571777}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"32","position":{"x":59.56022644042969,"y":87,"z":15.338682174682617}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"33","position":{"x":63.29999923706055,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"35","position":{"x":63.29999923706055,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"34","position":{"x":63.29999923706055,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"44","position":{"x":82.44027709960938,"y":76,"z":50.98638153076172}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"43","position":{"x":38,"y":88,"z":28}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 45 99 45 55 99 55 stone
+SERVER [2026-11-07 16:55:51:051 ERROR] 0 blocks filled
+COMMAND fill 45 100 45 55 115 55 air
+SERVER [2026-11-07 16:55:51:651 ERROR] 0 blocks filled
+COMMAND weather clear 120
+SERVER [2026-11-07 16:55:52:251 INFO] Changing to clear weather
+COMMAND clear ArenaBlaze
+SERVER [2026-11-07 16:55:52:853 ERROR] Could not clear the inventory of ArenaBlaze, no items to remove
+BOT HELD CONTENT {"network_id":0}
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 effect:blaze_sword 1
+SERVER [2026-11-07 16:55:53:451 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBlaze with 1 * item.effect:blaze_sword
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"45","position":{"x":56,"y":68,"z":76}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"46","position":{"x":60,"y":66,"z":73}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+COMMAND testfor @a[name=ArenaBlaze,hasitem={item=effect:blaze_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:55:59:451 INFO] Found ArenaBlaze
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword]
+SERVER [2026-11-07 16:56:00:051 INFO] Found ArenaBlaze
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+MARK CONTROL use; keep sword
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":261}
+BOT USE SENT
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:56:01:651 INFO] Found ArenaBlaze
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"26","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"49","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"50","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+BOT HELD CONTENT {"network_id":0}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"death_animation","data":0}
+BOT TEXT {"type":"translation","needs_translation":true,"message":"death.attack.drown","parameters":["ArenaBlaze"],"xuid":"","platform_chat_id":""}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"51","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK CONTROL END
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"53","position":{"x":81.30000305175781,"y":79,"z":39.70000076293945}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"54","position":{"x":55,"y":87,"z":15}}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+MARK SWITCH use
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+SERVER [2026-11-07 16:56:24:951 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 air
+SERVER [2026-11-07 16:56:25:151 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+COMMAND testfor @a[name=ArenaBlaze,hasitem={item=effect:blaze_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:56:25:751 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:56:26:351 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"22","event_id":"eat_grass_animation","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"55","position":{"x":76,"y":80,"z":38}}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"30","event_id":"shake_wet","data":0}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"56","position":{"x":54,"y":87,"z":14}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SWITCH END
+SERVER [2026-11-07 16:56:35:901 INFO] Server stop requested.
+SERVER [2026-11-07 16:56:35:907 INFO] Stopping server...
+SERVER Quit correctly
+DONE

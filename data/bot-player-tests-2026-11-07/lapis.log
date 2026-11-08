@@ -1,0 +1,65 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:12:36:577 INFO] Starting Server
+SERVER [2026-11-07 08:12:36:577 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:12:36:577 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:12:36:577 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:12:36:577 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:12:36:577 INFO] Configuration: Publish
+SERVER [2026-11-07 08:12:36:578 INFO] Level Name: Bot addon
+SERVER [2026-11-07 08:12:36:578 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:12:36:578 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:12:36:578 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:12:36:579 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:12:36:940 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_12_36
+SERVER [2026-11-07 08:12:36:940 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:12:36:940 INFO] Opening level 'worlds/Bot addon/db'
+SERVER [2026-11-07 08:12:37:301 ERROR] [FeatureRegistry] Bot addon | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:12:37:302 ERROR] [FeatureRegistry] Bot addon | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:12:37:302 ERROR] [FeatureRegistry] Bot addon | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:12:37:302 ERROR] [FeatureRegistry] Bot addon | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:12:37:518 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:12:37:518 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:12:37:611 INFO] Server started.
+SERVER [2026-11-07 08:12:37:612 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:12:37:612 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:12:37:612 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:12:37:612 INFO] 
+SERVER [2026-11-07 08:12:37:612 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:12:37:612 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:12:37:612 INFO] ======================================================
+SERVER [2026-11-07 08:12:39:762 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","position":{"x":0.5,"y":32769.62109375,"z":0.5}}
+BOT SPAWN
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:12:50:942 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+BOT TELEPORT {"x":10.5,"y":101.62001037597656,"z":10.5}
+COMMAND gamemode survival ArenaBot
+SERVER [2026-11-07 08:12:52:918 INFO] Set ArenaBot's game mode to Survival
+COMMAND replaceitem entity ArenaBot slot.weapon.mainhand 0 minecraft:diamond 1
+SERVER [2026-11-07 08:12:53:918 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBot with 1 * Diamond
+COMMAND testfor @a[name=ArenaBot,lm=1]
+SERVER [2026-11-07 08:12:54:918 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBot,family=lapis_sword]
+SERVER [2026-11-07 08:12:55:918 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBot,lm=1]
+SERVER [2026-11-07 08:12:58:919 ERROR] No targets matched selector
+COMMAND replaceitem entity ArenaBot slot.weapon.mainhand 0 effect:lapis_sword 1
+SERVER [2026-11-07 08:12:59:918 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBot with 1 * item.effect:lapis_sword
+COMMAND testfor @a[name=ArenaBot,hasitem={item=effect:lapis_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:13:00:918 INFO] Found ArenaBot
+COMMAND testfor @a[name=ArenaBot,family=lapis_sword]
+SERVER [2026-11-07 08:13:03:874 INFO] Found ArenaBot
+COMMAND testfor @a[name=ArenaBot,lm=1]
+SERVER [2026-11-07 08:13:04:868 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBot,lm=1]
+SERVER [2026-11-07 08:13:24:868 INFO] Found ArenaBot
+COMMAND testfor @a[name=ArenaBot,family=lapis_sword]
+SERVER [2026-11-07 08:13:25:868 INFO] Found ArenaBot
+SERVER [2026-11-07 08:13:26:869 INFO] Server stop requested.
+SERVER [2026-11-07 08:13:26:907 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= True server_exit= 0

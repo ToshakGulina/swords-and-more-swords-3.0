@@ -1,0 +1,157 @@
+1825.020 SERVER NO LOG FILE! - setting up server logging...
+1825.020 SERVER [2026-11-07 18:56:52:019 INFO] Starting Server
+1825.020 SERVER [2026-11-07 18:56:52:020 INFO] Version: 1.20.50.03
+1825.020 SERVER [2026-11-07 18:56:52:020 INFO] Build ID: 19782165
+1825.020 SERVER [2026-11-07 18:56:52:020 INFO] Branch: r/20_u5
+1825.020 SERVER [2026-11-07 18:56:52:020 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1825.020 SERVER [2026-11-07 18:56:52:020 INFO] Configuration: Publish
+1825.021 SERVER [2026-11-07 18:56:52:020 INFO] Level Name: Bedrock level
+1825.022 SERVER [2026-11-07 18:56:52:021 INFO] No CDN config file found for dedicated server
+1825.022 SERVER [2026-11-07 18:56:52:021 INFO] Game mode: 0 Survival
+1825.022 SERVER [2026-11-07 18:56:52:021 INFO] Difficulty: 1 EASY
+1825.023 SERVER [2026-11-07 18:56:52:023 INFO] Content logging to console is enabled.
+1825.443 SERVER [2026-11-07 18:56:52:442 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+1825.443 SERVER [2026-11-07 18:56:52:442 INFO] Opening level 'worlds/Bedrock level/db'
+1825.786 SERVER [2026-11-07 18:56:53:785 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1825.786 SERVER 
+1825.786 SERVER [2026-11-07 18:56:53:785 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+1825.786 SERVER 
+1825.786 SERVER [2026-11-07 18:56:53:785 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1825.786 SERVER 
+1825.786 SERVER [2026-11-07 18:56:53:785 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+1825.786 SERVER 
+1826.008 SERVER [2026-11-07 18:56:53:007 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1826.008 SERVER [2026-11-07 18:56:53:007 INFO] IPv6 supported, port: 19133: Used for gameplay
+1826.089 SERVER [2026-11-07 18:56:53:089 INFO] Server started.
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] ================ TELEMETRY MESSAGE ===================
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] Server Telemetry is currently not enabled.
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] Enabling this telemetry helps us improve the game.
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO]
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] to the server.properties file in the handheld/src-server directory
+1826.090 SERVER [2026-11-07 18:56:53:089 INFO] ======================================================
+1826.912 SERVER [2026-11-07 18:56:54:912 INFO] Player connected: ArenaDropLight, xuid:
+1827.265 BOT BOT CUSTOM ITEMS [{"name":"effect:lightning_sword","runtime_id":277,"component_based":true},{"name":"minecraft:stick","runtime_id":365,"component_based":false}]
+1827.451 BOT BOT HELD {"network_id":0}
+1837.272 SERVER [2026-11-07 18:57:04:272 INFO] Player Spawned: ArenaDropLight xuid: ,
+1837.289 BOT BOT SPAWN
+COMMAND gamerule doMobSpawning false
+COMMAND gamerule dofiretick false
+COMMAND weather clear 1000
+1838.729 SERVER [2026-11-07 18:57:05:729 INFO] Changing to clear weather
+COMMAND gamemode creative ArenaDropLight
+1839.479 SERVER [2026-11-07 18:57:06:479 INFO] Set ArenaDropLight's game mode to Creative
+COMMAND tp ArenaDropLight 50 100 50
+1840.180 SERVER [2026-11-07 18:57:07:179 INFO] Teleported ArenaDropLight to 50.50, 100.00, 50.50
+1840.240 BOT BOT REMOVE ENTITY {"entity_id_self":"-8589934587"}
+COMMAND fill 45 99 45 65 99 65 stone
+1843.128 SERVER [2026-11-07 18:57:10:127 INFO] 254 blocks filled
+COMMAND fill 45 100 45 65 105 65 air
+1843.831 SERVER [2026-11-07 18:57:11:830 ERROR] 0 blocks filled
+COMMAND kill @e[type=item]
+1844.525 SERVER [2026-11-07 18:57:11:524 ERROR] No targets matched selector
+MARK START untagged
+COMMAND fill 45 100 45 65 105 65 air
+1845.225 SERVER [2026-11-07 18:57:12:224 ERROR] 0 blocks filled
+COMMAND kill @e[type=item]
+1845.624 SERVER [2026-11-07 18:57:12:624 ERROR] No targets matched selector
+COMMAND tp ArenaDropLight 50 100 50
+1846.025 SERVER [2026-11-07 18:57:13:025 INFO] Teleported ArenaDropLight to 50.50, 100.00, 50.50
+COMMAND replaceitem entity ArenaDropLight slot.weapon.mainhand 0 effect:lightning_sword 1
+1848.025 SERVER [2026-11-07 18:57:15:024 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDropLight with 1 * item.effect:lightning_sword
+1848.038 BOT BOT HELD {"network_id":277,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1848.137 BOT BOT LIGHTNING {"type":"minecraft:lightning_bolt","runtime":"14","position":{"x":50.5,"y":255,"z":50.5}}
+1848.787 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313214"}
+BOT COMMAND drop
+1849.493 BOT BOT COMMAND hotbar HELD {"network_id":277,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1849.494 BOT BOT REQUEST SENT
+1849.520 BOT BOT STACK RESPONSE {"responses":[{"status":"ok","request_id":-1,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]}]}]}
+1849.530 BOT BOT DROP ENTITY {"item":{"network_id":277,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},"position":{"x":50.5,"y":101.24501037597656,"z":50.5},"velocity":{"x":-0.006939342711120844,"y":0,"z":0.2950948476791382}}
+COMMAND tp ArenaDropLight 48 105 48
+1850.525 SERVER [2026-11-07 18:57:17:524 INFO] Teleported ArenaDropLight to 48.50, 105.00, 48.50
+COMMAND testfor @e[type=item]
+1851.330 SERVER [2026-11-07 18:57:18:329 INFO] Found item.effect:lightning_sword
+COMMAND testfor @e[type=item,tag=lightning_sword]
+1851.725 SERVER [2026-11-07 18:57:18:724 ERROR] No targets matched selector
+COMMAND execute as @e[type=item] at @s run setblock ~ ~ ~ fire
+1852.126 SERVER [2026-11-07 18:57:19:125 INFO] Block placed
+1852.338 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313213"}
+COMMAND execute as @e[type=item] at @s run testforblock ~ ~ ~ fire
+1852.524 SERVER [2026-11-07 18:57:19:524 ERROR] No targets matched selector
+COMMAND testfor @e[type=item]
+1852.929 SERVER [2026-11-07 18:57:20:929 ERROR] No targets matched selector
+COMMAND testfor @e[type=item]
+1857.975 SERVER [2026-11-07 18:57:25:974 ERROR] No targets matched selector
+MARK END untagged
+MARK START tagged
+COMMAND fill 45 100 45 65 105 65 air
+1860.975 SERVER [2026-11-07 18:57:28:974 INFO] 1 blocks filled
+COMMAND kill @e[type=item]
+1861.380 SERVER [2026-11-07 18:57:28:380 ERROR] No targets matched selector
+COMMAND tp ArenaDropLight 50 100 50
+1861.775 SERVER [2026-11-07 18:57:28:774 INFO] Teleported ArenaDropLight to 50.50, 100.00, 50.50
+COMMAND replaceitem entity ArenaDropLight slot.weapon.mainhand 0 effect:lightning_sword 1
+1863.775 SERVER [2026-11-07 18:57:30:774 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDropLight with 1 * item.effect:lightning_sword
+1863.787 BOT BOT HELD {"network_id":277,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1863.886 BOT BOT LIGHTNING {"type":"minecraft:lightning_bolt","runtime":"16","position":{"x":50.5,"y":255,"z":50.5}}
+1864.640 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313212"}
+BOT COMMAND drop
+1865.194 BOT BOT COMMAND hotbar HELD {"network_id":277,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1865.195 BOT BOT REQUEST SENT
+1865.217 BOT BOT STACK RESPONSE {"responses":[{"status":"ok","request_id":-3,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]}]}]}
+1865.236 BOT BOT DROP ENTITY {"item":{"network_id":277,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},"position":{"x":50.5,"y":101.24501037597656,"z":50.5},"velocity":{"x":0.006059988401830196,"y":0,"z":0.30501821637153625}}
+COMMAND tp ArenaDropLight 48 105 48
+1866.275 SERVER [2026-11-07 18:57:33:274 INFO] Teleported ArenaDropLight to 48.50, 105.00, 48.50
+COMMAND testfor @e[type=item]
+1867.079 SERVER [2026-11-07 18:57:34:079 INFO] Found item.effect:lightning_sword
+COMMAND testfor @e[type=item,tag=lightning_sword]
+1867.475 SERVER [2026-11-07 18:57:34:474 ERROR] No targets matched selector
+COMMAND tag @e[type=item] add lightning_sword
+1867.879 SERVER [2026-11-07 18:57:35:879 INFO] Added tag 'lightning_sword' to item.effect:lightning_sword
+COMMAND execute as @e[type=item] at @s run setblock ~ ~ ~ fire
+1868.224 SERVER [2026-11-07 18:57:35:224 INFO] Block placed
+1868.342 BOT BOT LIGHTNING {"type":"minecraft:lightning_bolt","runtime":"18","position":{"x":50.55272674560547,"y":100,"z":53.15388870239258}}
+1868.392 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313211"}
+COMMAND execute as @e[type=item] at @s run testforblock ~ ~ ~ fire
+1868.630 SERVER [2026-11-07 18:57:35:629 ERROR] No targets matched selector
+COMMAND testfor @e[type=item]
+1869.025 SERVER [2026-11-07 18:57:36:024 ERROR] No targets matched selector
+1869.591 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313210"}
+COMMAND testfor @e[type=item]
+1874.025 SERVER [2026-11-07 18:57:41:024 ERROR] No targets matched selector
+MARK END tagged
+MARK START fire_control
+COMMAND fill 45 100 45 65 105 65 air
+1877.025 SERVER [2026-11-07 18:57:44:024 INFO] 1 blocks filled
+COMMAND kill @e[type=item]
+1877.424 SERVER [2026-11-07 18:57:44:424 ERROR] No targets matched selector
+COMMAND tp ArenaDropLight 50 100 50
+1877.830 SERVER [2026-11-07 18:57:45:829 INFO] Teleported ArenaDropLight to 50.50, 100.00, 50.50
+COMMAND replaceitem entity ArenaDropLight slot.weapon.mainhand 0 stick 1
+1879.829 SERVER [2026-11-07 18:57:47:829 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDropLight with 1 * Stick
+1879.837 BOT BOT HELD {"network_id":365,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+BOT COMMAND drop
+1881.297 BOT BOT COMMAND hotbar HELD {"network_id":365,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+1881.297 BOT BOT REQUEST SENT
+1881.317 BOT BOT STACK RESPONSE {"responses":[{"status":"ok","request_id":-5,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]}]}]}
+1881.336 BOT BOT DROP ENTITY {"item":{"network_id":365,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}},"position":{"x":50.5,"y":101.24501037597656,"z":50.5},"velocity":{"x":0.011871762573719025,"y":0,"z":0.3064013123512268}}
+COMMAND tp ArenaDropLight 48 105 48
+1882.379 SERVER [2026-11-07 18:57:49:379 INFO] Teleported ArenaDropLight to 48.50, 105.00, 48.50
+COMMAND testfor @e[type=item]
+1883.174 SERVER [2026-11-07 18:57:50:174 INFO] Found Stick
+COMMAND testfor @e[type=item,tag=lightning_sword]
+1883.580 SERVER [2026-11-07 18:57:50:580 ERROR] No targets matched selector
+COMMAND execute as @e[type=item] at @s run setblock ~ ~ ~ fire
+1883.976 SERVER [2026-11-07 18:57:51:975 INFO] Block placed
+1884.179 BOT BOT REMOVE ENTITY {"entity_id_self":"-90194313209"}
+COMMAND execute as @e[type=item] at @s run testforblock ~ ~ ~ fire
+1884.379 SERVER [2026-11-07 18:57:51:379 ERROR] No targets matched selector
+COMMAND testfor @e[type=item]
+1884.774 SERVER [2026-11-07 18:57:51:774 ERROR] No targets matched selector
+COMMAND testfor @e[type=item]
+1889.779 SERVER [2026-11-07 18:57:56:779 ERROR] No targets matched selector
+MARK END fire_control
+1892.779 SERVER [2026-11-07 18:57:59:779 INFO] Server stop requested.
+1892.796 SERVER [2026-11-07 18:58:00:795 INFO] Stopping server...
+1893.146 SERVER Quit correctly
+DONE

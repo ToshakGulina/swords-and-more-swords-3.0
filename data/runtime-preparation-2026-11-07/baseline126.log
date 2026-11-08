@@ -1,0 +1,67 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:17:54:041 INFO] Starting Server
+[2026-11-07 00:17:54:041 INFO] Version: 1.26.62.1
+[2026-11-07 00:17:54:041 INFO] Build ID: 53244563
+[2026-11-07 00:17:54:041 INFO] Branch: r/26_u6
+[2026-11-07 00:17:54:041 INFO] Commit ID: 414445034e1ffed4e53bce99de8f8c08781d7ac7
+[2026-11-07 00:17:54:041 INFO] Configuration: Publish
+[2026-11-07 00:17:54:042 INFO] Level Name: Arena baseline
+[2026-11-07 00:17:54:042 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-11-07 00:17:54:042 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-11-07 00:17:54:042 INFO] Game mode: 1 Creative
+[2026-11-07 00:17:54:042 INFO] Difficulty: 1 EASY
+[2026-11-07 00:17:54:044 INFO] Content logging to console is enabled.
+[2026-11-07 00:17:54:045 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-11-07 00:17:54:471 INFO] Content logging to disk is enabled. Writing log to: ./ContentLog2026-11-07_00-17-54.txt
+[2026-11-07 00:17:54:474 INFO] Opening level 'worlds/Arena baseline/db'
+[2026-11-07 00:17:54:512 INFO] Pack Stack - None
+[2026-11-07 00:17:55:420 INFO] Signed in to signaling service successfully
+[2026-11-07 00:17:55:569 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:17:55:570 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:17:55:601 INFO] Server started.
+[2026-11-07 00:17:55:601 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-11-07 00:17:55:601 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-11-07 00:17:55:601 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-11-07 00:17:55:601 ERROR] 
+[2026-11-07 00:17:55:601 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-11-07 00:17:55:601 ERROR] 
+[2026-11-07 00:17:55:601 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-11-07 00:17:55:601 ERROR] =======================================================
+[2026-11-07 00:17:55:601 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:17:55:601 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:17:55:601 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:17:55:601 INFO] 
+[2026-11-07 00:17:55:601 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+HARNESS: server ready, send commands
+HARNESS COMMAND: list
+[2026-11-07 00:17:55:601 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:17:55:601 INFO] ======================================================
+[2026-11-07 00:17:55:737 INFO] There are 0/10 players online:
+
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 arena_lab true
+[2026-11-07 00:17:56:108 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: summon minecraft:pig 0 100 0
+[2026-11-07 00:18:08:104 INFO] Object successfully summoned
+HARNESS COMMAND: summon minecraft:armor_stand 0 100 0
+[2026-11-07 00:18:08:608 INFO] Object successfully summoned
+HARNESS COMMAND: replaceitem entity @e[type=armor_stand,c=1] slot.armor.head 0 minecraft:diamond 1
+[2026-11-07 00:18:09:113 INFO] Replaced slot.armor.head slot 0 of Armor Stand with 1 * Diamond
+HARNESS COMMAND: testfor @e[type=armor_stand,hasitem={item=minecraft:diamond,location=slot.armor.head}]
+[2026-11-07 00:18:09:613 INFO] Found Armor Stand
+HARNESS COMMAND: tickingarea remove arena_lab
+[2026-11-07 00:18:10:113 INFO] Removed ticking area(s)
+- arena_lab (Circle): 8 0 8 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:18:11:618 INFO] Server stop requested.
+[2026-11-07 00:18:11:666 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

@@ -1,0 +1,149 @@
+497.819 SERVER NO LOG FILE! - setting up server logging...
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Starting Server
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Version: 1.20.50.03
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Build ID: 19782165
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Branch: r/20_u5
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+497.819 SERVER [2026-11-07 18:11:47:818 INFO] Configuration: Publish
+497.819 SERVER [2026-11-07 18:11:47:819 INFO] Level Name: Bedrock level
+497.820 SERVER [2026-11-07 18:11:47:820 INFO] No CDN config file found for dedicated server
+497.820 SERVER [2026-11-07 18:11:47:820 INFO] Game mode: 0 Survival
+497.821 SERVER [2026-11-07 18:11:47:820 INFO] Difficulty: 1 EASY
+497.821 SERVER [2026-11-07 18:11:47:821 INFO] Content logging to console is enabled.
+498.171 SERVER [2026-11-07 18:11:47:170 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+498.171 SERVER [2026-11-07 18:11:47:170 INFO] Opening level 'worlds/Bedrock level/db'
+498.522 SERVER [2026-11-07 18:11:48:521 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+498.522 SERVER 
+498.522 SERVER [2026-11-07 18:11:48:521 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+498.522 SERVER 
+498.522 SERVER [2026-11-07 18:11:48:521 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+498.522 SERVER 
+498.522 SERVER [2026-11-07 18:11:48:521 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+498.522 SERVER 
+498.733 SERVER [2026-11-07 18:11:48:733 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+498.733 SERVER [2026-11-07 18:11:48:733 INFO] IPv6 supported, port: 19133: Used for gameplay
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] Server started.
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] ================ TELEMETRY MESSAGE ===================
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] Server Telemetry is currently not enabled.
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] Enabling this telemetry helps us improve the game.
+498.805 SERVER [2026-11-07 18:11:48:804 INFO]
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] to the server.properties file in the handheld/src-server directory
+498.805 SERVER [2026-11-07 18:11:48:804 INFO] ======================================================
+499.450 SERVER [2026-11-07 18:11:48:449 INFO] Player connected: ArenaWTarget, xuid:
+499.653 SERVER [2026-11-07 18:11:49:652 INFO] Player connected: ArenaWAttacker, xuid:
+499.808 ArenaWTarget BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+499.982 ArenaWTarget BOT HELD CONTENT {"network_id":0}
+500.092 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+500.167 ArenaWAttacker BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+500.332 ArenaWAttacker BOT HELD CONTENT {"network_id":0}
+500.428 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+503.578 ArenaWAttacker BOT ENTITY {"type":"minecraft:skeleton","runtime":"3","position":{"x":-43.600364685058594,"y":36.41999816894531,"z":42.14006423950195}}
+503.579 ArenaWTarget BOT ENTITY {"type":"minecraft:skeleton","runtime":"3","position":{"x":-43.600364685058594,"y":36.41999816894531,"z":42.14006423950195}}
+503.777 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+503.876 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+504.980 ArenaWTarget BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":46.95342254638672,"y":100,"z":54.477882385253906}}
+504.986 ArenaWAttacker BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":46.95342254638672,"y":100,"z":54.477882385253906}}
+505.521 SERVER [2026-11-07 18:11:55:520 INFO] Player Spawned: ArenaWTarget xuid: ,
+505.521 SERVER [2026-11-07 18:11:55:520 INFO] Player Spawned: ArenaWAttacker xuid: ,
+505.525 ArenaWAttacker BOT TEXT {"type":"translation","needs_translation":true,"message":"§e%multiplayer.player.joined","parameters":["ArenaWTarget"],"xuid":"","platform_chat_id":""}
+505.526 ArenaWAttacker BOT SPAWN 2
+505.528 ArenaWTarget BOT SPAWN 1
+505.528 ArenaWTarget BOT TEXT {"type":"translation","needs_translation":true,"message":"§e%multiplayer.player.joined","parameters":["ArenaWAttacker"],"xuid":"","platform_chat_id":""}
+COMMAND gamemode creative ArenaWAttacker
+505.579 ArenaWTarget BOT PLAYER {"name":"ArenaWAttacker","runtime":"2"}
+505.581 ArenaWAttacker BOT PLAYER {"name":"ArenaWTarget","runtime":"1"}
+505.685 SERVER [2026-11-07 18:11:55:685 INFO] Set ArenaWAttacker's game mode to Creative
+COMMAND clear ArenaWAttacker
+506.423 SERVER [2026-11-07 18:11:55:422 ERROR] Could not clear the inventory of ArenaWAttacker, no items to remove
+506.431 ArenaWAttacker BOT HELD CONTENT {"network_id":0}
+COMMAND effect ArenaWAttacker clear
+507.173 SERVER [2026-11-07 18:11:56:172 ERROR] Couldn't take any effects from ArenaWAttacker as they do not have any
+507.776 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+507.777 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+507.878 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+507.885 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode creative ArenaWTarget
+507.973 SERVER [2026-11-07 18:11:57:973 INFO] Set ArenaWTarget's game mode to Creative
+COMMAND clear ArenaWTarget
+508.773 SERVER [2026-11-07 18:11:58:773 ERROR] Could not clear the inventory of ArenaWTarget, no items to remove
+508.787 ArenaWTarget BOT HELD CONTENT {"network_id":0}
+COMMAND effect ArenaWTarget clear
+509.573 SERVER [2026-11-07 18:11:59:572 ERROR] Couldn't take any effects from ArenaWTarget as they do not have any
+COMMAND difficulty normal
+510.373 SERVER [2026-11-07 18:11:59:373 INFO] Set game difficulty to NORMAL
+COMMAND gamerule doMobSpawning false
+511.774 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+511.775 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+511.877 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+511.878 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND weather clear 200
+511.977 SERVER [2026-11-07 18:12:01:976 INFO] Changing to clear weather
+COMMAND tp ArenaWAttacker 50 100 50 0 0
+512.774 SERVER [2026-11-07 18:12:02:773 INFO] Teleported ArenaWAttacker to 50.50, 100.00, 50.50
+512.781 ArenaWAttacker BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+512.837 ArenaWAttacker BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":48.1884651184082,"y":100,"z":53.4863166809082}}
+515.780 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+515.879 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 45 99 45 55 99 55 stone
+516.774 SERVER [2026-11-07 18:12:06:773 ERROR] 0 blocks filled
+COMMAND fill 45 100 45 55 105 55 air
+517.575 SERVER [2026-11-07 18:12:07:574 ERROR] 0 blocks filled
+COMMAND tp ArenaWTarget 50 100 51 0 0
+518.423 SERVER [2026-11-07 18:12:07:423 INFO] Teleported ArenaWTarget to 50.50, 100.00, 51.50
+518.432 ArenaWTarget BOT POSITION {"x":50.5,"y":101.62001037597656,"z":51.5}
+518.483 ArenaWAttacker BOT PLAYER {"name":"ArenaWTarget","runtime":"1"}
+518.484 ArenaWTarget BOT PLAYER {"name":"ArenaWAttacker","runtime":"2"}
+518.484 ArenaWTarget BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":50.97661209106445,"y":100,"z":53.4261360168457}}
+519.778 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+519.778 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+519.880 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+519.880 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND kill @e[type=pig]
+521.423 SERVER [2026-11-07 18:12:10:422 INFO] Killed Pig
+521.430 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"4","event_id":"death_animation","data":0}
+521.430 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"4","event_id":"death_animation","data":0}
+COMMAND summon pig 50 100 53
+522.223 SERVER [2026-11-07 18:12:11:223 INFO] Object successfully summoned
+522.284 ArenaWTarget BOT ENTITY {"type":"minecraft:pig","runtime":"6","position":{"x":50.5,"y":100,"z":53.5}}
+522.285 ArenaWAttacker BOT ENTITY {"type":"minecraft:pig","runtime":"6","position":{"x":50.5,"y":100,"z":53.5}}
+523.776 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+523.777 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+523.878 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+523.879 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaWAttacker slot.weapon.mainhand 0 effect:wither_skeleton_sword 1
+524.223 SERVER [2026-11-07 18:12:13:223 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWAttacker with 1 * item.effect:wither_skeleton_sword
+524.235 ArenaWAttacker BOT HELD CONTENT {"network_id":297,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+527.776 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+527.776 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+527.878 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+527.879 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK ATTACK
+529.140 ArenaWAttacker BOT ATTACK BEGIN 6 {"x":50.5,"y":101.62001037597656,"z":50.5}
+529.744 ArenaWAttacker BOT ATTACK SENT 1
+529.772 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":2}
+529.772 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":2}
+529.784 ArenaWAttacker BOT ENTITY {"type":"entity:wither_effect","runtime":"7","position":{"x":50.5,"y":101.62001037597656,"z":50.5}}
+529.784 ArenaWAttacker BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":20,"amplifier":0,"particles":true,"duration":200}
+529.785 ArenaWTarget BOT ENTITY {"type":"entity:wither_effect","runtime":"7","position":{"x":50.5,"y":101.62001037597656,"z":50.5}}
+529.785 ArenaWTarget BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":20,"amplifier":0,"particles":true,"duration":200}
+531.784 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+531.785 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+531.879 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+531.880 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+535.783 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+535.783 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+535.885 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+535.885 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+538.382 ArenaWAttacker BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"8","position":{"x":97,"y":63,"z":26}}
+538.382 ArenaWTarget BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"8","position":{"x":97,"y":63,"z":26}}
+539.781 ArenaWAttacker BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":20,"amplifier":0,"particles":false,"duration":0}
+539.781 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+539.781 ArenaWTarget BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":20,"amplifier":0,"particles":false,"duration":0}
+539.781 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+539.881 ArenaWTarget BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+539.883 ArenaWAttacker BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+543.224 SERVER [2026-11-07 18:12:32:223 INFO] Server stop requested.
+543.268 SERVER [2026-11-07 18:12:32:267 INFO] Stopping server...
+543.600 SERVER Quit correctly
+DONE

@@ -1,0 +1,201 @@
+{
+  "official_source": "Mojang/bedrock-samples",
+  "official_ref": "v1.26.60.5",
+  "official_commit": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "scope": "Literal distinct sound IDs in parsed playsound/stopsound headers in docs/sound-index-2.8.8.md. The index excludes an unparseable creeper file and is not a full sound graph; does not inspect dynamic calls, event names, sounds.json or audio assets.",
+  "sound_ids": [
+    {
+      "id": "bubble.up",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "dig.grass",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "fire.fire",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "ghost_sword.wailing",
+      "definition_files": [
+        "Swords_R/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "item.trident.thunder",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.blaze.breathe",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.death",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.hit",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.idle",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.portal",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.scream",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.endermen.stare",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.fish.flop",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.ghast.fireball",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wither.ambient",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wither.death",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wither.hurt",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wither.shoot",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wither.spawn",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wolf.bark",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "mob.wolf.growl",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "portal.travel",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.bow",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.explode",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.fizz",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.fuse",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.glass",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.levelup",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.orb",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "random.splash",
+      "definition_files": [
+        "resource_pack/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "wolf_sword.distant_howl",
+      "definition_files": [
+        "Swords_R/sounds/sound_definitions.json"
+      ]
+    },
+    {
+      "id": "wolf_sword.howl",
+      "definition_files": [
+        "Swords_R/sounds/sound_definitions.json"
+      ]
+    }
+  ],
+  "conclusion": "Definition ID presence only, not existence of sample audio bytes or audibility and compatibility in Bedrock."
+}

@@ -1,0 +1,107 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:53:21:062 INFO] Starting Server
+SERVER [2026-11-07 16:53:21:062 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:53:21:062 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:53:21:062 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:53:21:062 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:53:21:062 INFO] Configuration: Publish
+SERVER [2026-11-07 16:53:21:062 INFO] Level Name: Arena test
+SERVER [2026-11-07 16:53:21:063 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:53:21:063 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:53:21:063 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:53:21:064 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:53:21:417 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:53:21:417 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 16:53:21:757 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:53:21:758 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:53:21:758 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:53:21:758 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:53:21:982 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:53:21:982 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:53:22:072 INFO] Server started.
+SERVER [2026-11-07 16:53:22:072 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:53:22:072 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:53:22:072 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:53:22:072 INFO]
+SERVER [2026-11-07 16:53:22:072 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:53:22:072 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:53:22:072 INFO] ======================================================
+SERVER [2026-11-07 16:53:22:704 INFO] Player connected: ArenaBlaze, xuid:
+BOT START_GAME {"runtime_id":"undefined","movement":"server"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 16:53:27:965 INFO] Player Spawned: ArenaBlaze xuid: ,
+BOT SPAWN
+COMMAND gamemode creative ArenaBlaze
+SERVER [2026-11-07 16:53:28:083 INFO] Set ArenaBlaze's game mode to Creative
+COMMAND tp ArenaBlaze 50 100 50
+SERVER [2026-11-07 16:53:28:616 INFO] Teleported ArenaBlaze to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"3","position":{"x":30,"y":87,"z":59}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"2","position":{"x":30,"y":87,"z":59}}
+BOT ENTITY {"type":"minecraft:pig","runtime":"5","position":{"x":76,"y":78,"z":53}}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"6","position":{"x":39,"y":88,"z":31}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 45 99 45 55 99 55 stone
+SERVER [2026-11-07 16:53:31:620 INFO] 121 blocks filled
+COMMAND fill 45 100 45 55 115 55 air
+SERVER [2026-11-07 16:53:32:224 ERROR] 0 blocks filled
+COMMAND weather clear 120
+SERVER [2026-11-07 16:53:32:818 INFO] Changing to clear weather
+COMMAND clear ArenaBlaze
+SERVER [2026-11-07 16:53:33:418 ERROR] Could not clear the inventory of ArenaBlaze, no items to remove
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"15","event_id":"item_entity_merge","data":2}
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 effect:blaze_sword 1
+SERVER [2026-11-07 16:53:33:019 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBlaze with 1 * item.effect:blaze_sword
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK CONTROL use; keep sword
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":261}
+BOT USE SENT
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:53:38:074 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"20","position":{"x":77,"y":77,"z":62}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:zombie_villager_v2","runtime":"22","position":{"x":80,"y":77,"z":55}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"21","position":{"x":80,"y":77,"z":55}}
+MARK CONTROL END
+BOT ENTITY {"type":"minecraft:zombie","runtime":"25","position":{"x":62.70000076293945,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"23","position":{"x":62.70000076293945,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"26","position":{"x":62.70000076293945,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"24","position":{"x":62.70000076293945,"y":87,"z":22.299999237060547}}
+BOT ENTITY {"type":"entity:ghost","runtime":"27","position":{"x":71,"y":77,"z":63}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"28","position":{"x":56.70000076293945,"y":78,"z":76.30000305175781}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"3","event_id":"eat_grass_animation","data":0}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"29","position":{"x":77,"y":79,"z":43}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"31","position":{"x":53,"y":72,"z":80}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"30","position":{"x":53,"y":72,"z":80}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SWITCH use
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":261}
+BOT USE SENT
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:54:01:319 ERROR] No targets matched selector
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 air
+SERVER [2026-11-07 16:54:01:519 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBlaze with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:54:02:120 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"36","position":{"x":9,"y":102,"z":44}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SWITCH END
+SERVER [2026-11-07 16:54:11:668 INFO] Server stop requested.
+SERVER [2026-11-07 16:54:11:678 INFO] Stopping server...
+SERVER Quit correctly
+DONE

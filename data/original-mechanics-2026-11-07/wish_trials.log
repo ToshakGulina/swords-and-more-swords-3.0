@@ -1,0 +1,151 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:20:40:431 INFO] Starting Server
+SERVER [2026-11-07 09:20:40:431 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:20:40:431 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:20:40:431 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:20:40:431 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:20:40:431 INFO] Configuration: Publish
+SERVER [2026-11-07 09:20:40:431 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:20:40:432 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:20:40:432 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:20:40:432 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:20:40:433 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:20:40:772 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:20:40:772 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:20:41:134 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:20:41:134 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:20:41:134 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:20:41:134 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:20:41:415 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:20:41:415 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:20:41:492 INFO] Server started.
+SERVER [2026-11-07 09:20:41:493 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:20:41:493 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:20:41:493 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:20:41:493 INFO] 
+SERVER [2026-11-07 09:20:41:493 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:20:41:493 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:20:41:493 INFO] ======================================================
+SERVER [2026-11-07 09:20:41:542 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:20:43:593 INFO] Player connected: ArenaGhost, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:20:50:061 INFO] Player Spawned: ArenaGhost xuid: , BOT SPAWN
+COMMAND tp ArenaGhost 35 100 35
+SERVER [2026-11-07 09:20:50:233 INFO] Teleported ArenaGhost to 35.50, 100.00, 35.50
+BOT ENTITY {"type":"minecraft:llama","runtime":"4","position":{"x":-140,"y":68,"z":-111}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"3","position":{"x":-140,"y":68,"z":-111}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"5","position":{"x":-140,"y":68,"z":-111}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"2","position":{"x":-140,"y":68,"z":-111}}
+BOT POSITION {"x":35.5,"y":101.62001037597656,"z":35.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:20:53:515 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY {"type":"minecraft:pig","runtime":"6","position":{"x":34.06317901611328,"y":100,"z":31.571693420410156}}
+SERVER [2026-11-07 09:20:54:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:20:55:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:20:56:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:20:57:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND gamemode creative ArenaGhost
+SERVER [2026-11-07 09:20:58:108 INFO] Set ArenaGhost's game mode to Creative
+SERVER [2026-11-07 09:20:58:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND fill 37 99 37 43 99 43 stone
+SERVER [2026-11-07 09:20:59:108 INFO] 49 blocks filled
+SERVER [2026-11-07 09:20:59:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 37 100 37 43 110 43 air
+SERVER [2026-11-07 09:21:00:163 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:21:00:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 09:21:01:163 ERROR] No targets matched selector
+SERVER [2026-11-07 09:21:01:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND scriptevent arena:trials wish_1
+SERVER [2026-11-07 09:21:02:164 INFO] Script event arena:trials has been sent
+SERVER [2026-11-07 09:21:02:164 WARN] [Scripting] ARENA_TRIALS_START {"kind":"wish_1","itemID":"effect:quartz_diamond","reward":"effect:ultra_instinct_sword","limit":500}
+SERVER 
+SERVER [2026-11-07 09:21:02:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:03:065 WARN] [Scripting] ARENA_TRIALS_REWARD {"kind":"wish_1","attempted":85,"type":"effect:ultra_instinct_sword","entities":1,"amount":1}
+SERVER 
+SERVER [2026-11-07 09:21:03:516 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:21:04:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:05:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:06:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:07:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:21:08:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:09:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:10:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:11:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=item,x=40,y=101,z=40,r=12]
+SERVER [2026-11-07 09:21:12:158 INFO] Found item.effect:ultra_instinct_sword
+SERVER [2026-11-07 09:21:12:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 09:21:13:113 INFO] Killed item.effect:ultra_instinct_sword
+SERVER [2026-11-07 09:21:13:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND scriptevent arena:trials wish_3
+SERVER [2026-11-07 09:21:14:114 INFO] Script event arena:trials has been sent
+SERVER [2026-11-07 09:21:14:115 WARN] [Scripting] ARENA_TRIALS_START {"kind":"wish_3","itemID":"effect:clock_sword","reward":"effect:time_sword","limit":500}
+SERVER 
+SERVER [2026-11-07 09:21:14:515 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:15:314 WARN] [Scripting] ARENA_TRIALS_REWARD {"kind":"wish_3","attempted":115,"type":"effect:time_sword","entities":1,"amount":1}
+SERVER 
+SERVER [2026-11-07 09:21:15:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:21:16:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:17:513 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:18:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:19:516 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:21:20:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:21:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:22:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:23:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=item,x=40,y=101,z=40,r=12]
+SERVER [2026-11-07 09:21:24:158 INFO] Found item.effect:time_sword
+SERVER [2026-11-07 09:21:24:514 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:21:25:159 INFO] Server stop requested.
+SERVER [2026-11-07 09:21:25:165 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

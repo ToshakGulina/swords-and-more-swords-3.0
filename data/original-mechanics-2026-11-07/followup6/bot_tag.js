@@ -1,0 +1,8 @@
+const bedrock = require('/tmp/swords-run/bot/node_modules/bedrock-protocol')
+const c=bedrock.createClient({host:'127.0.0.1',port:19132,version:'1.20.50',username:'ArenaTag',offline:true,skipPing:true,raknetBackend:'raknet-native',useRaknetWorkers:false})
+c.on('error',e=>console.log('BOT ERROR',e?.stack||String(e)))
+c.on('spawn',()=>console.log('BOT SPAWN'))
+c.on('respawn',p=>{console.log('BOT RESPAWN',JSON.stringify(p,(_,v)=>typeof v==='bigint'?String(v):v));if(p.state===1){c.queue('player_action',{runtime_entity_id:c.entityId,action:'respawn',position:{x:0,y:0,z:0},result_position:{x:0,y:0,z:0},face:0});console.log('BOT ACTION RESPAWN')}if(p.state===0){c.queue('respawn',{position:p.position,state:2,runtime_entity_id:p.runtime_entity_id});console.log('BOT RESPAWN READY')}})
+c.on('text',p=>console.log('BOT TEXT',JSON.stringify(p)))
+setTimeout(()=>c.close(),90000)
+require('readline').createInterface({input:process.stdin}).on('line',x=>{if(x==='quit'){console.log('BOT QUIT');c.close();setTimeout(()=>process.exit(0),3000)}})

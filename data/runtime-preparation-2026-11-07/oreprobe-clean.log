@@ -1,0 +1,70 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:23:02:360 INFO] Starting Server
+[2026-11-07 00:23:02:360 INFO] Version: 1.26.62.1
+[2026-11-07 00:23:02:360 INFO] Build ID: 53244563
+[2026-11-07 00:23:02:360 INFO] Branch: r/26_u6
+[2026-11-07 00:23:02:360 INFO] Commit ID: 414445034e1ffed4e53bce99de8f8c08781d7ac7
+[2026-11-07 00:23:02:360 INFO] Configuration: Publish
+[2026-11-07 00:23:02:360 INFO] Level Name: Arena ore probe clean
+[2026-11-07 00:23:02:360 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-11-07 00:23:02:361 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-11-07 00:23:02:361 INFO] Game mode: 1 Creative
+[2026-11-07 00:23:02:361 INFO] Difficulty: 1 EASY
+[2026-11-07 00:23:02:365 INFO] Content logging to console is enabled.
+[2026-11-07 00:23:02:367 INFO] 
+
+#####################################################
+#                                                   #
+#               LOADING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-11-07 00:23:02:802 INFO] Content logging to disk is enabled. Writing log to: ./ContentLog2026-11-07_00-23-02.txt
+[2026-11-07 00:23:02:802 INFO] Opening level 'worlds/Arena ore probe clean/db'
+[2026-11-07 00:23:02:832 INFO] Pack Stack - [00] Arena isolated diagnostics (id: bc5efcd3-d098-4164-bf69-449207a30f18, version: 1.0.0) @ behavior_packs/Arena_Probe
+[2026-11-07 00:23:03:661 INFO] Signed in to signaling service successfully
+[2026-11-07 00:23:03:780 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:23:03:780 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:23:03:788 INFO] Server started.
+[2026-11-07 00:23:03:788 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 1008 80 1008 2 oregen true
+[2026-11-07 00:23:03:788 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-11-07 00:23:03:788 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-11-07 00:23:03:788 ERROR] 
+[2026-11-07 00:23:03:788 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-11-07 00:23:03:788 ERROR] 
+[2026-11-07 00:23:03:788 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-11-07 00:23:03:788 ERROR] =======================================================
+[2026-11-07 00:23:03:788 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:23:03:788 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:23:03:788 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:23:03:788 INFO] 
+[2026-11-07 00:23:03:788 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 00:23:03:788 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:23:03:789 INFO] ======================================================
+[2026-11-07 00:23:03:797 WARN] [Scripting] ARENA_PROBE_SCRIPT_READY
+
+[2026-11-07 00:23:03:909 INFO] Added ticking area centered at 1016, 0, 1016 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+[2026-11-07 00:23:05:885 WARN] [Scripting] ARENA_PROBE_GENERATED_ORE count=667
+
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:23:23:816 ERROR] No targets matched selector
+HARNESS COMMAND: setblock 1008 120 1008 arena_probe:test_ore
+[2026-11-07 00:23:24:317 INFO] Block placed
+HARNESS COMMAND: testforblock 1008 120 1008 arena_probe:test_ore
+[2026-11-07 00:23:24:820 INFO] Successfully found the block at 1008,120,1008.
+HARNESS COMMAND: setblock 1008 120 1008 air destroy
+[2026-11-07 00:23:25:321 INFO] Block placed
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:23:26:025 INFO] Found Diamond
+HARNESS COMMAND: tickingarea remove oregen
+[2026-11-07 00:23:26:525 INFO] Removed ticking area(s)
+- oregen (Circle): 1016 0 1016 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:23:27:831 INFO] Server stop requested.
+[2026-11-07 00:23:27:878 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

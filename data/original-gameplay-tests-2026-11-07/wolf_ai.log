@@ -1,0 +1,89 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:55:53:977 INFO] Starting Server
+[2026-11-07 07:55:53:977 INFO] Version: 1.20.50.03
+[2026-11-07 07:55:53:977 INFO] Build ID: 19782165
+[2026-11-07 07:55:53:977 INFO] Branch: r/20_u5
+[2026-11-07 07:55:53:977 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:55:53:977 INFO] Configuration: Publish
+[2026-11-07 07:55:53:977 INFO] Level Name: Arena original
+[2026-11-07 07:55:53:979 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:55:53:979 INFO] Game mode: 1 Creative
+[2026-11-07 07:55:53:979 INFO] Difficulty: 1 EASY
+[2026-11-07 07:55:53:980 INFO] Content logging to console is enabled.
+[2026-11-07 07:55:53:346 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_55_53
+[2026-11-07 07:55:53:346 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:55:53:346 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:55:54:703 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:55:54:703 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:55:54:703 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:55:54:703 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:55:54:918 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:55:54:919 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:55:54:994 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 128 100 104 2 wolf_arena true
+[2026-11-07 07:55:54:994 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:55:54:994 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:55:54:994 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:55:54:994 INFO] 
+[2026-11-07 07:55:54:994 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:55:54:994 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:55:54:994 INFO] ======================================================
+[2026-11-07 07:55:54:212 INFO] Added ticking area centered at 136, 0, 104 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: gamerule domobspawning false
+[2026-11-07 07:56:06:063 INFO] Game rule domobspawning has been updated to false
+HARNESS COMMAND: difficulty easy
+[2026-11-07 07:56:06:369 INFO] Set game difficulty to EASY
+HARNESS COMMAND: time set midnight
+[2026-11-07 07:56:07:668 INFO] Set the time to 18000
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:56:07:963 ERROR] No targets matched selector
+HARNESS COMMAND: kill @e[type=pig]
+[2026-11-07 07:56:07:263 ERROR] No targets matched selector
+HARNESS COMMAND: kill @e[type=entity:alpha_wolf]
+[2026-11-07 07:56:07:563 ERROR] No targets matched selector
+HARNESS COMMAND: fill 100 99 100 112 103 112 glass hollow
+[2026-11-07 07:56:08:870 INFO] 482 blocks filled
+HARNESS COMMAND: fill 140 99 100 152 103 112 glass hollow
+[2026-11-07 07:56:08:369 INFO] 482 blocks filled
+HARNESS COMMAND: summon minecraft:pig 106 100 106
+[2026-11-07 07:56:09:869 INFO] Object successfully summoned
+HARNESS COMMAND: tag @e[type=pig,x=106,y=100,z=106,r=5] add pig_target
+[2026-11-07 07:56:09:368 INFO] Added tag 'pig_target' to Pig
+HARNESS COMMAND: summon minecraft:pig 146 100 106
+[2026-11-07 07:56:10:663 INFO] Object successfully summoned
+HARNESS COMMAND: tag @e[type=pig,x=146,y=100,z=106,r=5] add pig_control
+[2026-11-07 07:56:10:163 INFO] Added tag 'pig_control' to Pig
+HARNESS COMMAND: testfor @e[type=pig,tag=pig_target]
+[2026-11-07 07:56:10:463 INFO] Found Pig
+HARNESS COMMAND: testfor @e[type=pig,tag=pig_control]
+[2026-11-07 07:56:11:768 INFO] Found Pig
+HARNESS COMMAND: summon entity:alpha_wolf 103 100 103
+[2026-11-07 07:56:11:154 INFO] Object successfully summoned
+HARNESS COMMAND: testfor @e[type=entity:alpha_wolf]
+[2026-11-07 07:56:12:663 INFO] Found entity.entity:alpha_wolf.name
+HARNESS COMMAND: testfor @e[type=pig,tag=pig_target]
+[2026-11-07 07:56:12:063 INFO] Found Pig
+HARNESS COMMAND: testfor @e[type=pig,tag=pig_target]
+[2026-11-07 07:56:32:063 ERROR] No targets matched selector
+HARNESS COMMAND: testfor @e[type=pig,tag=pig_control]
+[2026-11-07 07:56:32:463 INFO] Found Pig
+HARNESS COMMAND: testfor @e[type=entity:alpha_wolf]
+[2026-11-07 07:56:33:868 INFO] Found entity.entity:alpha_wolf.name
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:56:33:263 INFO] Found Raw Porkchop
+HARNESS COMMAND: tickingarea remove wolf_arena
+[2026-11-07 07:56:34:668 INFO] Removed ticking area(s)
+- wolf_arena (Circle): 136 0 104 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:56:35:963 INFO] Server stop requested.
+[2026-11-07 07:56:35:990 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

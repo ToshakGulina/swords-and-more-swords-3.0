@@ -1,0 +1,338 @@
+Version: 1.26.62.1
+Pack Stack - [00] §l§fSwords and more swords §6V2.8.9.5 B (id: 1acf4d4b-3a3c-1be3-bc21-9512946109b1, version: 1.0.0) @ behavior_packs/Arena_2814
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/spectral_block.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/silver_ore.json | behavior_packs/Arena_2814 | blocks/silver_ore.json | effect99:silver_ore | components | minecraft:on_player_destroyed | child 'minecraft:on_player_destroyed' not valid here.
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/silver_ore.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/sapling3.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/quartz_diamond_ore.json | behavior_packs/Arena_2814 | blocks/quartz_diamond_ore.json | effect99:quartz_diamond_ore | components | minecraft:on_player_destroyed | child 'minecraft:on_player_destroyed' not valid here.
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/quartz_diamond_ore.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/quartz_diamond_block.json | behavior_packs/Arena_2814 | blocks/quartz_diamond_block.json | effect99:quartz_diamond_block | components | minecraft:on_player_destroyed | child 'minecraft:on_player_destroyed' not valid here.
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/quartz_diamond_block.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/lightblock2.json | Block definition parsing failed
+[Blocks] block_definitions | behavior_packs/Arena_2814 | blocks/lightblock.json | Block definition parsing failed
+[Item] To use item 'effect:bedrock_stick', use json format version 1.20.0 or higher
+[Item] To use item 'effect:bedrock_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:bee_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:blaze_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:bone_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:cactus_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:clock_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:coal_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:creeper_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:emerald_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:ender_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:fire_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:ghost_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:glass_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:glowstone_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:grass_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:ice_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:jungle_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:lapis_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:lightning_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:magma_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:nether_star_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:obsidian_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:cursed_pumpkin_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:quartz_diamond', use json format version 1.20.0 or higher
+[Item] To use item 'effect:quartz_diamond_stick', use json format version 1.20.0 or higher
+[Item] To use item 'effect:quartz_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:sea_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:shulker_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:silver_ingot', use json format version 1.20.0 or higher
+[Item] To use item 'effect:silver_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:slime_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:spectral_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:spider_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:sponge_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:time_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:tnt_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:ultra_instinct_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:wet_sponge_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:wither_skeleton_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:wither_sword', use json format version 1.20.0 or higher
+[Item] To use item 'effect:wolf_sword', use json format version 1.20.0 or higher
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:wither | minecraft:entity | events | wither_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:witch | minecraft:entity | events | grass_witch_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:witch | minecraft:entity | events | grass_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:web | minecraft:entity | events | shoot_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:web | minecraft:entity | events | set_web | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ultra_instinct_projectile | minecraft:entity | events | projectile_particle | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ultra_instinct_projectile | minecraft:entity | events | minecraft:explode | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:tnt | minecraft:entity | events | particle | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:tnt | minecraft:entity | events | camerashake | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:spider | minecraft:entity | events | not_climb | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:spider | minecraft:entity | events | minecraft:despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:snowball | minecraft:entity | events | ice_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:small_fireball | minecraft:entity | events | minecraft:entity_spawned | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:small_fireball | minecraft:entity | events | minecraft:entity_spawned | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:slime_king | minecraft:entity | events | slime_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:slime_king | minecraft:entity | events | health_bar | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:slime_king | minecraft:entity | events | fall_damage | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:skeleton | minecraft:entity | events | bone_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:shulker_shield | minecraft:entity | events | shulker_shield_clear_effect | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:shulker_shield | minecraft:entity | events | minecraft:despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:shulker_shield | minecraft:entity | events | damage_player | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wolf_transformation | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wolf_sword_start_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wolf_sword_sounds | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wither_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wither_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ultra_instinct_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ultra_instinct_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_wolf_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_wolf_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ultra_instinct_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_wither_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_spectral_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_shulker_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_quartz_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:stop_sword_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:stop_sword_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:stop_sword_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:stop_sword_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:stop_sword_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | cactus_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_ultra_instinct_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | shulker_sword_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:quartz_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_clock_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | blaze_sword_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:jungle_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_jungle_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_emerald_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | starting_wolf_transformation | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wet_sponge_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | start_player_explode | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_wolf_transformation | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | slime_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | shoot_ultra_instinct_projectile | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | sea_sword_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_ghost_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sea_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sea_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sea_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_slime_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:time_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:grass_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | grass_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:spider_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:spectral_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | wolf_damage_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:constant_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | lapis_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_time_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bee_sword_flower | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:glowstone_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:lightning_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:lightning_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:shulker_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:emerald_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_blaze_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ice_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ice_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ice_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:magma_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:magma_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ghost_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:fire_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ender_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:ender_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:clock_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:bone_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | spectral_sword_function_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | bone_sword_skills | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:slime_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_spider_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_tp | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | start_player_explode_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | fire_sword_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | stop_sea_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:wither_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:wither_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | ender_sword_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:wolf_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sponge_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sponge_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | events | minecraft:sponge_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | component_groups | minecraft:ultra_instinct_sword | minecraft:damage_sensor | triggers | on_damage | all_of | Filter member value of test has_damage must be a preset string.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:player | minecraft:entity | component_groups | minecraft:ultra_instinct_sword | minecraft:damage_sensor | triggers | on_damage | all_of | Filter test failed to parse inputs -> has_damage
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:objective | minecraft:entity | events | follow_entity | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:nether_star_projectile | minecraft:entity | events | set_particle | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:nether_star_projectile | minecraft:entity | events | set_objective | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:nether_star_projectile | minecraft:entity | events | set_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:nether_star_projectile | minecraft:entity | events | set_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:nether_star_projectile | minecraft:entity | events | set_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:mountable_slime | minecraft:entity | events | minecraft:is_jumping | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:mountable_slime | minecraft:entity | events | slime_events | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:mountable_slime | minecraft:entity | events | fall_damage | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:mountable_slime | minecraft:entity | events | despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:living_flame | minecraft:entity | events | start_death_hostile | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:living_flame | minecraft:entity | events | start_death_hostile | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:living_flame | minecraft:entity | events | minecraft:start_death | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:living_flame | minecraft:entity | events | minecraft:set_fire | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:lightning_projectile | minecraft:entity | events | lightning_bolt | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:lightning_bolt | minecraft:entity | events | spawn_centella | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_3 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_3 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | sponge_sword_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | respawn_event_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fountain_of_wishes_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fountain_of_wishes_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wet_sponge_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fire_sword_event_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fading_fire_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | wish_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_5 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fire_sword_event_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | respawn_event_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_1 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_4 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_4 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_2 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_6 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | despawn_event_3 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fire_sword_event_3 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | fountain_of_wishes_3 | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:item | minecraft:entity | events | delete_fire_blocks | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:instant_giant_explode | minecraft:entity | events | explode_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:grows_crop | minecraft:entity | events | grows_crop | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:grass | minecraft:entity | events | minecraft:entity_spawned | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:grass | minecraft:entity | events | grass_sword_skill | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:grass | minecraft:entity | events | despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost_projectile | minecraft:entity | events | teleport_owner | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | ghost_wailing | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | ghost_wailing | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | ghost_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | disturbed_ghost | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | disturbed_ghost | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ghost | minecraft:entity | events | despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:ghast | minecraft:entity | events | spectral_ghast | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:fireball | minecraft:entity | events | minecraft:entity_spawned | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:fake_fireball | minecraft:entity | events | set_sound | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:tnt | minecraft:entity | events | particle | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:ender_crystal_projectile | minecraft:entity | events | projectile_particle | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:ender_crystal | minecraft:entity | events | spectral_crystal_explode | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:ender_crystal | minecraft:entity | events | ride_player | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:ender_crystal | minecraft:entity | events | minecraft:end_scale | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:ender_crystal | minecraft:entity | events | minecraft:despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:creeper | minecraft:entity | events | creeper_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:centella | minecraft:entity | events | minecraft:centella | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:centella | minecraft:entity | events | centella_death_by_player | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:centella | minecraft:entity | events | centella_death_by_player | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:centella | minecraft:entity | events | centella_death | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:blaze | minecraft:entity | events | blaze_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:bee_sword | minecraft:entity | events | despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | minecraft:bee | minecraft:entity | events | countdown_to_perish_event | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:alpha_wolf | minecraft:entity | events | minecraft:wolf_sword | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:alpha_wolf | minecraft:entity | events | minecraft:entity_spawned | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:alpha_wolf | minecraft:entity | events | despawn | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:alpha_wolf | minecraft:entity | events | clear_effects | run_command | child 'run_command' not valid here.
+[Actor] Arena 2814 default | actor_definitions | behavior_packs/Arena_2814 | entity:alpha_wolf | minecraft:entity | events | add_effects | run_command | child 'run_command' not valid here.
+[Recipes] recipes/bedrock_stick.json | effect:bedrock_stick | The Item: effect:bedrock_stick is missing or invalid, can't make the recipe
+[Recipes] recipes/bedrock_stick.json | effect:bedrock_stick | Recipe result malformed
+[Recipes] recipes/bedrock_sword.json | effect:bedrock_sword | The Item: effect:bedrock_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/bedrock_sword.json | effect:bedrock_sword | Recipe result malformed
+[Recipes] recipes/cactus_sword.json | effect:cactus_sword | The Item: effect:cactus_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/cactus_sword.json | effect:cactus_sword | Recipe result malformed
+[Recipes] recipes/clock_sword.json | effect:clock_sword | The Item: effect:clock_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/clock_sword.json | effect:clock_sword | Recipe result malformed
+[Recipes] recipes/coal_sword.json | effect:coal_sword | The Item: effect:coal_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/coal_sword.json | effect:coal_sword | Recipe result malformed
+[Recipes] recipes/fire_sword.json | effect:fire_sword | The Item: effect:fire_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/fire_sword.json | effect:fire_sword | Recipe result malformed
+[Recipes] recipes/glowstone_sword.json | effect:glowstone_sword | The Item: effect:glowstone_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/glowstone_sword.json | effect:glowstone_sword | Recipe result malformed
+[Recipes] recipes/nether_star_sword.json | effect:nether_star_sword | The Item: effect:nether_star_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/nether_star_sword.json | effect:nether_star_sword | Recipe result malformed
+[Recipes] recipes/quartz_diamond_block.json | effect99:quartz_diamond_block | The Item: effect99:quartz_diamond_block is missing or invalid, can't make the recipe
+[Recipes] recipes/quartz_diamond_block.json | effect99:quartz_diamond_block | Recipe result malformed
+[Recipes] recipes/quartz_diamond_stick.json | effect:quartz_diamond_stick | The Item: effect:quartz_diamond_stick is missing or invalid, can't make the recipe
+[Recipes] recipes/quartz_diamond_stick.json | effect:quartz_diamond_stick | Recipe result malformed
+[Recipes] recipes/quartz_diamond_sword.json | effect:quartz_sword | The Item: effect:quartz_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/quartz_diamond_sword.json | effect:quartz_sword | Recipe result malformed
+[Recipes] recipes/silver_ingot.json | effect:silver_ingot | The Item: effect99:silver_ore is missing or invalid, can't make the recipe
+[Recipes] recipes/silver_ingot.json | effect:silver_ingot | Recipe result malformed
+[Recipes] recipes/silver_sword.json | effect:silver_sword | The Item: effect:silver_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/silver_sword.json | effect:silver_sword | Recipe result malformed
+[Recipes] recipes/wet_sponge_sword.json | effect:wet_sponge_sword | The Item: effect:wet_sponge_sword is missing or invalid, can't make the recipe
+[Recipes] recipes/wet_sponge_sword.json | effect:wet_sponge_sword | Recipe result malformed
+HARNESS: server ready, send commands
+HARNESS COMMAND: list
+[Scripting] [§l§fSwords and more swords §6V2.8.9.5 B] ReferenceError: Module [@minecraft/server] is unrecognized. If this is a Native module, did you remember to add it to your manifest.json?
+[Scripting] Plugin [§l§fSwords and more swords §6V2.8.9.5 B - 1.0.0] - [javascript.js] ran with error: [ReferenceError: Module [@minecraft/server] is unrecognized. If this is a Native module, did you remember to add it to your manifest.json?]
+HARNESS COMMAND: give @a minecraft:diamond 1
+HARNESS COMMAND: give @a effect:bee_sword 1
+HARNESS COMMAND: give @a effect:not_real_item 1
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 arena_lab true
+HARNESS COMMAND: summon minecraft:pig 0 100 0
+HARNESS COMMAND: summon entity:alpha_wolf 0 100 0
+HARNESS COMMAND: summon entity:grass_witch 2 100 0
+HARNESS COMMAND: summon entity:bee_sword 4 100 0
+HARNESS COMMAND: summon entity:ghost 6 100 0
+HARNESS COMMAND: summon minecraft:armor_stand 0 100 0
+HARNESS COMMAND: replaceitem entity @e[type=minecraft:armor_stand,c=1] slot.armor.head 0 effect:bee_sword 1
+HARNESS COMMAND: testfor @e[type=minecraft:armor_stand,hasitem={item=effect:bee_sword,location=slot.armor.head}]
+HARNESS COMMAND: structure load bee_sword 0 102 0
+HARNESS COMMAND: function give
+HARNESS COMMAND: tickingarea remove arena_lab
+HARNESS COMMAND: stop
+HARNESS: exit 0

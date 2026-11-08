@@ -1,0 +1,4817 @@
+{
+  "addons": {
+    "1.6": {
+      "player": {
+        "selected": {
+          "components/minecraft:block_climber": {
+            "present": false
+          },
+          "components/minecraft:exhaustion_values": {
+            "present": false
+          },
+          "components/minecraft:player.exhaustion": {
+            "present": true,
+            "value": {
+              "max": 4,
+              "value": 0
+            }
+          },
+          "components/minecraft:player.saturation": {
+            "present": true,
+            "value": {
+              "value": 20
+            }
+          },
+          "components/minecraft:scaffolding_climber": {
+            "present": true,
+            "value": {}
+          },
+          "components/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "player"
+              ]
+            }
+          }
+        },
+        "sha256": "ec003a118515a8ef9ae5fa3222fe9a618d06a887e24aee4467a0e0c5d908857f"
+      }
+    },
+    "2.8.14": {
+      "blaze": {
+        "selected": {
+          "component_groups/mode_switcher/minecraft:target_nearby_sensor": {
+            "present": false
+          },
+          "components/minecraft:behavior.melee_attack": {
+            "present": true,
+            "value": {
+              "max_dist": 3,
+              "priority": 3,
+              "random_stop_interval": 2.0,
+              "speed_multiplier": 1,
+              "track_target": true
+            }
+          },
+          "components/minecraft:behavior.ranged_attack": {
+            "present": true,
+            "value": {
+              "attack_interval_max": 5,
+              "attack_interval_min": 3,
+              "attack_radius": 16,
+              "burst_interval": 0.3,
+              "burst_shots": 3,
+              "charge_charged_trigger": 0.0,
+              "charge_shoot_trigger": 4.0,
+              "priority": 4
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:hurt_on_condition": {
+            "present": true,
+            "value": {
+              "damage_conditions": [
+                {
+                  "cause": "drowning",
+                  "damage_per_tick": 1,
+                  "filters": {
+                    "operator": "==",
+                    "test": "in_water_or_rain",
+                    "value": true
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "sha256": "9918581c5584a38910b0db61df2bdab370d33567c16af32bbe1298fc7893e169"
+      },
+      "cat": {
+        "selected": {
+          "component_groups/minecraft:cat_gift_for_owner/minecraft:behavior.drop_item_for": {
+            "present": true,
+            "value": {
+              "drop_item_chance": 0.7,
+              "entity_types": [
+                {
+                  "filters": {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "player"
+                  },
+                  "max_dist": 6
+                }
+              ],
+              "goal_radius": 1.0,
+              "loot_table": "loot_tables/entities/cat_gift.json",
+              "max_dist": 5,
+              "offering_distance": 5,
+              "on_drop_attempt": {
+                "event": "minecraft:cat_gifted_owner",
+                "target": "self"
+              },
+              "priority": 1,
+              "search_count": 0,
+              "search_height": 2,
+              "search_range": 5,
+              "speed_multiplier": 1.0,
+              "time_of_day_range": [
+                0.74999,
+                0.8
+              ]
+            }
+          },
+          "component_groups/minecraft:cat_tame/minecraft:leashable": {
+            "present": true,
+            "value": {
+              "hard_distance": 6.0,
+              "max_distance": 10.0,
+              "soft_distance": 4.0
+            }
+          },
+          "component_groups/minecraft:cat_tame/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "cat",
+                "mob",
+                "tamed"
+              ]
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:leashable": {
+            "present": false
+          }
+        },
+        "sha256": "d384969ec5f6f0c2280911b61c320801faba8354840c1764e8cece5dd3b6bd3f"
+      },
+      "parrot": {
+        "selected": {
+          "component_groups/minecraft:parrot_not_riding_player/minecraft:entity_sensor": {
+            "present": false
+          },
+          "component_groups/minecraft:parrot_riding_player/minecraft:entity_sensor": {
+            "present": false
+          },
+          "components/minecraft:behavior.tempt": {
+            "present": true,
+            "value": {
+              "items": [
+                "effect:jungle_sword"
+              ],
+              "speed_multiplier": 1.0
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:game_event_movement_tracking": {
+            "present": false
+          }
+        },
+        "sha256": "92d8f706f3f853eb01913a34ade0ae588a9c24aa00bd50ce2c8c113d26585572"
+      },
+      "player": {
+        "selected": {
+          "components/minecraft:block_climber": {
+            "present": false
+          },
+          "components/minecraft:exhaustion_values": {
+            "present": false
+          },
+          "components/minecraft:player.exhaustion": {
+            "present": true,
+            "value": {
+              "max": 4,
+              "value": 0
+            }
+          },
+          "components/minecraft:player.saturation": {
+            "present": true,
+            "value": {
+              "value": 20
+            }
+          },
+          "components/minecraft:scaffolding_climber": {
+            "present": true,
+            "value": {}
+          },
+          "components/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "player",
+                "default_player"
+              ]
+            }
+          }
+        },
+        "sha256": "d25d5fe1e885ef35c4027cc25290950b814b96e48a3a211b87bdabc77df2000f"
+      },
+      "skeleton": {
+        "selected": {
+          "component_groups/become_stray/minecraft:transformation": {
+            "present": false
+          },
+          "component_groups/in_powder_snow/minecraft:timer": {
+            "present": false
+          },
+          "component_groups/minecraft:melee_attack/minecraft:attack": {
+            "present": true,
+            "value": {
+              "damage": 3
+            }
+          },
+          "components/minecraft:behavior.pickup_items": {
+            "present": false
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:environment_sensor": {
+            "present": true,
+            "value": {
+              "triggers": {
+                "event": "minecraft:melee_mode",
+                "filters": {
+                  "operator": "==",
+                  "subject": "self",
+                  "test": "is_underwater",
+                  "value": true
+                }
+              }
+            }
+          }
+        },
+        "sha256": "b6640a992aac64bf1d99b42660196096ab6fb55c55f6f387cea3bdcd1c84ef06"
+      },
+      "wolf": {
+        "selected": {
+          "component_groups/minecraft:wolf_tame/minecraft:behavior.breed": {
+            "present": true,
+            "value": {
+              "priority": 7
+            }
+          },
+          "component_groups/minecraft:wolf_tame/minecraft:leashable": {
+            "present": true,
+            "value": {
+              "hard_distance": 6.0,
+              "max_distance": 10.0,
+              "on_leash": {
+                "event": "minecraft:on_leash",
+                "target": "self"
+              },
+              "on_unleash": {
+                "event": "minecraft:on_unleash",
+                "target": "self"
+              },
+              "soft_distance": 4.0
+            }
+          },
+          "component_groups/minecraft:wolf_tame/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "wolf",
+                "mob",
+                "tamed"
+              ]
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:leashable": {
+            "present": false
+          }
+        },
+        "sha256": "03caf1ef629458d090f9517820bf3218cf43694289782394e51dcbe13ee4d060"
+      }
+    },
+    "2.8.14_file_sha256": {
+      "arrow": "6313708b77ccc059cfb34639463987aa30129db592bc0f5f0ab06f6072d7ed26",
+      "bee": "8f2bf0bbbc54c9015a23406fb52caafade8d440c7bc22024a19a96a645a58f1e",
+      "blaze": "9918581c5584a38910b0db61df2bdab370d33567c16af32bbe1298fc7893e169",
+      "cat": "d384969ec5f6f0c2280911b61c320801faba8354840c1764e8cece5dd3b6bd3f",
+      "ender_crystal": "8c73c69996d0028e2bc2a1af3a129abfd79f6bebbe8d85ec7b2d261d28227f6e",
+      "enderman": "664c2add376f538c15be3fcf5c9078123f2dd32f2d484e28a576f1e0fe5bef21",
+      "fireball": "ad8f0a90f96f0b84969bb92f11d607b5a525d688334cd6dc6433f317f619a5d8",
+      "ghast": "786209e5dd0a1c347792ade5ae7ef8b911c2ef18284c820d625b1cb9f393ba70",
+      "lightning_bolt": "73e4672ff27f2df2fa77b8c37d9e11345b1e48de0119c6272f5801bd59d60e6f",
+      "parrot": "92d8f706f3f853eb01913a34ade0ae588a9c24aa00bd50ce2c8c113d26585572",
+      "player": "d25d5fe1e885ef35c4027cc25290950b814b96e48a3a211b87bdabc77df2000f",
+      "shulker_bullet": "a3ab0cf6f6647883d9ca311213bc5526a0850b2dc7f3d540cae5206720b7f713",
+      "skeleton": "b6640a992aac64bf1d99b42660196096ab6fb55c55f6f387cea3bdcd1c84ef06",
+      "small_fireball": "38d90e0cfee37feec5af7151ac6caf3e8a53d749c0ce7fa2db9f067a2c425fa2",
+      "snowball": "a056fbb54f02aed5f76680b97ee4eca04ad31aa5ea4b20d9d6c3913f6b662419",
+      "spider": "0df1f88a3415b607ea4625f2baa60afedeec77cddcfc60c9f63c7952dbe81fbf",
+      "tnt": "3e0474e699f9f4ed9568c119cec2a0eefa18dcc1d01bf003e2ddc8b0c900a0ac",
+      "witch": "5bcd147fbfd09b1cb42524fb08c90b7015049c9f1552a82670604e856c07d483",
+      "wither": "b3afc7ea8512e055a372222a92e0de1f49107f7c75d9b5a2eb78b7cae09e8e94",
+      "wither_skull": "ee3700ff1616bab7b4ed06195f2e75a7b4d8b20739328508380d8fad144e9ae5",
+      "wither_skull_dangerous": "76f634aa2ef9c88ff6a7f1a14ec19b16eaecad23dbfdb4b38d790ea441114ca7",
+      "wolf": "03caf1ef629458d090f9517820bf3218cf43694289782394e51dcbe13ee4d060"
+    },
+    "2.8.8": {
+      "blaze": {
+        "selected": {
+          "component_groups/mode_switcher/minecraft:target_nearby_sensor": {
+            "present": false
+          },
+          "components/minecraft:behavior.melee_attack": {
+            "present": true,
+            "value": {
+              "max_dist": 3,
+              "priority": 3,
+              "random_stop_interval": 2.0,
+              "speed_multiplier": 1,
+              "track_target": true
+            }
+          },
+          "components/minecraft:behavior.ranged_attack": {
+            "present": true,
+            "value": {
+              "attack_interval_max": 5,
+              "attack_interval_min": 3,
+              "attack_radius": 16,
+              "burst_interval": 0.3,
+              "burst_shots": 3,
+              "charge_charged_trigger": 0.0,
+              "charge_shoot_trigger": 4.0,
+              "priority": 4
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:hurt_on_condition": {
+            "present": true,
+            "value": {
+              "damage_conditions": [
+                {
+                  "cause": "drowning",
+                  "damage_per_tick": 1,
+                  "filters": {
+                    "operator": "==",
+                    "test": "in_water_or_rain",
+                    "value": true
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "sha256": "9918581c5584a38910b0db61df2bdab370d33567c16af32bbe1298fc7893e169"
+      },
+      "cat": {
+        "selected": {
+          "component_groups/minecraft:cat_gift_for_owner/minecraft:behavior.drop_item_for": {
+            "present": true,
+            "value": {
+              "drop_item_chance": 0.7,
+              "entity_types": [
+                {
+                  "filters": {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "player"
+                  },
+                  "max_dist": 6
+                }
+              ],
+              "goal_radius": 1.0,
+              "loot_table": "loot_tables/entities/cat_gift.json",
+              "max_dist": 5,
+              "offering_distance": 5,
+              "on_drop_attempt": {
+                "event": "minecraft:cat_gifted_owner",
+                "target": "self"
+              },
+              "priority": 1,
+              "search_count": 0,
+              "search_height": 2,
+              "search_range": 5,
+              "speed_multiplier": 1.0,
+              "time_of_day_range": [
+                0.74999,
+                0.8
+              ]
+            }
+          },
+          "component_groups/minecraft:cat_tame/minecraft:leashable": {
+            "present": true,
+            "value": {
+              "hard_distance": 6.0,
+              "max_distance": 10.0,
+              "soft_distance": 4.0
+            }
+          },
+          "component_groups/minecraft:cat_tame/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "cat",
+                "mob",
+                "tamed"
+              ]
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:leashable": {
+            "present": false
+          }
+        },
+        "sha256": "d384969ec5f6f0c2280911b61c320801faba8354840c1764e8cece5dd3b6bd3f"
+      },
+      "parrot": {
+        "selected": {
+          "component_groups/minecraft:parrot_not_riding_player/minecraft:entity_sensor": {
+            "present": false
+          },
+          "component_groups/minecraft:parrot_riding_player/minecraft:entity_sensor": {
+            "present": false
+          },
+          "components/minecraft:behavior.tempt": {
+            "present": true,
+            "value": {
+              "items": [
+                "effect:jungle_sword"
+              ],
+              "speed_multiplier": 1.0
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:game_event_movement_tracking": {
+            "present": false
+          }
+        },
+        "sha256": "92d8f706f3f853eb01913a34ade0ae588a9c24aa00bd50ce2c8c113d26585572"
+      },
+      "player": {
+        "selected": {
+          "components/minecraft:block_climber": {
+            "present": false
+          },
+          "components/minecraft:exhaustion_values": {
+            "present": false
+          },
+          "components/minecraft:player.exhaustion": {
+            "present": true,
+            "value": {
+              "max": 4,
+              "value": 0
+            }
+          },
+          "components/minecraft:player.saturation": {
+            "present": true,
+            "value": {
+              "value": 20
+            }
+          },
+          "components/minecraft:scaffolding_climber": {
+            "present": true,
+            "value": {}
+          },
+          "components/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "player",
+                "default_player"
+              ]
+            }
+          }
+        },
+        "sha256": "2f499faf84dfc33f9ad0ad0d43ae18b3645ba4c15213b79a511ac7b6776972a3"
+      },
+      "skeleton": {
+        "selected": {
+          "component_groups/become_stray/minecraft:transformation": {
+            "present": false
+          },
+          "component_groups/in_powder_snow/minecraft:timer": {
+            "present": false
+          },
+          "component_groups/minecraft:melee_attack/minecraft:attack": {
+            "present": true,
+            "value": {
+              "damage": 3
+            }
+          },
+          "components/minecraft:behavior.pickup_items": {
+            "present": false
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:environment_sensor": {
+            "present": true,
+            "value": {
+              "triggers": {
+                "event": "minecraft:melee_mode",
+                "filters": {
+                  "operator": "==",
+                  "subject": "self",
+                  "test": "is_underwater",
+                  "value": true
+                }
+              }
+            }
+          }
+        },
+        "sha256": "b6640a992aac64bf1d99b42660196096ab6fb55c55f6f387cea3bdcd1c84ef06"
+      },
+      "wolf": {
+        "selected": {
+          "component_groups/minecraft:wolf_tame/minecraft:behavior.breed": {
+            "present": true,
+            "value": {
+              "priority": 7
+            }
+          },
+          "component_groups/minecraft:wolf_tame/minecraft:leashable": {
+            "present": true,
+            "value": {
+              "hard_distance": 6.0,
+              "max_distance": 10.0,
+              "on_leash": {
+                "event": "minecraft:on_leash",
+                "target": "self"
+              },
+              "on_unleash": {
+                "event": "minecraft:on_unleash",
+                "target": "self"
+              },
+              "soft_distance": 4.0
+            }
+          },
+          "component_groups/minecraft:wolf_tame/minecraft:type_family": {
+            "present": true,
+            "value": {
+              "family": [
+                "wolf",
+                "mob",
+                "tamed"
+              ]
+            }
+          },
+          "components/minecraft:despawn": {
+            "present": false
+          },
+          "components/minecraft:leashable": {
+            "present": false
+          }
+        },
+        "sha256": "03caf1ef629458d090f9517820bf3218cf43694289782394e51dcbe13ee4d060"
+      }
+    },
+    "2.8.8_file_sha256": {
+      "arrow": "6313708b77ccc059cfb34639463987aa30129db592bc0f5f0ab06f6072d7ed26",
+      "bee": "8f2bf0bbbc54c9015a23406fb52caafade8d440c7bc22024a19a96a645a58f1e",
+      "blaze": "9918581c5584a38910b0db61df2bdab370d33567c16af32bbe1298fc7893e169",
+      "cat": "d384969ec5f6f0c2280911b61c320801faba8354840c1764e8cece5dd3b6bd3f",
+      "ender_crystal": "8c73c69996d0028e2bc2a1af3a129abfd79f6bebbe8d85ec7b2d261d28227f6e",
+      "enderman": "664c2add376f538c15be3fcf5c9078123f2dd32f2d484e28a576f1e0fe5bef21",
+      "fireball": "ad8f0a90f96f0b84969bb92f11d607b5a525d688334cd6dc6433f317f619a5d8",
+      "ghast": "786209e5dd0a1c347792ade5ae7ef8b911c2ef18284c820d625b1cb9f393ba70",
+      "lightning_bolt": "73e4672ff27f2df2fa77b8c37d9e11345b1e48de0119c6272f5801bd59d60e6f",
+      "parrot": "92d8f706f3f853eb01913a34ade0ae588a9c24aa00bd50ce2c8c113d26585572",
+      "player": "2f499faf84dfc33f9ad0ad0d43ae18b3645ba4c15213b79a511ac7b6776972a3",
+      "shulker_bullet": "a3ab0cf6f6647883d9ca311213bc5526a0850b2dc7f3d540cae5206720b7f713",
+      "skeleton": "b6640a992aac64bf1d99b42660196096ab6fb55c55f6f387cea3bdcd1c84ef06",
+      "small_fireball": "38d90e0cfee37feec5af7151ac6caf3e8a53d749c0ce7fa2db9f067a2c425fa2",
+      "snowball": "a056fbb54f02aed5f76680b97ee4eca04ad31aa5ea4b20d9d6c3913f6b662419",
+      "spider": "0df1f88a3415b607ea4625f2baa60afedeec77cddcfc60c9f63c7952dbe81fbf",
+      "tnt": "3e0474e699f9f4ed9568c119cec2a0eefa18dcc1d01bf003e2ddc8b0c900a0ac",
+      "witch": "5bcd147fbfd09b1cb42524fb08c90b7015049c9f1552a82670604e856c07d483",
+      "wither": "b3afc7ea8512e055a372222a92e0de1f49107f7c75d9b5a2eb78b7cae09e8e94",
+      "wither_skull": "ee3700ff1616bab7b4ed06195f2e75a7b4d8b20739328508380d8fad144e9ae5",
+      "wither_skull_dangerous": "76f634aa2ef9c88ff6a7f1a14ec19b16eaecad23dbfdb4b38d790ea441114ca7",
+      "wolf": "03caf1ef629458d090f9517820bf3218cf43694289782394e51dcbe13ee4d060"
+    }
+  },
+  "comparisons": {
+    "2.8.14": {
+      "1.19.40.2": {
+        "arrow": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:hard_arrow",
+              "minecraft:pillager_arrow",
+              "minecraft:player_arrow"
+            ],
+            "only_addon": [
+              "despawn_arrow",
+              "family:arrow",
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          }
+        },
+        "bee": {
+          "component_groups": {
+            "different_both": [
+              "has_nectar",
+              "shelter_detection"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "events": {
+            "different_both": [
+              "collected_nectar",
+              "countdown_to_perish_event",
+              "find_hive_timeout",
+              "minecraft:exited_disturbed_hive",
+              "minecraft:exited_hive"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "blaze": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "melee_mode",
+              "mode_switcher",
+              "ranged_mode"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:hurt_on_condition",
+              "minecraft:navigation.walk"
+            ],
+            "only_addon": [
+              "minecraft:attack",
+              "minecraft:behavior.melee_attack",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:can_fly",
+              "minecraft:shooter"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:on_hurt",
+              "minecraft:on_hurt_by_player"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "blaze_sword"
+            ],
+            "only_reference": [
+              "minecraft:entity_spawned",
+              "minecraft:on_hurt_event",
+              "switch_to_melee",
+              "switch_to_ranged"
+            ]
+          }
+        },
+        "cat": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:cat_adult",
+              "minecraft:cat_gift_for_owner",
+              "minecraft:cat_tame",
+              "minecraft:cat_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.ocelotattack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "ender_crystal": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "despawn",
+              "detect_player",
+              "ender_crystal_scale",
+              "on_hurt_crystal",
+              "spectral_sword",
+              "spectral_sword_drop"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:on_hurt"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:crystal_explode"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:detect_player",
+              "minecraft:end_scale",
+              "minecraft:ender_crystal_scale",
+              "minecraft:entity_spawned",
+              "minecraft:mount_crystal",
+              "ride_player",
+              "spectral_crystal_explode"
+            ],
+            "only_reference": []
+          }
+        },
+        "enderman": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:enderman_angry"
+            ],
+            "only_addon": [
+              "minecraft:default_enderman",
+              "minecraft:red_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:hurt_on_condition"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "default_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          }
+        },
+        "fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:gravity_enable"
+            ],
+            "only_reference": []
+          }
+        },
+        "ghast": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:shooter"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "spectral_ghast"
+            ],
+            "only_reference": []
+          }
+        },
+        "lightning_bolt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "minecraft:entity_spawned",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          }
+        },
+        "parrot": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:parrot_not_riding_player",
+              "minecraft:parrot_riding_player"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:navigation.fly"
+            ],
+            "only_addon": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.tempt"
+            ],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:game_event_movement_tracking",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:on_not_riding_player",
+              "minecraft:on_riding_player"
+            ]
+          }
+        },
+        "player": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:add_bad_omen"
+            ],
+            "only_addon": [
+              "blaze_sword_skill",
+              "clock_sword_movement",
+              "clock_sword_skill",
+              "complete_wolf_transformation",
+              "despawn",
+              "ghost_movement",
+              "mermaid_movement_in_water",
+              "mermaid_movement_out_water",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:default_player",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "shoot_small_fireball",
+              "shulker_sword_skill",
+              "spider_sword_skill",
+              "start_player_explode_event",
+              "time_sword_movement",
+              "ultra_instinct_projectile",
+              "ultra_instinct_sword_movement",
+              "wolf_movement",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:environment_sensor",
+              "minecraft:player.exhaustion",
+              "minecraft:player.saturation",
+              "minecraft:type_family"
+            ],
+            "only_addon": [
+              "minecraft:scaffolding_climber"
+            ],
+            "only_reference": [
+              "minecraft:block_climber",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:exhaustion_values"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "bee_sword_flower",
+              "blaze_sword_effects",
+              "blaze_sword_skill",
+              "blaze_sword_skill_event",
+              "bone_sword_skills",
+              "cactus_sword_skills",
+              "clock_sword_movement",
+              "clock_sword_skill_event",
+              "default_player",
+              "despawn",
+              "ender_sword_skill",
+              "ender_sword_sound",
+              "ender_sword_tp",
+              "fire_sword_sound",
+              "grass_sword_skills",
+              "lapis_sword_skills",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:constant_events",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:glowstone_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:stop_sword_events",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "sea_sword_sound",
+              "shoot_ultra_instinct_projectile",
+              "shulker_sword_skill",
+              "slime_sword_skills",
+              "spectral_sword_function",
+              "spectral_sword_function_1",
+              "spectral_sword_reload_skill",
+              "spectral_sword_skills",
+              "spider_sword_skill",
+              "start_player_explode",
+              "start_player_explode_event",
+              "starting_wolf_transformation",
+              "stop_bee_sword_event",
+              "stop_blaze_sword_event",
+              "stop_blaze_sword_skill",
+              "stop_bone_sword_event",
+              "stop_cactus_sword_event",
+              "stop_clock_sword_event",
+              "stop_emerald_sword_event",
+              "stop_ender_sword_event",
+              "stop_fire_sword_event",
+              "stop_ghost_sword_event",
+              "stop_grass_sword_event",
+              "stop_ice_sword_event",
+              "stop_jungle_sword_event",
+              "stop_lapis_sword_event",
+              "stop_lightning_sword_event",
+              "stop_magma_sword_event",
+              "stop_nether_star_sword_event",
+              "stop_obsidian_sword_event",
+              "stop_quartz_sword_event",
+              "stop_sea_sword_event",
+              "stop_shulker_sword_event",
+              "stop_slime_sword_event",
+              "stop_spectral_sword_event",
+              "stop_spider_skill_event",
+              "stop_spider_sword_event",
+              "stop_sponge_sword_event",
+              "stop_time_sword_event",
+              "stop_ultra_instinct_sword_event",
+              "stop_wither_sword_event",
+              "stop_wolf_sword_event",
+              "stop_wolf_transformation",
+              "time_sword_movement",
+              "ultra_instinct_sword_effects",
+              "ultra_instinct_sword_skill",
+              "wet_sponge_sword",
+              "wither_sword_effects",
+              "wolf_damage_sound",
+              "wolf_movement",
+              "wolf_sword_sounds",
+              "wolf_sword_start_events",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          }
+        },
+        "shulker_bullet": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "shulker_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "skeleton": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:lightning_immune",
+              "minecraft:melee_attack",
+              "minecraft:ranged_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "become_stray",
+              "got_out_of_powder_snow_environment_sensor",
+              "in_powder_snow"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:environment_sensor",
+              "minecraft:shooter"
+            ],
+            "only_addon": [
+              "minecraft:damage_sensor"
+            ],
+            "only_reference": [
+              "minecraft:behavior.equip_item",
+              "minecraft:behavior.pickup_items",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:equip_item",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shareables"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:melee_mode",
+              "minecraft:ranged_mode"
+            ],
+            "only_addon": [
+              "bone_sword"
+            ],
+            "only_reference": [
+              "become_stray_event",
+              "got_in_powder_snow",
+              "got_out_of_powder_snow"
+            ]
+          }
+        },
+        "small_fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable",
+              "minecraft:inertia_disable",
+              "shot_by_the_blaze"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:inertia_disable"
+            ],
+            "only_reference": []
+          }
+        },
+        "snowball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword",
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "spider": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:spider_angry"
+            ],
+            "only_addon": [
+              "despawn",
+              "minecraft:default_spider",
+              "minecraft:spider_player_jockey"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:behavior.hurt_by_target",
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:spider_sword",
+              "not_climb"
+            ],
+            "only_reference": []
+          }
+        },
+        "tnt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_tnt",
+              "giant_tnt"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:explode"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "camerashake",
+              "giant_tnt",
+              "minecraft:entity_spawned",
+              "particle"
+            ],
+            "only_reference": []
+          }
+        },
+        "witch": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:raid_configuration"
+            ],
+            "only_addon": [
+              "grass_witch",
+              "minecraft:default_witch",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_persistence"
+            ]
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:spawn_for_raid",
+              "minecraft:start_celebrating"
+            ],
+            "only_addon": [
+              "grass_sword",
+              "grass_witch_skill",
+              "minecraft:entity_spawned",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_expired"
+            ]
+          }
+        },
+        "wither": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull_dangerous": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wolf": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:wolf_adult",
+              "minecraft:wolf_angry",
+              "minecraft:wolf_tame",
+              "minecraft:wolf_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.melee_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        }
+      },
+      "1.20.30.1": {
+        "arrow": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:hard_arrow",
+              "minecraft:pillager_arrow",
+              "minecraft:player_arrow"
+            ],
+            "only_addon": [
+              "despawn_arrow",
+              "family:arrow",
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          }
+        },
+        "bee": {
+          "component_groups": {
+            "different_both": [
+              "bee_adult",
+              "bee_baby",
+              "look_for_food"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.tempt"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "events": {
+            "different_both": [
+              "countdown_to_perish_event"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "blaze": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "melee_mode",
+              "mode_switcher",
+              "ranged_mode"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:hurt_on_condition",
+              "minecraft:navigation.walk"
+            ],
+            "only_addon": [
+              "minecraft:attack",
+              "minecraft:behavior.melee_attack",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:can_fly",
+              "minecraft:shooter"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:on_hurt",
+              "minecraft:on_hurt_by_player"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "blaze_sword"
+            ],
+            "only_reference": [
+              "minecraft:entity_spawned",
+              "minecraft:on_hurt_event",
+              "switch_to_melee",
+              "switch_to_ranged"
+            ]
+          }
+        },
+        "cat": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:cat_adult",
+              "minecraft:cat_gift_for_owner",
+              "minecraft:cat_tame",
+              "minecraft:cat_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.ocelotattack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "ender_crystal": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "despawn",
+              "detect_player",
+              "ender_crystal_scale",
+              "on_hurt_crystal",
+              "spectral_sword",
+              "spectral_sword_drop"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:on_hurt"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:crystal_explode"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:detect_player",
+              "minecraft:end_scale",
+              "minecraft:ender_crystal_scale",
+              "minecraft:entity_spawned",
+              "minecraft:mount_crystal",
+              "ride_player",
+              "spectral_crystal_explode"
+            ],
+            "only_reference": []
+          }
+        },
+        "enderman": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:enderman_angry"
+            ],
+            "only_addon": [
+              "minecraft:default_enderman",
+              "minecraft:red_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:follow_range",
+              "minecraft:hurt_on_condition"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:variable_max_auto_step"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "default_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          }
+        },
+        "fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:gravity_enable"
+            ],
+            "only_reference": []
+          }
+        },
+        "ghast": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:shooter"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "spectral_ghast"
+            ],
+            "only_reference": []
+          }
+        },
+        "lightning_bolt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "minecraft:entity_spawned",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          }
+        },
+        "parrot": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:parrot_wild"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:parrot_not_riding_player",
+              "minecraft:parrot_riding_player"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:navigation.fly"
+            ],
+            "only_addon": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.tempt"
+            ],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:game_event_movement_tracking",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:on_not_riding_player",
+              "minecraft:on_riding_player"
+            ]
+          }
+        },
+        "player": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:add_bad_omen"
+            ],
+            "only_addon": [
+              "blaze_sword_skill",
+              "clock_sword_movement",
+              "clock_sword_skill",
+              "complete_wolf_transformation",
+              "despawn",
+              "ghost_movement",
+              "mermaid_movement_in_water",
+              "mermaid_movement_out_water",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:default_player",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "shoot_small_fireball",
+              "shulker_sword_skill",
+              "spider_sword_skill",
+              "start_player_explode_event",
+              "time_sword_movement",
+              "ultra_instinct_projectile",
+              "ultra_instinct_sword_movement",
+              "wolf_movement",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:environment_sensor",
+              "minecraft:physics",
+              "minecraft:player.exhaustion",
+              "minecraft:player.saturation",
+              "minecraft:type_family"
+            ],
+            "only_addon": [
+              "minecraft:scaffolding_climber"
+            ],
+            "only_reference": [
+              "minecraft:block_climber",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:exhaustion_values"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "bee_sword_flower",
+              "blaze_sword_effects",
+              "blaze_sword_skill",
+              "blaze_sword_skill_event",
+              "bone_sword_skills",
+              "cactus_sword_skills",
+              "clock_sword_movement",
+              "clock_sword_skill_event",
+              "default_player",
+              "despawn",
+              "ender_sword_skill",
+              "ender_sword_sound",
+              "ender_sword_tp",
+              "fire_sword_sound",
+              "grass_sword_skills",
+              "lapis_sword_skills",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:constant_events",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:glowstone_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:stop_sword_events",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "sea_sword_sound",
+              "shoot_ultra_instinct_projectile",
+              "shulker_sword_skill",
+              "slime_sword_skills",
+              "spectral_sword_function",
+              "spectral_sword_function_1",
+              "spectral_sword_reload_skill",
+              "spectral_sword_skills",
+              "spider_sword_skill",
+              "start_player_explode",
+              "start_player_explode_event",
+              "starting_wolf_transformation",
+              "stop_bee_sword_event",
+              "stop_blaze_sword_event",
+              "stop_blaze_sword_skill",
+              "stop_bone_sword_event",
+              "stop_cactus_sword_event",
+              "stop_clock_sword_event",
+              "stop_emerald_sword_event",
+              "stop_ender_sword_event",
+              "stop_fire_sword_event",
+              "stop_ghost_sword_event",
+              "stop_grass_sword_event",
+              "stop_ice_sword_event",
+              "stop_jungle_sword_event",
+              "stop_lapis_sword_event",
+              "stop_lightning_sword_event",
+              "stop_magma_sword_event",
+              "stop_nether_star_sword_event",
+              "stop_obsidian_sword_event",
+              "stop_quartz_sword_event",
+              "stop_sea_sword_event",
+              "stop_shulker_sword_event",
+              "stop_slime_sword_event",
+              "stop_spectral_sword_event",
+              "stop_spider_skill_event",
+              "stop_spider_sword_event",
+              "stop_sponge_sword_event",
+              "stop_time_sword_event",
+              "stop_ultra_instinct_sword_event",
+              "stop_wither_sword_event",
+              "stop_wolf_sword_event",
+              "stop_wolf_transformation",
+              "time_sword_movement",
+              "ultra_instinct_sword_effects",
+              "ultra_instinct_sword_skill",
+              "wet_sponge_sword",
+              "wither_sword_effects",
+              "wolf_damage_sound",
+              "wolf_movement",
+              "wolf_sword_sounds",
+              "wolf_sword_start_events",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          }
+        },
+        "shulker_bullet": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "shulker_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "skeleton": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:lightning_immune",
+              "minecraft:melee_attack",
+              "minecraft:ranged_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "become_stray",
+              "got_out_of_powder_snow_environment_sensor",
+              "in_powder_snow"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:environment_sensor",
+              "minecraft:shooter"
+            ],
+            "only_addon": [
+              "minecraft:damage_sensor"
+            ],
+            "only_reference": [
+              "minecraft:behavior.equip_item",
+              "minecraft:behavior.pickup_items",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:equip_item",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shareables"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:melee_mode",
+              "minecraft:ranged_mode"
+            ],
+            "only_addon": [
+              "bone_sword"
+            ],
+            "only_reference": [
+              "become_stray_event",
+              "got_in_powder_snow",
+              "got_out_of_powder_snow"
+            ]
+          }
+        },
+        "small_fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable",
+              "minecraft:inertia_disable",
+              "shot_by_the_blaze"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:inertia_disable"
+            ],
+            "only_reference": []
+          }
+        },
+        "snowball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword",
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "spider": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:spider_angry"
+            ],
+            "only_addon": [
+              "despawn",
+              "minecraft:default_spider",
+              "minecraft:spider_player_jockey"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:behavior.hurt_by_target",
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:spider_sword",
+              "not_climb"
+            ],
+            "only_reference": []
+          }
+        },
+        "tnt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_tnt",
+              "giant_tnt"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:explode"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "camerashake",
+              "giant_tnt",
+              "minecraft:entity_spawned",
+              "particle"
+            ],
+            "only_reference": []
+          }
+        },
+        "witch": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:raid_configuration"
+            ],
+            "only_addon": [
+              "grass_witch",
+              "minecraft:default_witch",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_persistence"
+            ]
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:behavior.nearest_attackable_target"
+            ],
+            "only_reference": [
+              "minecraft:behavior.drink_potion",
+              "minecraft:behavior.nearest_prioritized_attackable_target",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:damage_sensor",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shooter"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:spawn_for_raid",
+              "minecraft:start_celebrating"
+            ],
+            "only_addon": [
+              "grass_sword",
+              "grass_witch_skill",
+              "minecraft:entity_spawned",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_expired"
+            ]
+          }
+        },
+        "wither": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull_dangerous": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wolf": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:wolf_adult",
+              "minecraft:wolf_angry",
+              "minecraft:wolf_tame",
+              "minecraft:wolf_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.melee_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        }
+      }
+    },
+    "2.8.8": {
+      "1.19.40.2": {
+        "arrow": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:hard_arrow",
+              "minecraft:pillager_arrow",
+              "minecraft:player_arrow"
+            ],
+            "only_addon": [
+              "despawn_arrow",
+              "family:arrow",
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          }
+        },
+        "bee": {
+          "component_groups": {
+            "different_both": [
+              "has_nectar",
+              "shelter_detection"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "events": {
+            "different_both": [
+              "collected_nectar",
+              "countdown_to_perish_event",
+              "find_hive_timeout",
+              "minecraft:exited_disturbed_hive",
+              "minecraft:exited_hive"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "blaze": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "melee_mode",
+              "mode_switcher",
+              "ranged_mode"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:hurt_on_condition",
+              "minecraft:navigation.walk"
+            ],
+            "only_addon": [
+              "minecraft:attack",
+              "minecraft:behavior.melee_attack",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:can_fly",
+              "minecraft:shooter"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:on_hurt",
+              "minecraft:on_hurt_by_player"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "blaze_sword"
+            ],
+            "only_reference": [
+              "minecraft:entity_spawned",
+              "minecraft:on_hurt_event",
+              "switch_to_melee",
+              "switch_to_ranged"
+            ]
+          }
+        },
+        "cat": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:cat_adult",
+              "minecraft:cat_gift_for_owner",
+              "minecraft:cat_tame",
+              "minecraft:cat_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.ocelotattack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "ender_crystal": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "despawn",
+              "detect_player",
+              "ender_crystal_scale",
+              "on_hurt_crystal",
+              "spectral_sword",
+              "spectral_sword_drop"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:on_hurt"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:crystal_explode"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:detect_player",
+              "minecraft:end_scale",
+              "minecraft:ender_crystal_scale",
+              "minecraft:entity_spawned",
+              "minecraft:mount_crystal",
+              "ride_player",
+              "spectral_crystal_explode"
+            ],
+            "only_reference": []
+          }
+        },
+        "enderman": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:enderman_angry"
+            ],
+            "only_addon": [
+              "minecraft:default_enderman",
+              "minecraft:red_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:hurt_on_condition"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "default_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          }
+        },
+        "fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:gravity_enable"
+            ],
+            "only_reference": []
+          }
+        },
+        "ghast": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:shooter"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "spectral_ghast"
+            ],
+            "only_reference": []
+          }
+        },
+        "lightning_bolt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "minecraft:entity_spawned",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          }
+        },
+        "parrot": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:parrot_not_riding_player",
+              "minecraft:parrot_riding_player"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:navigation.fly"
+            ],
+            "only_addon": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.tempt"
+            ],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:game_event_movement_tracking",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:on_not_riding_player",
+              "minecraft:on_riding_player"
+            ]
+          }
+        },
+        "player": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:add_bad_omen"
+            ],
+            "only_addon": [
+              "blaze_sword_skill",
+              "clock_sword_movement",
+              "clock_sword_skill",
+              "complete_wolf_transformation",
+              "despawn",
+              "ghost_movement",
+              "mermaid_movement_in_water",
+              "mermaid_movement_out_water",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:default_player",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "shoot_small_fireball",
+              "shulker_sword_skill",
+              "spider_sword_skill",
+              "start_player_explode_event",
+              "time_sword_movement",
+              "ultra_instinct_projectile",
+              "ultra_instinct_sword_movement",
+              "wolf_movement",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:environment_sensor",
+              "minecraft:player.exhaustion",
+              "minecraft:player.saturation",
+              "minecraft:type_family"
+            ],
+            "only_addon": [
+              "minecraft:scaffolding_climber"
+            ],
+            "only_reference": [
+              "minecraft:block_climber",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:exhaustion_values"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "bee_sword_flower",
+              "blaze_sword_effects",
+              "blaze_sword_skill",
+              "blaze_sword_skill_event",
+              "bone_sword_skills",
+              "cactus_sword_skills",
+              "clock_sword_movement",
+              "clock_sword_skill_event",
+              "default_player",
+              "despawn",
+              "ender_sword_skill",
+              "ender_sword_sound",
+              "ender_sword_tp",
+              "fire_sword_sound",
+              "grass_sword_skills",
+              "lapis_sword_skills",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:constant_events",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:glowstone_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:stop_sword_events",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "sea_sword_sound",
+              "shoot_ultra_instinct_projectile",
+              "shulker_sword_skill",
+              "slime_sword_skills",
+              "spectral_sword_function",
+              "spectral_sword_function_1",
+              "spectral_sword_reload_skill",
+              "spectral_sword_skills",
+              "spider_sword_skill",
+              "start_player_explode",
+              "start_player_explode_event",
+              "starting_wolf_transformation",
+              "stop_bee_sword_event",
+              "stop_blaze_sword_event",
+              "stop_blaze_sword_skill",
+              "stop_bone_sword_event",
+              "stop_cactus_sword_event",
+              "stop_clock_sword_event",
+              "stop_emerald_sword_event",
+              "stop_ender_sword_event",
+              "stop_fire_sword_event",
+              "stop_ghost_sword_event",
+              "stop_grass_sword_event",
+              "stop_ice_sword_event",
+              "stop_jungle_sword_event",
+              "stop_lapis_sword_event",
+              "stop_lightning_sword_event",
+              "stop_magma_sword_event",
+              "stop_nether_star_sword_event",
+              "stop_obsidian_sword_event",
+              "stop_quartz_sword_event",
+              "stop_sea_sword_event",
+              "stop_shulker_sword_event",
+              "stop_slime_sword_event",
+              "stop_spectral_sword_event",
+              "stop_spider_skill_event",
+              "stop_spider_sword_event",
+              "stop_sponge_sword_event",
+              "stop_time_sword_event",
+              "stop_ultra_instinct_sword_event",
+              "stop_wither_sword_event",
+              "stop_wolf_sword_event",
+              "stop_wolf_transformation",
+              "time_sword_movement",
+              "ultra_instinct_sword_effects",
+              "ultra_instinct_sword_skill",
+              "wet_sponge_sword",
+              "wither_sword_effects",
+              "wolf_damage_sound",
+              "wolf_movement",
+              "wolf_sword_sounds",
+              "wolf_sword_start_events",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          }
+        },
+        "shulker_bullet": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "shulker_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "skeleton": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:lightning_immune",
+              "minecraft:melee_attack",
+              "minecraft:ranged_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "become_stray",
+              "got_out_of_powder_snow_environment_sensor",
+              "in_powder_snow"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:environment_sensor",
+              "minecraft:shooter"
+            ],
+            "only_addon": [
+              "minecraft:damage_sensor"
+            ],
+            "only_reference": [
+              "minecraft:behavior.equip_item",
+              "minecraft:behavior.pickup_items",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:equip_item",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shareables"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:melee_mode",
+              "minecraft:ranged_mode"
+            ],
+            "only_addon": [
+              "bone_sword"
+            ],
+            "only_reference": [
+              "become_stray_event",
+              "got_in_powder_snow",
+              "got_out_of_powder_snow"
+            ]
+          }
+        },
+        "small_fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable",
+              "minecraft:inertia_disable",
+              "shot_by_the_blaze"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:inertia_disable"
+            ],
+            "only_reference": []
+          }
+        },
+        "snowball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword",
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "spider": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:spider_angry"
+            ],
+            "only_addon": [
+              "despawn",
+              "minecraft:default_spider",
+              "minecraft:spider_player_jockey"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:behavior.hurt_by_target",
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:spider_sword",
+              "not_climb"
+            ],
+            "only_reference": []
+          }
+        },
+        "tnt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_tnt",
+              "giant_tnt"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:explode"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "camerashake",
+              "giant_tnt",
+              "minecraft:entity_spawned",
+              "particle"
+            ],
+            "only_reference": []
+          }
+        },
+        "witch": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:raid_configuration"
+            ],
+            "only_addon": [
+              "grass_witch",
+              "minecraft:default_witch",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_persistence"
+            ]
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:spawn_for_raid",
+              "minecraft:start_celebrating"
+            ],
+            "only_addon": [
+              "grass_sword",
+              "grass_witch_skill",
+              "minecraft:entity_spawned",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_expired"
+            ]
+          }
+        },
+        "wither": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull_dangerous": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wolf": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:wolf_adult",
+              "minecraft:wolf_angry",
+              "minecraft:wolf_tame",
+              "minecraft:wolf_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.melee_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        }
+      },
+      "1.20.30.1": {
+        "arrow": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:hard_arrow",
+              "minecraft:pillager_arrow",
+              "minecraft:player_arrow"
+            ],
+            "only_addon": [
+              "despawn_arrow",
+              "family:arrow",
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:inertia_disable",
+              "start_despawn_arrow"
+            ],
+            "only_reference": []
+          }
+        },
+        "bee": {
+          "component_groups": {
+            "different_both": [
+              "bee_adult",
+              "bee_baby",
+              "look_for_food"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.tempt"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "events": {
+            "different_both": [
+              "countdown_to_perish_event"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "blaze": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "melee_mode",
+              "mode_switcher",
+              "ranged_mode"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:hurt_on_condition",
+              "minecraft:navigation.walk"
+            ],
+            "only_addon": [
+              "minecraft:attack",
+              "minecraft:behavior.melee_attack",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:can_fly",
+              "minecraft:shooter"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:on_hurt",
+              "minecraft:on_hurt_by_player"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "blaze_sword"
+            ],
+            "only_reference": [
+              "minecraft:entity_spawned",
+              "minecraft:on_hurt_event",
+              "switch_to_melee",
+              "switch_to_ranged"
+            ]
+          }
+        },
+        "cat": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:cat_adult",
+              "minecraft:cat_gift_for_owner",
+              "minecraft:cat_tame",
+              "minecraft:cat_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.ocelotattack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        },
+        "ender_crystal": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "despawn",
+              "detect_player",
+              "ender_crystal_scale",
+              "on_hurt_crystal",
+              "spectral_sword",
+              "spectral_sword_drop"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:on_hurt"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:crystal_explode"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:detect_player",
+              "minecraft:end_scale",
+              "minecraft:ender_crystal_scale",
+              "minecraft:entity_spawned",
+              "minecraft:mount_crystal",
+              "ride_player",
+              "spectral_crystal_explode"
+            ],
+            "only_reference": []
+          }
+        },
+        "enderman": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:enderman_angry"
+            ],
+            "only_addon": [
+              "minecraft:default_enderman",
+              "minecraft:red_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:follow_range",
+              "minecraft:hurt_on_condition"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:variable_max_auto_step"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "default_enderman",
+              "red_enderman"
+            ],
+            "only_reference": []
+          }
+        },
+        "fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:gravity_enable"
+            ],
+            "only_reference": []
+          }
+        },
+        "ghast": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:collision_box",
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune",
+              "minecraft:shooter"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "spectral_ghast"
+            ],
+            "only_reference": []
+          }
+        },
+        "lightning_bolt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "default_lightning_bolt",
+              "minecraft:entity_spawned",
+              "spawn_centella"
+            ],
+            "only_reference": []
+          }
+        },
+        "parrot": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:parrot_wild"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:parrot_not_riding_player",
+              "minecraft:parrot_riding_player"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:navigation.fly"
+            ],
+            "only_addon": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.tempt"
+            ],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:game_event_movement_tracking",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:on_not_riding_player",
+              "minecraft:on_riding_player"
+            ]
+          }
+        },
+        "player": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:add_bad_omen"
+            ],
+            "only_addon": [
+              "blaze_sword_skill",
+              "clock_sword_movement",
+              "clock_sword_skill",
+              "complete_wolf_transformation",
+              "despawn",
+              "ghost_movement",
+              "mermaid_movement_in_water",
+              "mermaid_movement_out_water",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:default_player",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "shoot_small_fireball",
+              "shulker_sword_skill",
+              "spider_sword_skill",
+              "start_player_explode_event",
+              "time_sword_movement",
+              "ultra_instinct_projectile",
+              "ultra_instinct_sword_movement",
+              "wolf_movement",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:environment_sensor",
+              "minecraft:physics",
+              "minecraft:player.exhaustion",
+              "minecraft:player.saturation",
+              "minecraft:type_family"
+            ],
+            "only_addon": [
+              "minecraft:scaffolding_climber"
+            ],
+            "only_reference": [
+              "minecraft:block_climber",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:exhaustion_values"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "bee_sword_flower",
+              "blaze_sword_effects",
+              "blaze_sword_skill",
+              "blaze_sword_skill_event",
+              "bone_sword_skills",
+              "cactus_sword_skills",
+              "clock_sword_movement",
+              "clock_sword_skill_event",
+              "default_player",
+              "despawn",
+              "ender_sword_skill",
+              "ender_sword_sound",
+              "ender_sword_tp",
+              "fire_sword_sound",
+              "grass_sword_skills",
+              "lapis_sword_skills",
+              "minecraft:bee_sword",
+              "minecraft:blaze_sword",
+              "minecraft:bone_sword",
+              "minecraft:cactus_sword",
+              "minecraft:clock_sword",
+              "minecraft:constant_events",
+              "minecraft:emerald_sword",
+              "minecraft:ender_sword",
+              "minecraft:fire_sword",
+              "minecraft:ghost_sword",
+              "minecraft:glowstone_sword",
+              "minecraft:grass_sword",
+              "minecraft:ice_sword",
+              "minecraft:jungle_sword",
+              "minecraft:lapis_sword",
+              "minecraft:lightning_sword",
+              "minecraft:magma_sword",
+              "minecraft:nether_star_sword",
+              "minecraft:obsidian_sword",
+              "minecraft:quartz_sword",
+              "minecraft:sea_sword",
+              "minecraft:shulker_sword",
+              "minecraft:slime_sword",
+              "minecraft:spectral_sword",
+              "minecraft:spider_sword",
+              "minecraft:sponge_sword",
+              "minecraft:stop_sword_events",
+              "minecraft:time_sword",
+              "minecraft:ultra_instinct_sword",
+              "minecraft:wither_sword",
+              "minecraft:wolf_sword",
+              "sea_sword_sound",
+              "shoot_ultra_instinct_projectile",
+              "shulker_sword_skill",
+              "slime_sword_skills",
+              "spectral_sword_function",
+              "spectral_sword_function_1",
+              "spectral_sword_reload_skill",
+              "spectral_sword_skills",
+              "spider_sword_skill",
+              "start_player_explode",
+              "start_player_explode_event",
+              "starting_wolf_transformation",
+              "stop_bee_sword_event",
+              "stop_blaze_sword_event",
+              "stop_blaze_sword_skill",
+              "stop_bone_sword_event",
+              "stop_cactus_sword_event",
+              "stop_clock_sword_event",
+              "stop_emerald_sword_event",
+              "stop_ender_sword_event",
+              "stop_fire_sword_event",
+              "stop_ghost_sword_event",
+              "stop_grass_sword_event",
+              "stop_ice_sword_event",
+              "stop_jungle_sword_event",
+              "stop_lapis_sword_event",
+              "stop_lightning_sword_event",
+              "stop_magma_sword_event",
+              "stop_nether_star_sword_event",
+              "stop_obsidian_sword_event",
+              "stop_quartz_sword_event",
+              "stop_sea_sword_event",
+              "stop_shulker_sword_event",
+              "stop_slime_sword_event",
+              "stop_spectral_sword_event",
+              "stop_spider_skill_event",
+              "stop_spider_sword_event",
+              "stop_sponge_sword_event",
+              "stop_time_sword_event",
+              "stop_ultra_instinct_sword_event",
+              "stop_wither_sword_event",
+              "stop_wolf_sword_event",
+              "stop_wolf_transformation",
+              "time_sword_movement",
+              "ultra_instinct_sword_effects",
+              "ultra_instinct_sword_skill",
+              "wet_sponge_sword",
+              "wither_sword_effects",
+              "wolf_damage_sound",
+              "wolf_movement",
+              "wolf_sword_sounds",
+              "wolf_sword_start_events",
+              "wolf_transformation"
+            ],
+            "only_reference": []
+          }
+        },
+        "shulker_bullet": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "shulker_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "skeleton": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:lightning_immune",
+              "minecraft:melee_attack",
+              "minecraft:ranged_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "become_stray",
+              "got_out_of_powder_snow_environment_sensor",
+              "in_powder_snow"
+            ]
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:behavior.ranged_attack",
+              "minecraft:environment_sensor",
+              "minecraft:shooter"
+            ],
+            "only_addon": [
+              "minecraft:damage_sensor"
+            ],
+            "only_reference": [
+              "minecraft:behavior.equip_item",
+              "minecraft:behavior.pickup_items",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:equip_item",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shareables"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:melee_mode",
+              "minecraft:ranged_mode"
+            ],
+            "only_addon": [
+              "bone_sword"
+            ],
+            "only_reference": [
+              "become_stray_event",
+              "got_in_powder_snow",
+              "got_out_of_powder_snow"
+            ]
+          }
+        },
+        "small_fireball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "gravity_enable",
+              "minecraft:inertia_disable",
+              "shot_by_the_blaze"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned",
+              "minecraft:inertia_disable"
+            ],
+            "only_reference": []
+          }
+        },
+        "snowball": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:projectile"
+            ],
+            "only_addon": [
+              "minecraft:type_family"
+            ],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "ice_sword",
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "spider": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:spider_angry"
+            ],
+            "only_addon": [
+              "despawn",
+              "minecraft:default_spider",
+              "minecraft:spider_player_jockey"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:behavior.hurt_by_target",
+              "minecraft:behavior.look_at_player",
+              "minecraft:behavior.random_look_around",
+              "minecraft:behavior.random_stroll",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:entity_spawned"
+            ],
+            "only_addon": [
+              "minecraft:despawn",
+              "minecraft:spider_sword",
+              "not_climb"
+            ],
+            "only_reference": []
+          }
+        },
+        "tnt": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "default_tnt",
+              "giant_tnt"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:explode"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "camerashake",
+              "giant_tnt",
+              "minecraft:entity_spawned",
+              "particle"
+            ],
+            "only_reference": []
+          }
+        },
+        "witch": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:raid_configuration"
+            ],
+            "only_addon": [
+              "grass_witch",
+              "minecraft:default_witch",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_persistence"
+            ]
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:behavior.nearest_attackable_target"
+            ],
+            "only_reference": [
+              "minecraft:behavior.drink_potion",
+              "minecraft:behavior.nearest_prioritized_attackable_target",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:damage_sensor",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:shooter"
+            ]
+          },
+          "events": {
+            "different_both": [
+              "minecraft:spawn_for_raid",
+              "minecraft:start_celebrating"
+            ],
+            "only_addon": [
+              "grass_sword",
+              "grass_witch_skill",
+              "minecraft:entity_spawned",
+              "minecraft:grass_witch"
+            ],
+            "only_reference": [
+              "minecraft:raid_expired"
+            ]
+          }
+        },
+        "wither": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:damage_sensor",
+              "minecraft:fire_immune"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:is_hidden_when_invisible"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wither_skull_dangerous": {
+          "component_groups": {
+            "different_both": [],
+            "only_addon": [
+              "wither_sword"
+            ],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:conditional_bandwidth_optimization"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [
+              "minecraft:entity_spawned"
+            ],
+            "only_reference": []
+          }
+        },
+        "wolf": {
+          "component_groups": {
+            "different_both": [
+              "minecraft:wolf_adult",
+              "minecraft:wolf_angry",
+              "minecraft:wolf_tame",
+              "minecraft:wolf_wild"
+            ],
+            "only_addon": [],
+            "only_reference": []
+          },
+          "components": {
+            "different_both": [
+              "minecraft:behavior.melee_attack"
+            ],
+            "only_addon": [],
+            "only_reference": [
+              "minecraft:balloonable",
+              "minecraft:conditional_bandwidth_optimization",
+              "minecraft:despawn",
+              "minecraft:is_hidden_when_invisible",
+              "minecraft:leashable"
+            ]
+          },
+          "events": {
+            "different_both": [],
+            "only_addon": [],
+            "only_reference": []
+          }
+        }
+      }
+    }
+  },
+  "method": "literal JSON5 extraction; present tracks key existence; not Bedrock execution",
+  "references": {
+    "1.19.40.2": {
+      "commit": "16f15af95678d72bcd4b2af468b71f60140a6c06",
+      "entities": {
+        "blaze": {
+          "selected": {
+            "component_groups/mode_switcher/minecraft:target_nearby_sensor": {
+              "present": true,
+              "value": {
+                "inside_range": 2.0,
+                "must_see": true,
+                "on_inside_range": {
+                  "event": "switch_to_melee",
+                  "target": "self"
+                },
+                "on_outside_range": {
+                  "event": "switch_to_ranged",
+                  "target": "self"
+                },
+                "outside_range": 3.0
+              }
+            },
+            "components/minecraft:behavior.melee_attack": {
+              "present": false
+            },
+            "components/minecraft:behavior.ranged_attack": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:hurt_on_condition": {
+              "present": true,
+              "value": {
+                "damage_conditions": [
+                  {
+                    "cause": "drowning",
+                    "damage_per_tick": 1,
+                    "filters": {
+                      "operator": "==",
+                      "test": "in_contact_with_water",
+                      "value": true
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "sha256": "8dff5acd676fef87a23ff37418318469eeab97628970b1d03cebb61bb6d1d242"
+        },
+        "cat": {
+          "selected": {
+            "component_groups/minecraft:cat_gift_for_owner/minecraft:behavior.drop_item_for": {
+              "present": true,
+              "value": {
+                "cooldown": 0.25,
+                "drop_item_chance": 0.7,
+                "entity_types": [
+                  {
+                    "filters": {
+                      "subject": "other",
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    "max_dist": 6
+                  }
+                ],
+                "goal_radius": 1.0,
+                "loot_table": "loot_tables/entities/cat_gift.json",
+                "max_head_look_at_height": 10.0,
+                "minimum_teleport_distance": 2.0,
+                "offering_distance": 5.0,
+                "on_drop_attempt": {
+                  "event": "minecraft:cat_gifted_owner",
+                  "target": "self"
+                },
+                "priority": 1,
+                "search_count": 0,
+                "search_height": 2,
+                "search_range": 5,
+                "seconds_before_pickup": 0.0,
+                "speed_multiplier": 1.0,
+                "target_range": [
+                  5.0,
+                  5.0,
+                  5.0
+                ],
+                "teleport_offset": [
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                "time_of_day_range": [
+                  0.74999,
+                  0.8
+                ]
+              }
+            },
+            "component_groups/minecraft:cat_tame/minecraft:leashable": {
+              "present": false
+            },
+            "component_groups/minecraft:cat_tame/minecraft:type_family": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:leashable": {
+              "present": true,
+              "value": {
+                "hard_distance": 6.0,
+                "max_distance": 10.0,
+                "soft_distance": 4.0
+              }
+            }
+          },
+          "sha256": "9836e61046294dc1bcd6fbd2d299c15ea2bbe13cf122fb9302ae9bb96cbbb521"
+        },
+        "parrot": {
+          "selected": {
+            "component_groups/minecraft:parrot_not_riding_player/minecraft:entity_sensor": {
+              "present": true,
+              "value": {
+                "event": "minecraft:on_riding_player",
+                "event_filters": {
+                  "all_of": [
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "is_riding",
+                      "value": true
+                    },
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "has_component",
+                      "value": "minecraft:behavior.look_at_player"
+                    }
+                  ]
+                },
+                "relative_range": false,
+                "sensor_range": 2.0
+              }
+            },
+            "component_groups/minecraft:parrot_riding_player/minecraft:entity_sensor": {
+              "present": true,
+              "value": {
+                "event": "minecraft:on_not_riding_player",
+                "event_filters": {
+                  "all_of": [
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "is_riding",
+                      "value": false
+                    },
+                    {
+                      "operator": "not",
+                      "subject": "self",
+                      "test": "has_component",
+                      "value": "minecraft:behavior.look_at_player"
+                    }
+                  ]
+                },
+                "relative_range": false,
+                "sensor_range": 2.0
+              }
+            },
+            "components/minecraft:behavior.tempt": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:game_event_movement_tracking": {
+              "present": true,
+              "value": {
+                "emit_flap": true
+              }
+            }
+          },
+          "sha256": "acd06d3f4fed9366591b3390f6dfa4e3925b80beff3d8bcdb89a2c1465a354cd"
+        },
+        "player": {
+          "selected": {
+            "components/minecraft:block_climber": {
+              "present": true,
+              "value": {}
+            },
+            "components/minecraft:exhaustion_values": {
+              "present": true,
+              "value": {
+                "attack": 0.1,
+                "damage": 0.1,
+                "heal": 6,
+                "jump": 0.05,
+                "mine": 0.005,
+                "sprint": 0.1,
+                "sprint_jump": 0.2,
+                "swim": 0.01,
+                "walk": 0.0
+              }
+            },
+            "components/minecraft:player.exhaustion": {
+              "present": true,
+              "value": {
+                "max": 20,
+                "value": 0
+              }
+            },
+            "components/minecraft:player.saturation": {
+              "present": true,
+              "value": {
+                "max": 20,
+                "value": 5
+              }
+            },
+            "components/minecraft:scaffolding_climber": {
+              "present": false
+            },
+            "components/minecraft:type_family": {
+              "present": true,
+              "value": {
+                "family": [
+                  "player"
+                ]
+              }
+            }
+          },
+          "sha256": "e6da0c426bfd839336c7f447101bf29af3d68e420dcab3a493b28ff84d31b8ad"
+        },
+        "skeleton": {
+          "selected": {
+            "component_groups/become_stray/minecraft:transformation": {
+              "present": true,
+              "value": {
+                "drop_inventory": true,
+                "into": "minecraft:stray",
+                "keep_level": true,
+                "preserve_equipment": true,
+                "transformation_sound": "convert_to_stray"
+              }
+            },
+            "component_groups/in_powder_snow/minecraft:timer": {
+              "present": true,
+              "value": {
+                "looping": false,
+                "time": 20,
+                "time_down_event": {
+                  "event": "become_stray_event"
+                }
+              }
+            },
+            "component_groups/minecraft:melee_attack/minecraft:attack": {
+              "present": true,
+              "value": {
+                "damage": 2
+              }
+            },
+            "components/minecraft:behavior.pickup_items": {
+              "present": true,
+              "value": {
+                "can_pickup_any_item": true,
+                "goal_radius": 2,
+                "max_dist": 3,
+                "pickup_based_on_chance": true,
+                "priority": 5,
+                "speed_multiplier": 1.0
+              }
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:environment_sensor": {
+              "present": true,
+              "value": {
+                "triggers": [
+                  {
+                    "event": "minecraft:melee_mode",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "is_underwater",
+                      "value": true
+                    }
+                  },
+                  {
+                    "event": "minecraft:melee_mode",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "has_ranged_weapon",
+                      "value": false
+                    }
+                  },
+                  {
+                    "event": "got_in_powder_snow",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "in_block",
+                      "value": "minecraft:powder_snow"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "sha256": "bf7fce9c7e82c897918c183eabc1ecfd9b2a16105483164a6150dd28a3132dd9"
+        },
+        "wolf": {
+          "selected": {
+            "component_groups/minecraft:wolf_tame/minecraft:behavior.breed": {
+              "present": true,
+              "value": {
+                "priority": 2,
+                "speed_multiplier": 1.0
+              }
+            },
+            "component_groups/minecraft:wolf_tame/minecraft:leashable": {
+              "present": false
+            },
+            "component_groups/minecraft:wolf_tame/minecraft:type_family": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:leashable": {
+              "present": true,
+              "value": {
+                "hard_distance": 6.0,
+                "max_distance": 10.0,
+                "on_leash": {
+                  "event": "minecraft:on_leash",
+                  "target": "self"
+                },
+                "on_unleash": {
+                  "event": "minecraft:on_unleash",
+                  "target": "self"
+                },
+                "soft_distance": 4.0
+              }
+            }
+          },
+          "sha256": "5754ff9d0058c5e514c3a5bab19415bc8bf4889d5d5222454de7bef3b23f6c6f"
+        }
+      },
+      "file_sha256": {
+        "arrow": "d247fd71658e93b0cabf6ff399aa0016f9eb6760dfc4bca4615537cde5f91291",
+        "bee": "028159865c10ccee3fc3ebf6c86ff175b3d36329835fb9a10be84059042f1293",
+        "blaze": "8dff5acd676fef87a23ff37418318469eeab97628970b1d03cebb61bb6d1d242",
+        "cat": "9836e61046294dc1bcd6fbd2d299c15ea2bbe13cf122fb9302ae9bb96cbbb521",
+        "ender_crystal": "883211924fa7d405cf6f5c14f87198d0050b3e25b732b3c4aaec30e717fb9415",
+        "enderman": "8ef140e0855db4ea761b5d9c196812ec7e3130828e688ff2446f46ac29604b61",
+        "fireball": "49f504ebed345d70cd17170d3a10c883f30bc9579abf1e0632d301d9d620f80d",
+        "ghast": "9f092ae41ce8cf9861055a40cc3d6680b2f538098688468eefc6dfc87bd9b9a6",
+        "lightning_bolt": "f446d30309e21922d69e167a8c8f70ed722392266b9e9338610bc0c291f40b56",
+        "parrot": "acd06d3f4fed9366591b3390f6dfa4e3925b80beff3d8bcdb89a2c1465a354cd",
+        "player": "e6da0c426bfd839336c7f447101bf29af3d68e420dcab3a493b28ff84d31b8ad",
+        "shulker_bullet": "761977634b74b112e872b292c84bac7db27953df5b21ae175e143d04214f54f2",
+        "skeleton": "bf7fce9c7e82c897918c183eabc1ecfd9b2a16105483164a6150dd28a3132dd9",
+        "small_fireball": "3dbd9c96ccd416c53cf66baa2a2fa07bb4a4b46480e22c94a1a4924b547df2b6",
+        "snowball": "110a5c15da84b2271149105df03efdd0beb94d569e7910cb94bb190066638d73",
+        "spider": "6b86daf37ebee03bf5e74f6f66cd2a61e0ac315a66375f2b07c7eeff2f411618",
+        "tnt": "d72b08afa39df2cfab8b776592a880494469609ab8a3a866e354df1ab0685832",
+        "witch": "812c33f42d712f84c7e4e161c0f8c3671e65ff4b7d689913096444d2efc43cde",
+        "wither": "10c07c09fb397ba55ee35052d0fde4f5f20675b1d4d779b50e45ffb4abf710a2",
+        "wither_skull": "10ed8e6daa43a21755e3f01d4cea23a2bf4360416a17fce2c8455a59a838652c",
+        "wither_skull_dangerous": "1a45e35ee6d597cbc77dba11253e6e9f4797393f13394849c9c9788b04a56428",
+        "wolf": "5754ff9d0058c5e514c3a5bab19415bc8bf4889d5d5222454de7bef3b23f6c6f"
+      },
+      "zip_sha256": "d99671c6fa61d38dda2b87286e44ddc352ef6578253cbb1d8cfc032ff826c08d"
+    },
+    "1.20.30.1": {
+      "commit": "c7755281ab8c69d7e61d35856ad5a05813e2b853",
+      "entities": {
+        "blaze": {
+          "selected": {
+            "component_groups/mode_switcher/minecraft:target_nearby_sensor": {
+              "present": true,
+              "value": {
+                "inside_range": 2.0,
+                "must_see": true,
+                "on_inside_range": {
+                  "event": "switch_to_melee",
+                  "target": "self"
+                },
+                "on_outside_range": {
+                  "event": "switch_to_ranged",
+                  "target": "self"
+                },
+                "outside_range": 3.0
+              }
+            },
+            "components/minecraft:behavior.melee_attack": {
+              "present": false
+            },
+            "components/minecraft:behavior.ranged_attack": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:hurt_on_condition": {
+              "present": true,
+              "value": {
+                "damage_conditions": [
+                  {
+                    "cause": "drowning",
+                    "damage_per_tick": 1,
+                    "filters": {
+                      "operator": "==",
+                      "test": "in_contact_with_water",
+                      "value": true
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "sha256": "8dff5acd676fef87a23ff37418318469eeab97628970b1d03cebb61bb6d1d242"
+        },
+        "cat": {
+          "selected": {
+            "component_groups/minecraft:cat_gift_for_owner/minecraft:behavior.drop_item_for": {
+              "present": true,
+              "value": {
+                "cooldown": 0.25,
+                "drop_item_chance": 0.7,
+                "entity_types": [
+                  {
+                    "filters": {
+                      "subject": "other",
+                      "test": "is_family",
+                      "value": "player"
+                    },
+                    "max_dist": 6
+                  }
+                ],
+                "goal_radius": 1.0,
+                "loot_table": "loot_tables/entities/cat_gift.json",
+                "max_head_look_at_height": 10.0,
+                "minimum_teleport_distance": 2.0,
+                "offering_distance": 5.0,
+                "on_drop_attempt": {
+                  "event": "minecraft:cat_gifted_owner",
+                  "target": "self"
+                },
+                "priority": 1,
+                "search_count": 0,
+                "search_height": 2,
+                "search_range": 5,
+                "seconds_before_pickup": 0.0,
+                "speed_multiplier": 1.0,
+                "target_range": [
+                  5.0,
+                  5.0,
+                  5.0
+                ],
+                "teleport_offset": [
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                "time_of_day_range": [
+                  0.74999,
+                  0.8
+                ]
+              }
+            },
+            "component_groups/minecraft:cat_tame/minecraft:leashable": {
+              "present": false
+            },
+            "component_groups/minecraft:cat_tame/minecraft:type_family": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:leashable": {
+              "present": true,
+              "value": {
+                "hard_distance": 6.0,
+                "max_distance": 10.0,
+                "soft_distance": 4.0
+              }
+            }
+          },
+          "sha256": "9836e61046294dc1bcd6fbd2d299c15ea2bbe13cf122fb9302ae9bb96cbbb521"
+        },
+        "parrot": {
+          "selected": {
+            "component_groups/minecraft:parrot_not_riding_player/minecraft:entity_sensor": {
+              "present": true,
+              "value": {
+                "event": "minecraft:on_riding_player",
+                "event_filters": {
+                  "all_of": [
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "is_riding",
+                      "value": true
+                    },
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "has_component",
+                      "value": "minecraft:behavior.look_at_player"
+                    }
+                  ]
+                },
+                "relative_range": false,
+                "sensor_range": 2.0
+              }
+            },
+            "component_groups/minecraft:parrot_riding_player/minecraft:entity_sensor": {
+              "present": true,
+              "value": {
+                "event": "minecraft:on_not_riding_player",
+                "event_filters": {
+                  "all_of": [
+                    {
+                      "operator": "equals",
+                      "subject": "self",
+                      "test": "is_riding",
+                      "value": false
+                    },
+                    {
+                      "operator": "not",
+                      "subject": "self",
+                      "test": "has_component",
+                      "value": "minecraft:behavior.look_at_player"
+                    }
+                  ]
+                },
+                "relative_range": false,
+                "sensor_range": 2.0
+              }
+            },
+            "components/minecraft:behavior.tempt": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:game_event_movement_tracking": {
+              "present": true,
+              "value": {
+                "emit_flap": true
+              }
+            }
+          },
+          "sha256": "d2c98d8d76a91de95b791db5a629bc075f6faf5e246ec6a484c0c2b53948a80e"
+        },
+        "player": {
+          "selected": {
+            "components/minecraft:block_climber": {
+              "present": true,
+              "value": {}
+            },
+            "components/minecraft:exhaustion_values": {
+              "present": true,
+              "value": {
+                "attack": 0.1,
+                "damage": 0.1,
+                "heal": 6,
+                "jump": 0.05,
+                "mine": 0.005,
+                "sprint": 0.1,
+                "sprint_jump": 0.2,
+                "swim": 0.01,
+                "walk": 0.0
+              }
+            },
+            "components/minecraft:player.exhaustion": {
+              "present": true,
+              "value": {
+                "max": 20,
+                "value": 0
+              }
+            },
+            "components/minecraft:player.saturation": {
+              "present": true,
+              "value": {
+                "max": 20,
+                "value": 5
+              }
+            },
+            "components/minecraft:scaffolding_climber": {
+              "present": false
+            },
+            "components/minecraft:type_family": {
+              "present": true,
+              "value": {
+                "family": [
+                  "player"
+                ]
+              }
+            }
+          },
+          "sha256": "0ad825e9433490dda6fa9d51eb0eaf4aaf1e7e510559f7cb0ceded5822ebc155"
+        },
+        "skeleton": {
+          "selected": {
+            "component_groups/become_stray/minecraft:transformation": {
+              "present": true,
+              "value": {
+                "drop_inventory": true,
+                "into": "minecraft:stray",
+                "keep_level": true,
+                "preserve_equipment": true,
+                "transformation_sound": "convert_to_stray"
+              }
+            },
+            "component_groups/in_powder_snow/minecraft:timer": {
+              "present": true,
+              "value": {
+                "looping": false,
+                "time": 20,
+                "time_down_event": {
+                  "event": "become_stray_event"
+                }
+              }
+            },
+            "component_groups/minecraft:melee_attack/minecraft:attack": {
+              "present": true,
+              "value": {
+                "damage": 2
+              }
+            },
+            "components/minecraft:behavior.pickup_items": {
+              "present": true,
+              "value": {
+                "can_pickup_any_item": true,
+                "goal_radius": 2,
+                "max_dist": 3,
+                "pickup_based_on_chance": true,
+                "priority": 5,
+                "speed_multiplier": 1.0
+              }
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:environment_sensor": {
+              "present": true,
+              "value": {
+                "triggers": [
+                  {
+                    "event": "minecraft:melee_mode",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "is_underwater",
+                      "value": true
+                    }
+                  },
+                  {
+                    "event": "minecraft:melee_mode",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "has_ranged_weapon",
+                      "value": false
+                    }
+                  },
+                  {
+                    "event": "got_in_powder_snow",
+                    "filters": {
+                      "operator": "==",
+                      "subject": "self",
+                      "test": "in_block",
+                      "value": "minecraft:powder_snow"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "sha256": "2af6271b7d4bbe239aa5fb4f14a2b16f56cb02d7f8260f9358e14efda4056773"
+        },
+        "wolf": {
+          "selected": {
+            "component_groups/minecraft:wolf_tame/minecraft:behavior.breed": {
+              "present": true,
+              "value": {
+                "priority": 2,
+                "speed_multiplier": 1.0
+              }
+            },
+            "component_groups/minecraft:wolf_tame/minecraft:leashable": {
+              "present": false
+            },
+            "component_groups/minecraft:wolf_tame/minecraft:type_family": {
+              "present": false
+            },
+            "components/minecraft:despawn": {
+              "present": true,
+              "value": {
+                "despawn_from_distance": {}
+              }
+            },
+            "components/minecraft:leashable": {
+              "present": true,
+              "value": {
+                "hard_distance": 6.0,
+                "max_distance": 10.0,
+                "on_leash": {
+                  "event": "minecraft:on_leash",
+                  "target": "self"
+                },
+                "on_unleash": {
+                  "event": "minecraft:on_unleash",
+                  "target": "self"
+                },
+                "soft_distance": 4.0
+              }
+            }
+          },
+          "sha256": "5754ff9d0058c5e514c3a5bab19415bc8bf4889d5d5222454de7bef3b23f6c6f"
+        }
+      },
+      "file_sha256": {
+        "arrow": "d247fd71658e93b0cabf6ff399aa0016f9eb6760dfc4bca4615537cde5f91291",
+        "bee": "2f36858840654124b74b29a4e6b5f99ef507e9bc2088ccf43a3986f4858cd184",
+        "blaze": "8dff5acd676fef87a23ff37418318469eeab97628970b1d03cebb61bb6d1d242",
+        "cat": "9836e61046294dc1bcd6fbd2d299c15ea2bbe13cf122fb9302ae9bb96cbbb521",
+        "ender_crystal": "845cc28155f480aa6b90e6fef5420e6704499e7096bf192ccf08c3fcf5c12ec7",
+        "enderman": "01dd145a339073ae3719b4f01ea57f5b557dfe3e331cc69ce13720a08642d485",
+        "fireball": "6d13650d146849816e94a6e523f3942bbe956cc704ce449552fe46ef3fd90b8a",
+        "ghast": "9f092ae41ce8cf9861055a40cc3d6680b2f538098688468eefc6dfc87bd9b9a6",
+        "lightning_bolt": "f446d30309e21922d69e167a8c8f70ed722392266b9e9338610bc0c291f40b56",
+        "parrot": "d2c98d8d76a91de95b791db5a629bc075f6faf5e246ec6a484c0c2b53948a80e",
+        "player": "0ad825e9433490dda6fa9d51eb0eaf4aaf1e7e510559f7cb0ceded5822ebc155",
+        "shulker_bullet": "761977634b74b112e872b292c84bac7db27953df5b21ae175e143d04214f54f2",
+        "skeleton": "2af6271b7d4bbe239aa5fb4f14a2b16f56cb02d7f8260f9358e14efda4056773",
+        "small_fireball": "3dbd9c96ccd416c53cf66baa2a2fa07bb4a4b46480e22c94a1a4924b547df2b6",
+        "snowball": "110a5c15da84b2271149105df03efdd0beb94d569e7910cb94bb190066638d73",
+        "spider": "6b86daf37ebee03bf5e74f6f66cd2a61e0ac315a66375f2b07c7eeff2f411618",
+        "tnt": "d72b08afa39df2cfab8b776592a880494469609ab8a3a866e354df1ab0685832",
+        "witch": "26f5b59ccf5f8aa89d23f44f1cbde64c3679d81e35044fd498b37eadac81c79f",
+        "wither": "4fab04fe472d32aa4f6adf9990638fa5068f227141b246bfa227229aaeac842c",
+        "wither_skull": "10ed8e6daa43a21755e3f01d4cea23a2bf4360416a17fce2c8455a59a838652c",
+        "wither_skull_dangerous": "1a45e35ee6d597cbc77dba11253e6e9f4797393f13394849c9c9788b04a56428",
+        "wolf": "5754ff9d0058c5e514c3a5bab19415bc8bf4889d5d5222454de7bef3b23f6c6f"
+      },
+      "zip_sha256": "a667860cf7e9c495a29f05e4f9cfc81c79ca3fce1269aa7348de65f3e9811301"
+    }
+  }
+}

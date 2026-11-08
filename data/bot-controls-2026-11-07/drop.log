@@ -1,0 +1,87 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:37:40:845 INFO] Starting Server
+SERVER [2026-11-07 08:37:40:845 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:37:40:845 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:37:40:845 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:37:40:845 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:37:40:845 INFO] Configuration: Publish
+SERVER [2026-11-07 08:37:40:845 INFO] Level Name: Bot movement
+SERVER [2026-11-07 08:37:40:846 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:37:40:846 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:37:40:846 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:37:40:847 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:37:40:164 INFO] Opening level 'worlds/Bot movement/db'
+SERVER [2026-11-07 08:37:41:663 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:37:41:663 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:37:41:669 INFO] Server started.
+SERVER [2026-11-07 08:37:41:669 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:37:41:669 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:37:41:669 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:37:41:669 INFO] 
+SERVER [2026-11-07 08:37:41:669 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:37:41:669 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:37:41:669 INFO] ======================================================
+SERVER [2026-11-07 08:37:43:715 INFO] Player connected: ArenaDrop, xuid: 
+BOT HELD {"network_id":0}
+SERVER [2026-11-07 08:37:47:542 INFO] Player Spawned: ArenaDrop xuid: , BOT SPAWN
+COMMAND tp ArenaDrop 10 100 10
+SERVER [2026-11-07 08:37:47:656 INFO] Teleported ArenaDrop to 10.50, 100.00, 10.50
+COMMAND fill 8 99 8 15 99 15 stone
+SERVER [2026-11-07 08:37:55:594 INFO] 64 blocks filled
+COMMAND gamemode survival ArenaDrop
+SERVER [2026-11-07 08:37:56:593 INFO] Set ArenaDrop's game mode to Survival
+COMMAND clear ArenaDrop
+SERVER [2026-11-07 08:37:57:594 ERROR] Could not clear the inventory of ArenaDrop, no items to remove
+BOT HELD {"network_id":0}
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:37:58:593 ERROR] No targets matched selector
+COMMAND replaceitem entity ArenaDrop slot.weapon.mainhand 0 diamond 1
+SERVER [2026-11-07 08:37:59:593 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDrop with 1 * Diamond
+BOT HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:01:593 INFO] Found ArenaDrop
+HARNESS stack
+BOT COMMAND stack HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+BOT REQUEST SENT
+BOT STACK RESPONSE {"responses":[{"status":49,"request_id":-1}]}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:03:593 INFO] Found ArenaDrop
+COMMAND testfor @e[type=item,x=10,y=100,z=10,r=10]
+SERVER [2026-11-07 08:38:04:593 ERROR] No targets matched selector
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:38:05:593 ERROR] No targets matched selector
+COMMAND replaceitem entity ArenaDrop slot.weapon.mainhand 0 diamond 1
+SERVER [2026-11-07 08:38:06:594 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDrop with 1 * Diamond
+BOT HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:08:609 INFO] Found ArenaDrop
+HARNESS hotbar
+BOT COMMAND hotbar HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+BOT REQUEST SENT
+BOT STACK RESPONSE {"responses":[{"status":"ok","request_id":-3,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]}]}]}
+BOT DROP ENTITY {"item":{"network_id":307,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}},"position":{"x":10.5,"y":101.24501037597656,"z":10.5},"velocity":{"x":-0.010555899702012539,"y":0,"z":0.30100393295288086}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:10:594 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,x=10,y=100,z=10,r=10]
+SERVER [2026-11-07 08:38:11:648 INFO] Found Diamond
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:38:12:598 INFO] Killed Diamond
+COMMAND replaceitem entity ArenaDrop slot.weapon.mainhand 0 diamond 1
+SERVER [2026-11-07 08:38:13:598 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDrop with 1 * Diamond
+BOT HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:15:643 INFO] Found ArenaDrop
+HARNESS legacy
+BOT COMMAND legacy HELD {"network_id":307,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}
+BOT REQUEST SENT
+BOT DROP ENTITY {"item":{"network_id":307,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}},"position":{"x":10.5,"y":101.24501037597656,"z":10.5},"velocity":{"x":0.013860688544809818,"y":0,"z":0.31399959325790405}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=diamond,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:38:17:643 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,x=10,y=100,z=10,r=10]
+SERVER [2026-11-07 08:38:18:643 INFO] Found Diamond
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:38:19:643 INFO] Killed Diamond
+SERVER [2026-11-07 08:38:20:643 INFO] Server stop requested.
+SERVER [2026-11-07 08:38:20:656 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

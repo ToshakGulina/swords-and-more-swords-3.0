@@ -1,0 +1,279 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:25:09:650 INFO] Starting Server
+SERVER [2026-11-07 09:25:09:650 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:25:09:650 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:25:09:650 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:25:09:650 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:25:09:650 INFO] Configuration: Publish
+SERVER [2026-11-07 09:25:09:650 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:25:09:651 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:25:09:651 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:25:09:651 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:25:09:652 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:25:10:048 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:25:10:048 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:25:10:454 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:25:10:455 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:25:10:455 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:25:10:455 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:25:10:679 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:25:10:679 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:25:10:757 INFO] Server started.
+SERVER [2026-11-07 09:25:10:757 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:25:10:757 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:25:10:757 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:25:10:757 INFO] 
+SERVER [2026-11-07 09:25:10:757 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:25:10:757 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:25:10:757 INFO] ======================================================
+SERVER [2026-11-07 09:25:10:804 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:25:12:805 INFO] Player connected: ArenaClock, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:25:17:599 INFO] Player Spawned: ArenaClock xuid: , BOT SPAWN
+COMMAND tp ArenaClock 60 100 60
+SERVER [2026-11-07 09:25:17:721 INFO] Teleported ArenaClock to 60.50, 100.00, 60.50
+BOT POSITION {"x":60.5,"y":101.62001037597656,"z":60.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:25:21:804 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:21:804 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.422780990600586,"y":100.48043060302734,"z":20.094539642333984}}
+SERVER 
+BOT ENTITY {"type":"minecraft:pig","runtime":"7","position":{"x":32.829559326171875,"y":100,"z":29.171518325805664}}
+BOT ENTITY {"type":"minecraft:squid","runtime":"5","position":{"x":21.304668426513672,"y":100.10791778564453,"z":19.60991668701172}}
+BOT ENTITY {"type":"minecraft:squid","runtime":"4","position":{"x":19.891746520996094,"y":100.04058074951172,"z":21.524999618530273}}
+BOT ENTITY {"type":"minecraft:squid","runtime":"3","position":{"x":21.16082763671875,"y":100.04994201660156,"z":21.284019470214844}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"8","position":{"x":87,"y":-56.5,"z":86.5}}
+SERVER [2026-11-07 09:25:22:802 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:22:803 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.421409606933594,"y":100.61202239990234,"z":20.097978591918945}}
+SERVER 
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"9","position":{"x":91.5,"y":-44.5,"z":38}}
+SERVER [2026-11-07 09:25:23:802 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:23:803 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.420652389526367,"y":100.43468475341797,"z":20.099872589111328}}
+SERVER 
+SERVER [2026-11-07 09:25:24:802 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:24:803 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.420242309570312,"y":100.5908432006836,"z":20.100910186767578}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 57 99 57 63 99 63 stone
+SERVER [2026-11-07 09:25:25:704 INFO] 49 blocks filled
+SERVER [2026-11-07 09:25:25:807 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:25:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.420013427734375,"y":100.4668960571289,"z":20.101478576660156}}
+SERVER 
+COMMAND fill 57 100 57 63 104 63 air
+SERVER [2026-11-07 09:25:26:703 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:25:26:807 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:26:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41988754272461,"y":100.54000854492188,"z":20.101787567138672}}
+SERVER 
+COMMAND gamemode survival ArenaClock
+SERVER [2026-11-07 09:25:27:702 INFO] Set ArenaClock's game mode to Survival
+SERVER [2026-11-07 09:25:27:807 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:27:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41982078552246,"y":100.48281860351562,"z":20.101961135864258}}
+SERVER 
+COMMAND clear ArenaClock
+SERVER [2026-11-07 09:25:28:702 ERROR] Could not clear the inventory of ArenaClock, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:25:28:807 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:28:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.419782638549805,"y":100.48992156982422,"z":20.102054595947266}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule dodaylightcycle false
+SERVER [2026-11-07 09:25:29:809 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:29:809 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.49913024902344,"z":20.10210418701172}}
+SERVER 
+COMMAND gamerule randomtickspeed 7
+SERVER [2026-11-07 09:25:30:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:30:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.47921752929688,"z":20.102142333984375}}
+SERVER 
+COMMAND time set 1000
+SERVER [2026-11-07 09:25:31:704 INFO] Set the time to 1000
+SERVER [2026-11-07 09:25:31:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:31:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.5370101928711,"z":20.102148056030273}}
+SERVER 
+COMMAND replaceitem entity ArenaClock slot.weapon.mainhand 0 effect:clock_sword 1
+SERVER [2026-11-07 09:25:32:703 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaClock with 1 * item.effect:clock_sword
+BOT HELD CONTENT {"network_id":264,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:25:32:809 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:32:809 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.4555435180664,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:25:33:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:33:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.56775665283203,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:34:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:34:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.435546875,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:35:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:35:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.6004638671875,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:36:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:36:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.44741821289062,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaClock,hasitem={item=effect:clock_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 09:25:37:658 INFO] Found ArenaClock
+SERVER [2026-11-07 09:25:37:805 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:37:805 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.60974884033203,"z":20.102148056030273}}
+SERVER 
+COMMAND testfor @a[name=ArenaClock,family=clock_sword]
+SERVER [2026-11-07 09:25:38:658 INFO] Found ArenaClock
+SERVER [2026-11-07 09:25:38:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:38:809 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.44937896728516,"z":20.102148056030273}}
+SERVER 
+COMMAND testfor @a[name=ArenaClock,family=clock_sword_skill]
+SERVER [2026-11-07 09:25:39:658 ERROR] No targets matched selector
+SERVER [2026-11-07 09:25:39:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:39:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.57625579833984,"z":20.102148056030273}}
+SERVER 
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 09:25:40:658 INFO] randomtickspeed = 7
+SERVER [2026-11-07 09:25:40:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:40:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.4748306274414,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time query daytime
+SERVER [2026-11-07 09:25:41:654 INFO] Daytime is 1000
+SERVER [2026-11-07 09:25:41:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:41:809 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.49088287353516,"z":20.102148056030273}}
+SERVER 
+HARNESS USE CLOCK
+BOT USE BEGIN {"pos":{"x":60.5,"y":101.62001037597656,"z":60.5},"network_id":264}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":264,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:25:42:819 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:42:819 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.47179412841797,"z":20.102148056030273}}
+SERVER 
+COMMAND testfor @a[name=ArenaClock,family=clock_sword_skill]
+SERVER [2026-11-07 09:25:43:664 INFO] Found ArenaClock
+SERVER [2026-11-07 09:25:43:814 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:43:814 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.49977111816406,"z":20.102148056030273}}
+SERVER 
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 09:25:44:164 INFO] randomtickspeed = 100
+COMMAND time query daytime
+SERVER [2026-11-07 09:25:44:664 INFO] Daytime is 1410
+SERVER [2026-11-07 09:25:44:814 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:44:815 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.52046203613281,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:25:45:814 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:45:815 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.44715881347656,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:46:817 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:46:817 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.53533172607422,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:47:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:47:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.4428482055664,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:48:808 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:48:808 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.57669067382812,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:25:49:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:49:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.45639038085938,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:50:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:50:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.62785339355469,"z":20.102148056030273}}
+SERVER 
+COMMAND testfor @a[name=ArenaClock,family=clock_sword_skill]
+SERVER [2026-11-07 09:25:51:706 ERROR] No targets matched selector
+SERVER [2026-11-07 09:25:51:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:51:806 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.43144226074219,"z":20.102148056030273}}
+SERVER 
+COMMAND testfor @a[name=ArenaClock,hasitem={item=effect:clock_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 09:25:52:706 INFO] Found ArenaClock
+SERVER [2026-11-07 09:25:52:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:52:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.61688232421875,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 09:25:53:708 INFO] randomtickspeed = 1
+SERVER [2026-11-07 09:25:53:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:53:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.46926879882812,"z":20.102148056030273}}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 09:25:54:706 INFO] Daytime is 2010
+SERVER [2026-11-07 09:25:54:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:54:806 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.52941131591797,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:55:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:55:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.46509552001953,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:56:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:56:806 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.5014419555664,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time query daytime
+SERVER [2026-11-07 09:25:57:706 INFO] Daytime is 2010
+SERVER [2026-11-07 09:25:57:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:57:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.49351501464844,"z":20.102148056030273}}
+SERVER 
+COMMAND replaceitem entity ArenaClock slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:25:58:706 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaClock with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:25:58:807 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:58:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.46421813964844,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:25:59:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:25:59:806 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.516845703125,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:26:00:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:26:00:806 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.46107482910156,"z":20.102148056030273}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 09:26:01:706 INFO] randomtickspeed = 1
+SERVER [2026-11-07 09:26:01:806 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:26:01:807 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:ink_sac","amount":2,"actorName":"","tags":[],"position":{"x":19.41975975036621,"y":100.55886840820312,"z":20.102148056030273}}
+SERVER 
+SERVER [2026-11-07 09:26:02:707 INFO] Server stop requested.
+SERVER [2026-11-07 09:26:02:709 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

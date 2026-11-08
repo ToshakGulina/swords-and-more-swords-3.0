@@ -1,0 +1,343 @@
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Starting Server
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Version: 1.20.50.03
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Build ID: 19782165
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Branch: r/20_u5
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1574.857 SERVER [2026-11-07 18:43:21:856 INFO] Configuration: Publish
+1574.857 SERVER [2026-11-07 18:43:21:857 INFO] Level Name: Bedrock level
+1574.858 SERVER [2026-11-07 18:43:21:857 INFO] No CDN config file found for dedicated server
+1574.858 SERVER [2026-11-07 18:43:21:857 INFO] Game mode: 0 Survival
+1574.858 SERVER [2026-11-07 18:43:21:857 INFO] Difficulty: 1 EASY
+1574.859 SERVER [2026-11-07 18:43:21:858 INFO] Content logging to console is enabled.
+1575.230 SERVER [2026-11-07 18:43:22:229 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+1575.230 SERVER [2026-11-07 18:43:22:229 INFO] Opening level 'worlds/Bedrock level/db'
+1575.617 SERVER [2026-11-07 18:43:22:616 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1575.617 SERVER [2026-11-07 18:43:22:616 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+1575.617 SERVER [2026-11-07 18:43:22:616 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1575.617 SERVER [2026-11-07 18:43:22:616 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+1575.837 SERVER [2026-11-07 18:43:22:837 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1575.837 SERVER [2026-11-07 18:43:22:837 INFO] IPv6 supported, port: 19133: Used for gameplay
+1575.910 SERVER [2026-11-07 18:43:22:910 INFO] Server started.
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] ================ TELEMETRY MESSAGE ===================
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] Server Telemetry is currently not enabled.
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] Enabling this telemetry helps us improve the game.
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO]
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] to the server.properties file in the handheld/src-server directory
+1575.911 SERVER [2026-11-07 18:43:22:910 INFO] ======================================================
+1576.545 SERVER [2026-11-07 18:43:23:544 INFO] Player connected: ArenaSilver, xuid:
+1576.889 BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+1577.051 BOT BOT HELD CONTENT {"network_id":0}
+1577.149 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1580.622 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1580.938 BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"2","position":{"x":-35.492332458496094,"y":33,"z":42.13105773925781}}
+1582.731 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"5","position":{"x":39.728885650634766,"y":69,"z":49.80323028564453}}
+1582.731 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"4","position":{"x":43.372467041015625,"y":69,"z":51.27470779418945}}
+1582.731 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"3","position":{"x":47.48550796508789,"y":68,"z":59.347015380859375}}
+1584.636 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1587.174 SERVER [2026-11-07 18:43:34:174 INFO] Player Spawned: ArenaSilver xuid: ,
+1587.190 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaSilver
+1587.346 SERVER [2026-11-07 18:43:34:345 INFO] Set ArenaSilver's game mode to Creative
+COMMAND gamerule doMobSpawning false
+1588.629 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule dodaylightcycle false
+COMMAND time set 18000
+1589.627 SERVER [2026-11-07 18:43:36:626 INFO] Set the time to 18000
+COMMAND weather clear 200
+1590.427 SERVER [2026-11-07 18:43:37:427 INFO] Changing to clear weather
+COMMAND tp ArenaSilver 50 100 50
+1591.227 SERVER [2026-11-07 18:43:38:226 INFO] Teleported ArenaSilver to 50.50, 100.00, 50.50
+1591.230 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+1591.343 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"14","position":{"x":65.6147689819336,"y":64,"z":50.300697326660156}}
+1591.343 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"11","position":{"x":69.28272247314453,"y":64,"z":49.13561248779297}}
+1591.343 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"8","position":{"x":51.51691818237305,"y":64,"z":62.277099609375}}
+1591.344 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"7","position":{"x":58.48539352416992,"y":64,"z":60.10054016113281}}
+1591.344 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"6","position":{"x":58.34844207763672,"y":100,"z":51.10601043701172}}
+1591.344 BOT BOT ENTITY {"type":"minecraft:zombie_pigman","runtime":"10","position":{"x":58.02939987182617,"y":100,"z":45.66353988647461}}
+1591.345 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"9","position":{"x":56.398216247558594,"y":100,"z":45.14719772338867}}
+1591.345 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"12","position":{"x":67.42229461669922,"y":64,"z":49.088417053222656}}
+1591.345 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"13","position":{"x":65.44136047363281,"y":64,"z":50.067588806152344}}
+1592.628 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 46 99 46 56 99 56 stone
+1594.228 SERVER [2026-11-07 18:43:41:227 ERROR] 0 blocks filled
+COMMAND fill 46 100 46 56 105 56 air
+1595.023 SERVER [2026-11-07 18:43:41:022 ERROR] 0 blocks filled
+COMMAND kill @e[type=entity:alpha_wolf]
+1595.827 SERVER [2026-11-07 18:43:42:826 ERROR] No targets matched selector
+MARK TIME 6000
+COMMAND time set 6000
+1596.227 SERVER [2026-11-07 18:43:43:226 INFO] Set the time to 6000
+COMMAND time query day
+1596.522 SERVER [2026-11-07 18:43:43:521 INFO] Day is 0
+1596.626 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time query daytime
+1596.827 SERVER [2026-11-07 18:43:43:826 INFO] Daytime is 6000
+COMMAND summon entity:alpha_wolf 51 100 50
+1597.123 SERVER [2026-11-07 18:43:43:122 INFO] Object successfully summoned
+1597.185 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"15","position":{"x":51.5,"y":100,"z":50.5}}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1597.372 SERVER [2026-11-07 18:43:44:371 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+1597.427 SERVER [2026-11-07 18:43:44:427 WARN] [Scripting] ARENA_WOLF {"id":"-77309411326","health":480,"max":480,"res":null,"reg":null}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1597.677 SERVER [2026-11-07 18:43:44:676 INFO] Found entity.entity:alpha_wolf.name
+1597.928 SERVER [2026-11-07 18:43:44:928 WARN] [Scripting] ARENA_WOLF {"id":"-77309411326","health":480,"max":480,"res":null,"reg":null}
+1598.427 SERVER [2026-11-07 18:43:45:426 WARN] [Scripting] ARENA_WOLF {"id":"-77309411326","health":480,"max":480,"res":null,"reg":null}
+1598.927 SERVER [2026-11-07 18:43:45:926 WARN] [Scripting] ARENA_WOLF {"id":"-77309411326","health":480,"max":480,"res":null,"reg":null}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1599.177 SERVER [2026-11-07 18:43:46:176 INFO] Found entity.entity:alpha_wolf.name
+1599.427 SERVER [2026-11-07 18:43:46:426 WARN] [Scripting] ARENA_WOLF {"id":"-77309411326","health":480,"max":480,"res":null,"reg":null}
+COMMAND kill @e[type=entity:alpha_wolf]
+1599.480 SERVER [2026-11-07 18:43:46:479 INFO] Killed entity.entity:alpha_wolf.name
+1599.480 SERVER [2026-11-07 18:43:46:480 WARN] [Scripting] ARENA_HURT {"damage":480,"source":"suicide","health":0,"res":null,"reg":null}
+1599.486 BOT BOT ENTITY EVENT {"runtime_entity_id":"15","event_id":"death_animation","data":0}
+MARK TIME 18000
+COMMAND time set 18000
+1599.828 SERVER [2026-11-07 18:43:46:827 INFO] Set the time to 18000
+COMMAND time query day
+1600.122 SERVER [2026-11-07 18:43:46:121 INFO] Day is 0
+COMMAND time query daytime
+1600.427 SERVER [2026-11-07 18:43:47:426 INFO] Daytime is 18000
+1600.587 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"19","position":{"x":49.339942932128906,"y":100,"z":51.90578842163086}}
+1600.587 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"17","position":{"x":49.339942932128906,"y":100,"z":51.90578842163086}}
+1600.588 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"16","position":{"x":49.339942932128906,"y":100,"z":51.90578842163086}}
+1600.588 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"18","position":{"x":49.339942932128906,"y":100,"z":51.90578842163086}}
+1600.628 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND summon entity:alpha_wolf 51 100 50
+1600.728 SERVER [2026-11-07 18:43:47:727 INFO] Object successfully summoned
+1600.780 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"20","position":{"x":51.5,"y":100,"z":50.5}}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1600.977 SERVER [2026-11-07 18:43:47:976 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1601.273 SERVER [2026-11-07 18:43:48:273 INFO] Found entity.entity:alpha_wolf.name
+1601.428 SERVER [2026-11-07 18:43:48:427 WARN] [Scripting] ARENA_WOLF {"id":"-77309411321","health":480,"max":480,"res":null,"reg":null}
+1601.480 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.533 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.583 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.633 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.686 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.736 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.776 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.837 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.878 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.928 SERVER [2026-11-07 18:43:48:927 WARN] [Scripting] ARENA_WOLF {"id":"-77309411321","health":480,"max":480,"res":null,"reg":null}
+1601.941 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1601.991 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.033 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.085 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.125 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.188 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.232 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.281 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.335 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.385 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.427 SERVER [2026-11-07 18:43:49:427 WARN] [Scripting] ARENA_WOLF {"id":"-77309411321","health":480,"max":480,"res":null,"reg":null}
+1602.435 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.485 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.538 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.589 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.630 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.689 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1602.732 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.772 SERVER [2026-11-07 18:43:49:772 INFO] Found entity.entity:alpha_wolf.name
+1602.782 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.832 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.882 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.927 SERVER [2026-11-07 18:43:49:927 WARN] [Scripting] ARENA_WOLF {"id":"-77309411321","health":480,"max":480,"res":null,"reg":null}
+1602.935 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1602.985 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+COMMAND kill @e[type=entity:alpha_wolf]
+1603.025 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1603.078 SERVER [2026-11-07 18:43:49:077 INFO] Killed entity.entity:alpha_wolf.name
+1603.078 SERVER [2026-11-07 18:43:49:078 WARN] [Scripting] ARENA_HURT {"damage":480,"source":"suicide","health":0,"res":null,"reg":null}
+1603.088 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1603.088 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"death_animation","data":0}
+MARK TIME 30000
+COMMAND time set 30000
+1603.372 SERVER [2026-11-07 18:43:50:372 INFO] Set the time to 30000
+COMMAND time query day
+1603.677 SERVER [2026-11-07 18:43:50:677 INFO] Day is 1
+COMMAND time query daytime
+1603.977 SERVER [2026-11-07 18:43:50:976 INFO] Daytime is 6000
+COMMAND summon entity:alpha_wolf 51 100 50
+1604.273 SERVER [2026-11-07 18:43:51:272 INFO] Object successfully summoned
+1604.334 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"21","position":{"x":51.5,"y":100,"z":50.5}}
+1604.384 BOT BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"shake_wet","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1604.523 SERVER [2026-11-07 18:43:51:523 ERROR] No targets matched selector
+1604.634 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1604.827 SERVER [2026-11-07 18:43:51:826 ERROR] No targets matched selector
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1606.323 SERVER [2026-11-07 18:43:53:322 ERROR] No targets matched selector
+COMMAND kill @e[type=entity:alpha_wolf]
+1606.623 SERVER [2026-11-07 18:43:53:623 ERROR] No targets matched selector
+MARK TIME 42000
+COMMAND time set 42000
+1606.927 SERVER [2026-11-07 18:43:53:927 INFO] Set the time to 42000
+COMMAND time query day
+1607.228 SERVER [2026-11-07 18:43:54:227 INFO] Day is 1
+COMMAND time query daytime
+1607.528 SERVER [2026-11-07 18:43:54:527 INFO] Daytime is 18000
+COMMAND summon entity:alpha_wolf 51 100 50
+1607.823 SERVER [2026-11-07 18:43:54:822 INFO] Object successfully summoned
+1607.880 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"22","position":{"x":51.5,"y":100,"z":50.5}}
+1607.939 BOT BOT ENTITY EVENT {"runtime_entity_id":"22","event_id":"shake_wet","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1608.072 SERVER [2026-11-07 18:43:54:071 ERROR] No targets matched selector
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1608.372 SERVER [2026-11-07 18:43:55:371 ERROR] No targets matched selector
+1608.630 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1609.872 SERVER [2026-11-07 18:43:56:871 ERROR] No targets matched selector
+COMMAND kill @e[type=entity:alpha_wolf]
+1610.178 SERVER [2026-11-07 18:43:57:178 ERROR] No targets matched selector
+MARK TIME 18000
+COMMAND time set 18000
+1610.477 SERVER [2026-11-07 18:43:57:476 INFO] Set the time to 18000
+COMMAND time query day
+1610.777 SERVER [2026-11-07 18:43:57:777 INFO] Day is 0
+COMMAND time query daytime
+1611.072 SERVER [2026-11-07 18:43:57:071 INFO] Daytime is 18000
+COMMAND summon entity:alpha_wolf 51 100 50
+1611.374 SERVER [2026-11-07 18:43:58:373 INFO] Object successfully summoned
+1611.447 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"23","position":{"x":51.5,"y":100,"z":50.5}}
+1611.481 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.531 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1611.581 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.623 SERVER [2026-11-07 18:43:58:623 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+1611.634 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.684 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.734 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.784 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.825 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1611.879 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.928 SERVER [2026-11-07 18:43:58:928 INFO] Found entity.entity:alpha_wolf.name
+1611.929 SERVER [2026-11-07 18:43:58:928 WARN] [Scripting] ARENA_WOLF {"id":"-77309411318","health":480,"max":480,"res":null,"reg":null}
+1611.938 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1611.988 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.042 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.082 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.133 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.183 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.232 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.285 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.335 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.376 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.427 SERVER [2026-11-07 18:43:59:427 WARN] [Scripting] ARENA_WOLF {"id":"-77309411318","health":480,"max":480,"res":null,"reg":null}
+1612.438 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.489 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.538 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.579 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.629 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.629 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1612.682 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.732 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.782 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.832 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.876 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.928 SERVER [2026-11-07 18:43:59:927 WARN] [Scripting] ARENA_WOLF {"id":"-77309411318","health":480,"max":480,"res":null,"reg":null}
+1612.936 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1612.986 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.036 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.076 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.129 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.189 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.242 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.282 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.333 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1613.373 SERVER [2026-11-07 18:44:00:373 INFO] Found entity.entity:alpha_wolf.name
+1613.383 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.429 SERVER [2026-11-07 18:44:00:428 WARN] [Scripting] ARENA_WOLF {"id":"-77309411318","health":480,"max":480,"res":null,"reg":null}
+1613.433 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.486 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.536 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.577 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.627 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+COMMAND kill @e[type=entity:alpha_wolf]
+1613.678 SERVER [2026-11-07 18:44:00:678 INFO] Killed entity.entity:alpha_wolf.name
+1613.679 SERVER [2026-11-07 18:44:00:678 WARN] [Scripting] ARENA_HURT {"damage":480,"source":"suicide","health":0,"res":null,"reg":null}
+1613.690 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"shake_wet","data":0}
+1613.690 BOT BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"death_animation","data":0}
+MARK TIME 6000
+COMMAND time set 6000
+1613.978 SERVER [2026-11-07 18:44:00:977 INFO] Set the time to 6000
+COMMAND time query day
+1614.278 SERVER [2026-11-07 18:44:01:277 INFO] Day is 0
+COMMAND time query daytime
+1614.572 SERVER [2026-11-07 18:44:01:571 INFO] Daytime is 6000
+1614.787 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"25","position":{"x":51.610130310058594,"y":100,"z":50.5}}
+1614.788 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"24","position":{"x":51.610130310058594,"y":100,"z":50.5}}
+1614.788 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"27","position":{"x":51.610130310058594,"y":100,"z":50.5}}
+1614.789 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"26","position":{"x":51.610130310058594,"y":100,"z":50.5}}
+COMMAND summon entity:alpha_wolf 51 100 50
+1614.873 SERVER [2026-11-07 18:44:01:872 INFO] Object successfully summoned
+1614.931 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"28","position":{"x":51.5,"y":100,"z":50.5}}
+1614.981 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.033 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.083 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1615.122 SERVER [2026-11-07 18:44:01:122 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+1615.133 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.186 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.236 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.286 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.327 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.377 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1615.427 SERVER [2026-11-07 18:44:02:426 INFO] Found entity.entity:alpha_wolf.name
+1615.427 SERVER [2026-11-07 18:44:02:427 WARN] [Scripting] ARENA_WOLF {"id":"-77309411313","health":480,"max":480,"res":null,"reg":null}
+1615.439 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.479 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.529 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.582 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.632 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.681 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.734 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.785 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.825 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.875 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.928 SERVER [2026-11-07 18:44:02:928 WARN] [Scripting] ARENA_WOLF {"id":"-77309411313","health":480,"max":480,"res":null,"reg":null}
+1615.940 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1615.980 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.030 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.083 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.133 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.183 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.235 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.285 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.335 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.376 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.428 SERVER [2026-11-07 18:44:03:428 WARN] [Scripting] ARENA_WOLF {"id":"-77309411313","health":480,"max":480,"res":null,"reg":null}
+1616.438 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.488 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.538 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.578 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.631 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.631 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1616.681 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.731 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.784 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.833 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.883 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1616.927 SERVER [2026-11-07 18:44:03:927 INFO] Found entity.entity:alpha_wolf.name
+1616.927 SERVER [2026-11-07 18:44:03:927 WARN] [Scripting] ARENA_WOLF {"id":"-77309411313","health":480,"max":480,"res":null,"reg":null}
+1616.936 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1616.986 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1617.036 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1617.077 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1617.126 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1617.188 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+COMMAND kill @e[type=entity:alpha_wolf]
+1617.228 SERVER [2026-11-07 18:44:04:227 INFO] Killed entity.entity:alpha_wolf.name
+1617.228 SERVER [2026-11-07 18:44:04:227 WARN] [Scripting] ARENA_HURT {"damage":480,"source":"suicide","health":0,"res":null,"reg":null}
+1617.238 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"shake_wet","data":0}
+1617.238 BOT BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"death_animation","data":0}
+1617.572 SERVER [2026-11-07 18:44:04:571 INFO] Server stop requested.
+1617.611 SERVER [2026-11-07 18:44:04:610 INFO] Stopping server...
+DONE

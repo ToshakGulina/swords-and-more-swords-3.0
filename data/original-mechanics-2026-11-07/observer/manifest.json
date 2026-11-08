@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Arena Observer",
+    "description": "Diagnostic health observation and explicitly requested test item creation",
+    "uuid": "e11693e4-2026-471b-a2de-e62a4fd51ab9",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ad28f812-8b9b-4e82-a5f6-9d6dc86e41ee",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "b7be3b30-1496-4bba-960a-e06c1d64ad47",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:55:03:176 INFO] Starting Server
+[2026-11-07 07:55:03:176 INFO] Version: 1.20.50.03
+[2026-11-07 07:55:03:176 INFO] Build ID: 19782165
+[2026-11-07 07:55:03:176 INFO] Branch: r/20_u5
+[2026-11-07 07:55:03:176 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:55:03:176 INFO] Configuration: Publish
+[2026-11-07 07:55:03:176 INFO] Level Name: Arena original
+[2026-11-07 07:55:03:177 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:55:03:177 INFO] Game mode: 1 Creative
+[2026-11-07 07:55:03:177 INFO] Difficulty: 1 EASY
+[2026-11-07 07:55:03:177 INFO] Content logging to console is enabled.
+[2026-11-07 07:55:03:524 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_55_03
+[2026-11-07 07:55:03:524 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:55:03:524 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:55:04:877 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:55:04:877 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:55:04:878 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:55:04:878 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:55:04:113 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:55:04:113 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:55:04:197 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 32 260 16 1 forced_result true
+[2026-11-07 07:55:04:197 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:55:04:197 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:55:04:197 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:55:04:197 INFO] 
+[2026-11-07 07:55:04:197 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:55:04:197 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:55:04:197 INFO] ======================================================
+[2026-11-07 07:55:04:421 INFO] Added ticking area centered at 40, 0, 24 with a radius of 1 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:55:16:272 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:55:16:572 INFO] Killed item.effect:fire_sword
+HARNESS COMMAND: structure load fire_sword 35 260 17
+[2026-11-07 07:55:17:872 INFO] Loaded a structure of name fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:55:17:472 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: event entity @e[type=item,tag=fire_sword,c=1] fire_sword_event_1
+[2026-11-07 07:55:18:851 INFO] fire_sword_event_1 successfully executed on: minecraft:item
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:55:19:772 INFO] Found item.effect:obsidian_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:55:19:172 ERROR] No targets matched selector
+HARNESS COMMAND: tickingarea remove forced_result
+[2026-11-07 07:55:19:572 INFO] Removed ticking area(s)
+- forced_result (Circle): 40 0 24 Radius: 1 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:55:21:872 INFO] Server stop requested.
+[2026-11-07 07:55:21:882 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

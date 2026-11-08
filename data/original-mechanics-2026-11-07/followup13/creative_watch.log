@@ -1,0 +1,409 @@
+1563.753 SERVER NO LOG FILE! - setting up server logging...
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Starting Server
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Version: 1.20.50.03
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Build ID: 19782165
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Branch: r/20_u5
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1563.753 SERVER [2026-11-08 09:45:29:752 INFO] Configuration: Publish
+1563.753 SERVER [2026-11-08 09:45:29:753 INFO] Level Name: ArenaSlime
+1563.754 SERVER [2026-11-08 09:45:29:753 INFO] No CDN config file found for dedicated server
+1563.754 SERVER [2026-11-08 09:45:29:753 INFO] Game mode: 1 Creative
+1563.754 SERVER [2026-11-08 09:45:29:753 INFO] Difficulty: 2 NORMAL
+1563.755 SERVER [2026-11-08 09:45:29:754 INFO] Content logging to console is enabled.
+1564.139 SERVER [2026-11-08 09:45:29:138 INFO] Experiment(s) active: ddi_, ucft, gtst
+1564.139 SERVER [2026-11-08 09:45:29:138 INFO] Opening level 'worlds/ArenaSlime/db'
+1564.518 SERVER [2026-11-08 09:45:30:517 ERROR] [FeatureRegistry] ArenaSlime | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1564.518 SERVER 
+1564.518 SERVER [2026-11-08 09:45:30:517 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:quartz_diamond_ore'
+1564.518 SERVER 
+1564.518 SERVER [2026-11-08 09:45:30:517 ERROR] [FeatureRegistry] ArenaSlime | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1564.518 SERVER 
+1564.518 SERVER [2026-11-08 09:45:30:517 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:silver_ore'
+1564.518 SERVER 
+1564.733 SERVER [2026-11-08 09:45:30:733 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1564.733 SERVER [2026-11-08 09:45:30:733 INFO] IPv6 supported, port: 19133: Used for gameplay
+1564.810 SERVER [2026-11-08 09:45:30:810 INFO] Server started.
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] ================ TELEMETRY MESSAGE ===================
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] Server Telemetry is currently not enabled.
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] Enabling this telemetry helps us improve the game.
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO]
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] to the server.properties file in the handheld/src-server directory
+1564.811 SERVER [2026-11-08 09:45:30:810 INFO] ======================================================
+1565.430 SERVER [2026-11-08 09:45:31:430 INFO] Player connected: ArenaGiveTwo, xuid:
+1576.109 SERVER [2026-11-08 09:45:41:108 INFO] Player Spawned: ArenaGiveTwo xuid: ,
+1576.119 BOT BOT SPAWN 1
+COMMAND gamerule doMobSpawning false
+COMMAND gamemode creative ArenaGiveTwo
+1576.511 SERVER [2026-11-08 09:45:42:511 INFO] Set ArenaGiveTwo's game mode to Creative
+COMMAND tp ArenaGiveTwo 50 110 50
+1576.861 SERVER [2026-11-08 09:45:42:860 INFO] Teleported ArenaGiveTwo to 50.50, 110.00, 50.50
+COMMAND fill 40 99 40 60 99 60 stone
+1579.911 SERVER [2026-11-08 09:45:45:911 ERROR] 0 blocks filled
+COMMAND fill 40 100 40 60 106 60 air
+1580.267 SERVER [2026-11-08 09:45:46:267 ERROR] 0 blocks filled
+COMMAND tp ArenaGiveTwo 50 100 50
+1580.616 SERVER [2026-11-08 09:45:46:616 INFO] Teleported ArenaGiveTwo to 50.50, 100.00, 50.50
+COMMAND gamemode creative ArenaGiveTwo
+1582.617 SERVER [2026-11-08 09:45:48:616 INFO] Set ArenaGiveTwo's game mode to Creative
+COMMAND clear ArenaGiveTwo
+1582.962 SERVER [2026-11-08 09:45:48:961 ERROR] Could not clear the inventory of ArenaGiveTwo, no items to remove
+COMMAND execute as ArenaGiveTwo at @s run kill @e[type=item,r=20]
+1583.312 SERVER [2026-11-08 09:45:49:311 INFO] Killed item.effect:silver_sword
+COMMAND give ArenaGiveTwo diamond 2304
+1583.663 SERVER [2026-11-08 09:45:49:663 INFO] Gave Diamond * 2304 to ArenaGiveTwo
+COMMAND scriptevent arena:giveprobe creative_before_watch
+1584.017 SERVER [2026-11-08 09:45:49:016 INFO] Script event arena:giveprobe has been sent
+1584.018 SERVER [2026-11-08 09:45:49:017 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_before_watch","tick":3678,"playerLocation":{"x":50.5,"y":100,"z":50.5},"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1584.018 SERVER 
+COMMAND scriptevent arena:givewatch creative_sword
+1585.017 SERVER [2026-11-08 09:45:50:016 INFO] Script event arena:givewatch has been sent
+1585.062 SERVER [2026-11-08 09:45:50:061 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3699,"n":0,"items":[]}
+1585.062 SERVER 
+1585.117 SERVER [2026-11-08 09:45:50:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3700,"n":1,"items":[]}
+1585.117 SERVER 
+COMMAND give ArenaGiveTwo iron_sword 1
+1585.162 SERVER [2026-11-08 09:45:50:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3701,"n":2,"items":[]}
+1585.162 SERVER 
+1585.212 SERVER [2026-11-08 09:45:51:211 INFO] Gave Iron Sword * 1 to ArenaGiveTwo
+1585.212 SERVER [2026-11-08 09:45:51:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3702,"n":3,"items":[]}
+1585.212 SERVER 
+1585.267 SERVER [2026-11-08 09:45:51:267 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3703,"n":4,"items":[]}
+1585.267 SERVER 
+1585.312 SERVER [2026-11-08 09:45:51:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3704,"n":5,"items":[]}
+1585.312 SERVER 
+1585.367 SERVER [2026-11-08 09:45:51:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3705,"n":6,"items":[]}
+1585.367 SERVER 
+1585.412 SERVER [2026-11-08 09:45:51:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3706,"n":7,"items":[]}
+1585.412 SERVER 
+1585.463 SERVER [2026-11-08 09:45:51:463 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3707,"n":8,"items":[]}
+1585.464 SERVER 
+1585.517 SERVER [2026-11-08 09:45:51:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3708,"n":9,"items":[]}
+1585.517 SERVER 
+1585.562 SERVER [2026-11-08 09:45:51:561 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3709,"n":10,"items":[]}
+1585.562 SERVER 
+1585.617 SERVER [2026-11-08 09:45:51:616 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3710,"n":11,"items":[]}
+1585.617 SERVER 
+1585.664 SERVER [2026-11-08 09:45:51:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3711,"n":12,"items":[]}
+1585.664 SERVER 
+1585.712 SERVER [2026-11-08 09:45:51:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3712,"n":13,"items":[]}
+1585.712 SERVER 
+1585.767 SERVER [2026-11-08 09:45:51:767 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3713,"n":14,"items":[]}
+1585.767 SERVER 
+1585.812 SERVER [2026-11-08 09:45:51:811 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3714,"n":15,"items":[]}
+1585.812 SERVER 
+1585.867 SERVER [2026-11-08 09:45:51:866 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3715,"n":16,"items":[]}
+1585.867 SERVER 
+1585.911 SERVER [2026-11-08 09:45:51:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3716,"n":17,"items":[]}
+1585.911 SERVER 
+1585.961 SERVER [2026-11-08 09:45:51:961 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3717,"n":18,"items":[]}
+1585.961 SERVER 
+1586.016 SERVER [2026-11-08 09:45:51:016 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3718,"n":19,"items":[]}
+1586.016 SERVER 
+1586.064 SERVER [2026-11-08 09:45:51:064 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3719,"n":20,"items":[]}
+1586.064 SERVER 
+1586.117 SERVER [2026-11-08 09:45:51:117 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3720,"n":21,"items":[]}
+1586.117 SERVER 
+COMMAND scriptevent arena:giveprobe creative_after_watch
+1586.162 SERVER [2026-11-08 09:45:51:161 INFO] Script event arena:giveprobe has been sent
+1586.162 SERVER [2026-11-08 09:45:51:162 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3721,"n":22,"items":[]}
+1586.162 SERVER 
+1586.163 SERVER [2026-11-08 09:45:51:162 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_after_watch","tick":3721,"playerLocation":{"x":50.5,"y":100,"z":50.5},"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1586.163 SERVER 
+1586.212 SERVER [2026-11-08 09:45:52:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3722,"n":23,"items":[]}
+1586.212 SERVER 
+1586.267 SERVER [2026-11-08 09:45:52:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3723,"n":24,"items":[]}
+1586.267 SERVER 
+1586.312 SERVER [2026-11-08 09:45:52:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3724,"n":25,"items":[]}
+1586.312 SERVER 
+1586.367 SERVER [2026-11-08 09:45:52:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3725,"n":26,"items":[]}
+1586.367 SERVER 
+1586.412 SERVER [2026-11-08 09:45:52:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3726,"n":27,"items":[]}
+1586.412 SERVER 
+1586.462 SERVER [2026-11-08 09:45:52:461 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3727,"n":28,"items":[]}
+1586.462 SERVER 
+1586.517 SERVER [2026-11-08 09:45:52:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3728,"n":29,"items":[]}
+1586.517 SERVER 
+1586.562 SERVER [2026-11-08 09:45:52:561 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3729,"n":30,"items":[]}
+1586.562 SERVER 
+1586.616 SERVER [2026-11-08 09:45:52:616 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3730,"n":31,"items":[]}
+1586.616 SERVER 
+1586.662 SERVER [2026-11-08 09:45:52:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3731,"n":32,"items":[]}
+1586.662 SERVER 
+1586.712 SERVER [2026-11-08 09:45:52:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3732,"n":33,"items":[]}
+1586.712 SERVER 
+1586.767 SERVER [2026-11-08 09:45:52:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3733,"n":34,"items":[]}
+1586.767 SERVER 
+1586.812 SERVER [2026-11-08 09:45:52:811 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3734,"n":35,"items":[]}
+1586.812 SERVER 
+1586.867 SERVER [2026-11-08 09:45:52:866 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3735,"n":36,"items":[]}
+1586.867 SERVER 
+1586.911 SERVER [2026-11-08 09:45:52:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3736,"n":37,"items":[]}
+1586.911 SERVER 
+1586.961 SERVER [2026-11-08 09:45:52:961 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3737,"n":38,"items":[]}
+1586.961 SERVER 
+1587.016 SERVER [2026-11-08 09:45:52:016 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3738,"n":39,"items":[]}
+1587.016 SERVER 
+1587.061 SERVER [2026-11-08 09:45:52:061 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3739,"n":40,"items":[]}
+1587.061 SERVER 
+1587.116 SERVER [2026-11-08 09:45:52:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3740,"n":41,"items":[]}
+1587.116 SERVER 
+1587.162 SERVER [2026-11-08 09:45:52:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3741,"n":42,"items":[]}
+1587.162 SERVER 
+1587.212 SERVER [2026-11-08 09:45:53:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3742,"n":43,"items":[]}
+1587.212 SERVER 
+1587.267 SERVER [2026-11-08 09:45:53:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3743,"n":44,"items":[]}
+1587.267 SERVER 
+1587.312 SERVER [2026-11-08 09:45:53:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3744,"n":45,"items":[]}
+1587.312 SERVER 
+1587.368 SERVER [2026-11-08 09:45:53:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3745,"n":46,"items":[]}
+1587.368 SERVER 
+1587.411 SERVER [2026-11-08 09:45:53:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3746,"n":47,"items":[]}
+1587.412 SERVER 
+1587.462 SERVER [2026-11-08 09:45:53:461 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3747,"n":48,"items":[]}
+1587.462 SERVER 
+1587.518 SERVER [2026-11-08 09:45:53:517 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3748,"n":49,"items":[]}
+1587.518 SERVER 
+1587.562 SERVER [2026-11-08 09:45:53:561 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3749,"n":50,"items":[]}
+1587.562 SERVER 
+1587.617 SERVER [2026-11-08 09:45:53:616 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3750,"n":51,"items":[]}
+1587.617 SERVER 
+1587.662 SERVER [2026-11-08 09:45:53:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3751,"n":52,"items":[]}
+1587.662 SERVER 
+1587.712 SERVER [2026-11-08 09:45:53:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3752,"n":53,"items":[]}
+1587.712 SERVER 
+1587.767 SERVER [2026-11-08 09:45:53:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3753,"n":54,"items":[]}
+1587.767 SERVER 
+1587.813 SERVER [2026-11-08 09:45:53:812 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3754,"n":55,"items":[]}
+1587.813 SERVER 
+1587.867 SERVER [2026-11-08 09:45:53:866 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3755,"n":56,"items":[]}
+1587.867 SERVER 
+1587.911 SERVER [2026-11-08 09:45:53:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3756,"n":57,"items":[]}
+1587.911 SERVER 
+1587.962 SERVER [2026-11-08 09:45:53:961 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3757,"n":58,"items":[]}
+1587.962 SERVER 
+1588.017 SERVER [2026-11-08 09:45:53:017 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3758,"n":59,"items":[]}
+1588.017 SERVER 
+1588.062 SERVER [2026-11-08 09:45:53:061 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3759,"n":60,"items":[]}
+1588.062 SERVER 
+1588.116 SERVER [2026-11-08 09:45:53:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3760,"n":61,"items":[]}
+1588.116 SERVER 
+1588.161 SERVER [2026-11-08 09:45:53:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3761,"n":62,"items":[]}
+1588.161 SERVER 
+1588.211 SERVER [2026-11-08 09:45:54:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3762,"n":63,"items":[]}
+1588.211 SERVER 
+1588.267 SERVER [2026-11-08 09:45:54:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3763,"n":64,"items":[]}
+1588.267 SERVER 
+1588.311 SERVER [2026-11-08 09:45:54:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3764,"n":65,"items":[]}
+1588.311 SERVER 
+1588.367 SERVER [2026-11-08 09:45:54:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3765,"n":66,"items":[]}
+1588.367 SERVER 
+1588.412 SERVER [2026-11-08 09:45:54:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3766,"n":67,"items":[]}
+1588.412 SERVER 
+1588.463 SERVER [2026-11-08 09:45:54:463 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3767,"n":68,"items":[]}
+1588.463 SERVER 
+1588.517 SERVER [2026-11-08 09:45:54:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3768,"n":69,"items":[]}
+1588.517 SERVER 
+1588.561 SERVER [2026-11-08 09:45:54:561 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3769,"n":70,"items":[]}
+1588.561 SERVER 
+1588.616 SERVER [2026-11-08 09:45:54:615 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3770,"n":71,"items":[]}
+1588.616 SERVER 
+1588.662 SERVER [2026-11-08 09:45:54:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3771,"n":72,"items":[]}
+1588.662 SERVER 
+1588.711 SERVER [2026-11-08 09:45:54:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3772,"n":73,"items":[]}
+1588.711 SERVER 
+1588.767 SERVER [2026-11-08 09:45:54:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3773,"n":74,"items":[]}
+1588.767 SERVER 
+1588.813 SERVER [2026-11-08 09:45:54:812 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3774,"n":75,"items":[]}
+1588.813 SERVER 
+1588.868 SERVER [2026-11-08 09:45:54:867 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3775,"n":76,"items":[]}
+1588.868 SERVER 
+1588.912 SERVER [2026-11-08 09:45:54:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3776,"n":77,"items":[]}
+1588.912 SERVER 
+1588.963 SERVER [2026-11-08 09:45:54:963 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3777,"n":78,"items":[]}
+1588.964 SERVER 
+1589.017 SERVER [2026-11-08 09:45:54:017 WARN] [Scripting] GIVE_WATCH {"label":"creative_sword","tick":3778,"n":79,"items":[]}
+1589.017 SERVER 
+COMMAND clear ArenaGiveTwo
+1590.162 SERVER [2026-11-08 09:45:55:161 INFO] Cleared the inventory of ArenaGiveTwo, removing 2304 items
+COMMAND execute as ArenaGiveTwo at @s run kill @e[type=item,r=20]
+1590.516 SERVER [2026-11-08 09:45:56:516 ERROR] No targets matched selector
+1590.516 SERVER Failed to execute 'kill' as ArenaGiveTwo
+COMMAND give ArenaGiveTwo diamond 128
+1590.866 SERVER [2026-11-08 09:45:56:866 INFO] Gave Diamond * 128 to ArenaGiveTwo
+COMMAND scriptevent arena:giveprobe creative_function_before
+1591.211 SERVER [2026-11-08 09:45:57:211 INFO] Script event arena:giveprobe has been sent
+1591.212 SERVER [2026-11-08 09:45:57:211 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_function_before","tick":3822,"playerLocation":{"x":50.5,"y":100,"z":50.5},"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64}],"empty":34,"drops":[]}
+1591.212 SERVER 
+COMMAND scriptevent arena:givewatch creative_function
+1592.212 SERVER [2026-11-08 09:45:58:211 INFO] Script event arena:givewatch has been sent
+1592.267 SERVER [2026-11-08 09:45:58:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3843,"n":0,"items":[]}
+1592.267 SERVER 
+1592.312 SERVER [2026-11-08 09:45:58:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3844,"n":1,"items":[]}
+1592.312 SERVER 
+1592.367 SERVER [2026-11-08 09:45:58:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3845,"n":2,"items":[]}
+1592.367 SERVER 
+COMMAND execute as ArenaGiveTwo at @s run function give
+1592.414 SERVER [2026-11-08 09:45:58:413 INFO] Successfully executed 35 function entries.
+1592.414 SERVER [2026-11-08 09:45:58:413 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3846,"n":3,"items":[]}
+1592.414 SERVER 
+1592.469 SERVER [2026-11-08 09:45:58:468 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3847,"n":4,"items":[]}
+1592.469 SERVER 
+1592.516 SERVER [2026-11-08 09:45:58:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3848,"n":5,"items":[]}
+1592.516 SERVER 
+1592.561 SERVER [2026-11-08 09:45:58:560 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3849,"n":6,"items":[]}
+1592.561 SERVER 
+1592.616 SERVER [2026-11-08 09:45:58:615 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3850,"n":7,"items":[]}
+1592.616 SERVER 
+1592.662 SERVER [2026-11-08 09:45:58:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3851,"n":8,"items":[]}
+1592.662 SERVER 
+1592.711 SERVER [2026-11-08 09:45:58:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3852,"n":9,"items":[]}
+1592.711 SERVER 
+1592.767 SERVER [2026-11-08 09:45:58:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3853,"n":10,"items":[]}
+1592.767 SERVER 
+1592.813 SERVER [2026-11-08 09:45:58:812 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3854,"n":11,"items":[]}
+1592.813 SERVER 
+1592.867 SERVER [2026-11-08 09:45:58:867 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3855,"n":12,"items":[]}
+1592.867 SERVER 
+1592.912 SERVER [2026-11-08 09:45:58:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3856,"n":13,"items":[]}
+1592.912 SERVER 
+1592.962 SERVER [2026-11-08 09:45:58:961 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3857,"n":14,"items":[]}
+1592.962 SERVER 
+1593.017 SERVER [2026-11-08 09:45:58:017 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3858,"n":15,"items":[]}
+1593.017 SERVER 
+1593.062 SERVER [2026-11-08 09:45:58:061 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3859,"n":16,"items":[]}
+1593.062 SERVER 
+1593.116 SERVER [2026-11-08 09:45:58:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3860,"n":17,"items":[]}
+1593.116 SERVER 
+1593.162 SERVER [2026-11-08 09:45:58:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3861,"n":18,"items":[]}
+1593.162 SERVER 
+1593.212 SERVER [2026-11-08 09:45:59:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3862,"n":19,"items":[]}
+1593.212 SERVER 
+1593.267 SERVER [2026-11-08 09:45:59:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3863,"n":20,"items":[]}
+1593.267 SERVER 
+1593.311 SERVER [2026-11-08 09:45:59:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3864,"n":21,"items":[]}
+1593.312 SERVER 
+1593.367 SERVER [2026-11-08 09:45:59:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3865,"n":22,"items":[]}
+1593.367 SERVER 
+COMMAND scriptevent arena:giveprobe creative_function_after
+1593.411 SERVER [2026-11-08 09:45:59:411 INFO] Script event arena:giveprobe has been sent
+1593.412 SERVER [2026-11-08 09:45:59:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3866,"n":23,"items":[]}
+1593.412 SERVER 
+1593.412 SERVER [2026-11-08 09:45:59:412 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_function_after","tick":3866,"playerLocation":{"x":50.5,"y":100,"z":50.5},"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"effect:blaze_sword","count":1},{"slot":3,"id":"effect:bone_sword","count":1},{"slot":4,"id":"effect:cactus_sword","count":1},{"slot":5,"id":"effect:coal_sword","count":1},{"slot":6,"id":"effect:creeper_sword","count":1},{"slot":7,"id":"effect:emerald_sword","count":1},{"slot":8,"id":"effect:ender_sword","count":1},{"slot":9,"id":"effect:fire_sword","count":1},{"slot":10,"id":"effect:glowstone_sword","count":1},{"slot":11,"id":"effect:grass_sword","count":1},{"slot":12,"id":"effect:ice_sword","count":1},{"slot":13,"id":"effect:jungle_sword","count":1},{"slot":14,"id":"effect:lapis_sword","count":1},{"slot":15,"id":"effect:lightning_sword","count":1},{"slot":16,"id":"effect:magma_sword","count":1},{"slot":17,"id":"effect:obsidian_sword","count":1},{"slot":18,"id":"effect:quartz_sword","count":1},{"slot":19,"id":"effect:sea_sword","count":1},{"slot":20,"id":"effect:shulker_sword","count":1},{"slot":21,"id":"effect:slime_sword","count":1},{"slot":22,"id":"effect:spectral_sword","count":1},{"slot":23,"id":"effect:spider_sword","count":1},{"slot":24,"id":"effect:sponge_sword","count":1},{"slot":25,"id":"effect:time_sword","count":1},{"slot":26,"id":"effect:tnt_sword","count":1},{"slot":27,"id":"effect:wither_sword","count":1},{"slot":28,"id":"effect:wolf_sword","count":1},{"slot":29,"id":"effect:ultra_instinct_sword","count":1},{"slot":30,"id":"effect:wither_skeleton_sword","count":1},{"slot":31,"id":"effect:glass_sword","count":1},{"slot":32,"id":"effect:clock_sword","count":1},{"slot":33,"id":"effect:ghost_sword","count":1},{"slot":34,"id":"effect:bedrock_sword","count":1},{"slot":35,"id":"effect:nether_star_sword","count":1}],"empty":0,"drops":[]}
+1593.412 SERVER 
+1593.462 SERVER [2026-11-08 09:45:59:461 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3867,"n":24,"items":[]}
+1593.462 SERVER 
+1593.516 SERVER [2026-11-08 09:45:59:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3868,"n":25,"items":[]}
+1593.516 SERVER 
+1593.562 SERVER [2026-11-08 09:45:59:561 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3869,"n":26,"items":[]}
+1593.562 SERVER 
+1593.617 SERVER [2026-11-08 09:45:59:616 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3870,"n":27,"items":[]}
+1593.617 SERVER 
+1593.662 SERVER [2026-11-08 09:45:59:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3871,"n":28,"items":[]}
+1593.662 SERVER 
+1593.711 SERVER [2026-11-08 09:45:59:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3872,"n":29,"items":[]}
+1593.712 SERVER 
+1593.767 SERVER [2026-11-08 09:45:59:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3873,"n":30,"items":[]}
+1593.767 SERVER 
+1593.811 SERVER [2026-11-08 09:45:59:811 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3874,"n":31,"items":[]}
+1593.811 SERVER 
+1593.869 SERVER [2026-11-08 09:45:59:868 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3875,"n":32,"items":[]}
+1593.869 SERVER 
+1593.912 SERVER [2026-11-08 09:45:59:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3876,"n":33,"items":[]}
+1593.912 SERVER 
+1593.962 SERVER [2026-11-08 09:45:59:961 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3877,"n":34,"items":[]}
+1593.962 SERVER 
+1594.017 SERVER [2026-11-08 09:45:59:016 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3878,"n":35,"items":[]}
+1594.017 SERVER 
+1594.061 SERVER [2026-11-08 09:45:59:061 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3879,"n":36,"items":[]}
+1594.062 SERVER 
+1594.116 SERVER [2026-11-08 09:45:59:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3880,"n":37,"items":[]}
+1594.116 SERVER 
+1594.161 SERVER [2026-11-08 09:45:59:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3881,"n":38,"items":[]}
+1594.161 SERVER 
+1594.211 SERVER [2026-11-08 09:46:00:210 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3882,"n":39,"items":[]}
+1594.211 SERVER 
+1594.266 SERVER [2026-11-08 09:46:00:266 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3883,"n":40,"items":[]}
+1594.266 SERVER 
+1594.311 SERVER [2026-11-08 09:46:00:311 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3884,"n":41,"items":[]}
+1594.311 SERVER 
+1594.366 SERVER [2026-11-08 09:46:00:366 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3885,"n":42,"items":[]}
+1594.366 SERVER 
+1594.411 SERVER [2026-11-08 09:46:00:410 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3886,"n":43,"items":[]}
+1594.411 SERVER 
+1594.462 SERVER [2026-11-08 09:46:00:461 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3887,"n":44,"items":[]}
+1594.462 SERVER 
+1594.516 SERVER [2026-11-08 09:46:00:515 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3888,"n":45,"items":[]}
+1594.516 SERVER 
+1594.561 SERVER [2026-11-08 09:46:00:560 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3889,"n":46,"items":[]}
+1594.561 SERVER 
+1594.616 SERVER [2026-11-08 09:46:00:615 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3890,"n":47,"items":[]}
+1594.616 SERVER 
+1594.661 SERVER [2026-11-08 09:46:00:661 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3891,"n":48,"items":[]}
+1594.661 SERVER 
+1594.711 SERVER [2026-11-08 09:46:00:710 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3892,"n":49,"items":[]}
+1594.711 SERVER 
+1594.766 SERVER [2026-11-08 09:46:00:766 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3893,"n":50,"items":[]}
+1594.766 SERVER 
+1594.811 SERVER [2026-11-08 09:46:00:810 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3894,"n":51,"items":[]}
+1594.811 SERVER 
+1594.866 SERVER [2026-11-08 09:46:00:866 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3895,"n":52,"items":[]}
+1594.866 SERVER 
+1594.911 SERVER [2026-11-08 09:46:00:910 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3896,"n":53,"items":[]}
+1594.911 SERVER 
+1594.963 SERVER [2026-11-08 09:46:00:963 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3897,"n":54,"items":[]}
+1594.963 SERVER 
+1595.017 SERVER [2026-11-08 09:46:00:016 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3898,"n":55,"items":[]}
+1595.017 SERVER 
+1595.062 SERVER [2026-11-08 09:46:00:062 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3899,"n":56,"items":[]}
+1595.062 SERVER 
+1595.117 SERVER [2026-11-08 09:46:00:116 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3900,"n":57,"items":[]}
+1595.117 SERVER 
+1595.162 SERVER [2026-11-08 09:46:00:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3901,"n":58,"items":[]}
+1595.162 SERVER 
+1595.212 SERVER [2026-11-08 09:46:01:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3902,"n":59,"items":[]}
+1595.212 SERVER 
+1595.275 SERVER [2026-11-08 09:46:01:274 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3903,"n":60,"items":[]}
+1595.275 SERVER 
+1595.316 SERVER [2026-11-08 09:46:01:316 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3904,"n":61,"items":[]}
+1595.316 SERVER 
+1595.361 SERVER [2026-11-08 09:46:01:361 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3905,"n":62,"items":[]}
+1595.361 SERVER 
+1595.411 SERVER [2026-11-08 09:46:01:411 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3906,"n":63,"items":[]}
+1595.411 SERVER 
+1595.461 SERVER [2026-11-08 09:46:01:461 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3907,"n":64,"items":[]}
+1595.461 SERVER 
+1595.516 SERVER [2026-11-08 09:46:01:516 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3908,"n":65,"items":[]}
+1595.516 SERVER 
+1595.566 SERVER [2026-11-08 09:46:01:566 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3909,"n":66,"items":[]}
+1595.566 SERVER 
+1595.611 SERVER [2026-11-08 09:46:01:611 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3910,"n":67,"items":[]}
+1595.611 SERVER 
+1595.663 SERVER [2026-11-08 09:46:01:662 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3911,"n":68,"items":[]}
+1595.663 SERVER 
+1595.711 SERVER [2026-11-08 09:46:01:711 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3912,"n":69,"items":[]}
+1595.711 SERVER 
+1595.767 SERVER [2026-11-08 09:46:01:767 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3913,"n":70,"items":[]}
+1595.767 SERVER 
+1595.817 SERVER [2026-11-08 09:46:01:816 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3914,"n":71,"items":[]}
+1595.817 SERVER 
+1595.862 SERVER [2026-11-08 09:46:01:861 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3915,"n":72,"items":[]}
+1595.862 SERVER 
+1595.912 SERVER [2026-11-08 09:46:01:911 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3916,"n":73,"items":[]}
+1595.912 SERVER 
+1595.962 SERVER [2026-11-08 09:46:01:962 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3917,"n":74,"items":[]}
+1595.962 SERVER 
+1596.017 SERVER [2026-11-08 09:46:01:016 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3918,"n":75,"items":[]}
+1596.017 SERVER 
+1596.069 SERVER [2026-11-08 09:46:01:069 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3919,"n":76,"items":[]}
+1596.069 SERVER 
+1596.112 SERVER [2026-11-08 09:46:01:111 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3920,"n":77,"items":[]}
+1596.112 SERVER 
+1596.162 SERVER [2026-11-08 09:46:01:161 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3921,"n":78,"items":[]}
+1596.162 SERVER 
+1596.212 SERVER [2026-11-08 09:46:02:211 WARN] [Scripting] GIVE_WATCH {"label":"creative_function","tick":3922,"n":79,"items":[]}
+1596.212 SERVER 
+1597.411 SERVER [2026-11-08 09:46:03:411 INFO] Server stop requested.
+1597.448 SERVER [2026-11-08 09:46:03:448 INFO] Stopping server...
+1597.780 SERVER Quit correctly
+DONE

@@ -1,0 +1,75 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:52:57:394 INFO] Starting Server
+[2026-11-07 07:52:57:394 INFO] Version: 1.20.50.03
+[2026-11-07 07:52:57:394 INFO] Build ID: 19782165
+[2026-11-07 07:52:57:394 INFO] Branch: r/20_u5
+[2026-11-07 07:52:57:394 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:52:57:394 INFO] Configuration: Publish
+[2026-11-07 07:52:57:394 INFO] Level Name: Arena original
+[2026-11-07 07:52:57:395 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:52:57:395 INFO] Game mode: 1 Creative
+[2026-11-07 07:52:57:395 INFO] Difficulty: 1 EASY
+[2026-11-07 07:52:57:396 INFO] Content logging to console is enabled.
+[2026-11-07 07:52:58:883 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_52_58
+[2026-11-07 07:52:58:883 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:52:58:883 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:52:58:299 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:52:58:299 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:52:58:299 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:52:58:299 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:52:58:566 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:52:58:566 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:52:59:682 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 32 260 16 1 fire_ticks true
+[2026-11-07 07:52:59:682 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:52:59:682 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:52:59:682 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:52:59:682 INFO] 
+[2026-11-07 07:52:59:682 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:52:59:682 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:52:59:682 INFO] ======================================================
+[2026-11-07 07:52:59:927 INFO] Added ticking area centered at 40, 0, 24 with a radius of 1 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:53:11:723 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:53:11:023 INFO] Killed item.effect:fire_sword, item.effect:fire_sword, item.effect:wet_sponge_sword
+HARNESS COMMAND: structure load fire_sword 35 260 17
+[2026-11-07 07:53:11:428 INFO] Loaded a structure of name fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:53:12:928 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword,family=fire_sword]
+[2026-11-07 07:53:12:328 ERROR] No targets matched selector
+HARNESS COMMAND: time query gametime
+[2026-11-07 07:53:13:723 INFO] Gametime is 5901
+HARNESS COMMAND: weather rain 60
+[2026-11-07 07:53:13:028 INFO] Changing to rainy weather
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword,family=fire_sword]
+[2026-11-07 07:53:23:028 ERROR] No targets matched selector
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:53:23:528 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: time query gametime
+[2026-11-07 07:53:24:927 INFO] Gametime is 6125
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:53:54:923 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword,family=fire_sword]
+[2026-11-07 07:53:54:422 ERROR] No targets matched selector
+HARNESS COMMAND: time query gametime
+[2026-11-07 07:53:55:827 INFO] Gametime is 6743
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:53:55:223 INFO] Changing to clear weather
+HARNESS COMMAND: tickingarea remove fire_ticks
+[2026-11-07 07:53:55:528 INFO] Removed ticking area(s)
+- fire_ticks (Circle): 40 0 24 Radius: 1 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:53:57:828 INFO] Server stop requested.
+[2026-11-07 07:53:57:856 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

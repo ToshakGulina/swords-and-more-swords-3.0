@@ -1,0 +1,381 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:38:46:388 INFO] Starting Server
+SERVER [2026-11-07 09:38:46:388 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:38:46:388 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:38:46:388 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:38:46:388 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:38:46:388 INFO] Configuration: Publish
+SERVER [2026-11-07 09:38:46:388 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:38:46:389 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:38:46:389 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:38:46:389 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:38:46:390 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:38:46:762 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:38:46:762 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:38:47:200 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:38:47:201 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:38:47:201 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:38:47:201 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:38:47:421 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:38:47:421 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:38:47:499 INFO] Server started.
+SERVER [2026-11-07 09:38:47:500 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:38:47:500 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:38:47:500 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:38:47:500 INFO] 
+SERVER [2026-11-07 09:38:47:500 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:38:47:500 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:38:47:500 INFO] ======================================================
+SERVER [2026-11-07 09:38:47:546 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:38:49:571 INFO] Player connected: ArenaIce, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:spider","runtime":"3","position":{"x":40.2447624206543,"y":81,"z":21.997318267822266}}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"5","position":{"x":-42,"y":134,"z":-1}}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"4","position":{"x":-42,"y":134,"z":-1}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"7","position":{"x":2,"y":134,"z":-38}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"6","position":{"x":2,"y":134,"z":-38}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:39:02:246 INFO] Player Spawned: ArenaIce xuid: , BOT SPAWN
+COMMAND tp ArenaIce 30 100 30
+SERVER [2026-11-07 09:39:02:420 INFO] Teleported ArenaIce to 30.50, 100.00, 30.50
+BOT POSITION {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"9","position":{"x":92.36637115478516,"y":12.018263816833496,"z":43.42265319824219}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"12","position":{"x":77.88259887695312,"y":-19,"z":63.88280487060547}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"10","position":{"x":78.97994232177734,"y":-42,"z":60.801368713378906}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"11","position":{"x":77.92816925048828,"y":8.231524467468262,"z":63.9811897277832}}
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"8","position":{"x":90.93582916259766,"y":12.005820274353027,"z":43.461116790771484}}
+SERVER [2026-11-07 09:39:02:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:donkey","runtime":"14","position":{"x":21,"y":73,"z":58}}
+BOT ENTITY {"type":"minecraft:donkey","runtime":"13","position":{"x":21,"y":73,"z":58}}
+SERVER [2026-11-07 09:39:03:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:donkey","runtime":"15","position":{"x":58,"y":114,"z":10}}
+SERVER [2026-11-07 09:39:04:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:05:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"16","position":{"x":48,"y":125,"z":33}}
+SERVER [2026-11-07 09:39:06:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:07:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:08:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:09:600 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 26 99 26 39 99 34 stone
+SERVER [2026-11-07 09:39:10:348 INFO] 52 blocks filled
+SERVER [2026-11-07 09:39:10:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND fill 26 100 26 39 105 34 air
+SERVER [2026-11-07 09:39:11:349 INFO] 207 blocks filled
+SERVER [2026-11-07 09:39:11:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND gamemode survival ArenaIce
+SERVER [2026-11-07 09:39:12:294 INFO] Set ArenaIce's game mode to Survival
+SERVER [2026-11-07 09:39:12:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND clear ArenaIce
+SERVER [2026-11-07 09:39:13:294 ERROR] Could not clear the inventory of ArenaIce, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:39:13:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 09:39:14:293 ERROR] No targets matched selector
+SERVER [2026-11-07 09:39:14:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND summon pig 33 100 30
+SERVER [2026-11-07 09:39:15:294 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"19","position":{"x":33.5,"y":100,"z":30.5}}
+SERVER [2026-11-07 09:39:15:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:donkey","runtime":"20","position":{"x":62,"y":118,"z":35}}
+COMMAND tag @e[type=pig,x=33,y=100,z=30,r=5,c=1] add probe
+SERVER [2026-11-07 09:39:16:294 INFO] Added tag 'probe' to Pig
+SERVER [2026-11-07 09:39:16:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:16:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND effect @e[type=pig,tag=probe] slowness 90 255 true
+SERVER [2026-11-07 09:39:17:294 INFO] Gave Slowness * 255 to Pig for 90 seconds
+SERVER [2026-11-07 09:39:17:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:17:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND effect @e[type=pig,tag=probe] resistance 90 255 true
+SERVER [2026-11-07 09:39:18:294 INFO] Gave Resistance * 255 to Pig for 90 seconds
+SERVER [2026-11-07 09:39:18:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:18:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND tp @e[type=pig,tag=probe] 33.5 100 30.5
+SERVER [2026-11-07 09:39:19:349 INFO] Teleported Pig to 33.50, 100.00, 30.50
+SERVER [2026-11-07 09:39:19:600 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:19:600 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND setblock 34 101 30 stone
+SERVER [2026-11-07 09:39:20:349 INFO] Block placed
+BOT ENTITY {"type":"minecraft:creeper","runtime":"21","position":{"x":30,"y":92,"z":2}}
+SERVER [2026-11-07 09:39:20:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:20:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND testforblock 34 101 30 stone
+SERVER [2026-11-07 09:39:21:350 INFO] Successfully found the block at 34,101,30.
+SERVER [2026-11-07 09:39:21:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:21:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaIce slot.weapon.mainhand 0 effect:ice_sword 1
+SERVER [2026-11-07 09:39:22:349 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaIce with 1 * item.effect:ice_sword
+BOT HELD CONTENT {"network_id":274,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:39:22:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:22:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:23:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:23:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:24:601 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:24:601 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:25:599 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:25:599 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaIce,hasitem={item=effect:ice_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 09:39:26:349 INFO] Found ArenaIce
+SERVER [2026-11-07 09:39:26:600 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:26:600 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+COMMAND scriptevent arena:observe_ice start
+SERVER [2026-11-07 09:39:27:349 INFO] Script event arena:observe_ice has been sent
+HARNESS ICE USE
+BOT USE BEGIN {"pos":{"x":30.5,"y":101.62001037597656,"z":30.5},"network_id":274}
+BOT USE SENT
+SERVER [2026-11-07 09:39:27:601 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:27:602 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:27:602 WARN] [Scripting] ARENA_ICE {"ticks":5,"count":0,"states":{}}
+SERVER 
+BOT HELD CONTENT {"network_id":274,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":6}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:39:27:870 WARN] [Scripting] ARENA_ICE {"ticks":10,"count":17,"states":{"1":17}}
+SERVER 
+COMMAND testforblock 33 100 30 effect99:fake_ice
+SERVER [2026-11-07 09:39:28:018 INFO] Successfully found the block at 33,100,30.
+SERVER [2026-11-07 09:39:28:118 WARN] [Scripting] ARENA_ICE {"ticks":15,"count":17,"states":{"1":17}}
+SERVER 
+SERVER [2026-11-07 09:39:28:370 WARN] [Scripting] ARENA_ICE {"ticks":20,"count":17,"states":{"1":17}}
+SERVER 
+SERVER [2026-11-07 09:39:28:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:28:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:28:619 WARN] [Scripting] ARENA_ICE {"ticks":25,"count":17,"states":{"1":17}}
+SERVER 
+SERVER [2026-11-07 09:39:28:868 WARN] [Scripting] ARENA_ICE {"ticks":30,"count":17,"states":{"1":17}}
+SERVER 
+COMMAND testforblock 34 101 30 stone
+SERVER [2026-11-07 09:39:29:067 INFO] Successfully found the block at 34,101,30.
+SERVER [2026-11-07 09:39:29:118 WARN] [Scripting] ARENA_ICE {"ticks":35,"count":17,"states":{"1":17}}
+SERVER 
+SERVER [2026-11-07 09:39:29:368 WARN] [Scripting] ARENA_ICE {"ticks":40,"count":17,"states":{"1":17}}
+SERVER 
+SERVER [2026-11-07 09:39:29:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:29:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:29:619 WARN] [Scripting] ARENA_ICE {"ticks":45,"count":17,"states":{"2":17}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:39:29:869 WARN] [Scripting] ARENA_ICE {"ticks":50,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:30:118 WARN] [Scripting] ARENA_ICE {"ticks":55,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:30:368 WARN] [Scripting] ARENA_ICE {"ticks":60,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:30:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:30:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:30:618 WARN] [Scripting] ARENA_ICE {"ticks":65,"count":17,"states":{"2":17}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"19","event_id":"dust_particles","data":0}
+SERVER [2026-11-07 09:39:30:868 WARN] [Scripting] ARENA_ICE {"ticks":70,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:31:119 WARN] [Scripting] ARENA_ICE {"ticks":75,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:31:368 WARN] [Scripting] ARENA_ICE {"ticks":80,"count":17,"states":{"2":17}}
+SERVER 
+SERVER [2026-11-07 09:39:31:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:31:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:31:619 WARN] [Scripting] ARENA_ICE {"ticks":85,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:31:868 WARN] [Scripting] ARENA_ICE {"ticks":90,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:32:119 WARN] [Scripting] ARENA_ICE {"ticks":95,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:32:368 WARN] [Scripting] ARENA_ICE {"ticks":100,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:32:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:32:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:32:618 WARN] [Scripting] ARENA_ICE {"ticks":105,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:32:868 WARN] [Scripting] ARENA_ICE {"ticks":110,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:33:118 WARN] [Scripting] ARENA_ICE {"ticks":115,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:33:368 WARN] [Scripting] ARENA_ICE {"ticks":120,"count":17,"states":{"3":17}}
+SERVER 
+SERVER [2026-11-07 09:39:33:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:33:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:33:619 WARN] [Scripting] ARENA_ICE {"ticks":125,"count":17,"states":{"4":17}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:39:33:868 WARN] [Scripting] ARENA_ICE {"ticks":130,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:34:120 WARN] [Scripting] ARENA_ICE {"ticks":135,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:34:368 WARN] [Scripting] ARENA_ICE {"ticks":140,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:34:619 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:34:619 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:34:620 WARN] [Scripting] ARENA_ICE {"ticks":145,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:34:868 WARN] [Scripting] ARENA_ICE {"ticks":150,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:35:118 WARN] [Scripting] ARENA_ICE {"ticks":155,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:35:368 WARN] [Scripting] ARENA_ICE {"ticks":160,"count":17,"states":{"4":17}}
+SERVER 
+SERVER [2026-11-07 09:39:35:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:35:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:35:619 WARN] [Scripting] ARENA_ICE {"ticks":165,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:35:868 WARN] [Scripting] ARENA_ICE {"ticks":170,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:36:118 WARN] [Scripting] ARENA_ICE {"ticks":175,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:36:369 WARN] [Scripting] ARENA_ICE {"ticks":180,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:36:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:36:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:36:619 WARN] [Scripting] ARENA_ICE {"ticks":185,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:36:868 WARN] [Scripting] ARENA_ICE {"ticks":190,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:37:165 WARN] [Scripting] ARENA_ICE {"ticks":195,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:37:370 WARN] [Scripting] ARENA_ICE {"ticks":200,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:37:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:37:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:37:618 WARN] [Scripting] ARENA_ICE {"ticks":205,"count":0,"states":{}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:39:37:870 WARN] [Scripting] ARENA_ICE {"ticks":210,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:38:119 WARN] [Scripting] ARENA_ICE {"ticks":215,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:38:368 WARN] [Scripting] ARENA_ICE {"ticks":220,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:38:620 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:38:621 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:38:621 WARN] [Scripting] ARENA_ICE {"ticks":225,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:38:868 WARN] [Scripting] ARENA_ICE {"ticks":230,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:39:117 WARN] [Scripting] ARENA_ICE {"ticks":235,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:39:368 WARN] [Scripting] ARENA_ICE {"ticks":240,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:39:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:39:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:39:618 WARN] [Scripting] ARENA_ICE {"ticks":245,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:39:869 WARN] [Scripting] ARENA_ICE {"ticks":250,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:40:119 WARN] [Scripting] ARENA_ICE {"ticks":255,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:40:368 WARN] [Scripting] ARENA_ICE {"ticks":260,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:40:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:40:618 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:40:618 WARN] [Scripting] ARENA_ICE {"ticks":265,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:40:868 WARN] [Scripting] ARENA_ICE {"ticks":270,"count":0,"states":{}}
+SERVER 
+COMMAND testforblock 33 100 30 air
+SERVER [2026-11-07 09:39:41:018 INFO] Successfully found the block at 33,100,30.
+SERVER [2026-11-07 09:39:41:119 WARN] [Scripting] ARENA_ICE {"ticks":275,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:41:368 WARN] [Scripting] ARENA_ICE {"ticks":280,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:41:618 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:41:619 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:41:619 WARN] [Scripting] ARENA_ICE {"ticks":285,"count":0,"states":{}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:39:41:867 WARN] [Scripting] ARENA_ICE {"ticks":290,"count":0,"states":{}}
+SERVER 
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 09:39:42:017 INFO] Found Pig
+SERVER [2026-11-07 09:39:42:119 WARN] [Scripting] ARENA_ICE {"ticks":295,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:42:368 WARN] [Scripting] ARENA_ICE {"ticks":300,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:42:619 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 09:39:42:619 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaIce","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:39:42:619 WARN] [Scripting] ARENA_ICE {"ticks":305,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:42:867 WARN] [Scripting] ARENA_ICE {"ticks":310,"count":0,"states":{}}
+SERVER 
+SERVER [2026-11-07 09:39:43:018 INFO] Server stop requested.
+SERVER [2026-11-07 09:39:43:048 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

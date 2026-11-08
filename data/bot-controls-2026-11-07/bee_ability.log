@@ -1,0 +1,140 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:27:37:134 INFO] Starting Server
+SERVER [2026-11-07 08:27:37:134 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:27:37:134 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:27:37:134 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:27:37:134 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:27:37:134 INFO] Configuration: Publish
+SERVER [2026-11-07 08:27:37:134 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 08:27:37:135 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:27:37:135 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:27:37:135 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:27:37:136 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:27:37:492 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:27:37:492 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 08:27:38:870 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:27:38:870 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:27:38:870 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:27:38:870 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:27:38:104 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:27:38:104 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:27:38:180 INFO] Server started.
+SERVER [2026-11-07 08:27:38:180 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:27:38:180 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:27:38:181 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:27:38:181 INFO] 
+SERVER [2026-11-07 08:27:38:181 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:27:38:181 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:27:38:181 INFO] ======================================================
+SERVER [2026-11-07 08:27:40:265 INFO] Player connected: ArenaFighter, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"3","position":{"x":-416,"y":11.5,"z":-370.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"5","position":{"x":-428,"y":11.5,"z":-366.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"6","position":{"x":-431,"y":15.5,"z":-383.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"8","position":{"x":-380.5,"y":13.5,"z":-429}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"12","position":{"x":-360,"y":13.5,"z":-415.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"13","position":{"x":-397.5,"y":17.5,"z":-368}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"14","position":{"x":-320.5,"y":19.5,"z":-404}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"18","position":{"x":-444.5,"y":7.5,"z":-389}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"17","position":{"x":-439,"y":9.5,"z":-408.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"item_entity_merge","data":2}
+SERVER [2026-11-07 08:27:46:032 INFO] Player Spawned: ArenaFighter xuid: , BOT SPAWN
+COMMAND tp ArenaFighter 10 100 10
+SERVER [2026-11-07 08:27:46:161 INFO] Teleported ArenaFighter to 10.50, 100.00, 10.50
+BOT POSITION {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 8 99 8 20 99 12 stone
+SERVER [2026-11-07 08:27:54:129 ERROR] 0 blocks filled
+COMMAND fill 11 100 9 13 102 11 glass
+SERVER [2026-11-07 08:27:55:129 INFO] 4 blocks filled
+COMMAND fill 12 100 10 12 101 10 air
+SERVER [2026-11-07 08:27:56:129 INFO] 2 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"19","event_id":"item_entity_merge","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode survival ArenaFighter
+SERVER [2026-11-07 08:27:57:128 INFO] Set ArenaFighter's game mode to Survival
+COMMAND clear ArenaFighter
+SERVER [2026-11-07 08:27:58:128 ERROR] Could not clear the inventory of ArenaFighter, no items to remove
+BOT HELD CONTENT {"network_id":0}
+COMMAND replaceitem entity ArenaFighter slot.weapon.mainhand 0 effect:bee_sword 1
+SERVER [2026-11-07 08:27:59:129 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaFighter with 1 * item.effect:bee_sword
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaFighter,hasitem={item=effect:bee_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:28:02:084 INFO] Found ArenaFighter
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 08:28:03:083 ERROR] No targets matched selector
+COMMAND summon pig 12 100 10
+SERVER [2026-11-07 08:28:04:130 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"21","position":{"x":12.5,"y":100,"z":10.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND effect @e[type=pig] slowness 30 255 true
+SERVER [2026-11-07 08:28:06:129 INFO] Gave Slowness * 255 to Pig for 30 seconds
+COMMAND effect @e[type=pig] health_boost 60 10 true
+SERVER [2026-11-07 08:28:07:129 INFO] Gave Health Boost * 10 to Pig for 60 seconds
+COMMAND effect @e[type=pig] instant_health 1 10 true
+SERVER [2026-11-07 08:28:08:129 INFO] Gave Instant Health * 10 to Pig for 1 seconds
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 11 100 10 11 101 10 air
+SERVER [2026-11-07 08:28:09:134 INFO] 2 blocks filled
+COMMAND testfor @e[type=pig,x=12,y=100,z=10,r=5]
+SERVER [2026-11-07 08:28:10:134 INFO] Found Pig
+HARNESS instruct ATTACK target_known= True
+BOT ATTACK BEGIN 21 {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT ATTACK SENT 1
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":2}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 2
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":4}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ATTACK SENT 3
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":4,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":5}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:bee_sword","runtime":"22","position":{"x":10.5,"y":101.52001190185547,"z":11.199999809265137}}
+BOT ATTACK SENT 4
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":5,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":7}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 5
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":6,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":9}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 6
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":7,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:bee_sword","runtime":"23","position":{"x":10.5,"y":101.52001190185547,"z":11.199999809265137}}
+BOT ATTACK SENT 7
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":8,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":12}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 8
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"hurt_animation","data":2}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":9,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":14}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ATTACK SENT 9
+BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"death_animation","data":0}
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":10,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":16}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 10
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":11,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":18}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"minecraft:xp_orb","runtime":"26","position":{"x":12.550000190734863,"y":100,"z":10.5}}
+BOT ENTITY {"type":"minecraft:xp_orb","runtime":"25","position":{"x":12.550000190734863,"y":100,"z":10.5}}
+BOT ATTACK SENT 11
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":11,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":18}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ATTACK SENT 12
+BOT HELD CONTENT {"network_id":260,"count":1,"metadata":0,"has_stack_id":1,"stack_id":11,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":18}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @e[type=pig,x=12,y=100,z=10,r=5]
+SERVER [2026-11-07 08:28:20:084 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"22","event_id":"hurt_animation","data":12}
+BOT ENTITY EVENT {"runtime_entity_id":"22","event_id":"hurt_animation","data":12}
+BOT ENTITY EVENT {"runtime_entity_id":"23","event_id":"hurt_animation","data":12}
+SERVER [2026-11-07 08:28:21:084 INFO] Server stop requested.
+SERVER [2026-11-07 08:28:21:123 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

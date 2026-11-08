@@ -1,0 +1,235 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:14:14:330 INFO] Starting Server
+SERVER [2026-11-07 16:14:14:330 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:14:14:330 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:14:14:330 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:14:14:330 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:14:14:330 INFO] Configuration: Publish
+SERVER [2026-11-07 16:14:14:330 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 16:14:14:330 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:14:14:330 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:14:14:330 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:14:14:331 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:14:14:663 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:14:14:663 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 16:14:15:007 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:14:15:007 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:14:15:007 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:14:15:007 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:14:15:210 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:14:15:210 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:14:15:267 INFO] Server started.
+SERVER [2026-11-07 16:14:15:267 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:14:15:267 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:14:15:267 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:14:15:267 INFO]
+SERVER [2026-11-07 16:14:15:267 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:14:15:267 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:14:15:267 INFO] ======================================================
+SERVER [2026-11-07 16:14:15:318 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 16:14:17:735 INFO] Player connected: ArenaWolfGolem, xuid:
+SERVER [2026-11-07 16:14:18:936 INFO] Player connected: ArenaWolfObserver2, xuid:
+ArenaWolfGolem BOT HELD CONTENT {"network_id":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT HELD CONTENT {"network_id":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"10","position":{"x":44,"y":110,"z":10}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"8","position":{"x":38.767154693603516,"y":95,"z":9.696738243103027}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"11","position":{"x":44,"y":95,"z":10}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:wolf","runtime":"9","position":{"x":41.48453903198242,"y":111,"z":5.861077308654785}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"6","position":{"x":41.65647506713867,"y":96,"z":3.998806953430176}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"7","position":{"x":38.5263786315918,"y":95.17675018310547,"z":8.76516056060791}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"13","position":{"x":26.198429107666016,"y":64,"z":12.916333198547363}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:wolf","runtime":"12","position":{"x":42.06501770019531,"y":109,"z":16.49029541015625}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"10","position":{"x":44,"y":110,"z":10}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"8","position":{"x":38.767154693603516,"y":95,"z":9.696738243103027}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"11","position":{"x":44,"y":95,"z":10}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:wolf","runtime":"9","position":{"x":41.48453903198242,"y":111,"z":5.861077308654785}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"6","position":{"x":41.65647506713867,"y":96,"z":3.998806953430176}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"7","position":{"x":38.5263786315918,"y":95.17675018310547,"z":8.76516056060791}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"13","position":{"x":26.198429107666016,"y":64,"z":12.916333198547363}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:wolf","runtime":"12","position":{"x":42.06501770019531,"y":109,"z":16.49029541015625}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:xp_orb","runtime":"18","position":{"x":54.899417877197266,"y":100,"z":52.77895736694336}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:xp_orb","runtime":"17","position":{"x":55.48033905029297,"y":100,"z":52.891571044921875}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:xp_orb","runtime":"18","position":{"x":54.899417877197266,"y":100,"z":52.77895736694336}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:xp_orb","runtime":"17","position":{"x":55.48033905029297,"y":100,"z":52.891571044921875}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:wolf","runtime":"20","position":{"x":15.744821548461914,"y":110,"z":-3.499821424484253}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:wolf","runtime":"20","position":{"x":15.744821548461914,"y":110,"z":-3.499821424484253}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"23","position":{"x":60.21670150756836,"y":85,"z":21.87272834777832}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"22","position":{"x":59.29999923706055,"y":84,"z":26.000579833984375}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"23","position":{"x":60.21670150756836,"y":85,"z":21.87272834777832}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"22","position":{"x":59.29999923706055,"y":84,"z":26.000579833984375}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"28","position":{"x":56.77287673950195,"y":110.41999816894531,"z":14.98670768737793}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"26","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"29","position":{"x":22.250560760498047,"y":95,"z":-1.4999885559082031}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"25","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"27","position":{"x":61.62654113769531,"y":112,"z":10.334753036499023}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"24","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"28","position":{"x":56.77287673950195,"y":110.41999816894531,"z":14.98670768737793}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"26","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"29","position":{"x":22.250560760498047,"y":95,"z":-1.4999885559082031}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"25","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"27","position":{"x":61.62654113769531,"y":112,"z":10.334753036499023}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"24","position":{"x":57.29999923706055,"y":111,"z":12.300000190734863}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"32","position":{"x":56.42826843261719,"y":95,"z":-0.05977693200111389}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"34","position":{"x":55.01285934448242,"y":95,"z":-20.527345657348633}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:wolf","runtime":"33","position":{"x":54.19626235961914,"y":111,"z":-20.6208553314209}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"32","position":{"x":56.42826843261719,"y":95,"z":-0.05977693200111389}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"34","position":{"x":55.01285934448242,"y":95,"z":-20.527345657348633}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:wolf","runtime":"33","position":{"x":54.19626235961914,"y":111,"z":-20.6208553314209}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 16:14:29:487 INFO] Player Spawned: ArenaWolfObserver2 xuid: , pfid: 03117ab1c4a939b3
+SERVER [2026-11-07 16:14:29:487 INFO] Player Spawned: ArenaWolfGolem xuid: , pfid: 2a7bafda734737fd
+ArenaWolfObserver2 BOT SPAWN
+ArenaWolfGolem BOT SPAWN
+COMMAND gamemode creative ArenaWolfGolem
+SERVER [2026-11-07 16:14:29:641 INFO] Set ArenaWolfGolem's game mode to Creative
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND clear ArenaWolfGolem
+SERVER [2026-11-07 16:14:30:241 ERROR] Could not clear the inventory of ArenaWolfGolem, no items to remove
+ArenaWolfGolem BOT HELD CONTENT {"network_id":0}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"38","position":{"x":14,"y":112,"z":-19}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"38","position":{"x":14,"y":112,"z":-19}}
+COMMAND tp ArenaWolfGolem 50 100 50
+SERVER [2026-11-07 16:14:31:940 INFO] Teleported ArenaWolfGolem to 50.50, 100.00, 50.50
+ArenaWolfGolem BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:skeleton","runtime":"44","position":{"x":64.43580627441406,"y":88,"z":80.960205078125}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"41","position":{"x":72.31814575195312,"y":93,"z":78.5359878540039}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:rabbit","runtime":"40","position":{"x":64.89655303955078,"y":87,"z":68.51029968261719}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:rabbit","runtime":"39","position":{"x":68.5265121459961,"y":87,"z":64.49031829833984}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:rabbit","runtime":"39","position":{"x":68.51284790039062,"y":87.0999984741211,"z":63.898773193359375}}
+ArenaWolfObserver2 BOT ENTITY {"type":"entity:ghost","runtime":"45","position":{"x":15,"y":112,"z":-22}}
+COMMAND gamemode creative ArenaWolfObserver2
+SERVER [2026-11-07 16:14:33:941 INFO] Set ArenaWolfObserver2's game mode to Creative
+ArenaWolfObserver2 BOT ENTITY {"type":"entity:ghost","runtime":"46","position":{"x":13.3149995803833,"y":111,"z":-5}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"47","position":{"x":46,"y":112,"z":-5}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"47","position":{"x":46,"y":112,"z":-5}}
+COMMAND clear ArenaWolfObserver2
+SERVER [2026-11-07 16:14:33:640 ERROR] Could not clear the inventory of ArenaWolfObserver2, no items to remove
+ArenaWolfObserver2 BOT HELD CONTENT {"network_id":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tp ArenaWolfObserver2 50 100 50
+SERVER [2026-11-07 16:14:34:343 INFO] Teleported ArenaWolfObserver2 to 50.50, 100.00, 50.50
+ArenaWolfObserver2 BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:rabbit","runtime":"40","position":{"x":64.89655303955078,"y":87,"z":68.51029968261719}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:skeleton","runtime":"44","position":{"x":64.16922760009766,"y":88,"z":81.38827514648438}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"41","position":{"x":72.31814575195312,"y":93,"z":78.5359878540039}}
+COMMAND fill 47 99 47 55 99 55 stone
+SERVER [2026-11-07 16:14:36:340 ERROR] 0 blocks filled
+COMMAND fill 47 100 47 55 105 55 air
+SERVER [2026-11-07 16:14:37:041 INFO] 2 blocks filled
+COMMAND gamerule dodaylightcycle false
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time set 18000
+SERVER [2026-11-07 16:14:38:491 INFO] Set the time to 18000
+COMMAND kill @e[type=iron_golem]
+SERVER [2026-11-07 16:14:39:191 ERROR] No targets matched selector
+COMMAND summon iron_golem 51 100 50
+SERVER [2026-11-07 16:14:40:891 INFO] Object successfully summoned
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:iron_golem","runtime":"48","position":{"x":51.5,"y":100,"z":50.5}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:iron_golem","runtime":"48","position":{"x":51.5,"y":100,"z":50.5}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:creeper","runtime":"49","position":{"x":75,"y":89,"z":72}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:creeper","runtime":"49","position":{"x":75,"y":89,"z":72}}
+COMMAND tag @e[type=iron_golem,x=51,y=100,z=50,r=5,c=1] add probe
+SERVER [2026-11-07 16:14:40:591 INFO] Added tag 'probe' to Iron Golem
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"51","position":{"x":86.30000305175781,"y":101,"z":70}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"51","position":{"x":86.30000305175781,"y":101,"z":70}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:zombie","runtime":"50","position":{"x":86.30000305175781,"y":101,"z":70}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:zombie","runtime":"50","position":{"x":86.30000305175781,"y":101,"z":70}}
+COMMAND replaceitem entity ArenaWolfGolem slot.weapon.mainhand 0 effect:wolf_sword 1
+SERVER [2026-11-07 16:14:41:290 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWolfGolem with 1 * item.effect:wolf_sword
+SERVER [2026-11-07 16:14:41:291 WARN] [Scripting] ARENA_HEALTH {"health":100,"max":100}
+SERVER 
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:falling_block","runtime":"52","position":{"x":53.5,"y":97.45999908447266,"z":53.5}}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:falling_block","runtime":"52","position":{"x":53.5,"y":97.45999908447266,"z":53.5}}
+ArenaWolfGolem BOT HELD CONTENT {"network_id":299,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 16:14:42:291 WARN] [Scripting] ARENA_HEALTH {"health":100,"max":100}
+SERVER 
+COMMAND testfor @a[name=ArenaWolfGolem,family=complete_wolf_transformation]
+SERVER [2026-11-07 16:14:43:290 INFO] Found ArenaWolfGolem
+SERVER [2026-11-07 16:14:43:291 WARN] [Scripting] ARENA_HEALTH {"health":100,"max":100}
+SERVER 
+COMMAND event entity ArenaWolfGolem wolf_transformation
+SERVER [2026-11-07 16:14:43:590 INFO] wolf_transformation successfully executed on: minecraft:player
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+COMMAND testfor @a[name=ArenaWolfGolem,family=complete_wolf_transformation]
+SERVER [2026-11-07 16:14:44:940 INFO] Found ArenaWolfGolem
+SERVER [2026-11-07 16:14:44:291 WARN] [Scripting] ARENA_HEALTH {"health":100,"max":100}
+SERVER 
+MARKER WOLF ATTACK
+ArenaWolfGolem BOT ATTACK BEGIN 48 {"x":50.5,"y":101.62001037597656,"z":50.5}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:spider","runtime":"53","position":{"x":67,"y":89,"z":12}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:spider","runtime":"53","position":{"x":67,"y":89,"z":12}}
+ArenaWolfGolem BOT ATTACK SENT 1
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"48","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"48","event_id":"hurt_animation","data":2}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:arrow","runtime":"54","position":{"x":59.80061721801758,"y":105.39640808105469,"z":27.737159729003906}}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:arrow","runtime":"54","position":{"x":59.80061721801758,"y":105.39640808105469,"z":27.737159729003906}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+SERVER [2026-11-07 16:14:45:292 WARN] [Scripting] ARENA_HEALTH {"health":80,"max":100}
+SERVER 
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:enderman","runtime":"55","position":{"x":85,"y":101,"z":64}}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:enderman","runtime":"55","position":{"x":85,"y":101,"z":64}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"player_check_treasure_hunter_achievement","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:arrow","runtime":"56","position":{"x":59.7175407409668,"y":104.61000061035156,"z":27.64954948425293}}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:arrow","runtime":"56","position":{"x":59.7175407409668,"y":104.61000061035156,"z":27.64954948425293}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+SERVER [2026-11-07 16:14:46:291 WARN] [Scripting] ARENA_HEALTH {"health":80,"max":100}
+SERVER 
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"arm_swing","data":0}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":2}
+SERVER [2026-11-07 16:14:47:291 WARN] [Scripting] ARENA_HEALTH {"health":80,"max":100}
+SERVER 
+COMMAND testfor @e[type=iron_golem,tag=probe]
+SERVER [2026-11-07 16:14:47:341 INFO] Found Iron Golem
+ArenaWolfObserver2 BOT ENTITY {"type":"minecraft:arrow","runtime":"57","position":{"x":59.725494384765625,"y":104.9708023071289,"z":27.47563934326172}}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+ArenaWolfGolem BOT ENTITY {"type":"minecraft:arrow","runtime":"57","position":{"x":59.725494384765625,"y":104.9708023071289,"z":27.47563934326172}}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"12","event_id":"hurt_animation","data":3}
+ArenaWolfGolem BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+ArenaWolfObserver2 BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"arm_swing","data":0}
+SERVER [2026-11-07 16:14:48:040 INFO] Server stop requested.
+SERVER [2026-11-07 16:14:48:073 INFO] Stopping server...
+SERVER Quit correctly
+DONE

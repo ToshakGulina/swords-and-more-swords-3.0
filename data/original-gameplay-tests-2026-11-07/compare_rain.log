@@ -1,0 +1,81 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:51:57:535 INFO] Starting Server
+[2026-11-07 07:51:57:535 INFO] Version: 1.20.50.03
+[2026-11-07 07:51:57:535 INFO] Build ID: 19782165
+[2026-11-07 07:51:57:535 INFO] Branch: r/20_u5
+[2026-11-07 07:51:57:535 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:51:57:535 INFO] Configuration: Publish
+[2026-11-07 07:51:57:535 INFO] Level Name: Arena original
+[2026-11-07 07:51:57:535 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:51:57:535 INFO] Game mode: 1 Creative
+[2026-11-07 07:51:57:535 INFO] Difficulty: 1 EASY
+[2026-11-07 07:51:57:536 INFO] Content logging to console is enabled.
+[2026-11-07 07:51:58:894 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_51_58
+[2026-11-07 07:51:58:894 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:51:58:894 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:51:58:258 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:51:58:258 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:51:58:258 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:51:58:258 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:51:58:485 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:51:58:485 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:51:58:563 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 260 0 3 compare_rain true
+[2026-11-07 07:51:58:563 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:51:58:563 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:51:58:563 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:51:58:563 INFO] 
+[2026-11-07 07:51:58:563 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:51:58:563 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:51:58:563 INFO] ======================================================
+[2026-11-07 07:51:59:790 INFO] Added ticking area centered at 8, 0, 8 with a radius of 3 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:52:10:643 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:52:11:044 INFO] Killed item.effect:fire_sword
+HARNESS COMMAND: fill 33 259 14 48 259 20 stone
+[2026-11-07 07:52:11:451 INFO] 87 blocks filled
+HARNESS COMMAND: fill 33 260 14 48 319 20 air
+[2026-11-07 07:52:12:843 ERROR] 0 blocks filled
+HARNESS COMMAND: loot spawn 40 260 17 loot "arena/fire_sword"
+[2026-11-07 07:52:12:248 INFO] 1 items were dropped.
+HARNESS COMMAND: tag @e[type=item,x=40,y=260,z=17,r=2] add fire_sword
+[2026-11-07 07:52:13:747 INFO] Added tag 'fire_sword' to item.effect:fire_sword
+HARNESS COMMAND: tag @e[type=item,x=40,y=260,z=17,r=2] add manual_probe
+[2026-11-07 07:52:13:047 INFO] Added tag 'manual_probe' to item.effect:fire_sword
+HARNESS COMMAND: structure load fire_sword 35 260 17
+[2026-11-07 07:52:13:342 INFO] Loaded a structure of name fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword_respawn]
+[2026-11-07 07:52:14:942 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: loot spawn 45 260 17 loot "arena/sponge_sword"
+[2026-11-07 07:52:14:342 INFO] 1 items were dropped.
+HARNESS COMMAND: tag @e[type=item,x=45,y=260,z=17,r=2] add sponge_sword
+[2026-11-07 07:52:15:843 INFO] Added tag 'sponge_sword' to item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=manual_probe]
+[2026-11-07 07:52:15:192 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: weather rain 60
+[2026-11-07 07:52:15:497 INFO] Changing to rainy weather
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:52:37:492 INFO] Found item.effect:fire_sword, item.effect:fire_sword, item.effect:wet_sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=manual_probe]
+[2026-11-07 07:52:38:992 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword_respawn]
+[2026-11-07 07:52:38:397 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:52:39:792 INFO] Changing to clear weather
+HARNESS COMMAND: tickingarea remove compare_rain
+[2026-11-07 07:52:39:193 INFO] Removed ticking area(s)
+- compare_rain (Circle): 8 0 8 Radius: 3 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:52:40:493 INFO] Server stop requested.
+[2026-11-07 07:52:40:528 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

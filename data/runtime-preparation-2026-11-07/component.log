@@ -1,0 +1,66 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:24:36:011 INFO] Starting Server
+[2026-11-07 00:24:36:011 INFO] Version: 1.26.62.1
+[2026-11-07 00:24:36:011 INFO] Build ID: 53244563
+[2026-11-07 00:24:36:011 INFO] Branch: r/26_u6
+[2026-11-07 00:24:36:011 INFO] Commit ID: 414445034e1ffed4e53bce99de8f8c08781d7ac7
+[2026-11-07 00:24:36:011 INFO] Configuration: Publish
+[2026-11-07 00:24:36:011 INFO] Level Name: Arena modern probe
+[2026-11-07 00:24:36:011 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-11-07 00:24:36:011 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-11-07 00:24:36:011 INFO] Game mode: 1 Creative
+[2026-11-07 00:24:36:011 INFO] Difficulty: 1 EASY
+[2026-11-07 00:24:36:013 INFO] Content logging to console is enabled.
+[2026-11-07 00:24:36:015 INFO] 
+
+#####################################################
+#                                                   #
+#               LOADING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-11-07 00:24:36:380 INFO] Content logging to disk is enabled. Writing log to: ./ContentLog2026-11-07_00-24-36.txt
+[2026-11-07 00:24:36:381 INFO] Opening level 'worlds/Arena modern probe/db'
+[2026-11-07 00:24:36:418 INFO] Pack Stack - [00] Arena isolated diagnostics (id: bc5efcd3-d098-4164-bf69-449207a30f18, version: 1.0.0) @ behavior_packs/Arena_Probe
+[2026-11-07 00:24:36:460 WARN] [Scripting] ARENA_PROBE_COMPONENT_REGISTERED
+
+[2026-11-07 00:24:37:137 INFO] Signed in to signaling service successfully
+[2026-11-07 00:24:37:259 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:24:37:259 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:24:37:270 INFO] Server started.
+[2026-11-07 00:24:37:270 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-11-07 00:24:37:270 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-11-07 00:24:37:270 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-11-07 00:24:37:270 ERROR] 
+[2026-11-07 00:24:37:270 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-11-07 00:24:37:271 ERROR] 
+[2026-11-07 00:24:37:271 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-11-07 00:24:37:271 ERROR] =======================================================
+[2026-11-07 00:24:37:271 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:24:37:271 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:24:37:271 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:24:37:271 INFO] 
+[2026-11-07 00:24:37:271 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 00:24:37:271 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:24:37:271 INFO] ======================================================
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 component_lab true
+[2026-11-07 00:24:37:279 WARN] [Scripting] ARENA_PROBE_SCRIPT_READY
+
+[2026-11-07 00:24:37:443 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: summon minecraft:armor_stand 0 100 0
+[2026-11-07 00:24:47:314 INFO] Object successfully summoned
+HARNESS COMMAND: replaceitem entity @e[type=armor_stand,c=1] slot.armor.head 0 arena_probe:test_sword 1
+[2026-11-07 00:24:47:814 INFO] Replaced slot.armor.head slot 0 of Armor Stand with 1 * Probe Sword
+HARNESS COMMAND: testfor @e[type=armor_stand,hasitem={item=arena_probe:test_sword,location=slot.armor.head}]
+[2026-11-07 00:24:48:214 INFO] Found Armor Stand
+HARNESS COMMAND: tickingarea remove component_lab
+[2026-11-07 00:24:48:713 INFO] Removed ticking area(s)
+- component_lab (Circle): 8 0 8 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:24:50:020 INFO] Server stop requested.
+[2026-11-07 00:24:50:067 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

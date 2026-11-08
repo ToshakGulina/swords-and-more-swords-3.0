@@ -1,0 +1,136 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 13:29:37:847 INFO] Starting Server
+SERVER [2026-11-07 13:29:37:847 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 13:29:37:847 INFO] Build ID: 19782165
+SERVER [2026-11-07 13:29:37:847 INFO] Branch: r/20_u5
+SERVER [2026-11-07 13:29:37:847 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 13:29:37:847 INFO] Configuration: Publish
+SERVER [2026-11-07 13:29:37:847 INFO] Level Name: Glass test
+SERVER [2026-11-07 13:29:37:848 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 13:29:37:848 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 13:29:37:848 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 13:29:37:849 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 13:29:38:185 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 13:29:38:186 INFO] Opening level 'worlds/Glass test/db'
+SERVER [2026-11-07 13:29:38:538 ERROR] [FeatureRegistry] Glass test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 13:29:38:538 ERROR] [FeatureRegistry] Glass test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 13:29:38:538 ERROR] [FeatureRegistry] Glass test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 13:29:38:538 ERROR] [FeatureRegistry] Glass test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 13:29:38:732 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 13:29:38:732 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 13:29:38:799 INFO] Server started.
+SERVER [2026-11-07 13:29:38:799 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 13:29:38:799 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 13:29:38:799 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 13:29:38:799 INFO] 
+SERVER [2026-11-07 13:29:38:799 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 13:29:38:799 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 13:29:38:799 INFO] ======================================================
+SERVER [2026-11-07 13:29:38:843 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 13:29:40:808 INFO] Player connected: ArenaAnvil, xuid: 
+BOT CONTENT {"window_id":"inventory","input":[]}
+BOT CONTENT {"window_id":"armor","input":[]}
+BOT CONTENT {"window_id":"ui","input":[]}
+BOT CONTENT {"window_id":"offhand","input":[]}
+SERVER [2026-11-07 13:29:49:497 INFO] Player Spawned: ArenaAnvil xuid: , BOT SPAWN
+COMMAND gamemode survival ArenaAnvil
+SERVER [2026-11-07 13:29:49:652 INFO] Set ArenaAnvil's game mode to Survival
+COMMAND tp ArenaAnvil 300 100 300 0 0
+SERVER [2026-11-07 13:29:50:599 INFO] Teleported ArenaAnvil to 300.50, 100.00, 300.50
+BOT POS {"x":300.5,"y":101.62001037597656,"z":300.5}
+COMMAND fill 295 99 295 305 99 305 stone
+SERVER [2026-11-07 13:29:58:549 ERROR] 0 blocks filled
+COMMAND fill 295 100 295 305 104 305 air
+SERVER [2026-11-07 13:29:59:550 INFO] 1 blocks filled
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-604749536,"flags":{"_value":2,"neighbors":false,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+COMMAND setblock 300 100 302 anvil
+SERVER [2026-11-07 13:30:00:549 INFO] Block placed
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-1546281487,"flags":{"_value":3,"neighbors":true,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+COMMAND xp 50L ArenaAnvil
+SERVER [2026-11-07 13:30:03:599 INFO] Gave 50 levels to ArenaAnvil
+HARNESS CASE iron_damage
+COMMAND scriptevent arena:anvil iron_damage
+SERVER [2026-11-07 13:30:04:599 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:04:600 WARN] [Scripting] ANVIL_INV {"case":"iron_damage","slot":0,"id":"minecraft:iron_sword","damage":50,"max":250}
+SERVER 
+SERVER [2026-11-07 13:30:04:600 WARN] [Scripting] ANVIL_INV {"case":"iron_damage","slot":1,"id":"minecraft:iron_ingot","damage":null,"max":null}
+SERVER 
+BOT OPEN TRY {"pos":{"x":300.5,"y":101.62001037597656,"z":300.5},"anvil":-1546281487,"held":{"network_id":0}}
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-1546281487,"flags":{"_value":3,"neighbors":true,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-1546281487,"flags":{"_value":3,"neighbors":true,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+BOT CONTENT {"window_id":"inventory","input":[{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":350,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}]}
+BOT CONTENT {"window_id":"armor","input":[]}
+BOT CONTENT {"window_id":"ui","input":[]}
+BOT CONTENT {"window_id":"offhand","input":[]}
+BOT OPEN TRY {"pos":{"x":300.5,"y":101.62001037597656,"z":300.5},"anvil":-1546281487,"held":{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}}}
+BOT OPEN {"window_id":2,"window_type":"anvil","coordinates":{"x":300,"y":100,"z":302},"runtime_entity_id":"-1"}
+BOT CONTENT {"window_id":2,"input":[]}
+BOT REQUEST -1 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":0,"stack_id":1},"destination":{"slot_type":"anvil_input","slot":1,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":"ok","request_id":-1,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]},{"slot_type":"anvil_input","slots":[{"slot":1,"hotbar_slot":1,"count":1,"item_stack_id":1,"custom_name":"","durability_correction":50}]}]}]}
+BOT REQUEST -3 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":1,"stack_id":2},"destination":{"slot_type":"anvil_material","slot":2,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":"ok","request_id":-3,"containers":[{"slot_type":"hotbar","slots":[{"slot":1,"hotbar_slot":1,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]},{"slot_type":"anvil_material","slots":[{"slot":2,"hotbar_slot":2,"count":1,"item_stack_id":2,"custom_name":"","durability_correction":0}]}]}]}
+COMMAND scriptevent arena:anvil observe
+SERVER [2026-11-07 13:30:19:600 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:19:600 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":0,"id":null,"damage":null,"max":null}
+SERVER 
+SERVER [2026-11-07 13:30:19:600 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":1,"id":null,"damage":null,"max":null}
+SERVER 
+BOT CLOSE {"window_id":2,"server":false}
+HARNESS CASE glass_fresh
+COMMAND scriptevent arena:anvil glass_fresh
+SERVER [2026-11-07 13:30:24:550 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:24:550 WARN] [Scripting] ANVIL_INV {"case":"glass_fresh","slot":0,"id":"effect:glass_sword","damage":0,"max":1}
+SERVER 
+SERVER [2026-11-07 13:30:24:550 WARN] [Scripting] ANVIL_INV {"case":"glass_fresh","slot":1,"id":"minecraft:glass","damage":null,"max":null}
+SERVER 
+BOT OPEN TRY {"pos":{"x":300.5,"y":101.62001037597656,"z":300.5},"anvil":-1546281487,"held":{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}}}
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-1546281487,"flags":{"_value":3,"neighbors":true,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+BOT BLOCK {"position":{"x":300,"y":100,"z":302},"block_runtime_id":-1546281487,"flags":{"_value":3,"neighbors":true,"network":true,"no_graphic":false,"unused":false,"priority":false},"layer":0}
+BOT CONTENT {"window_id":"inventory","input":[{"network_id":271,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}},{"network_id":20,"count":1,"metadata":0,"has_stack_id":1,"stack_id":4,"block_runtime_id":927668178,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}]}
+BOT CONTENT {"window_id":"armor","input":[]}
+BOT CONTENT {"window_id":"ui","input":[{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":350,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}]}
+BOT CONTENT {"window_id":"offhand","input":[]}
+BOT OPEN TRY {"pos":{"x":300.5,"y":101.62001037597656,"z":300.5},"anvil":-1546281487,"held":{"network_id":271,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}}
+BOT OPEN {"window_id":3,"window_type":"anvil","coordinates":{"x":300,"y":100,"z":302},"runtime_entity_id":"-1"}
+BOT CONTENT {"window_id":3,"input":[{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":350,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}]}
+BOT REQUEST -5 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":0,"stack_id":3},"destination":{"slot_type":"anvil_input","slot":1,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":50,"request_id":-5}]}
+BOT REQUEST -7 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":1,"stack_id":4},"destination":{"slot_type":"anvil_material","slot":2,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":50,"request_id":-7}]}
+COMMAND scriptevent arena:anvil observe
+SERVER [2026-11-07 13:30:39:550 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:39:550 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":0,"id":"effect:glass_sword","damage":0,"max":1}
+SERVER 
+SERVER [2026-11-07 13:30:39:550 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":1,"id":"minecraft:glass","damage":null,"max":null}
+SERVER 
+BOT CLOSE {"window_id":3,"server":false}
+HARNESS CASE glass_damage
+COMMAND scriptevent arena:anvil glass_damage
+SERVER [2026-11-07 13:30:44:552 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:44:552 WARN] [Scripting] ANVIL_INV {"case":"glass_damage","slot":0,"id":"effect:glass_sword","damage":1,"max":1}
+SERVER 
+SERVER [2026-11-07 13:30:44:552 WARN] [Scripting] ANVIL_INV {"case":"glass_damage","slot":1,"id":"minecraft:glass","damage":null,"max":null}
+SERVER 
+BOT OPEN TRY {"pos":{"x":300.5,"y":101.62001037597656,"z":300.5},"anvil":-1546281487,"held":{"network_id":271,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}}
+BOT OPEN {"window_id":4,"window_type":"anvil","coordinates":{"x":300,"y":100,"z":302},"runtime_entity_id":"-1"}
+BOT CONTENT {"window_id":4,"input":[{"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":50}}}},"can_place_on":[],"can_destroy":[]}},{"network_id":350,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":0,"can_place_on":[],"can_destroy":[]}}]}
+BOT REQUEST -9 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":0,"stack_id":3},"destination":{"slot_type":"anvil_input","slot":1,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":49,"request_id":-9}]}
+BOT REQUEST -11 {"type_id":"place","count":1,"source":{"slot_type":"hotbar","slot":1,"stack_id":4},"destination":{"slot_type":"anvil_material","slot":2,"stack_id":0}}
+BOT RESPONSE {"responses":[{"status":50,"request_id":-11}]}
+COMMAND scriptevent arena:anvil observe
+SERVER [2026-11-07 13:30:59:549 INFO] Script event arena:anvil has been sent
+SERVER [2026-11-07 13:30:59:549 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":0,"id":"effect:glass_sword","damage":1,"max":1}
+SERVER 
+SERVER [2026-11-07 13:30:59:549 WARN] [Scripting] ANVIL_INV {"case":"observe","slot":1,"id":"minecraft:glass","damage":null,"max":null}
+SERVER 
+BOT CLOSE {"window_id":4,"server":false}
+SERVER [2026-11-07 13:31:04:598 INFO] Server stop requested.
+SERVER [2026-11-07 13:31:04:600 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

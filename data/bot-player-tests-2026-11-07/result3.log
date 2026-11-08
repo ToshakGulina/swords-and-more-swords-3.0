@@ -1,0 +1,42 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:09:19:286 INFO] Starting Server
+SERVER [2026-11-07 08:09:19:286 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:09:19:286 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:09:19:286 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:09:19:286 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:09:19:286 INFO] Configuration: Publish
+SERVER [2026-11-07 08:09:19:286 INFO] Level Name: Bot baseline
+SERVER [2026-11-07 08:09:19:287 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:09:19:287 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:09:19:287 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:09:19:288 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:09:19:655 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_09_19
+SERVER [2026-11-07 08:09:19:655 INFO] Opening level 'worlds/Bot baseline/db'
+SERVER [2026-11-07 08:09:20:192 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:09:20:193 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:09:20:199 INFO] Server started.
+HARNESS starting client inside isolated network
+SERVER [2026-11-07 08:09:20:200 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:09:20:200 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:09:20:200 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:09:20:200 INFO] 
+SERVER [2026-11-07 08:09:20:200 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:09:20:200 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:09:20:200 INFO] ======================================================
+SERVER [2026-11-07 08:09:22:320 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","position":{"x":0.5,"y":32769.62109375,"z":0.5}}
+SERVER [2026-11-07 08:09:26:006 INFO] Player Spawned: ArenaBot xuid: , pfid: [redacted]
+BOT SPAWN
+COMMAND list
+SERVER [2026-11-07 08:09:27:189 INFO] There are 1/10 players online:
+SERVER ArenaBot
+COMMAND testfor @a[name=ArenaBot]
+SERVER [2026-11-07 08:09:27:111 INFO] Found ArenaBot
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:09:28:110 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+COMMAND testfor @a[name=ArenaBot,x=10,y=100,z=10,r=3]
+SERVER [2026-11-07 08:09:29:110 INFO] Found ArenaBot
+SERVER [2026-11-07 08:09:30:110 INFO] Server stop requested.
+SERVER [2026-11-07 08:09:30:133 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= True server_exit= 0

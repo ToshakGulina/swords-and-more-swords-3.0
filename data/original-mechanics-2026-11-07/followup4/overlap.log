@@ -1,0 +1,107 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:09:07:651 INFO] Starting Server
+SERVER [2026-11-07 16:09:07:651 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:09:07:651 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:09:07:651 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:09:07:651 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:09:07:651 INFO] Configuration: Publish
+SERVER [2026-11-07 16:09:07:651 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 16:09:07:661 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:09:07:661 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:09:07:661 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:09:07:662 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:09:08:442 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:09:08:442 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 16:09:09:889 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:09:09:889 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:09:09:889 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:09:09:889 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:09:09:081 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:09:09:081 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:09:09:158 INFO] Server started.
+SERVER [2026-11-07 16:09:09:159 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:09:09:159 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:09:09:159 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:09:09:159 INFO]
+SERVER [2026-11-07 16:09:09:159 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:09:09:159 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:09:09:159 INFO] ======================================================
+SERVER [2026-11-07 16:09:09:265 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 16:09:12:848 INFO] Player connected: ArenaOverlapTime, xuid:
+SERVER [2026-11-07 16:09:12:848 INFO] Player connected: ArenaOverlapClock, xuid:
+ArenaOverlapClock BOT HELD CONTENT {"network_id":0}
+ArenaOverlapTime BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 16:09:18:061 INFO] Player Spawned: ArenaOverlapTime xuid: , pfid: 10c862bfc28c3a8a
+SERVER [2026-11-07 16:09:18:061 INFO] Player Spawned: ArenaOverlapClock xuid: , pfid: 6368b4fab4983169
+ArenaOverlapTime BOT SPAWN
+ArenaOverlapClock BOT SPAWN
+COMMAND gamemode creative ArenaOverlapClock
+SERVER [2026-11-07 16:09:18:217 INFO] Set ArenaOverlapClock's game mode to Creative
+COMMAND clear ArenaOverlapClock
+SERVER [2026-11-07 16:09:19:865 ERROR] Could not clear the inventory of ArenaOverlapClock, no items to remove
+ArenaOverlapClock BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaOverlapClock 50 100 50
+SERVER [2026-11-07 16:09:19:563 INFO] Teleported ArenaOverlapClock to 50.50, 100.00, 50.50
+ArenaOverlapClock BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamemode creative ArenaOverlapTime
+SERVER [2026-11-07 16:09:21:514 INFO] Set ArenaOverlapTime's game mode to Creative
+COMMAND clear ArenaOverlapTime
+SERVER [2026-11-07 16:09:22:214 ERROR] Could not clear the inventory of ArenaOverlapTime, no items to remove
+ArenaOverlapTime BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaOverlapTime 50 100 50
+SERVER [2026-11-07 16:09:23:914 INFO] Teleported ArenaOverlapTime to 50.50, 100.00, 50.50
+ArenaOverlapTime BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamerule dodaylightcycle false
+COMMAND gamerule randomtickspeed 7
+COMMAND time set 1000
+SERVER [2026-11-07 16:09:26:367 INFO] Set the time to 1000
+COMMAND replaceitem entity ArenaOverlapClock slot.weapon.mainhand 0 effect:clock_sword 1
+SERVER [2026-11-07 16:09:27:066 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaOverlapClock with 1 * item.effect:clock_sword
+ArenaOverlapClock BOT HELD CONTENT {"network_id":264,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND replaceitem entity ArenaOverlapTime slot.weapon.mainhand 0 effect:time_sword 1
+SERVER [2026-11-07 16:09:30:066 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaOverlapTime with 1 * item.effect:time_sword
+ArenaOverlapTime BOT HELD CONTENT {"network_id":293,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaOverlapTime,family=time_sword]
+SERVER [2026-11-07 16:09:33:052 INFO] Found ArenaOverlapTime
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:33:749 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:34:501 INFO] Daytime is 3640
+MARKER CLOCK ACTIVATE WHILE TIME ACTIVE
+ArenaOverlapClock BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":264}
+ArenaOverlapClock BOT USE SENT
+COMMAND testfor @a[name=ArenaOverlapClock,family=clock_sword_skill]
+SERVER [2026-11-07 16:09:36:207 INFO] Found ArenaOverlapClock
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:37:901 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:37:597 INFO] Daytime is 5990
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:38:599 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:39:309 INFO] Daytime is 7350
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:40:300 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:41:001 INFO] Daytime is 8550
+MARKER CLOCK ENDED WHILE TIME ACTIVE
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:44:959 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:44:714 INFO] Daytime is 10770
+COMMAND replaceitem entity ArenaOverlapTime slot.weapon.mainhand 0 air
+SERVER [2026-11-07 16:09:45:695 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaOverlapTime with 1 * Air
+ArenaOverlapTime BOT HELD CONTENT {"network_id":0}
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:09:48:660 INFO] randomtickspeed = 1
+COMMAND time query daytime
+SERVER [2026-11-07 16:09:49:361 INFO] Daytime is 11370
+SERVER [2026-11-07 16:09:50:065 INFO] Server stop requested.
+SERVER [2026-11-07 16:09:50:084 INFO] Stopping server...
+SERVER Quit correctly
+DONE

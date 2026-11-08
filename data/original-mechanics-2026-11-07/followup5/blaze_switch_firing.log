@@ -1,0 +1,155 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:59:17:119 INFO] Starting Server
+SERVER [2026-11-07 16:59:17:119 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:59:17:119 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:59:17:119 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:59:17:119 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:59:17:119 INFO] Configuration: Publish
+SERVER [2026-11-07 16:59:17:119 INFO] Level Name: Arena test
+SERVER [2026-11-07 16:59:17:120 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:59:17:120 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:59:17:120 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:59:17:121 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:59:17:461 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:59:17:461 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 16:59:17:828 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:59:17:828 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:59:17:828 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:59:17:828 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:59:18:040 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:59:18:040 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:59:18:111 INFO] Server started.
+SERVER [2026-11-07 16:59:18:111 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:59:18:111 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:59:18:111 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:59:18:111 INFO]
+SERVER [2026-11-07 16:59:18:111 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:59:18:111 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:59:18:111 INFO] ======================================================
+SERVER [2026-11-07 16:59:18:689 INFO] Player connected: ArenaBlaze, xuid:
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:wolf","runtime":"4","position":{"x":15.83045768737793,"y":102,"z":15.16953182220459}}
+SERVER [2026-11-07 16:59:23:760 INFO] Player Spawned: ArenaBlaze xuid: ,
+BOT SPAWN
+COMMAND gamemode creative ArenaBlaze
+SERVER [2026-11-07 16:59:23:881 INFO] Set ArenaBlaze's game mode to Creative
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"6","position":{"x":25,"y":95,"z":33}}
+COMMAND tp ArenaBlaze 50 100 50
+BOT ENTITY {"type":"minecraft:creeper","runtime":"7","position":{"x":-20,"y":109,"z":36}}
+SERVER [2026-11-07 16:59:24:413 INFO] Teleported ArenaBlaze to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"15","position":{"x":55.96818161010742,"y":65,"z":69.4080810546875}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"10","position":{"x":32.75880813598633,"y":73.78279113769531,"z":85.02025604248047}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"17","position":{"x":61.75400924682617,"y":65,"z":71.96356201171875}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"14","position":{"x":57.29999923706055,"y":78,"z":76.30000305175781}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"16","position":{"x":55.70673751831055,"y":68.24918365478516,"z":75.01182556152344}}
+BOT ENTITY {"type":"minecraft:witch","runtime":"28","position":{"x":19.67011833190918,"y":96,"z":42.661712646484375}}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"27","position":{"x":18.299999237060547,"y":97,"z":34.29999923706055}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"30","position":{"x":74.50395202636719,"y":76.23152160644531,"z":70.49659729003906}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"34","position":{"x":54.4757080078125,"y":75,"z":35.29999923706055}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"40","position":{"x":45.52314376831055,"y":87,"z":29.04735565185547}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"39","position":{"x":43.0275993347168,"y":88,"z":21.642459869384766}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"38","position":{"x":39.92646026611328,"y":88,"z":22.357215881347656}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"52","position":{"x":82.44319915771484,"y":78,"z":41.42488098144531}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"51","position":{"x":93.3902587890625,"y":73,"z":39.004119873046875}}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"49","position":{"x":81.30000305175781,"y":79,"z":40.29999923706055}}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"50","position":{"x":81.36075592041016,"y":79.41999816894531,"z":32.498191833496094}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 45 99 45 55 99 55 stone
+SERVER [2026-11-07 16:59:27:414 ERROR] 0 blocks filled
+COMMAND fill 45 100 45 55 115 55 air
+SERVER [2026-11-07 16:59:27:015 ERROR] 0 blocks filled
+COMMAND weather clear 120
+SERVER [2026-11-07 16:59:28:615 INFO] Changing to clear weather
+COMMAND clear ArenaBlaze
+SERVER [2026-11-07 16:59:29:219 ERROR] Could not clear the inventory of ArenaBlaze, no items to remove
+BOT HELD CONTENT {"network_id":0}
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 effect:blaze_sword 1
+SERVER [2026-11-07 16:59:29:815 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBlaze with 1 * item.effect:blaze_sword
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"39","event_id":"eat_grass_animation","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+BOT ENTITY {"type":"minecraft:pig","runtime":"54","position":{"x":22,"y":94,"z":80}}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+COMMAND testfor @a[name=ArenaBlaze,hasitem={item=effect:blaze_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:59:35:865 INFO] Found ArenaBlaze
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword]
+SERVER [2026-11-07 16:59:36:465 INFO] Found ArenaBlaze
+BOT ENTITY EVENT {"runtime_entity_id":"28","event_id":"witch_spell_particles","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+MARK CONTROL use; keep sword
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":261}
+BOT USE SENT
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 16:59:38:065 INFO] Found ArenaBlaze
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"50","event_id":"hurt_animation","data":7}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"56","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"55","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"57","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT ENTITY {"type":"entity:fake_fireball","runtime":"58","position":{"x":50.5,"y":102.12001037597656,"z":50.5}}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+MARK CONTROL END
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"59","position":{"x":48,"y":72,"z":79}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SWITCH use
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":261}
+BOT USE SENT
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword]
+SERVER [2026-11-07 17:00:06:565 INFO] Found ArenaBlaze
+COMMAND replaceitem entity ArenaBlaze slot.weapon.mainhand 0 air
+SERVER [2026-11-07 17:00:06:667 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaBlaze with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaBlaze,hasitem={item=effect:blaze_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 17:00:07:265 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBlaze,family=blaze_sword_skill]
+SERVER [2026-11-07 17:00:07:866 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SWITCH END
+SERVER [2026-11-07 17:00:17:316 INFO] Server stop requested.
+SERVER [2026-11-07 17:00:17:343 INFO] Stopping server...
+SERVER Quit correctly
+DONE

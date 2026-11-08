@@ -1,0 +1,165 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:14:59:528 INFO] Starting Server
+SERVER [2026-11-07 09:14:59:528 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:14:59:528 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:14:59:528 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:14:59:528 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:14:59:528 INFO] Configuration: Publish
+SERVER [2026-11-07 09:14:59:528 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:14:59:529 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:14:59:529 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:14:59:529 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:14:59:530 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:14:59:909 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:14:59:909 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:15:00:270 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:15:00:270 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:15:00:270 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:15:00:270 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:15:00:494 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:15:00:494 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:15:00:570 INFO] Server started.
+SERVER [2026-11-07 09:15:00:570 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:15:00:571 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:15:00:571 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:15:00:571 INFO] 
+SERVER [2026-11-07 09:15:00:571 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:15:00:571 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:15:00:571 INFO] ======================================================
+SERVER [2026-11-07 09:15:00:614 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:15:02:745 INFO] Player connected: ArenaGhost, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:09:729 INFO] Player Spawned: ArenaGhost xuid: , BOT SPAWN
+COMMAND tp ArenaGhost 30 100 30
+SERVER [2026-11-07 09:15:09:874 INFO] Teleported ArenaGhost to 30.50, 100.00, 30.50
+BOT POSITION {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 27 99 27 35 99 33 stone
+SERVER [2026-11-07 09:15:17:836 INFO] 63 blocks filled
+COMMAND fill 27 100 27 35 104 33 air
+SERVER [2026-11-07 09:15:18:835 ERROR] 0 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode survival ArenaGhost
+SERVER [2026-11-07 09:15:19:834 INFO] Set ArenaGhost's game mode to Survival
+COMMAND clear ArenaGhost
+SERVER [2026-11-07 09:15:20:834 ERROR] Could not clear the inventory of ArenaGhost, no items to remove
+BOT HELD CONTENT {"network_id":0}
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 09:15:21:784 ERROR] No targets matched selector
+COMMAND summon pig 32 100 30
+SERVER [2026-11-07 09:15:22:785 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"2","position":{"x":32.5,"y":100,"z":30.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tag @e[type=pig,x=32,y=100,z=30,r=3,c=1] add probe
+SERVER [2026-11-07 09:15:24:784 INFO] Added tag 'probe' to Pig
+SERVER [2026-11-07 09:15:25:584 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+COMMAND effect @e[type=pig,tag=probe] slowness 90 255 true
+SERVER [2026-11-07 09:15:25:784 INFO] Gave Slowness * 255 to Pig for 90 seconds
+SERVER [2026-11-07 09:15:26:585 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+COMMAND damage @e[type=pig,tag=probe] 4
+SERVER [2026-11-07 09:15:26:834 INFO] Applied damage to Pig
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"hurt_animation","data":-1}
+SERVER [2026-11-07 09:15:27:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:28:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:29:584 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND replaceitem entity ArenaGhost slot.weapon.mainhand 0 effect:ghost_sword 1
+SERVER [2026-11-07 09:15:29:834 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaGhost with 1 * item.effect:ghost_sword
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:15:30:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:31:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:32:587 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:33:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:34:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND testfor @a[name=ArenaGhost,hasitem={item=effect:ghost_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 09:15:34:835 INFO] Found ArenaGhost
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:35:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 09:15:35:835 INFO] Found Pig
+SERVER [2026-11-07 09:15:36:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+HARNESS GHOST ATTACK
+BOT ATTACK BEGIN 2 {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ATTACK SENT 1
+SERVER [2026-11-07 09:15:37:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:38:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:39:586 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:40:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 09:15:40:785 INFO] Found Pig
+SERVER [2026-11-07 09:15:41:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+HARNESS GHOST ATTACK SECOND
+BOT ATTACK BEGIN 2 {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ATTACK SENT 1
+SERVER [2026-11-07 09:15:42:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:43:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:44:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:45:586 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 09:15:45:785 INFO] Found Pig
+SERVER [2026-11-07 09:15:46:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+COMMAND replaceitem entity ArenaGhost slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:15:46:785 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaGhost with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:47:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:48:584 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:49:585 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+HARNESS EMPTY HAND CONTROL
+BOT ATTACK BEGIN 2 {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ATTACK SENT 1
+BOT ENTITY EVENT {"runtime_entity_id":"2","event_id":"hurt_animation","data":2}
+SERVER [2026-11-07 09:15:50:584 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:15:51:584 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:52:586 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:53:585 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 09:15:53:834 INFO] Found Pig
+SERVER [2026-11-07 09:15:54:584 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:15:54:834 INFO] Server stop requested.
+SERVER [2026-11-07 09:15:54:839 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

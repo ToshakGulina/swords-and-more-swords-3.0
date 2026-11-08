@@ -1,0 +1,30 @@
+Изолированная проверка сервера пользователя, новых кодов ремейка нет.
+Тестовые пакеты и их миры после проверки удалены; Beta APIs не включали.
+Это не проверка клиента, игровых механик или всех членов API.
+
+--- offline ---
+Version: 1.26.63.1
+Build ID: 53340802
+Pack Stack: None
+Server started.
+Server stop requested.
+Quit correctly
+
+--- api ---
+Version: 1.26.63.1
+Build ID: 53340802
+Pack Stack: temporary reference diagnostic
+[Scripting] DIAG_API_2_11_IMPORTED
+Server started.
+[Scripting] DIAG_VANILLA_ITEM minecraft:stone SLOT Mainhand CAUSE contact ALL_PLAYERS 0
+Server stop requested.
+Quit correctly
+
+--- ui ---
+Version: 1.26.63.1
+Build ID: 53340802
+Pack Stack: temporary reference diagnostic
+[Scripting] DIAG_SERVER_UI_2_3_IMPORTED function
+Server started.
+Server stop requested.
+Quit correctly

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "arena_probe:test_sword",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

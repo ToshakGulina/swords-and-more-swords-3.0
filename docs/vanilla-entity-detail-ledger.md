@@ -1,0 +1,10153 @@
+# Полные значения отличающихся ключей 16 ванильных определений
+
+Машинная структурная выписка; интерпретация, ограничения и источники — [ручной разбор](manual-vanilla-entities-2.8.md).
+Полные значения каждого изменённого ключа сравниваются отдельно, массивы сохраняют порядок; числа 1 и 1.0 считаются равными.
+`present: false` означает отсутствие ключа в выбранном объекте, а не поведение движка. Одинаковые значения не выводятся.
+Файлы этих 16 определений в 2.8.8 и 2.8.14 побайтово совпадают; здесь называем их общим обозначением 2.x.
+
+## `minecraft:arrow`
+
+Аддон SHA-256: `6313708b77ccc059cfb34639463987aa30129db592bc0f5f0ab06f6072d7ed26`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `d247fd71658e93b0cabf6ff399aa0016f9eb6760dfc4bca4615537cde5f91291`.
+
+#### `component_groups`
+
+**`despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              4
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {},
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          1,
+          1
+        ],
+        "time_down_event": {
+          "event": "start_despawn_arrow",
+          "target": "self"
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "bone_sword_arrow",
+          "effect99_entities"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`family:arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:hard_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              5
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              5
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 1,
+        "hit_sound": "bow.hit",
+        "inertia": 0,
+        "liquid_inertia": 0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:pillager_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              3,
+              6
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              3,
+              6
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  }
+}
+```
+
+**`minecraft:player_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 5.0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 5.0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      }
+    }
+  }
+}
+```
+
+**`start_despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:hard_arrow"
+            ]
+          },
+          "filters": {
+            "test": "is_difficulty",
+            "value": "hard"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:player_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "despawn_arrow"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:bone_sword"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:pillager_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "pillager"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "family:arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "skeleton"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:hard_arrow"
+            ]
+          },
+          "filters": {
+            "test": "is_difficulty",
+            "value": "hard"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:player_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:pillager_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "pillager"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:inertia_disable"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "minecraft:player_arrow",
+          "minecraft:pillager_arrow",
+          "minecraft:hard_arrow",
+          "family:arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`start_despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "start_despawn_arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `d247fd71658e93b0cabf6ff399aa0016f9eb6760dfc4bca4615537cde5f91291`.
+
+#### `component_groups`
+
+**`despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              4
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {},
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          1,
+          1
+        ],
+        "time_down_event": {
+          "event": "start_despawn_arrow",
+          "target": "self"
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "bone_sword_arrow",
+          "effect99_entities"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`family:arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:hard_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              5
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              1,
+              5
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 1,
+        "hit_sound": "bow.hit",
+        "inertia": 0,
+        "liquid_inertia": 0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:pillager_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              3,
+              6
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": [
+              3,
+              6
+            ],
+            "destroy_on_hit": true,
+            "knockback": true,
+            "semi_random_diff_damage": false
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 1.6,
+        "should_bounce": true,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  }
+}
+```
+
+**`minecraft:player_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 5.0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      },
+      "minecraft:type_family": {
+        "family": [
+          "arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "arrow_effect": {},
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": true,
+            "knockback": true,
+            "max_critical_damage": 10,
+            "min_critical_damage": 9,
+            "power_multiplier": 0.97,
+            "semi_random_diff_damage": true
+          },
+          "stick_in_ground": {
+            "shake_time": 0.35
+          }
+        },
+        "power": 5.0,
+        "should_bounce": true,
+        "uncertainty_base": 1,
+        "uncertainty_multiplier": 0
+      }
+    }
+  }
+}
+```
+
+**`start_despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:hard_arrow"
+            ]
+          },
+          "filters": {
+            "test": "is_difficulty",
+            "value": "hard"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:player_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "despawn_arrow"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:bone_sword"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:pillager_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "pillager"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "family:arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "skeleton"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:hard_arrow"
+            ]
+          },
+          "filters": {
+            "test": "is_difficulty",
+            "value": "hard"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:player_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:pillager_arrow"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "pillager"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:inertia_disable"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "minecraft:player_arrow",
+          "minecraft:pillager_arrow",
+          "minecraft:hard_arrow",
+          "family:arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`start_despawn_arrow`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "start_despawn_arrow"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:bee`
+
+Аддон SHA-256: `8f2bf0bbbc54c9015a23406fb52caafade8d440c7bc22024a19a96a645a58f1e`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `028159865c10ccee3fc3ebf6c86ff175b3d36329835fb9a10be84059042f1293`.
+
+#### `component_groups`
+
+**`has_nectar`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:grows_crop": {
+        "chance": 0.03,
+        "charges": 10
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:grows_crop": {
+        "chance": 0.03,
+        "charges": 10
+      },
+      "minecraft:is_charged": {}
+    }
+  }
+}
+```
+
+**`shelter_detection`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "seek_shelter",
+            "filters": {
+              "all_of": [
+                {
+                  "any_of": [
+                    {
+                      "test": "is_daytime",
+                      "value": false
+                    },
+                    {
+                      "operator": "==",
+                      "test": "weather",
+                      "value": "precipitation"
+                    }
+                  ]
+                },
+                {
+                  "domain": "minecraft:has_nectar",
+                  "operator": "!=",
+                  "test": "bool_property"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "overworld"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "seek_shelter",
+            "filters": {
+              "all_of": [
+                {
+                  "any_of": [
+                    {
+                      "test": "is_daytime",
+                      "value": false
+                    },
+                    {
+                      "operator": "==",
+                      "test": "weather",
+                      "value": "precipitation"
+                    }
+                  ]
+                },
+                {
+                  "operator": "!=",
+                  "test": "has_component",
+                  "value": "minecraft:is_charged"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "overworld"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+```
+
+#### `description`
+
+**`properties`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:has_nectar": {
+        "client_sync": true,
+        "default": "query.had_component_group('has_nectar')",
+        "type": "bool"
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`collected_nectar`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "return_to_home",
+          "has_nectar",
+          "default_sound"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "look_for_food"
+        ]
+      },
+      "set_property": {
+        "minecraft:has_nectar": true
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "return_to_home",
+          "has_nectar",
+          "default_sound"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "look_for_food"
+        ]
+      }
+    }
+  }
+}
+```
+
+**`countdown_to_perish_event`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "filters": {
+                "operator": "!=",
+                "subject": "self",
+                "test": "is_family",
+                "value": "bee_sword"
+              },
+              "run_command": {
+                "command": [
+                  "loot spawn ~ ~ ~ loot bee_sword"
+                ]
+              },
+              "weight": 2
+            },
+            {
+              "weight": 98
+            }
+          ]
+        },
+        {
+          "add": {
+            "component_groups": [
+              "countdown_to_perish"
+            ]
+          },
+          "remove": {
+            "component_groups": [
+              "collect_nectar",
+              "track_attacker",
+              "take_nearest_target",
+              "look_for_food",
+              "angry_bee",
+              "hive_full",
+              "find_hive",
+              "escape_fire"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "countdown_to_perish"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "collect_nectar",
+          "track_attacker",
+          "take_nearest_target",
+          "look_for_food",
+          "angry_bee",
+          "hive_full",
+          "find_hive",
+          "escape_fire"
+        ]
+      }
+    }
+  }
+}
+```
+
+**`find_hive_timeout`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "look_for_food"
+            ]
+          },
+          "filters": {
+            "domain": "minecraft:has_nectar",
+            "operator": "!=",
+            "test": "bool_property"
+          },
+          "remove": {
+            "component_groups": [
+              "find_hive",
+              "escape_fire"
+            ]
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "return_to_home"
+            ]
+          },
+          "filters": {
+            "domain": "minecraft:has_nectar",
+            "test": "bool_property"
+          },
+          "remove": {
+            "component_groups": [
+              "find_hive"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "look_for_food"
+            ]
+          },
+          "filters": {
+            "operator": "!=",
+            "test": "has_component",
+            "value": "minecraft:is_charged"
+          },
+          "remove": {
+            "component_groups": [
+              "find_hive",
+              "escape_fire"
+            ]
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "return_to_home"
+            ]
+          },
+          "filters": {
+            "test": "has_component",
+            "value": "minecraft:is_charged"
+          },
+          "remove": {
+            "component_groups": [
+              "find_hive"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:exited_disturbed_hive`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "take_nearest_target"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "find_hive",
+          "return_to_home",
+          "has_nectar",
+          "abort_shelter_detection",
+          "shelter_detection",
+          "escape_fire"
+        ]
+      },
+      "set_property": {
+        "minecraft:has_nectar": false
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "take_nearest_target"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "find_hive",
+          "return_to_home",
+          "has_nectar",
+          "abort_shelter_detection",
+          "shelter_detection",
+          "escape_fire"
+        ]
+      }
+    }
+  }
+}
+```
+
+**`minecraft:exited_hive`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "look_for_food",
+          "shelter_detection"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "find_hive",
+          "return_to_home",
+          "has_nectar",
+          "abort_shelter_detection"
+        ]
+      },
+      "set_property": {
+        "minecraft:has_nectar": false
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "look_for_food",
+          "shelter_detection"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "find_hive",
+          "return_to_home",
+          "has_nectar",
+          "abort_shelter_detection"
+        ]
+      }
+    }
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `2f36858840654124b74b29a4e6b5f99ef507e9bc2088ccf43a3986f4858cd184`.
+
+#### `component_groups`
+
+**`bee_adult`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.breed": {
+        "priority": 4,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:breedable": {
+        "breed_items": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:0",
+          "minecraft:double_plant:1",
+          "minecraft:double_plant:4",
+          "minecraft:double_plant:5",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule"
+        ],
+        "breeds_with": {
+          "baby_type": "minecraft:bee",
+          "breed_event": {
+            "event": "minecraft:entity_born",
+            "target": "baby"
+          },
+          "mate_type": "minecraft:bee"
+        },
+        "require_tame": false
+      },
+      "minecraft:experience_reward": {
+        "on_bred": "Math.Random(1,7)",
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.breed": {
+        "priority": 4,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:breedable": {
+        "breed_items": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:0",
+          "minecraft:double_plant:1",
+          "minecraft:double_plant:4",
+          "minecraft:double_plant:5",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule",
+          "minecraft:pitcher_plant",
+          "minecraft:torchflower",
+          "minecraft:cherry_leaves",
+          "minecraft:pink_petals"
+        ],
+        "breeds_with": {
+          "baby_type": "minecraft:bee",
+          "breed_event": {
+            "event": "minecraft:entity_born",
+            "target": "baby"
+          },
+          "mate_type": "minecraft:bee"
+        },
+        "require_tame": false
+      },
+      "minecraft:experience_reward": {
+        "on_bred": "Math.Random(1,7)",
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+      }
+    }
+  }
+}
+```
+
+**`bee_baby`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ageable": {
+        "duration": 1200,
+        "feed_items": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:0",
+          "minecraft:double_plant:1",
+          "minecraft:double_plant:4",
+          "minecraft:double_plant:5",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule"
+        ],
+        "grow_up": {
+          "event": "minecraft:ageable_grow_up",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 11,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:is_baby": {},
+      "minecraft:scale": {
+        "value": 0.5
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:ageable": {
+        "duration": 1200,
+        "feed_items": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:0",
+          "minecraft:double_plant:1",
+          "minecraft:double_plant:4",
+          "minecraft:double_plant:5",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule",
+          "minecraft:pitcher_plant",
+          "minecraft:torchflower",
+          "minecraft:cherry_leaves",
+          "minecraft:pink_petals"
+        ],
+        "grow_up": {
+          "event": "minecraft:ageable_grow_up",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 11,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:is_baby": {},
+      "minecraft:scale": {
+        "value": 0.5
+      }
+    }
+  }
+}
+```
+
+**`look_for_food`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.pollinate",
+        "range": 3.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_block": {
+        "goal_radius": 1.0,
+        "on_stay_completed": [
+          {
+            "event": "collected_nectar",
+            "target": "self"
+          }
+        ],
+        "priority": 10,
+        "search_height": 4,
+        "search_range": 6,
+        "start_chance": 0.5,
+        "stay_duration": 20.0,
+        "target_block_filters": {
+          "operator": "==",
+          "subject": "block",
+          "test": "is_waterlogged",
+          "value": false
+        },
+        "target_blocks": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:8",
+          "minecraft:double_plant:9",
+          "minecraft:double_plant:12",
+          "minecraft:double_plant:13",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule"
+        ],
+        "target_offset": [
+          0,
+          0.25,
+          0
+        ],
+        "target_selection_method": "random",
+        "tick_interval": 1
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "time": 180,
+        "time_down_event": {
+          "event": "find_flower_timeout"
+        }
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.pollinate",
+        "range": 3.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_block": {
+        "goal_radius": 1.0,
+        "on_stay_completed": [
+          {
+            "event": "collected_nectar",
+            "target": "self"
+          }
+        ],
+        "priority": 10,
+        "search_height": 4,
+        "search_range": 6,
+        "start_chance": 0.5,
+        "stay_duration": 20.0,
+        "target_block_filters": {
+          "operator": "==",
+          "subject": "block",
+          "test": "is_waterlogged",
+          "value": false
+        },
+        "target_blocks": [
+          "minecraft:red_flower",
+          "minecraft:yellow_flower",
+          "minecraft:wither_rose",
+          "minecraft:double_plant:8",
+          "minecraft:double_plant:9",
+          "minecraft:double_plant:12",
+          "minecraft:double_plant:13",
+          "minecraft:flowering_azalea",
+          "minecraft:azalea_leaves_flowered",
+          "minecraft:mangrove_propagule",
+          "minecraft:pitcher_plant",
+          "minecraft:torchflower",
+          "minecraft:cherry_leaves",
+          "minecraft:pink_petals"
+        ],
+        "target_offset": [
+          0,
+          0.25,
+          0
+        ],
+        "target_selection_method": "random",
+        "tick_interval": 1
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "time": 180,
+        "time_down_event": {
+          "event": "find_flower_timeout"
+        }
+      }
+    }
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:behavior.tempt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "can_tempt_vertically": true,
+      "items": [
+        "minecraft:red_flower",
+        "minecraft:yellow_flower",
+        "minecraft:wither_rose",
+        "minecraft:double_plant:0",
+        "minecraft:double_plant:1",
+        "minecraft:double_plant:4",
+        "minecraft:double_plant:5",
+        "minecraft:flowering_azalea",
+        "minecraft:azalea_leaves_flowered",
+        "minecraft:mangrove_propagule"
+      ],
+      "priority": 5,
+      "speed_multiplier": 1.25,
+      "within_radius": 8
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "can_tempt_vertically": true,
+      "items": [
+        "minecraft:red_flower",
+        "minecraft:yellow_flower",
+        "minecraft:wither_rose",
+        "minecraft:double_plant:0",
+        "minecraft:double_plant:1",
+        "minecraft:double_plant:4",
+        "minecraft:double_plant:5",
+        "minecraft:flowering_azalea",
+        "minecraft:azalea_leaves_flowered",
+        "minecraft:mangrove_propagule",
+        "minecraft:pitcher_plant",
+        "minecraft:torchflower",
+        "minecraft:cherry_leaves",
+        "minecraft:pink_petals"
+      ],
+      "priority": 5,
+      "speed_multiplier": 1.25,
+      "within_radius": 8
+    }
+  }
+}
+```
+
+#### `events`
+
+**`countdown_to_perish_event`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "filters": {
+                "operator": "!=",
+                "subject": "self",
+                "test": "is_family",
+                "value": "bee_sword"
+              },
+              "run_command": {
+                "command": [
+                  "loot spawn ~ ~ ~ loot bee_sword"
+                ]
+              },
+              "weight": 2
+            },
+            {
+              "weight": 98
+            }
+          ]
+        },
+        {
+          "add": {
+            "component_groups": [
+              "countdown_to_perish"
+            ]
+          },
+          "remove": {
+            "component_groups": [
+              "collect_nectar",
+              "track_attacker",
+              "take_nearest_target",
+              "look_for_food",
+              "angry_bee",
+              "hive_full",
+              "find_hive",
+              "escape_fire"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "countdown_to_perish"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "collect_nectar",
+          "track_attacker",
+          "take_nearest_target",
+          "look_for_food",
+          "angry_bee",
+          "hive_full",
+          "find_hive",
+          "escape_fire"
+        ]
+      }
+    }
+  }
+}
+```
+
+## `minecraft:ender_crystal`
+
+Аддон SHA-256: `8c73c69996d0028e2bc2a1af3a129abfd79f6bebbe8d85ec7b2d261d28227f6e`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `883211924fa7d405cf6f5c14f87198d0050b3e25b732b3c4aaec30e717fb9415`.
+
+#### `component_groups`
+
+**`despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`detect_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "event": "ride_player",
+            "filters": {
+              "all_of": [
+                {
+                  "operator": "!=",
+                  "subject": "self",
+                  "test": "is_family",
+                  "value": "spectral_sword"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`ender_crystal_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ageable": {
+        "duration": 18,
+        "grow_up": {
+          "event": "minecraft:end_scale",
+          "target": "self"
+        }
+      },
+      "minecraft:scale_by_age": {
+        "end_scale": 1,
+        "start_scale": 0.1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "ender_crystal",
+          "spectral_sword",
+          "ender_crystal_scale"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`on_hurt_crystal`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:on_hurt": {
+        "event": "minecraft:crystal_explode",
+        "target": "self"
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "ender_crystal",
+          "spectral_sword"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_sword_drop`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:on_hurt": {
+        "event": "spectral_crystal_explode",
+        "target": "self"
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:on_hurt`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "event": "minecraft:crystal_explode",
+      "target": "self"
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "ender_crystal",
+        "ender_crystal_default"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `description`
+
+**`animations`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "despawn_crystal": "controller.animation.despawn_crystal",
+      "mount_crystal": "controller.animation.mount_crystal"
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`scripts`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "animate": [
+        "despawn_crystal",
+        "mount_crystal"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:crystal_explode`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "crystal_exploding"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "crystal_exploding"
+        ]
+      },
+      "remove": {}
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "despawn"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spectral_sword"
+          },
+          "run_command": {
+            "command": [
+              "playsound portal.travel @a[r=12] ~ ~ ~ 0.5 8",
+              "particle minecraft:example_flipbook ~ ~0.5 ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:detect_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "detect_player"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:end_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "spectral_sword"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "ender_crystal_scale"
+        ]
+      },
+      "run_command": {
+        "command": [
+          "playsound portal.travel @a[r=16] ~ ~ ~ 0.6 7",
+          "particle minecraft:example_flipbook ~ ~0.8 ~"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:ender_crystal_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "ender_crystal_scale"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "on_hurt_crystal"
+            ]
+          },
+          "filters": {
+            "operator": "!=",
+            "test": "has_biome_tag",
+            "value": "nether"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "spectral_sword_drop"
+            ]
+          },
+          "filters": {
+            "test": "has_biome_tag",
+            "value": "nether"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:mount_crystal`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "spectral_sword"
+            ]
+          },
+          "filters": {
+            "operator": "!=",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spectral_sword"
+          },
+          "remove": {
+            "component_groups": [
+              "on_hurt_crystal"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`ride_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "ride @s start_riding @p[family=spectral_sword,r=3] teleport_rider"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_crystal_explode`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "weight": 98
+            },
+            {
+              "run_command": {
+                "command": [
+                  "structure load spectral_sword ~~~"
+                ]
+              },
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "add": {
+            "component_groups": [
+              "crystal_exploding"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `845cc28155f480aa6b90e6fef5420e6704499e7096bf192ccf08c3fcf5c12ec7`.
+
+#### `component_groups`
+
+**`despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`detect_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "event": "ride_player",
+            "filters": {
+              "all_of": [
+                {
+                  "operator": "!=",
+                  "subject": "self",
+                  "test": "is_family",
+                  "value": "spectral_sword"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`ender_crystal_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ageable": {
+        "duration": 18,
+        "grow_up": {
+          "event": "minecraft:end_scale",
+          "target": "self"
+        }
+      },
+      "minecraft:scale_by_age": {
+        "end_scale": 1,
+        "start_scale": 0.1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "ender_crystal",
+          "spectral_sword",
+          "ender_crystal_scale"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`on_hurt_crystal`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:on_hurt": {
+        "event": "minecraft:crystal_explode",
+        "target": "self"
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "ender_crystal",
+          "spectral_sword"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_sword_drop`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:on_hurt": {
+        "event": "spectral_crystal_explode",
+        "target": "self"
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:collision_box`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "height": 0.98,
+      "width": 0.98
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "height": 2,
+      "width": 2
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:on_hurt`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "event": "minecraft:crystal_explode",
+      "target": "self"
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "ender_crystal",
+        "ender_crystal_default"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `description`
+
+**`animations`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "despawn_crystal": "controller.animation.despawn_crystal",
+      "mount_crystal": "controller.animation.mount_crystal"
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`scripts`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "animate": [
+        "despawn_crystal",
+        "mount_crystal"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:crystal_explode`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "crystal_exploding"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "crystal_exploding"
+        ]
+      },
+      "remove": {}
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "despawn"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spectral_sword"
+          },
+          "run_command": {
+            "command": [
+              "playsound portal.travel @a[r=12] ~ ~ ~ 0.5 8",
+              "particle minecraft:example_flipbook ~ ~0.5 ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:detect_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "detect_player"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:end_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "spectral_sword"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "ender_crystal_scale"
+        ]
+      },
+      "run_command": {
+        "command": [
+          "playsound portal.travel @a[r=16] ~ ~ ~ 0.6 7",
+          "particle minecraft:example_flipbook ~ ~0.8 ~"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:ender_crystal_scale`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "ender_crystal_scale"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "on_hurt_crystal"
+            ]
+          },
+          "filters": {
+            "operator": "!=",
+            "test": "has_biome_tag",
+            "value": "nether"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "spectral_sword_drop"
+            ]
+          },
+          "filters": {
+            "test": "has_biome_tag",
+            "value": "nether"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:mount_crystal`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "spectral_sword"
+            ]
+          },
+          "filters": {
+            "operator": "!=",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spectral_sword"
+          },
+          "remove": {
+            "component_groups": [
+              "on_hurt_crystal"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`ride_player`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "ride @s start_riding @p[family=spectral_sword,r=3] teleport_rider"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spectral_crystal_explode`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "weight": 98
+            },
+            {
+              "run_command": {
+                "command": [
+                  "structure load spectral_sword ~~~"
+                ]
+              },
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "add": {
+            "component_groups": [
+              "crystal_exploding"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:enderman`
+
+Аддон SHA-256: `664c2add376f538c15be3fcf5c9078123f2dd32f2d484e28a576f1e0fe5bef21`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `8ef140e0855db4ea761b5d9c196812ec7e3130828e688ff2446f46ac29604b61`.
+
+#### `component_groups`
+
+**`minecraft:default_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:enderman_angry`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:on_calm",
+          "target": "self"
+        },
+        "duration": 25
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "track_target": false
+      },
+      "minecraft:movement": {
+        "value": 0.45
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:on_calm",
+          "target": "self"
+        },
+        "duration": 25
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2
+      },
+      "minecraft:movement": {
+        "value": 0.45
+      }
+    }
+  }
+}
+```
+
+**`minecraft:red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:attack": {
+        "damage": 12
+      },
+      "minecraft:follow_range": {
+        "max": 64,
+        "value": 64
+      },
+      "minecraft:health": {
+        "max": 120,
+        "value": 120
+      },
+      "minecraft:lookat": {
+        "filters": {
+          "all_of": [
+            {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            }
+          ]
+        },
+        "look_cooldown": 5.0,
+        "search_radius": 64.0,
+        "set_target": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/red_enderman.json"
+      },
+      "minecraft:scale": {
+        "value": 1.2
+      },
+      "minecraft:teleport": {
+        "light_teleport_chance": 0.04,
+        "max_random_teleport_time": 20,
+        "random_teleport_cube": [
+          32,
+          32,
+          32
+        ],
+        "random_teleports": true,
+        "target_distance": 32,
+        "target_teleport_chance": 0.04
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 10,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:hurt_on_condition`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "damage_conditions": [
+        {
+          "cause": "lava",
+          "damage_per_tick": 4,
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "in_lava",
+            "value": true
+          }
+        },
+        {
+          "cause": "drowning",
+          "damage_per_tick": 1,
+          "filters": {
+            "operator": "==",
+            "test": "in_water_or_rain",
+            "value": true
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "damage_conditions": [
+        {
+          "cause": "lava",
+          "damage_per_tick": 4,
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "in_lava",
+            "value": true
+          }
+        },
+        {
+          "cause": "drowning",
+          "damage_per_tick": 1,
+          "filters": {
+            "operator": "==",
+            "test": "in_contact_with_water",
+            "value": true
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `events`
+
+**`default_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:default_enderman",
+          "minecraft:enderman_calm"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_enderman",
+              "minecraft:enderman_calm"
+            ]
+          },
+          "weight": 80
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:red_enderman",
+              "red_enderman",
+              "minecraft:enderman_calm"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "test": "has_biome_tag",
+            "value": "overworld"
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:enderman_calm"
+        ]
+      },
+      "remove": {}
+    }
+  }
+}
+```
+
+**`red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:red_enderman",
+          "red_enderman",
+          "minecraft:enderman_calm"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `01dd145a339073ae3719b4f01ea57f5b557dfe3e331cc69ce13720a08642d485`.
+
+#### `component_groups`
+
+**`minecraft:default_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:enderman_angry`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:on_calm",
+          "target": "self"
+        },
+        "duration": 25
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "track_target": false
+      },
+      "minecraft:movement": {
+        "value": 0.45
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:on_calm",
+          "target": "self"
+        },
+        "duration": 25
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2
+      },
+      "minecraft:movement": {
+        "value": 0.45
+      }
+    }
+  }
+}
+```
+
+**`minecraft:red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:attack": {
+        "damage": 12
+      },
+      "minecraft:follow_range": {
+        "max": 64,
+        "value": 64
+      },
+      "minecraft:health": {
+        "max": 120,
+        "value": 120
+      },
+      "minecraft:lookat": {
+        "filters": {
+          "all_of": [
+            {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            }
+          ]
+        },
+        "look_cooldown": 5.0,
+        "search_radius": 64.0,
+        "set_target": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/red_enderman.json"
+      },
+      "minecraft:scale": {
+        "value": 1.2
+      },
+      "minecraft:teleport": {
+        "light_teleport_chance": 0.04,
+        "max_random_teleport_time": 20,
+        "random_teleport_cube": [
+          32,
+          32,
+          32
+        ],
+        "random_teleports": true,
+        "target_distance": 32,
+        "target_teleport_chance": 0.04
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 10,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:follow_range`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "max": 32,
+      "value": 32
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "max": 64,
+      "value": 64
+    }
+  }
+}
+```
+
+**`minecraft:hurt_on_condition`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "damage_conditions": [
+        {
+          "cause": "lava",
+          "damage_per_tick": 4,
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "in_lava",
+            "value": true
+          }
+        },
+        {
+          "cause": "drowning",
+          "damage_per_tick": 1,
+          "filters": {
+            "operator": "==",
+            "test": "in_water_or_rain",
+            "value": true
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "damage_conditions": [
+        {
+          "cause": "lava",
+          "damage_per_tick": 4,
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "in_lava",
+            "value": true
+          }
+        },
+        {
+          "cause": "drowning",
+          "damage_per_tick": 1,
+          "filters": {
+            "operator": "==",
+            "test": "in_contact_with_water",
+            "value": true
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:variable_max_auto_step`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "base_value": 1.0625,
+      "jump_prevented_value": 0.5625
+    }
+  }
+}
+```
+
+#### `events`
+
+**`default_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:default_enderman",
+          "minecraft:enderman_calm"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_enderman",
+              "minecraft:enderman_calm"
+            ]
+          },
+          "weight": 80
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:red_enderman",
+              "red_enderman",
+              "minecraft:enderman_calm"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "test": "has_biome_tag",
+            "value": "overworld"
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:enderman_calm"
+        ]
+      },
+      "remove": {}
+    }
+  }
+}
+```
+
+**`red_enderman`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:red_enderman",
+          "red_enderman",
+          "minecraft:enderman_calm"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+## `minecraft:fireball`
+
+Аддон SHA-256: `ad8f0a90f96f0b84969bb92f11d607b5a525d688334cd6dc6433f317f619a5d8`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `49f504ebed345d70cd17170d3a10c883f30bc9579abf1e0632d301d9d620f80d`.
+
+#### `component_groups`
+
+**`gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "catch_fire": true,
+        "gravity": 0.04,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          }
+        },
+        "power": 1.6,
+        "reflect_on_hurt": true,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:collision_box`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "height": 0.31,
+      "width": 0.31
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "height": 1.0,
+      "width": 1.0
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "catch_fire": true,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "definition_event": {
+          "affect_projectile": true,
+          "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        }
+      },
+      "power": 1.6,
+      "reflect_on_hurt": true,
+      "uncertainty_base": 0,
+      "uncertainty_multiplier": 0
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "catch_fire": true,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "definition_event": {
+          "affect_projectile": true,
+          "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        },
+        "impact_damage": {
+          "damage": 6,
+          "knockback": false,
+          "semi_random_diff_damage": false
+        }
+      },
+      "power": 1.6,
+      "reflect_on_hurt": true,
+      "uncertainty_base": 0,
+      "uncertainty_multiplier": 0
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "fireball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=12] ~ ~ ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "gravity_enable"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `6d13650d146849816e94a6e523f3942bbe956cc704ce449552fe46ef3fd90b8a`.
+
+#### `component_groups`
+
+**`gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "catch_fire": true,
+        "gravity": 0.04,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          }
+        },
+        "power": 1.6,
+        "reflect_on_hurt": true,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:collision_box`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "height": 0.31,
+      "width": 0.31
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "height": 1.0,
+      "width": 1.0
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "catch_fire": true,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "definition_event": {
+          "affect_projectile": true,
+          "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        }
+      },
+      "power": 1.6,
+      "reflect_on_hurt": true,
+      "uncertainty_base": 0,
+      "uncertainty_multiplier": 0
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 2,
+      "catch_fire": true,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        -1.5,
+        0
+      ],
+      "on_hit": {
+        "definition_event": {
+          "affect_projectile": true,
+          "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        },
+        "impact_damage": {
+          "damage": 6,
+          "knockback": false,
+          "semi_random_diff_damage": false
+        }
+      },
+      "power": 1.6,
+      "reflect_on_hurt": true,
+      "uncertainty_base": 0,
+      "uncertainty_multiplier": 0
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "fireball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=12] ~ ~ ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "gravity_enable"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:ghast`
+
+Аддон SHA-256: `786209e5dd0a1c347792ade5ae7ef8b911c2ef18284c820d625b1cb9f393ba70`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `9f092ae41ce8cf9861055a40cc3d6680b2f538098688468eefc6dfc87bd9b9a6`.
+
+#### `components`
+
+**`minecraft:collision_box`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "height": 4,
+      "width": 4
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "height": 4,
+      "width": 4.02
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:damage_sensor`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "triggers": [
+        {
+          "deals_damage": true,
+          "on_damage": {
+            "event": "spectral_ghast",
+            "filters": {
+              "test": "is_family",
+              "value": "ghast"
+            }
+          }
+        },
+        {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "triggers": {
+        "cause": "fall",
+        "deals_damage": false
+      }
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:fire_immune`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": true
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:shooter`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "def": "minecraft:fireball",
+      "type": "largefireball"
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "def": "minecraft:fireball"
+    }
+  }
+}
+```
+
+#### `events`
+
+**`spectral_ghast`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 94
+        },
+        {
+          "run_command": {
+            "command": [
+              "structure load spectral_sword ~~~"
+            ]
+          },
+          "weight": 6
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `9f092ae41ce8cf9861055a40cc3d6680b2f538098688468eefc6dfc87bd9b9a6`.
+
+#### `components`
+
+**`minecraft:collision_box`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "height": 4,
+      "width": 4
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "height": 4,
+      "width": 4.02
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:damage_sensor`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "triggers": [
+        {
+          "deals_damage": true,
+          "on_damage": {
+            "event": "spectral_ghast",
+            "filters": {
+              "test": "is_family",
+              "value": "ghast"
+            }
+          }
+        },
+        {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "triggers": {
+        "cause": "fall",
+        "deals_damage": false
+      }
+    }
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:fire_immune`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": true
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:shooter`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "def": "minecraft:fireball",
+      "type": "largefireball"
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "def": "minecraft:fireball"
+    }
+  }
+}
+```
+
+#### `events`
+
+**`spectral_ghast`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 94
+        },
+        {
+          "run_command": {
+            "command": [
+              "structure load spectral_sword ~~~"
+            ]
+          },
+          "weight": 6
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+## `minecraft:lightning_bolt`
+
+Аддон SHA-256: `73e4672ff27f2df2fa77b8c37d9e11345b1e48de0119c6272f5801bd59d60e6f`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `f446d30309e21922d69e167a8c8f70ed722392266b9e9338610bc0c291f40b56`.
+
+#### `component_groups`
+
+**`default_lightning_bolt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "lightning"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spawn_centella`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          0,
+          0
+        ],
+        "time_down_event": {
+          "event": "spawn_centella",
+          "target": "self"
+        }
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 10,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`default_lightning_bolt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "default_lightning_bolt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "spawn_centella"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spawn_centella`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 80
+        },
+        {
+          "run_command": {
+            "command": [
+              "summon entity:centella ~ ~1 ~"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `f446d30309e21922d69e167a8c8f70ed722392266b9e9338610bc0c291f40b56`.
+
+#### `component_groups`
+
+**`default_lightning_bolt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "lightning"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spawn_centella`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          0,
+          0
+        ],
+        "time_down_event": {
+          "event": "spawn_centella",
+          "target": "self"
+        }
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 10,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`default_lightning_bolt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "default_lightning_bolt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "spawn_centella"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`spawn_centella`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 80
+        },
+        {
+          "run_command": {
+            "command": [
+              "summon entity:centella ~ ~1 ~"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:shulker_bullet`
+
+Аддон SHA-256: `a3ab0cf6f6647883d9ca311213bc5526a0850b2dc7f3d540cae5206720b7f713`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `761977634b74b112e872b292c84bac7db27953df5b21ae175e143d04214f54f2`.
+
+#### `component_groups`
+
+**`shulker_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "crit_particle_on_hurt": true,
+        "destroyOnHurt": false,
+        "gravity": 0.01,
+        "hit_sound": "bullet.hit",
+        "homing": false,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "impact_damage": {
+            "damage": 4,
+            "knockback": true,
+            "should_bounce": true
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 200,
+            "durationhard": 200,
+            "durationnormal": 200,
+            "effect": "levitation"
+          },
+          "particle_on_hit": {
+            "on_other_hit": true,
+            "particle_type": "largeexplode"
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.6,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "crit_particle_on_hurt": true,
+      "destroyOnHurt": true,
+      "gravity": 0.05,
+      "hit_sound": "bullet.hit",
+      "homing": true,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 4,
+          "knockback": true,
+          "should_bounce": true
+        },
+        "mob_effect": {
+          "amplifier": 1,
+          "durationeasy": 200,
+          "durationhard": 200,
+          "durationnormal": 200,
+          "effect": "levitation"
+        },
+        "particle_on_hit": {
+          "on_other_hit": true,
+          "particle_type": "largeexplode"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.6,
+      "uncertainty_base": 16,
+      "uncertainty_multiplier": 4
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "crit_particle_on_hurt": true,
+      "destroyOnHurt": true,
+      "gravity": 0.05,
+      "hit_sound": "bullet.hit",
+      "homing": true,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 4,
+          "knockback": true,
+          "should_bounce": true
+        },
+        "mob_effect": {
+          "amplifier": 0,
+          "durationeasy": 200,
+          "durationhard": 200,
+          "durationnormal": 200,
+          "effect": "levitation"
+        },
+        "particle_on_hit": {
+          "on_other_hit": true,
+          "particle_type": "largeexplode"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.6,
+      "uncertainty_base": 16,
+      "uncertainty_multiplier": 4
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "shulker_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:shulker_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `761977634b74b112e872b292c84bac7db27953df5b21ae175e143d04214f54f2`.
+
+#### `component_groups`
+
+**`shulker_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 1,
+        "crit_particle_on_hurt": true,
+        "destroyOnHurt": false,
+        "gravity": 0.01,
+        "hit_sound": "bullet.hit",
+        "homing": false,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "impact_damage": {
+            "damage": 4,
+            "knockback": true,
+            "should_bounce": true
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 200,
+            "durationhard": 200,
+            "durationnormal": 200,
+            "effect": "levitation"
+          },
+          "particle_on_hit": {
+            "on_other_hit": true,
+            "particle_type": "largeexplode"
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.6,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "crit_particle_on_hurt": true,
+      "destroyOnHurt": true,
+      "gravity": 0.05,
+      "hit_sound": "bullet.hit",
+      "homing": true,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 4,
+          "knockback": true,
+          "should_bounce": true
+        },
+        "mob_effect": {
+          "amplifier": 1,
+          "durationeasy": 200,
+          "durationhard": 200,
+          "durationnormal": 200,
+          "effect": "levitation"
+        },
+        "particle_on_hit": {
+          "on_other_hit": true,
+          "particle_type": "largeexplode"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.6,
+      "uncertainty_base": 16,
+      "uncertainty_multiplier": 4
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "crit_particle_on_hurt": true,
+      "destroyOnHurt": true,
+      "gravity": 0.05,
+      "hit_sound": "bullet.hit",
+      "homing": true,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 4,
+          "knockback": true,
+          "should_bounce": true
+        },
+        "mob_effect": {
+          "amplifier": 0,
+          "durationeasy": 200,
+          "durationhard": 200,
+          "durationnormal": 200,
+          "effect": "levitation"
+        },
+        "particle_on_hit": {
+          "on_other_hit": true,
+          "particle_type": "largeexplode"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.6,
+      "uncertainty_base": 16,
+      "uncertainty_multiplier": 4
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "shulker_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:shulker_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:small_fireball`
+
+Аддон SHA-256: `38d90e0cfee37feec5af7151ac6caf3e8a53d749c0ce7fa2db9f067a2c425fa2`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `3dbd9c96ccd416c53cf66baa2a2fa07bb4a4b46480e22c94a1a4924b547df2b6`.
+
+#### `component_groups`
+
+**`gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 2,
+        "gravity": 0.02,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "offset": [
+          0,
+          0.5,
+          0
+        ],
+        "on_hit": {
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+          },
+          "impact_damage": {
+            "catch_fire": true,
+            "damage": 5,
+            "knockback": false,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.3,
+        "reflect_on_hurt": true,
+        "semi_random_diff_damage": true,
+        "uncertainty_base": 10.0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 0,
+        "gravity": 0.06,
+        "inertia": 0,
+        "liquid_inertia": 0,
+        "offset": [
+          0,
+          0.0,
+          0
+        ],
+        "on_hit": {
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+          },
+          "impact_damage": {
+            "catch_fire": true,
+            "damage": 5,
+            "knockback": false,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {}
+        },
+        "power": 0,
+        "reflect_on_hurt": false,
+        "semi_random_diff_damage": false,
+        "uncertainty_base": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`shot_by_the_blaze`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "small_fireball",
+          "shot_by_the_blaze"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 2,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        0.5,
+        0
+      ],
+      "on_hit": {
+        "catch_fire": {
+          "fire_affected_by_griefing": true
+        },
+        "impact_damage": {
+          "catch_fire": true,
+          "damage": 5,
+          "knockback": false,
+          "semi_random_diff_damage": false
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.3,
+      "reflect_on_hurt": true,
+      "semi_random_diff_damage": true,
+      "uncertainty_base": 10.0
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 2,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        0.5,
+        0
+      ],
+      "on_hit": {
+        "catch_fire": {
+          "fire_affected_by_griefing": true
+        },
+        "impact_damage": {
+          "catch_fire": true,
+          "damage": 5,
+          "knockback": true,
+          "semi_random_diff_damage": false
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.3,
+      "reflect_on_hurt": true,
+      "semi_random_diff_damage": true,
+      "uncertainty_base": 10.0
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "small_fireball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=12] ~ ~ ~"
+            ]
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "shot_by_the_blaze"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "blaze"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "fire_sword_skill"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=18] ~ ~ ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:inertia_disable"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "shot_by_the_blaze"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `3dbd9c96ccd416c53cf66baa2a2fa07bb4a4b46480e22c94a1a4924b547df2b6`.
+
+#### `component_groups`
+
+**`gravity_enable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 2,
+        "gravity": 0.02,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "offset": [
+          0,
+          0.5,
+          0
+        ],
+        "on_hit": {
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+          },
+          "impact_damage": {
+            "catch_fire": true,
+            "damage": 5,
+            "knockback": false,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.3,
+        "reflect_on_hurt": true,
+        "semi_random_diff_damage": true,
+        "uncertainty_base": 10.0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "anchor": 0,
+        "gravity": 0.06,
+        "inertia": 0,
+        "liquid_inertia": 0,
+        "offset": [
+          0,
+          0.0,
+          0
+        ],
+        "on_hit": {
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+          },
+          "impact_damage": {
+            "catch_fire": true,
+            "damage": 5,
+            "knockback": false,
+            "semi_random_diff_damage": false
+          },
+          "remove_on_hit": {}
+        },
+        "power": 0,
+        "reflect_on_hurt": false,
+        "semi_random_diff_damage": false,
+        "uncertainty_base": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`shot_by_the_blaze`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:type_family": {
+        "family": [
+          "small_fireball",
+          "shot_by_the_blaze"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "anchor": 2,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        0.5,
+        0
+      ],
+      "on_hit": {
+        "catch_fire": {
+          "fire_affected_by_griefing": true
+        },
+        "impact_damage": {
+          "catch_fire": true,
+          "damage": 5,
+          "knockback": false,
+          "semi_random_diff_damage": false
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.3,
+      "reflect_on_hurt": true,
+      "semi_random_diff_damage": true,
+      "uncertainty_base": 10.0
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 2,
+      "gravity": 0.0,
+      "inertia": 1,
+      "liquid_inertia": 1,
+      "offset": [
+        0,
+        0.5,
+        0
+      ],
+      "on_hit": {
+        "catch_fire": {
+          "fire_affected_by_griefing": true
+        },
+        "impact_damage": {
+          "catch_fire": true,
+          "damage": 5,
+          "knockback": true,
+          "semi_random_diff_damage": false
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.3,
+      "reflect_on_hurt": true,
+      "semi_random_diff_damage": true,
+      "uncertainty_base": 10.0
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "small_fireball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "player"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=12] ~ ~ ~"
+            ]
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "shot_by_the_blaze"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "blaze"
+          }
+        },
+        {
+          "add": {
+            "component_groups": [
+              "gravity_enable"
+            ]
+          },
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "fire_sword_skill"
+          },
+          "run_command": {
+            "command": [
+              "playsound mob.ghast.fireball @a[r=18] ~ ~ ~"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:inertia_disable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:inertia_disable"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "shot_by_the_blaze"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:snowball`
+
+Аддон SHA-256: `a056fbb54f02aed5f76680b97ee4eca04ad31aa5ea4b20d9d6c3913f6b662419`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `110a5c15da84b2271149105df03efdd0beb94d569e7910cb94bb190066638d73`.
+
+#### `component_groups`
+
+**`ice_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "angle_offset": 0,
+        "gravity": 0.03,
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "ice_sword",
+              "target": "self"
+            }
+          },
+          "impact_damage": {
+            "damage": 3,
+            "filter": "blaze",
+            "knockback": true
+          },
+          "particle_on_hit": {
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true,
+            "particle_type": "snowballpoof"
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.5
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 100.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "angle_offset": 0,
+      "gravity": 0.03,
+      "on_hit": {
+        "impact_damage": {
+          "damage": 3,
+          "filter": "blaze",
+          "knockback": true
+        },
+        "particle_on_hit": {
+          "num_particles": 6,
+          "on_entity_hit": true,
+          "on_other_hit": true,
+          "particle_type": "snowballpoof"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.5
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "angle_offset": 0.0,
+      "gravity": 0.03,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 3,
+          "filter": "blaze",
+          "knockback": true
+        },
+        "particle_on_hit": {
+          "num_particles": 6,
+          "on_entity_hit": true,
+          "on_other_hit": true,
+          "particle_type": "snowballpoof"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.5
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "snowball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`ice_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "fill ~ ~ ~ ~ ~ ~ snow_layer 0 replace air"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "ice_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:ice_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.12.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `110a5c15da84b2271149105df03efdd0beb94d569e7910cb94bb190066638d73`.
+
+#### `component_groups`
+
+**`ice_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:projectile": {
+        "angle_offset": 0,
+        "gravity": 0.03,
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "ice_sword",
+              "target": "self"
+            }
+          },
+          "impact_damage": {
+            "damage": 3,
+            "filter": "blaze",
+            "knockback": true
+          },
+          "particle_on_hit": {
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true,
+            "particle_type": "snowballpoof"
+          },
+          "remove_on_hit": {}
+        },
+        "power": 1.5
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 100.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:projectile`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "angle_offset": 0,
+      "gravity": 0.03,
+      "on_hit": {
+        "impact_damage": {
+          "damage": 3,
+          "filter": "blaze",
+          "knockback": true
+        },
+        "particle_on_hit": {
+          "num_particles": 6,
+          "on_entity_hit": true,
+          "on_other_hit": true,
+          "particle_type": "snowballpoof"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.5
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "anchor": 1,
+      "angle_offset": 0.0,
+      "gravity": 0.03,
+      "offset": [
+        0,
+        -0.1,
+        0
+      ],
+      "on_hit": {
+        "impact_damage": {
+          "damage": 3,
+          "filter": "blaze",
+          "knockback": true
+        },
+        "particle_on_hit": {
+          "num_particles": 6,
+          "on_entity_hit": true,
+          "on_other_hit": true,
+          "particle_type": "snowballpoof"
+        },
+        "remove_on_hit": {}
+      },
+      "power": 1.5
+    }
+  }
+}
+```
+
+**`minecraft:type_family`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "family": [
+        "snowball"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`ice_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "fill ~ ~ ~ ~ ~ ~ snow_layer 0 replace air"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "ice_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:ice_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.12.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+## `minecraft:spider`
+
+Аддон SHA-256: `0df1f88a3415b607ea4625f2baa60afedeec77cddcfc60c9f63c7952dbe81fbf`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `6b86daf37ebee03bf5e74f6f66cd2a61e0ac315a66375f2b07c7eeff2f411618`.
+
+#### `component_groups`
+
+**`despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:default_spider`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "look_distance": 6.0,
+        "priority": 7,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.8
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:spider_angry`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:become_calm",
+          "target": "self"
+        },
+        "duration": 10,
+        "duration_delta": 3
+      },
+      "minecraft:behavior.leap_at_target": {
+        "must_be_on_ground": false,
+        "priority": 4,
+        "yd": 0.4
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "reach_multiplier": 0.8,
+        "speed_multiplier": 1.0,
+        "track_target": true
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:become_calm",
+          "target": "self"
+        },
+        "duration": 10,
+        "duration_delta": 3
+      },
+      "minecraft:behavior.leap_at_target": {
+        "must_be_on_ground": false,
+        "priority": 4,
+        "yd": 0.4
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "reach_multiplier": 0.8,
+        "track_target": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:spider_player_jockey`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      },
+      "minecraft:can_power_jump": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "not_climb",
+            "filters": {}
+          }
+        ]
+      },
+      "minecraft:health": {
+        "max": 20,
+        "value": 20
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_max": 0.7,
+          "range_min": 0.4
+        }
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/empty.json"
+      },
+      "minecraft:rideable": {
+        "family_types": [
+          "player"
+        ],
+        "seat_count": 1,
+        "seats": {
+          "position": [
+            0.0,
+            0.54,
+            0.0
+          ]
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "spider",
+          "monster",
+          "mob",
+          "arthropod",
+          "spider_sword"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:attack`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "damage": 3
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "damage": 2
+    }
+  }
+}
+```
+
+**`minecraft:behavior.hurt_by_target`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 1
+    }
+  }
+}
+```
+
+**`minecraft:behavior.look_at_player`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "look_distance": 6.0,
+      "priority": 7,
+      "probability": 0.02
+    }
+  }
+}
+```
+
+**`minecraft:behavior.random_look_around`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 7
+    }
+  }
+}
+```
+
+**`minecraft:behavior.random_stroll`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 6,
+      "speed_multiplier": 0.8
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `description`
+
+**`animations`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "climb_spider": "controller.animation.climb_spider",
+      "despawn": "controller.animation.despawn"
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`scripts`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "animate": [
+        "despawn",
+        "climb_spider"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "despawn"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spider_sword"
+          },
+          "run_command": {
+            "command": [
+              "particle minecraft:example_linearcurve ~ ~ ~",
+              "playsound random.fizz @a[r=16]"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_spider"
+            ]
+          }
+        },
+        {
+          "randomize": [
+            {
+              "randomize": [
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_stray_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "all_of": [
+                      {
+                        "test": "is_daytime",
+                        "value": false
+                      },
+                      {
+                        "test": "is_snow_covered",
+                        "value": true
+                      },
+                      {
+                        "test": "is_underground",
+                        "value": false
+                      }
+                    ]
+                  },
+                  "remove": {},
+                  "weight": 80
+                },
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_wither_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "test": "is_biome",
+                    "value": "the_nether"
+                  },
+                  "remove": {},
+                  "weight": 80
+                },
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "any_of": [
+                      {
+                        "test": "is_daytime",
+                        "value": false
+                      },
+                      {
+                        "test": "is_underground",
+                        "value": true
+                      }
+                    ]
+                  },
+                  "remove": {},
+                  "weight": 20
+                }
+              ],
+              "weight": 1
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "remove": {},
+              "weight": 99
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "randomize": [
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_stray_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_daytime",
+                    "value": false
+                  },
+                  {
+                    "test": "is_snow_covered",
+                    "value": true
+                  },
+                  {
+                    "test": "is_underground",
+                    "value": false
+                  }
+                ]
+              },
+              "remove": {},
+              "weight": 80
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_wither_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "test": "is_biome",
+                "value": "the_nether"
+              },
+              "remove": {},
+              "weight": 80
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_daytime",
+                    "value": false
+                  },
+                  {
+                    "test": "is_underground",
+                    "value": true
+                  }
+                ]
+              },
+              "remove": {},
+              "weight": 20
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:spider_neutral"
+            ]
+          },
+          "remove": {},
+          "weight": 99
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:spider_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:spider_player_jockey"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "minecraft:spider_hostile",
+          "minecraft:spider_neutral",
+          "minecraft:default_spider"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`not_climb`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "execute @s ~~~ detect ~0.8 ~ ~ air 0 execute @s ~~~ detect ~-0.8 ~ ~ air 0 execute @s ~~~ detect ~ ~ ~0.8 air 0 execute @s ~~~ detect ~ ~ ~-0.8 air 0 effect @s levitation 0 0 true"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.18.20"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `6b86daf37ebee03bf5e74f6f66cd2a61e0ac315a66375f2b07c7eeff2f411618`.
+
+#### `component_groups`
+
+**`despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:despawn": {}
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:default_spider`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "look_distance": 6.0,
+        "priority": 7,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 7
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.8
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:spider_angry`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:become_calm",
+          "target": "self"
+        },
+        "duration": 10,
+        "duration_delta": 3
+      },
+      "minecraft:behavior.leap_at_target": {
+        "must_be_on_ground": false,
+        "priority": 4,
+        "yd": 0.4
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "reach_multiplier": 0.8,
+        "speed_multiplier": 1.0,
+        "track_target": true
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:angry": {
+        "calm_event": {
+          "event": "minecraft:become_calm",
+          "target": "self"
+        },
+        "duration": 10,
+        "duration_delta": 3
+      },
+      "minecraft:behavior.leap_at_target": {
+        "must_be_on_ground": false,
+        "priority": 4,
+        "yd": 0.4
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "reach_multiplier": 0.8,
+        "track_target": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:spider_player_jockey`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      },
+      "minecraft:can_power_jump": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "not_climb",
+            "filters": {}
+          }
+        ]
+      },
+      "minecraft:health": {
+        "max": 20,
+        "value": 20
+      },
+      "minecraft:horse.jump_strength": {
+        "value": {
+          "range_max": 0.7,
+          "range_min": 0.4
+        }
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/empty.json"
+      },
+      "minecraft:rideable": {
+        "family_types": [
+          "player"
+        ],
+        "seat_count": 1,
+        "seats": {
+          "position": [
+            0.0,
+            0.54,
+            0.0
+          ]
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "spider",
+          "monster",
+          "mob",
+          "arthropod",
+          "spider_sword"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:attack`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "damage": 3
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "damage": 2
+    }
+  }
+}
+```
+
+**`minecraft:behavior.hurt_by_target`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 1
+    }
+  }
+}
+```
+
+**`minecraft:behavior.look_at_player`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "look_distance": 6.0,
+      "priority": 7,
+      "probability": 0.02
+    }
+  }
+}
+```
+
+**`minecraft:behavior.random_look_around`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 7
+    }
+  }
+}
+```
+
+**`minecraft:behavior.random_stroll`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "priority": 6,
+      "speed_multiplier": 0.8
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `description`
+
+**`animations`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "climb_spider": "controller.animation.climb_spider",
+      "despawn": "controller.animation.despawn"
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`scripts`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "animate": [
+        "despawn",
+        "climb_spider"
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "despawn"
+            ]
+          },
+          "filters": {
+            "operator": "==",
+            "subject": "self",
+            "test": "is_family",
+            "value": "spider_sword"
+          },
+          "run_command": {
+            "command": [
+              "particle minecraft:example_linearcurve ~ ~ ~",
+              "playsound random.fizz @a[r=16]"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_spider"
+            ]
+          }
+        },
+        {
+          "randomize": [
+            {
+              "randomize": [
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_stray_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "all_of": [
+                      {
+                        "test": "is_daytime",
+                        "value": false
+                      },
+                      {
+                        "test": "is_snow_covered",
+                        "value": true
+                      },
+                      {
+                        "test": "is_underground",
+                        "value": false
+                      }
+                    ]
+                  },
+                  "remove": {},
+                  "weight": 80
+                },
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_wither_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "test": "is_biome",
+                    "value": "the_nether"
+                  },
+                  "remove": {},
+                  "weight": 80
+                },
+                {
+                  "add": {
+                    "component_groups": [
+                      "minecraft:spider_jockey",
+                      "minecraft:spider_neutral"
+                    ]
+                  },
+                  "filters": {
+                    "any_of": [
+                      {
+                        "test": "is_daytime",
+                        "value": false
+                      },
+                      {
+                        "test": "is_underground",
+                        "value": true
+                      }
+                    ]
+                  },
+                  "remove": {},
+                  "weight": 20
+                }
+              ],
+              "weight": 1
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "remove": {},
+              "weight": 99
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "randomize": [
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_stray_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_daytime",
+                    "value": false
+                  },
+                  {
+                    "test": "is_snow_covered",
+                    "value": true
+                  },
+                  {
+                    "test": "is_underground",
+                    "value": false
+                  }
+                ]
+              },
+              "remove": {},
+              "weight": 80
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_wither_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "test": "is_biome",
+                "value": "the_nether"
+              },
+              "remove": {},
+              "weight": 80
+            },
+            {
+              "add": {
+                "component_groups": [
+                  "minecraft:spider_jockey",
+                  "minecraft:spider_neutral"
+                ]
+              },
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_daytime",
+                    "value": false
+                  },
+                  {
+                    "test": "is_underground",
+                    "value": true
+                  }
+                ]
+              },
+              "remove": {},
+              "weight": 20
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:spider_neutral"
+            ]
+          },
+          "remove": {},
+          "weight": 99
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:spider_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:spider_player_jockey"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "minecraft:spider_hostile",
+          "minecraft:spider_neutral",
+          "minecraft:default_spider"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`not_climb`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "execute @s ~~~ detect ~0.8 ~ ~ air 0 execute @s ~~~ detect ~-0.8 ~ ~ air 0 execute @s ~~~ detect ~ ~ ~0.8 air 0 execute @s ~~~ detect ~ ~ ~-0.8 air 0 effect @s levitation 0 0 true"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.18.20"
+  }
+}
+```
+
+## `minecraft:tnt`
+
+Аддон SHA-256: `3e0474e699f9f4ed9568c119cec2a0eefa18dcc1d01bf003e2ddc8b0c900a0ac`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `d72b08afa39df2cfab8b776592a880494469609ab8a3a866e354df1ab0685832`.
+
+#### `component_groups`
+
+**`default_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:explode": {
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true,
+        "fuse_length": 4,
+        "fuse_lit": true,
+        "power": 4
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`giant_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "event": "particle",
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "value": "tnt"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "minecraft:explode": {
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true,
+        "fuse_length": 8,
+        "fuse_lit": true,
+        "power": 16
+      },
+      "minecraft:scale": {
+        "value": 2
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          7.99,
+          7.99
+        ],
+        "time_down_event": {
+          "event": "camerashake",
+          "target": "self"
+        }
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 5,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:explode`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "causes_fire": false,
+      "fuse_length": 4,
+      "fuse_lit": true,
+      "power": 4
+    }
+  }
+}
+```
+
+#### `events`
+
+**`camerashake`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "camerashake add @a[r=32] 0.2 0.8 positional",
+          "playsound random.explode @a[r=32] ~ ~ ~ 2 0.4 2"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`giant_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "giant_tnt"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "default_tnt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "default_tnt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`particle`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "particle minecraft:example_linearcurve ~ ~ ~"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `d72b08afa39df2cfab8b776592a880494469609ab8a3a866e354df1ab0685832`.
+
+#### `component_groups`
+
+**`default_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:explode": {
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true,
+        "fuse_length": 4,
+        "fuse_lit": true,
+        "power": 4
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`giant_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "event": "particle",
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "value": "tnt"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "minecraft:explode": {
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true,
+        "fuse_length": 8,
+        "fuse_lit": true,
+        "power": 16
+      },
+      "minecraft:scale": {
+        "value": 2
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": [
+          7.99,
+          7.99
+        ],
+        "time_down_event": {
+          "event": "camerashake",
+          "target": "self"
+        }
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 5,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+**`minecraft:explode`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "causes_fire": false,
+      "fuse_length": 4,
+      "fuse_lit": true,
+      "power": 4
+    }
+  }
+}
+```
+
+#### `events`
+
+**`camerashake`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "camerashake add @a[r=32] 0.2 0.8 positional",
+          "playsound random.explode @a[r=32] ~ ~ ~ 2 0.4 2"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`giant_tnt`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "giant_tnt"
+        ]
+      },
+      "remove": {
+        "component_groups": [
+          "default_tnt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "default_tnt"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`particle`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "particle minecraft:example_linearcurve ~ ~ ~"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:witch`
+
+Аддон SHA-256: `5bcd147fbfd09b1cb42524fb08c90b7015049c9f1552a82670604e856c07d483`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `812c33f42d712f84c7e4e161c0f8c3671e65ff4b7d689913096444d2efc43cde`.
+
+#### `component_groups`
+
+**`grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "grass_witch_skill",
+            "filters": {}
+          }
+        ]
+      },
+      "minecraft:follow_range": {
+        "value": 80
+      },
+      "minecraft:health": {
+        "max": 32,
+        "value": 32
+      },
+      "minecraft:loot": {},
+      "minecraft:on_death": {
+        "event": "grass_sword",
+        "target": "self"
+      },
+      "minecraft:scale": {
+        "value": 1.1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "witch",
+          "monster",
+          "mob",
+          "grass_witch"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:default_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:raid_configuration`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.in.raid",
+        "range": 4.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_village": {
+        "goal_radius": 2.0,
+        "priority": 3,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:dweller": {
+        "can_find_poi": false,
+        "can_migrate": false,
+        "dweller_role": "hostile",
+        "dwelling_type": "village",
+        "first_founding_reward": 0,
+        "update_interval_base": 60,
+        "update_interval_variant": 40
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.in.raid",
+        "range": 4.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_village": {
+        "goal_radius": 2.0,
+        "priority": 3,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:dweller": {
+        "can_find_poi": false,
+        "can_migrate": true,
+        "dweller_role": "hostile",
+        "dwelling_type": "village",
+        "first_founding_reward": 0,
+        "update_interval_base": 60,
+        "update_interval_variant": 40
+      }
+    }
+  }
+}
+```
+
+**`minecraft:raid_persistence`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:persistent": {}
+    }
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `events`
+
+**`grass_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 80
+        },
+        {
+          "run_command": {
+            "command": [
+              "structure load grass_sword ~~~",
+              "setblock ~ ~ ~ double_plant 2",
+              "playsound dig.grass @a[r=12] ~~~"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`grass_witch_skill`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "execute @e[family=!grass_witch,type=!item,type=!entity:grass,type=!xp_orb,type=!arrow,r=8,tag=!grass,family=!shulker_sword] ~ ~ ~ detect ~ ~-0.1 ~ grass 0 execute @s ~ ~ ~ detect ~ ~ ~ air 0 summon entity:grass",
+          "execute @e[family=!grass_witch,type=!item,type=!entity:grass,type=!xp_orb,type=!arrow,r=8,tag=!grass,family=!shulker_sword] ~ ~ ~ detect ~ ~-0.1 ~ grass 0 execute @s ~ ~ ~ detect ~ ~ ~ tallgrass 0 summon entity:grass"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_witch"
+            ]
+          },
+          "weight": 80
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:grass_witch",
+              "grass_witch"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:grass_witch",
+          "grass_witch"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:raid_expired`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "filters": {
+            "test": "has_nametag",
+            "value": false
+          },
+          "remove": {
+            "component_groups": [
+              "minecraft:raid_persistence"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:spawn_for_raid`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:raid_configuration"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:raid_configuration",
+          "minecraft:raid_persistence"
+        ]
+      }
+    }
+  }
+}
+```
+
+**`minecraft:start_celebrating`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:celebrate"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:celebrate"
+            ]
+          }
+        },
+        {
+          "filters": {
+            "test": "has_nametag",
+            "value": false
+          },
+          "remove": {
+            "component_groups": [
+              "minecraft:raid_persistence"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `26f5b59ccf5f8aa89d23f44f1cbde64c3679d81e35044fd498b37eadac81c79f`.
+
+#### `component_groups`
+
+**`grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "event": "grass_witch_skill",
+            "filters": {}
+          }
+        ]
+      },
+      "minecraft:follow_range": {
+        "value": 80
+      },
+      "minecraft:health": {
+        "max": 32,
+        "value": 32
+      },
+      "minecraft:loot": {},
+      "minecraft:on_death": {
+        "event": "grass_sword",
+        "target": "self"
+      },
+      "minecraft:scale": {
+        "value": 1.1
+      },
+      "minecraft:type_family": {
+        "family": [
+          "witch",
+          "monster",
+          "mob",
+          "grass_witch"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:default_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 0
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:variant": {
+        "value": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:raid_configuration`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.in.raid",
+        "range": 4.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_village": {
+        "goal_radius": 2.0,
+        "priority": 3,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:dweller": {
+        "can_find_poi": false,
+        "can_migrate": false,
+        "dweller_role": "hostile",
+        "dwelling_type": "village",
+        "first_founding_reward": 0,
+        "update_interval_base": 60,
+        "update_interval_variant": 40
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:ambient_sound_interval": {
+        "event_name": "ambient.in.raid",
+        "range": 4.0,
+        "value": 2.0
+      },
+      "minecraft:behavior.move_to_village": {
+        "goal_radius": 2.0,
+        "priority": 3,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:dweller": {
+        "can_find_poi": false,
+        "can_migrate": true,
+        "dweller_role": "hostile",
+        "dwelling_type": "village",
+        "first_founding_reward": 0,
+        "update_interval_base": 60,
+        "update_interval_variant": 40
+      }
+    }
+  }
+}
+```
+
+**`minecraft:raid_persistence`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "minecraft:persistent": {}
+    }
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:behavior.drink_potion`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "potions": [
+        {
+          "chance": 0.15,
+          "filters": {
+            "all_of": [
+              {
+                "subject": "self",
+                "test": "is_underwater",
+                "value": true
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "self",
+                    "test": "has_mob_effect",
+                    "value": "water_breathing"
+                  }
+                ]
+              }
+            ]
+          },
+          "id": 19
+        },
+        {
+          "chance": 0.15,
+          "filters": {
+            "all_of": [
+              {
+                "any_of": [
+                  {
+                    "subject": "self",
+                    "test": "on_fire",
+                    "value": true
+                  },
+                  {
+                    "subject": "self",
+                    "test": "on_hot_block",
+                    "value": true
+                  },
+                  {
+                    "subject": "self",
+                    "test": "taking_fire_damage",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "self",
+                    "test": "has_mob_effect",
+                    "value": "fire_resistance"
+                  }
+                ]
+              }
+            ]
+          },
+          "id": 12
+        },
+        {
+          "chance": 0.05,
+          "filters": {
+            "all_of": [
+              {
+                "subject": "self",
+                "test": "is_missing_health",
+                "value": true
+              }
+            ]
+          },
+          "id": 21
+        },
+        {
+          "chance": 0.25,
+          "filters": {
+            "all_of": [
+              {
+                "subject": "self",
+                "test": "has_target",
+                "value": true
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "self",
+                    "test": "has_mob_effect",
+                    "value": "speed"
+                  }
+                ]
+              },
+              {
+                "operator": ">=",
+                "subject": "self",
+                "test": "target_distance",
+                "value": 11.0
+              }
+            ]
+          },
+          "id": 14
+        }
+      ],
+      "priority": 1,
+      "speed_modifier": -0.25
+    }
+  }
+}
+```
+
+**`minecraft:behavior.nearest_attackable_target`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "entity_types": [
+        {
+          "filters": {
+            "any_of": [
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "player"
+              },
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "snowgolem"
+              },
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "irongolem"
+              }
+            ]
+          },
+          "max_dist": 10
+        }
+      ],
+      "must_reach": true,
+      "priority": 2
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:behavior.nearest_prioritized_attackable_target`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "entity_types": [
+        {
+          "filters": {
+            "any_of": [
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "player"
+              },
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "snowgolem"
+              },
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "irongolem"
+              }
+            ]
+          },
+          "max_dist": 10,
+          "priority": 1
+        },
+        {
+          "cooldown": 10,
+          "filters": {
+            "all_of": [
+              {
+                "subject": "other",
+                "test": "is_raider",
+                "value": true
+              },
+              {
+                "subject": "self",
+                "test": "is_raider",
+                "value": true
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "other",
+                    "test": "is_family",
+                    "value": "witch"
+                  }
+                ]
+              }
+            ]
+          },
+          "max_dist": 10,
+          "priority": 2
+        }
+      ],
+      "must_reach": true,
+      "priority": 2
+    }
+  }
+}
+```
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:damage_sensor`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:despawn`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "despawn_from_distance": {}
+    }
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:shooter`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "aux_val": 23,
+      "def": "minecraft:splash_potion",
+      "magic": true,
+      "power": 0.75,
+      "projectiles": [
+        {
+          "aux_val": 21,
+          "def": "minecraft:splash_potion",
+          "filters": {
+            "all_of": [
+              {
+                "subject": "other",
+                "test": "is_raider",
+                "value": true
+              },
+              {
+                "operator": "<=",
+                "subject": "other",
+                "test": "actor_health",
+                "value": 4
+              }
+            ]
+          },
+          "lose_target": true
+        },
+        {
+          "aux_val": 28,
+          "def": "minecraft:splash_potion",
+          "filters": {
+            "all_of": [
+              {
+                "subject": "other",
+                "test": "is_raider",
+                "value": true
+              }
+            ]
+          },
+          "lose_target": true
+        },
+        {
+          "aux_val": 17,
+          "def": "minecraft:splash_potion",
+          "filters": {
+            "all_of": [
+              {
+                "operator": ">=",
+                "subject": "self",
+                "test": "target_distance",
+                "value": 8.0
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "other",
+                    "test": "has_mob_effect",
+                    "value": "slowness"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "aux_val": 25,
+          "def": "minecraft:splash_potion",
+          "filters": {
+            "all_of": [
+              {
+                "operator": ">=",
+                "subject": "other",
+                "test": "actor_health",
+                "value": 8
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "other",
+                    "test": "has_mob_effect",
+                    "value": "poison"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "aux_val": 34,
+          "chance": 0.25,
+          "def": "minecraft:splash_potion",
+          "filters": {
+            "all_of": [
+              {
+                "operator": "<=",
+                "subject": "self",
+                "test": "target_distance",
+                "value": 3
+              },
+              {
+                "none_of": [
+                  {
+                    "subject": "other",
+                    "test": "has_mob_effect",
+                    "value": "weakness"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "sound": "throw"
+    }
+  }
+}
+```
+
+#### `events`
+
+**`grass_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "weight": 80
+        },
+        {
+          "run_command": {
+            "command": [
+              "structure load grass_sword ~~~",
+              "setblock ~ ~ ~ double_plant 2",
+              "playsound dig.grass @a[r=12] ~~~"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`grass_witch_skill`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "run_command": {
+        "command": [
+          "execute @e[family=!grass_witch,type=!item,type=!entity:grass,type=!xp_orb,type=!arrow,r=8,tag=!grass,family=!shulker_sword] ~ ~ ~ detect ~ ~-0.1 ~ grass 0 execute @s ~ ~ ~ detect ~ ~ ~ air 0 summon entity:grass",
+          "execute @e[family=!grass_witch,type=!item,type=!entity:grass,type=!xp_orb,type=!arrow,r=8,tag=!grass,family=!shulker_sword] ~ ~ ~ detect ~ ~-0.1 ~ grass 0 execute @s ~ ~ ~ detect ~ ~ ~ tallgrass 0 summon entity:grass"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "randomize": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:default_witch"
+            ]
+          },
+          "weight": 80
+        },
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:grass_witch",
+              "grass_witch"
+            ]
+          },
+          "weight": 20
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:grass_witch`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:grass_witch",
+          "grass_witch"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+**`minecraft:raid_expired`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "filters": {
+            "test": "has_nametag",
+            "value": false
+          },
+          "remove": {
+            "component_groups": [
+              "minecraft:raid_persistence"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**`minecraft:spawn_for_raid`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:raid_configuration"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:raid_configuration",
+          "minecraft:raid_persistence"
+        ]
+      }
+    }
+  }
+}
+```
+
+**`minecraft:start_celebrating`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "add": {
+        "component_groups": [
+          "minecraft:celebrate"
+        ]
+      }
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "minecraft:celebrate"
+            ]
+          }
+        },
+        {
+          "filters": {
+            "test": "has_nametag",
+            "value": false
+          },
+          "remove": {
+            "component_groups": [
+              "minecraft:raid_persistence"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.19.60"
+  }
+}
+```
+
+## `minecraft:wither`
+
+Аддон SHA-256: `b3afc7ea8512e055a372222a92e0de1f49107f7c75d9b5a2eb78b7cae09e8e94`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `10c07c09fb397ba55ee35052d0fde4f5f20675b1d4d779b50e45ffb4abf710a2`.
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:damage_sensor`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "triggers": [
+        {
+          "deals_damage": false,
+          "on_damage": {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "undead"
+            }
+          }
+        },
+        {
+          "deals_damage": true,
+          "on_damage": {
+            "event": "wither_sword",
+            "filters": {
+              "all_of": [
+                {
+                  "domain": "hand",
+                  "subject": "other",
+                  "test": "has_equipment",
+                  "value": "effect:nether_star_sword"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "has_damage",
+                  "value": "fatal"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "triggers": {
+        "deals_damage": false,
+        "on_damage": {
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "undead"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**`minecraft:fire_immune`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": true
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `events`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "weight": 87
+            },
+            {
+              "run_command": {
+                "command": [
+                  "structure load wither_sword ~ ~ ~"
+                ]
+              },
+              "weight": 13
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `4fab04fe472d32aa4f6adf9990638fa5068f227141b246bfa227229aaeac842c`.
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:damage_sensor`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "triggers": [
+        {
+          "deals_damage": false,
+          "on_damage": {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "undead"
+            }
+          }
+        },
+        {
+          "deals_damage": true,
+          "on_damage": {
+            "event": "wither_sword",
+            "filters": {
+              "all_of": [
+                {
+                  "domain": "hand",
+                  "subject": "other",
+                  "test": "has_equipment",
+                  "value": "effect:nether_star_sword"
+                },
+                {
+                  "subject": "other",
+                  "test": "is_family",
+                  "value": "player"
+                },
+                {
+                  "test": "has_damage",
+                  "value": "fatal"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "triggers": {
+        "deals_damage": false,
+        "on_damage": {
+          "filters": {
+            "subject": "other",
+            "test": "is_family",
+            "value": "undead"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**`minecraft:fire_immune`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": true
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+**`minecraft:is_hidden_when_invisible`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {}
+  }
+}
+```
+
+#### `description`
+
+**`is_spawnable`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": false
+  },
+  "reference": {
+    "present": true,
+    "value": true
+  }
+}
+```
+
+#### `events`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "randomize": [
+            {
+              "weight": 87
+            },
+            {
+              "run_command": {
+                "command": [
+                  "structure load wither_sword ~ ~ ~"
+                ]
+              },
+              "weight": 13
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `root`
+
+**`format_version`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": "1.13.0"
+  },
+  "reference": {
+    "present": true,
+    "value": "1.16.0"
+  }
+}
+```
+
+## `minecraft:wither_skull`
+
+Аддон SHA-256: `ee3700ff1616bab7b4ed06195f2e75a7b4d8b20739328508380d8fad144e9ae5`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `10ed8e6daa43a21755e3f01d4cea23a2bf4360416a17fce2c8455a59a838652c`.
+
+#### `component_groups`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "inertia": 1.0,
+        "liquid_inertia": 1.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 0,
+            "durationhard": 800,
+            "durationnormal": 200,
+            "effect": "wither"
+          }
+        },
+        "power": 1.2,
+        "shoot_sound": "bow",
+        "shoot_target": false,
+        "uncertainty_base": 7.5,
+        "uncertainty_multiplier": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "wither_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:wither_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `10ed8e6daa43a21755e3f01d4cea23a2bf4360416a17fce2c8455a59a838652c`.
+
+#### `component_groups`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.05,
+        "hit_sound": "bow.hit",
+        "inertia": 1.0,
+        "liquid_inertia": 1.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 0,
+            "durationhard": 800,
+            "durationnormal": 200,
+            "effect": "wither"
+          }
+        },
+        "power": 1.2,
+        "shoot_sound": "bow",
+        "shoot_target": false,
+        "uncertainty_base": 7.5,
+        "uncertainty_multiplier": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "wither_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:wither_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+## `minecraft:wither_skull_dangerous`
+
+Аддон SHA-256: `76f634aa2ef9c88ff6a7f1a14ec19b16eaecad23dbfdb4b38d790ea441114ca7`.
+
+### Образец `1.19.40.2`
+
+Файл образца SHA-256: `1a45e35ee6d597cbc77dba11253e6e9f4797393f13394849c9c9788b04a56428`.
+
+#### `component_groups`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.005,
+        "hit_sound": "bow.hit",
+        "inertia": 1.0,
+        "is_dangerous": true,
+        "liquid_inertia": 1.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 0,
+            "durationhard": 800,
+            "durationnormal": 200,
+            "effect": "wither"
+          }
+        },
+        "power": 0.6,
+        "reflect_on_hurt": true,
+        "shoot_sound": "bow",
+        "shoot_target": false,
+        "uncertainty_base": 7.5,
+        "uncertainty_multiplier": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "wither_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:wither_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+### Образец `1.20.30.1`
+
+Файл образца SHA-256: `1a45e35ee6d597cbc77dba11253e6e9f4797393f13394849c9c9788b04a56428`.
+
+#### `component_groups`
+
+**`wither_sword`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "minecraft:collision_box": {
+        "height": 0,
+        "width": 0
+      },
+      "minecraft:projectile": {
+        "anchor": 1,
+        "gravity": 0.005,
+        "hit_sound": "bow.hit",
+        "inertia": 1.0,
+        "is_dangerous": true,
+        "liquid_inertia": 1.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "on_hit": {
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          },
+          "mob_effect": {
+            "amplifier": 1,
+            "durationeasy": 0,
+            "durationhard": 800,
+            "durationnormal": 200,
+            "effect": "wither"
+          }
+        },
+        "power": 0.6,
+        "reflect_on_hurt": true,
+        "shoot_sound": "bow",
+        "shoot_target": false,
+        "uncertainty_base": 7.5,
+        "uncertainty_multiplier": 1
+      }
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```
+
+#### `components`
+
+**`minecraft:conditional_bandwidth_optimization`**
+
+```json
+{
+  "addon": {
+    "present": false
+  },
+  "reference": {
+    "present": true,
+    "value": {
+      "default_values": {
+        "max_dropped_ticks": 7,
+        "max_optimized_distance": 80.0,
+        "use_motion_prediction_hints": true
+      }
+    }
+  }
+}
+```
+
+#### `events`
+
+**`minecraft:entity_spawned`**
+
+```json
+{
+  "addon": {
+    "present": true,
+    "value": {
+      "sequence": [
+        {
+          "add": {
+            "component_groups": [
+              "wither_sword"
+            ]
+          },
+          "filters": {
+            "domain": "hand",
+            "subject": "other",
+            "test": "has_equipment",
+            "value": "effect:wither_sword"
+          }
+        }
+      ]
+    }
+  },
+  "reference": {
+    "present": false
+  }
+}
+```

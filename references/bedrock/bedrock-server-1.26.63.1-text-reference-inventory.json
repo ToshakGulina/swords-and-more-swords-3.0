@@ -1,0 +1,1319 @@
+{
+  "source": "bedrock-server-1.26.63.1.zip",
+  "source_sha256": "b40b04c8f5a7c42a19ee685c22fc593e66116b9c22741b8c75489306b252ff62",
+  "archive": "bedrock-server-1.26.63.1-text-reference.zip",
+  "archive_sha256": "c065d9ae2aa0bd43fdc6bdf9d0ae858d59fc82c48261c3ad869229482c33a40d",
+  "file_count": 262,
+  "files": [
+    {
+      "path": "bedrock_server_how_to.html",
+      "bytes": 45463,
+      "sha256": "d696b0900790842db264e25500443b80923aaa788bf2bb63f591ec080c34afe9"
+    },
+    {
+      "path": "definitions/feature_rules/bamboo_jungle_after_surface_bamboo_feature.json",
+      "bytes": 998,
+      "sha256": "60995a1e235d3ebbb0a2a847a688fbc962984ae679cc47f24b50a6433c90488a"
+    },
+    {
+      "path": "definitions/feature_rules/bamboo_jungle_surface_tall_grass_feature.json",
+      "bytes": 985,
+      "sha256": "dbd6b62d10bc8ba1f7098146d36e9fb219354e99ba1a57eecd9af0aae8c0bf2d"
+    },
+    {
+      "path": "definitions/feature_rules/bamboo_jungle_surface_trees_feature.json",
+      "bytes": 660,
+      "sha256": "eaeebc1328e1391c599a0833cff2a6e23f39b9c3d97b8d1b8af8114e76512c26"
+    },
+    {
+      "path": "definitions/feature_rules/basalt_columns_feature.json",
+      "bytes": 729,
+      "sha256": "7e67c41fd3be6994a4067ab64c4bb4373571feedc703019db9b20242ecc7f116"
+    },
+    {
+      "path": "definitions/feature_rules/basalt_pillar_feature.json",
+      "bytes": 750,
+      "sha256": "5e2432c41888b97bd426c4261df231a3839d69129c3e4f2a7d83b32c070a9183"
+    },
+    {
+      "path": "definitions/feature_rules/birch_forest_mutated_surface_trees_feature.json",
+      "bytes": 880,
+      "sha256": "32b8be052cabed69c06fe427d6915b6f4f2e665ca5cb7ab6338cbba364901130"
+    },
+    {
+      "path": "definitions/feature_rules/birch_forest_surface_trees_feature.json",
+      "bytes": 864,
+      "sha256": "7e41717624ff463ca5b8118919879cc41ba2ea015f92b4764552fcf6f5e21436"
+    },
+    {
+      "path": "definitions/feature_rules/cold_taiga_first_sweet_berry_bush_feature.json",
+      "bytes": 1152,
+      "sha256": "364e82f25650ea059f00129773e8b610dac01577cfc19706948bd969b98cc966"
+    },
+    {
+      "path": "definitions/feature_rules/crimson_feature.json",
+      "bytes": 729,
+      "sha256": "52ad0df7e21ca3c90ad5b299f4ca6fd0dbd35d6d8368dfb7eff601b802bfca3a"
+    },
+    {
+      "path": "definitions/feature_rules/crimson_roots_feature.json",
+      "bytes": 827,
+      "sha256": "21c07168c4cb1319bd1b702c1c459099a11fc0921ccf191a53efe61459f5b43b"
+    },
+    {
+      "path": "definitions/feature_rules/crimson_roots_soul_sand_valley_feature.json",
+      "bytes": 844,
+      "sha256": "1786051447b9b4463dac659a3d6327ab984011f5dc23cb6e6ecc657f99d86774"
+    },
+    {
+      "path": "definitions/feature_rules/delta_feature.json",
+      "bytes": 712,
+      "sha256": "a76483f7145784c4ef22d75253bd21008cfc363b6b32a14392654c19530325f7"
+    },
+    {
+      "path": "definitions/feature_rules/desert_after_surface_desert_well_feature.json",
+      "bytes": 813,
+      "sha256": "690b877ae4bdb151c364af5493348f38123c5590006a39576080d88a7041861b"
+    },
+    {
+      "path": "definitions/feature_rules/desert_or_swamp_after_surface_fossil_feature.json",
+      "bytes": 906,
+      "sha256": "c725fe003bebc3241ce726137168666b4b15dfcd39ed74cf8c745f6d60d369e4"
+    },
+    {
+      "path": "definitions/feature_rules/desert_surface_cactus_feature.json",
+      "bytes": 790,
+      "sha256": "008d63333c20ece637858941bad9c5b68028e105d5c509be4c9d9f4ce8888a61"
+    },
+    {
+      "path": "definitions/feature_rules/desert_surface_dead_bush_feature.json",
+      "bytes": 795,
+      "sha256": "6b9f109211134b586dfb6de68f328e1ec6663d9fe6325d45a9dd39e2217101c6"
+    },
+    {
+      "path": "definitions/feature_rules/desert_surface_reeds_feature.json",
+      "bytes": 788,
+      "sha256": "d5fa5ab6b7f7c55cbacff70da375a73418d2907ab9c6b06de2550add25eaf6c7"
+    },
+    {
+      "path": "definitions/feature_rules/extreme_hills_after_surface_emerald_ore_feature.json",
+      "bytes": 566,
+      "sha256": "169e42584d740a6c9afecbdaa9ff72980a43fa7e7b0abeb70ebf52b1b8bf62a1"
+    },
+    {
+      "path": "definitions/feature_rules/extreme_hills_after_surface_silverfish_feature.json",
+      "bytes": 808,
+      "sha256": "65cd4979ff182a5000e0f25b861911a9a7f0be115d31e7ebb6f3e3a1e95882b3"
+    },
+    {
+      "path": "definitions/feature_rules/extreme_hills_plus_trees_surface_trees_feature.json",
+      "bytes": 893,
+      "sha256": "d73e9f3ddff9be5f02e7abcb54eaf9da4d0d9e29556f40a94ef04d94aefdd76f"
+    },
+    {
+      "path": "definitions/feature_rules/flower_forest_first_foliage_feature.json",
+      "bytes": 556,
+      "sha256": "25f9a5003e36d9cb62db3784d6433578883551732145a4a173ae2330a02ab98e"
+    },
+    {
+      "path": "definitions/feature_rules/flower_forest_surface_flowers_feature.json",
+      "bytes": 828,
+      "sha256": "24d9e6e0bf431b5b6816cb700ce5045b6516bb05f013f5319b7047301ce2c777"
+    },
+    {
+      "path": "definitions/feature_rules/flower_forest_surface_trees_feature.json",
+      "bytes": 555,
+      "sha256": "0675f994beeee73a2db4ea28f0d35edecdc595d524f159b5f79e4bbebfe61864"
+    },
+    {
+      "path": "definitions/feature_rules/forest_first_foliage_feature.json",
+      "bytes": 1094,
+      "sha256": "891f0fcceaa73de06db3781f4a1de4fcc4726341dd8119089bb71f56b946e116"
+    },
+    {
+      "path": "definitions/feature_rules/forest_surface_flowers_feature.json",
+      "bytes": 1252,
+      "sha256": "e14d168399dd14863a458ccf06fe52dd57c5d1060acc12b6953c7fa826015e0f"
+    },
+    {
+      "path": "definitions/feature_rules/forest_surface_trees_feature.json",
+      "bytes": 1204,
+      "sha256": "8083f4f871d84b5825adaaf3bf3e8d9668bd0d248eade95d2df409df691da6a7"
+    },
+    {
+      "path": "definitions/feature_rules/frozen_ocean_after_surface_ice_feature.json",
+      "bytes": 844,
+      "sha256": "78db12bce87c4d41abf07202c068bb91ea249ebc3e7abf1a11eee7675323f120"
+    },
+    {
+      "path": "definitions/feature_rules/huge_crimson_fungus_feature.json",
+      "bytes": 737,
+      "sha256": "148c3867419192685e759cfe1423ac059f1a324ec3ca6c80ce95c6e7bccbd9b5"
+    },
+    {
+      "path": "definitions/feature_rules/huge_warped_fungus_feature.json",
+      "bytes": 734,
+      "sha256": "a6716988178d01a0447fb483013e72b63fc115f3db413407735645f775ef2545"
+    },
+    {
+      "path": "definitions/feature_rules/ice_plains_spikes_first_ice_patch_feature.json",
+      "bytes": 845,
+      "sha256": "7c046b1f8719d9bc00ca829f5b7d999b75475087898733b0748ad57886775a94"
+    },
+    {
+      "path": "definitions/feature_rules/ice_plains_spikes_first_ice_spike_feature.json",
+      "bytes": 845,
+      "sha256": "50499299a226b8b6f52fc283c103c2563e89b4f7fdf09621cd6d763285c555b3"
+    },
+    {
+      "path": "definitions/feature_rules/ice_surface_trees_feature.json",
+      "bytes": 638,
+      "sha256": "aca21d87b50f3be713a549877114f6f52fda363ad9310f0f543d701c7c055be6"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_after_surface_bamboo_feature.json",
+      "bytes": 913,
+      "sha256": "27e7d2fb1419d63705b491d77c3fca5144f989eeab6a2c6d8f9142f1aaf9ff05"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_after_surface_melon_feature.json",
+      "bytes": 799,
+      "sha256": "6770871609c8c9455537fbcfd861937b10511d9154b5da38e44cfcf0e31b8954"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_after_surface_vines_feature.json",
+      "bytes": 730,
+      "sha256": "57a3b8a049e950d4f48a7fbf0e9d01b582ed79a883bab7a27fe1366c51f31555"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_edge_surface_trees_feature.json",
+      "bytes": 766,
+      "sha256": "3cbeaf71af8c6fc426e294456ca0170f225baca5b5b2e145a701c7c30db0a93e"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_surface_flowers_feature.json",
+      "bytes": 808,
+      "sha256": "3a15d9e7b5538b0e40575cbd3ab8a2e05853b913d4abd941c469c1c90afacaa2"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_surface_tall_grass_feature.json",
+      "bytes": 977,
+      "sha256": "14b1ee72adcc7cfedeea2e27851e612318144d6ae15a7f632a3539303dc73322"
+    },
+    {
+      "path": "definitions/feature_rules/jungle_surface_trees_feature.json",
+      "bytes": 756,
+      "sha256": "4fc9f62871695bf53b20e68e31372b3194f318769bd58f9593b4b74f2709161d"
+    },
+    {
+      "path": "definitions/feature_rules/mega_taiga_first_forest_rock_feature.json",
+      "bytes": 649,
+      "sha256": "b3297db75331e0398277c810b1cd964217d41a7a873157a2d225f46516ffa5f5"
+    },
+    {
+      "path": "definitions/feature_rules/mega_taiga_surface_dead_bush_feature.json",
+      "bytes": 908,
+      "sha256": "9c3826a240a44cdc793fe5e0fe63db5cac42268f0b873c0973af6c034d61bf40"
+    },
+    {
+      "path": "definitions/feature_rules/mega_taiga_surface_mushrooms_feature.json",
+      "bytes": 655,
+      "sha256": "d8db0acb9debd9dd8ce3467d32e4e3c5acb9bdb3462f5d9c8c74cb4d441262b5"
+    },
+    {
+      "path": "definitions/feature_rules/mega_taiga_surface_tall_grass_feature.json",
+      "bytes": 976,
+      "sha256": "7d0417f560482ad0b137ad697b6182da771b854cf8a0ba3f701f3521efe3a388"
+    },
+    {
+      "path": "definitions/feature_rules/mega_taiga_surface_trees_feature.json",
+      "bytes": 764,
+      "sha256": "fa850bacf662af4a46a188aedb68f684ea8c2f17087f41b5953fee9ff2fecfaa"
+    },
+    {
+      "path": "definitions/feature_rules/mesa_before_surface_gold_ore_feature.json",
+      "bytes": 805,
+      "sha256": "64240bec0c0edb5ae51d85ebf7344c8bbec24aec2935419bf06b26154cfe7c3b"
+    },
+    {
+      "path": "definitions/feature_rules/mesa_plateau_stone_surface_trees_feature.json",
+      "bytes": 667,
+      "sha256": "37a87b216f44a5722917e130a36851cd73503a1f9a1e8a8977bb2673b1f8520a"
+    },
+    {
+      "path": "definitions/feature_rules/mesa_surface_cactus_feature.json",
+      "bytes": 785,
+      "sha256": "f4358476e9290e4b31218dc69451e1dec3412b50e1cd88f6458addbace71e46d"
+    },
+    {
+      "path": "definitions/feature_rules/mesa_surface_dead_bush_feature.json",
+      "bytes": 792,
+      "sha256": "34dc7f4e4c68fa3f800d65033c75c8d752872d8030d270304706dec77ef50365"
+    },
+    {
+      "path": "definitions/feature_rules/mesa_surface_reeds_feature.json",
+      "bytes": 783,
+      "sha256": "9f44ed656f679b58557b21289e7af7882d809b816614426c566a7af3a95c3afb"
+    },
+    {
+      "path": "definitions/feature_rules/mushroom_island_surface_huge_mushroom_feature.json",
+      "bytes": 754,
+      "sha256": "7a0086e839295267e764029868c8cb895a661959fa0f099952db11fa4c40dd64"
+    },
+    {
+      "path": "definitions/feature_rules/mushroom_island_surface_mushrooms_feature.json",
+      "bytes": 561,
+      "sha256": "c7090a4cd2c97e2ee179b22456b288add36d291b90dc18387bb5dcc429711604"
+    },
+    {
+      "path": "definitions/feature_rules/nether_cave_carver_feature.json",
+      "bytes": 651,
+      "sha256": "b0863795bba5d4461c58ebe87849a4956a2d15f059181c8cd89de3895a837d11"
+    },
+    {
+      "path": "definitions/feature_rules/nether_soul_sand_underground_feature_rules.json",
+      "bytes": 897,
+      "sha256": "2a3c0fff460cec83ba40b0117c8276bf16e25c25c1a851395d4949595d80f902"
+    },
+    {
+      "path": "definitions/feature_rules/nether_sprouts_feature_rules.json",
+      "bytes": 835,
+      "sha256": "e330bf02a80b43d90936eb2e0606e04fb228de23f833ef9a3d82d2463a3ef7cb"
+    },
+    {
+      "path": "definitions/feature_rules/netherwart_forest_trees_feature.json",
+      "bytes": 554,
+      "sha256": "c263b09d084282a24e19418536e70934479a201e1ef1a813a30808d6332b0e1b"
+    },
+    {
+      "path": "definitions/feature_rules/ocean_surface_kelp_feature.json",
+      "bytes": 1567,
+      "sha256": "487ef9c009bdc40b3c774bc573d50ece0ec3d048f370c437d9ca1318d76bf480"
+    },
+    {
+      "path": "definitions/feature_rules/ocean_surface_seagrass_feature.json",
+      "bytes": 669,
+      "sha256": "8a780c7381ae65cb36cf08e51f57e24b8b7e943a33f65954e01cec88d1caa705"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_cave_carver_feature.json",
+      "bytes": 678,
+      "sha256": "2a9a6b651f85d8faa90bf50e673dacc63e7446cc68fb3198ad779e1b893027c9"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_clay_feature.json",
+      "bytes": 943,
+      "sha256": "810dd05df2eec75a7f0acf4ad7f6fa18eba55f037b63dcf6c1c5a5a9d4876fa4"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_extra_brown_mushroom_feature.json",
+      "bytes": 1121,
+      "sha256": "7baa2dea255ed8d54b867cf2aeb8c685d5e740220a7139a7075fe1080cffdf8c"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_extra_red_mushroom_feature.json",
+      "bytes": 1117,
+      "sha256": "f1b7b6f506c3b637ac816ff4169b915c55cf6a7f6789075bedbb5351816a1187"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_flowers_feature.json",
+      "bytes": 3631,
+      "sha256": "4a2bf72039bc92b31a86a8ff73c1bab72bd3d8ba28c34a7d378944e20e49b6c8"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_gravel_feature.json",
+      "bytes": 1058,
+      "sha256": "23466c5e17aa00b54cc3aba02dd9d55aa86f90a88868a06711ccb88eab20bb80"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_kelp_feature.json",
+      "bytes": 2603,
+      "sha256": "20656f777ad88644b7c966de90e053ac517a771b96ce9fc7df98c3ff07df17df"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_pumpkin_feature.json",
+      "bytes": 1136,
+      "sha256": "b66a44478712ea3a98fc2a8736c6b5861aeaa2cd68a0977fd197e72b31ef2175"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_reeds_feature.json",
+      "bytes": 1014,
+      "sha256": "5b848c1d9ee7b849782b7d4839f0951ec4291c770440397b7635b50741e9d444"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_sand_feature.json",
+      "bytes": 1064,
+      "sha256": "1e8ce85775dcda7538e7896a54abb1d62f5d74dae1e7b7d20203edf9ac50fc9d"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_springs_feature.json",
+      "bytes": 758,
+      "sha256": "eff4f83e3c7a1d7237fc1d181726864fad8b65227f8a1553a980b4a57c4a537f"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_surface_tall_grass_feature.json",
+      "bytes": 2910,
+      "sha256": "5ca078ec70f3f71b895f3177706329e74877f95ea9a16786d5f11095c37401ba"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_andesite_feature.json",
+      "bytes": 1013,
+      "sha256": "f40c8a75fe1d4fda7ee305629a635f3a31e272ded6b3e50b15ba9b2d530027bd"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_coal_ore_feature.json",
+      "bytes": 1014,
+      "sha256": "7cf633d8ff4114ef48f0ef9c6b934499ecae4937a45851e3818f2fd4a29fd8cb"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_diamond_ore_feature.json",
+      "bytes": 1018,
+      "sha256": "32bda76d9894191925c24df0890c42b2a69f9923fc8eb942a627da993003a1e3"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_diorite_feature.json",
+      "bytes": 1011,
+      "sha256": "adce6256da2834b0ea5984f39f46c8c9c1739753e1cc2d783d35ef2ef5f26d2c"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_dirt_feature.json",
+      "bytes": 1006,
+      "sha256": "a52c4d4949d6564edfcae90846475fc36d90736a966fac63ce5fac70cc8198e7"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_extra_gravel_ore_feature.json",
+      "bytes": 1108,
+      "sha256": "d448e331b914bd6639bff98bca1b6a87aababdf6f1ed834fb582972999157db6"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_gold_ore_feature.json",
+      "bytes": 1012,
+      "sha256": "25d9b6c7efe66fedd5e5bb0c7a196b3419951bd6bf79799bd7b17c528f144b54"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_granite_feature.json",
+      "bytes": 1011,
+      "sha256": "9c7ce8a9f8644cd497aa7d53cc65421894f621a44af78d740b3049ea768ada06"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_gravel_ore_feature.json",
+      "bytes": 1017,
+      "sha256": "668dcbd3fb3508cbe58622dd53d4e6e53e00215e06ff5897b76b1e64c4d433f1"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_iron_ore_feature.json",
+      "bytes": 1013,
+      "sha256": "412f46ce615a2b2a0050162076fd6bdd388be20c1164fe5b4903ef1c3a1d9287"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_lapis_ore_feature.json",
+      "bytes": 954,
+      "sha256": "81b47eb1aa49a6976c8a9fc8e19a48f63518171300cba667abc5f60cd2d281ac"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underground_redstone_ore_feature.json",
+      "bytes": 1020,
+      "sha256": "45e330ce06f3c5fad8547ad2ebdb9ae385f7339eddd76e727a126344504ff00d"
+    },
+    {
+      "path": "definitions/feature_rules/overworld_underwater_cave_carver_feature.json",
+      "bytes": 700,
+      "sha256": "5f6031c98e82f55c978d6670ba192e9444acf3d71d6a7e4bf2663d5af9453543"
+    },
+    {
+      "path": "definitions/feature_rules/plains_first_double_plant_grass_feature.json",
+      "bytes": 973,
+      "sha256": "a9cc24f235803ba91919589f5ae2651e5afec5af6943198e7bf7c796d28a390f"
+    },
+    {
+      "path": "definitions/feature_rules/plains_first_double_plant_sunflower_feature.json",
+      "bytes": 938,
+      "sha256": "b80593d555ff33dc0ed36ae036ecbce881ff7ef7eab5246b9fa77286377df14d"
+    },
+    {
+      "path": "definitions/feature_rules/plains_surface_flowers_feature.json",
+      "bytes": 899,
+      "sha256": "0fb9289252277c3547c82f25ba69ddd1307637214e64e402cb76fb6b58cb63bc"
+    },
+    {
+      "path": "definitions/feature_rules/plains_surface_tall_grass_feature.json",
+      "bytes": 959,
+      "sha256": "0dca9f16ad2fd321bb80cb563ffaa5e3a4f438edb43993633b092b83a120b694"
+    },
+    {
+      "path": "definitions/feature_rules/plains_surface_trees_feature.json",
+      "bytes": 534,
+      "sha256": "175b258611dce282e4c466fe4d29821267f9956d1389c85979657233c085dd0f"
+    },
+    {
+      "path": "definitions/feature_rules/redwood_taiga_hills_mutated_surface_trees_feature.json",
+      "bytes": 892,
+      "sha256": "1b53f56140981134153c6b3ace183d41dcca2c51a2a33dcfc421d20fd7890a6f"
+    },
+    {
+      "path": "definitions/feature_rules/redwood_taiga_mutated_surface_trees_feature.json",
+      "bytes": 897,
+      "sha256": "39c6963a8fc2136dc322b9243d295aab9ea8b2c034fef70b2d78b59b6639742d"
+    },
+    {
+      "path": "definitions/feature_rules/river_surface_seagrass_feature.json",
+      "bytes": 669,
+      "sha256": "5b41a2e485ccab6e8dbb636d9b7a11361b86dc7bd9c7dffe807d8132d067d406"
+    },
+    {
+      "path": "definitions/feature_rules/roofed_forest_surface_roofed_tree_feature_rules.json",
+      "bytes": 772,
+      "sha256": "ebb1e429c52bad499bec79b8d2ff2a8921e418a14de9bba6f93feadf88b1abda"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_first_double_plant_grass_feature.json",
+      "bytes": 803,
+      "sha256": "3ea7cb24614ec7b98d230562b6d00bf8b67a7e7647e30efd732e9505a25dcdbd"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_mutated_surface_tall_grass_feature.json",
+      "bytes": 998,
+      "sha256": "93bcce5047dd033675585ecb76ca1c20c3faf5935049311936cc03c2d2377dbe"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_mutated_surface_trees_feature.json",
+      "bytes": 666,
+      "sha256": "731bfd3fe581bea8d173413c5d74c4bed2ea60e5aaee701b5f06209ca490de5d"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_surface_flowers_feature.json",
+      "bytes": 923,
+      "sha256": "be413ef7c903d2632d948d1dc242b16eb31c71802c043007ea029182a6afa111"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_surface_tall_grass_feature.json",
+      "bytes": 981,
+      "sha256": "46a8c54e20b60b472909c84aac30970f3a335785e1f24696dd92f03c70ca86ac"
+    },
+    {
+      "path": "definitions/feature_rules/savanna_surface_trees_feature.json",
+      "bytes": 650,
+      "sha256": "3e73b50f5abcb546a14672dcf6418a35139e54bf1482f9519e1f8fc1c537b42d"
+    },
+    {
+      "path": "definitions/feature_rules/soulsand_valley_fossil_surface_feature.json",
+      "bytes": 846,
+      "sha256": "540c1cab0319710b176b8d25ac1b16271cc82c7563dc20bc4ef137e1056dd8b4"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_dead_bush_feature.json",
+      "bytes": 793,
+      "sha256": "b6c41a3a161f53f786f67cffb3c51539080a1b54d30baf66d1e77880fefd98a9"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_flowers_feature.json",
+      "bytes": 802,
+      "sha256": "afa7234847bcbdb37d7d203bd8c4b4eac13e8a968c21258b34149bd888f1b92b"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_mushrooms_feature.json",
+      "bytes": 540,
+      "sha256": "050421d127dbb0bf0ffa5327ce377b240b2cfd69a223a44f6862e15dc8510bb2"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_reeds_feature.json",
+      "bytes": 786,
+      "sha256": "4f8acfb0f4f6abc0922b30b6b6b8c6fc676fe891a9a8f2976e1ed810fbe598bc"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_swamp_foliage_feature.json",
+      "bytes": 542,
+      "sha256": "cb3f15eeb99f8f9811502f0fdde7ac84f8e1ad563dfc9b4f95b7cbc2e086db9e"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_tall_grass_feature.json",
+      "bytes": 863,
+      "sha256": "c34fd0940a6d1ac5163918c1655ce547a3ebfe3f0fba08cf67eef2eb13b93ab5"
+    },
+    {
+      "path": "definitions/feature_rules/swamp_surface_waterlily_feature.json",
+      "bytes": 808,
+      "sha256": "58c6c18e4755b60e31be741f1224806d0a90634d42bee4805f930700af253a8c"
+    },
+    {
+      "path": "definitions/feature_rules/taiga_first_double_plant_fern_feature.json",
+      "bytes": 737,
+      "sha256": "6b6b545c9f6e499a2e7ed1baf47ec5098331ef9f170b4fcfb18078eab223ac9e"
+    },
+    {
+      "path": "definitions/feature_rules/taiga_first_sweet_berry_bush_feature.json",
+      "bytes": 1062,
+      "sha256": "2a12ac8f4233c0c32d441ef65db850beca77d60e9a04c7026d701c92d393416a"
+    },
+    {
+      "path": "definitions/feature_rules/taiga_surface_mushrooms_feature.json",
+      "bytes": 650,
+      "sha256": "8ee7e5221105a2d3bf36bbe7857bd289a1a5b5c500135fa59ad1ab7df692b397"
+    },
+    {
+      "path": "definitions/feature_rules/taiga_surface_tall_grass_feature.json",
+      "bytes": 971,
+      "sha256": "70ff16dbac682f488211cf5b58041123022796fe3a9bd0f4b78fb2488d0f7a62"
+    },
+    {
+      "path": "definitions/feature_rules/taiga_surface_trees_feature.json",
+      "bytes": 641,
+      "sha256": "c62c3334f4012d0fa75e0585b189272b6880d8eca095dc14ecb589f95535f66c"
+    },
+    {
+      "path": "definitions/feature_rules/twisting_vines_cluster_feature.json",
+      "bytes": 762,
+      "sha256": "367cfd4ed41b462338e58f31642993a66b76ad175d65a2deac8c82b442b04cbe"
+    },
+    {
+      "path": "definitions/feature_rules/warm_ocean_after_surface_coral_crust_feature.json",
+      "bytes": 885,
+      "sha256": "3dfe21a3527dac5e1bd6b07f1493be84cd64fb34568c6594476259a26448e1a6"
+    },
+    {
+      "path": "definitions/feature_rules/warm_ocean_after_surface_coral_feature.json",
+      "bytes": 789,
+      "sha256": "509be62a24cd0887db30ba34442c0061e8ff1524e0794c176dea43e7b24f71e7"
+    },
+    {
+      "path": "definitions/feature_rules/warm_ocean_after_surface_coral_hang_feature.json",
+      "bytes": 800,
+      "sha256": "34ae441f7966b8e1bb86514ddea4c0e01b60ad7243810a20fdd1e9abada1540d"
+    },
+    {
+      "path": "definitions/feature_rules/warm_ocean_after_surface_pickle_feature.json",
+      "bytes": 997,
+      "sha256": "e80d9be3aa70649b72037ef017af30a1f06092f3bd177c86ed24901b7877b539"
+    },
+    {
+      "path": "definitions/feature_rules/warm_ocean_after_surface_sea_anemone_feature.json",
+      "bytes": 802,
+      "sha256": "77fa75a7e9eeded89127c315bd88ec5546294199e743bbb57c02da66d6ca16a9"
+    },
+    {
+      "path": "definitions/feature_rules/warped_fungus_crimson_feature.json",
+      "bytes": 807,
+      "sha256": "14ffe61a8f18a04739995cba4ab1336fdd4789abd1bd13638346fad40b1466fc"
+    },
+    {
+      "path": "definitions/feature_rules/warped_fungus_feature.json",
+      "bytes": 799,
+      "sha256": "6a94b20b4f99c1ab161b5bb661db82289a32693f9ea5655965849c2cb9fcfd1a"
+    },
+    {
+      "path": "definitions/feature_rules/warped_roots_feature.json",
+      "bytes": 730,
+      "sha256": "ecba35f7f81897b9e30d948d2fb54f9ad67f56a5f2b4b869dcc0ee901848ab4d"
+    },
+    {
+      "path": "definitions/feature_rules/weeping_vines_cluster_feature.json",
+      "bytes": 766,
+      "sha256": "13483600ffb398a52d8d62388f19fca87986a176860efcad4d87e23512a4a33e"
+    },
+    {
+      "path": "definitions/features/andesite_feature.json",
+      "bytes": 447,
+      "sha256": "475d8ff7b6c71cf412cc78d39176611618e13f8f589e41a9b0b29d5042b3fd58"
+    },
+    {
+      "path": "definitions/features/bamboo_then_podzol_feature.json",
+      "bytes": 293,
+      "sha256": "77c11405b57719e7c0a4833191c97c49f619e7e8599eb8e20303a52f39813923"
+    },
+    {
+      "path": "definitions/features/beehive_east_feature.json",
+      "bytes": 295,
+      "sha256": "022aa6aec54a2869040acc6ac6619a8748642544f9c8a661623e61b9c29260d9"
+    },
+    {
+      "path": "definitions/features/beehive_esw_order_feature.json",
+      "bytes": 336,
+      "sha256": "eb4509643eb98446d8149bb5f2e1b8043e9f58d59db881d51009b13549ac10e8"
+    },
+    {
+      "path": "definitions/features/beehive_feature.json",
+      "bytes": 1569,
+      "sha256": "2e2f1c506f42deea23374543352b62d6a711e0a19a34daccbb06fda8f94476a2"
+    },
+    {
+      "path": "definitions/features/beehive_search_feature.json",
+      "bytes": 344,
+      "sha256": "79352f7f1df9f1db0031f1a84cad2265132bdb87319d334aad353fcfa2a9b5eb"
+    },
+    {
+      "path": "definitions/features/beehive_south_feature.json",
+      "bytes": 296,
+      "sha256": "e8aa6524460d33d8ca170d5b6072544234d7858813848f000d752b4d754e7d5b"
+    },
+    {
+      "path": "definitions/features/beehive_swe_order_feature.json",
+      "bytes": 336,
+      "sha256": "7a5008d98ee22bc3da5caad80d49b46f671bd6a068869bc60877003b9d807b5b"
+    },
+    {
+      "path": "definitions/features/beehive_wes_order_feature.json",
+      "bytes": 336,
+      "sha256": "319bf5d45dcfc813c1ae033c3c56174198b15dfef29dbc7887d7995cafde0deb"
+    },
+    {
+      "path": "definitions/features/beehive_west_feature.json",
+      "bytes": 296,
+      "sha256": "06d89444ce636f1cb64109246403f559702f49823e5df947cd0344b9b9165e1f"
+    },
+    {
+      "path": "definitions/features/birch_tree_feature.json",
+      "bytes": 3262,
+      "sha256": "8550300cb02eb2cb028620a09b5b0964de0cde4e79d5834837d026c277e5d28e"
+    },
+    {
+      "path": "definitions/features/birch_tree_with_beehive_feature.json",
+      "bytes": 301,
+      "sha256": "59fcbfdc90cb8e309bfbe163f61affbf419ccc1707cddd79f40d495e9b38d3d2"
+    },
+    {
+      "path": "definitions/features/birch_tree_with_optional_beehive_feature.json",
+      "bytes": 312,
+      "sha256": "d82197a7dbf238b028dc606e11403fe3594bf8f98999e0663440c00d199fa761"
+    },
+    {
+      "path": "definitions/features/coal_ore_feature.json",
+      "bytes": 348,
+      "sha256": "9d260f67f300abcc2873e2606b76ac872af8060e46d15eeeec7afbfe1950198e"
+    },
+    {
+      "path": "definitions/features/cocoa_age_0_feature.json",
+      "bytes": 526,
+      "sha256": "3c3d21bd0c793fd2933d0a16caef5d421e3cbd6f8ff84c558b2140d0194eb49f"
+    },
+    {
+      "path": "definitions/features/cocoa_age_1_feature.json",
+      "bytes": 526,
+      "sha256": "df52a01f6e7e1af4d76ef85b480b4c773c2375d2e921a88e3757d41a9cddc703"
+    },
+    {
+      "path": "definitions/features/cocoa_age_2_feature.json",
+      "bytes": 526,
+      "sha256": "fd3b96964aaf8c0eba6a586d23a4884779daa57ce5b8f923932221906083066d"
+    },
+    {
+      "path": "definitions/features/copper_ore_feature.json",
+      "bytes": 351,
+      "sha256": "226c75fee18eb467f52b3dbc27c4fee3ea55d23282aa70b48f4f9da9b8607eaf"
+    },
+    {
+      "path": "definitions/features/crimson_fungus_feature.json",
+      "bytes": 356,
+      "sha256": "d17995fd4cde2540db23c8063cc49836d7e81b4ce4ff2a3cb395295d1b031cd0"
+    },
+    {
+      "path": "definitions/features/crimson_fungus_scatter_feature.json",
+      "bytes": 547,
+      "sha256": "7dd69593f0e1b1e80507ce332f3ae9d1156705bfb27fb4cb736803ca0b9f9f4c"
+    },
+    {
+      "path": "definitions/features/crimson_roots_feature.json",
+      "bytes": 354,
+      "sha256": "d427f95df96c37636a85bc6013643ac9599b4988427fea231e614fcaa5400bab"
+    },
+    {
+      "path": "definitions/features/crimson_roots_scatter_feature.json",
+      "bytes": 545,
+      "sha256": "422403aadcab88d1e10d77e396303a2789f18702c59dad9f4f53e2d562901a9d"
+    },
+    {
+      "path": "definitions/features/diamond_ore_feature.json",
+      "bytes": 353,
+      "sha256": "7d10bb74245fc04b594693e6ca05b394655272db660fceb7357df18f9d33998f"
+    },
+    {
+      "path": "definitions/features/diorite_feature.json",
+      "bytes": 445,
+      "sha256": "abe058270e663a77563d818e46bbbba72f5a54352dbc1c0c98fdacea803b9b63"
+    },
+    {
+      "path": "definitions/features/dirt_feature.json",
+      "bytes": 340,
+      "sha256": "7e1a71caa45622c5b37f03a9360c88c971a531d31f5808b60728a72a2a9b133d"
+    },
+    {
+      "path": "definitions/features/fallen_birch_tree_feature.json",
+      "bytes": 2794,
+      "sha256": "5fe2d6cb1bb53bf33cc23fbdaa651ab396524a20462d9161bb670f0612799b1a"
+    },
+    {
+      "path": "definitions/features/fallen_jungle_tree_feature.json",
+      "bytes": 2915,
+      "sha256": "a7cd087fde0b6736c3d6cad3a2fea0119d8d7de38411fd32f67a2307a01f5fc4"
+    },
+    {
+      "path": "definitions/features/fallen_oak_tree_feature.json",
+      "bytes": 2907,
+      "sha256": "cadeb6e6c4ae64d2b4ad19f7afe24f789dbe0631d9d376a963d8c6c07aa269aa"
+    },
+    {
+      "path": "definitions/features/fallen_spruce_tree_feature.json",
+      "bytes": 1802,
+      "sha256": "b660040e4cb874de3c7c10fcc2a6a59d749c0c3051024e093fa503a4c8996a36"
+    },
+    {
+      "path": "definitions/features/fallen_super_birch_tree_feature.json",
+      "bytes": 2884,
+      "sha256": "f0caec4d3127aea8a1acdfb9e8cafda35ea44ca2618c14a481a21321e2cd8f64"
+    },
+    {
+      "path": "definitions/features/fancy_oak_tree_feature.json",
+      "bytes": 3103,
+      "sha256": "a08c224340367155af291af71bac27144cde3335aa4e3a2bea13e4449da2c32f"
+    },
+    {
+      "path": "definitions/features/fancy_oak_tree_with_beehive_feature.json",
+      "bytes": 309,
+      "sha256": "04ed74f8d15b5665ac21d65b2eb2dbd6274baf262fd3283cac3d7e76012f7116"
+    },
+    {
+      "path": "definitions/features/fancy_oak_tree_with_optional_beehive_feature.json",
+      "bytes": 320,
+      "sha256": "d4c7e85eac03309132fb6b3fbce28f3038d19dca15566e041ceefaa5f81232a2"
+    },
+    {
+      "path": "definitions/features/fern_double_plant_feature.json",
+      "bytes": 332,
+      "sha256": "024c45f892815885b79b4c504ff3774bfafd197c38f1f3bc39ccad65480cfd5a"
+    },
+    {
+      "path": "definitions/features/fern_double_plant_lower_feature.json",
+      "bytes": 422,
+      "sha256": "15316f1a23f8cd1f9ca1ac9c69bdcd32c759322143154dea740a61bc4f320af7"
+    },
+    {
+      "path": "definitions/features/fern_double_plant_patch_feature.json",
+      "bytes": 551,
+      "sha256": "6ae16cdf4cfb5316a02cb2bb0d5aa5b5a212af4639195843d996fe0ffcd64583"
+    },
+    {
+      "path": "definitions/features/fern_double_plant_upper_feature.json",
+      "bytes": 422,
+      "sha256": "5c02c908e5d859a40e83d5d8c39dafc99ffb09ebc02015a79525f1b5230634f1"
+    },
+    {
+      "path": "definitions/features/fern_feature.json",
+      "bytes": 402,
+      "sha256": "0e00a095b49a0b0552c251d076a3e6aab440a20a72873dfa7c8792245afa38d6"
+    },
+    {
+      "path": "definitions/features/fixup_fern_double_plant_upper_position_feature.json",
+      "bytes": 337,
+      "sha256": "bbe42b16506e069ad6fd8053ac251b759bb6fa9605e7d67023fcde0dd55a70fa"
+    },
+    {
+      "path": "definitions/features/fixup_grass_double_plant_upper_position_feature.json",
+      "bytes": 339,
+      "sha256": "cdf566e0cbcf5bcf75ffe52affa11ed542eef8ff2ee5cd2466c0d9f61a46c5ce"
+    },
+    {
+      "path": "definitions/features/fixup_lapis_position_feature.json",
+      "bytes": 471,
+      "sha256": "42ec75c98684fd0feb98a0dcb48da16a539504d8b3f128cc3cc2f3c2e77ed0aa"
+    },
+    {
+      "path": "definitions/features/fixup_mesa_gold_position_feature.json",
+      "bytes": 309,
+      "sha256": "a55883dd9e2b93a105ba612d55c9403cb8db29c4e9f1a04a67b33b2c1f8e62fb"
+    },
+    {
+      "path": "definitions/features/fixup_sunflower_double_plant_upper_position_feature.json",
+      "bytes": 347,
+      "sha256": "61a1f376a098aa5c4fa093a18de107974f5f9f68af5afe531c903c7f2bdb86ab"
+    },
+    {
+      "path": "definitions/features/fixup_vines_position_feature.json",
+      "bytes": 301,
+      "sha256": "5191a38eec6d3a708fdf699ffff0ba0e2f8864d602f3da2ad205d2314763bd01"
+    },
+    {
+      "path": "definitions/features/fixup_waterlily_position_feature.json",
+      "bytes": 501,
+      "sha256": "9d6bd450383968125cdc02228eaf1c3a5d749e5339529e66c455a5c6c25b50ed"
+    },
+    {
+      "path": "definitions/features/fossil_feature.json",
+      "bytes": 210,
+      "sha256": "c172367801da10d6dd35a0fd1d4c32c839088b0d9ff0a1e5d3245b9ccb74dd84"
+    },
+    {
+      "path": "definitions/features/gold_ore_feature.json",
+      "bytes": 347,
+      "sha256": "4d1cdb7240d22618cb85b6945d0335398d4ed15e53ead09a94a479015f17650b"
+    },
+    {
+      "path": "definitions/features/granite_feature.json",
+      "bytes": 445,
+      "sha256": "c84dc3e73182a4bb95822bb0162e60a9e43f4b890c0a536e79c5a3f26d5cfe3d"
+    },
+    {
+      "path": "definitions/features/grass_double_plant_feature.json",
+      "bytes": 335,
+      "sha256": "5be281311e97c0efda1897554dfb105fbead3c3c871545387e8b6a96073734b5"
+    },
+    {
+      "path": "definitions/features/grass_double_plant_lower_feature.json",
+      "bytes": 423,
+      "sha256": "ba158e57397daa8f128a75a6ad4b0f97081a8d76c630c4b1cde6cddea14b4dcc"
+    },
+    {
+      "path": "definitions/features/grass_double_plant_patch_feature.json",
+      "bytes": 553,
+      "sha256": "b765107b0dbe1cdd7037e11f98c4870d94e40a96d0ccb8940015d23c95b03e91"
+    },
+    {
+      "path": "definitions/features/grass_double_plant_upper_feature.json",
+      "bytes": 423,
+      "sha256": "ecb9e9210d98cb0fd43a137d2dcac02a1d484752824bf8b4b5f92e21288bb340"
+    },
+    {
+      "path": "definitions/features/gravel_ore_feature.json",
+      "bytes": 348,
+      "sha256": "d616d2f9013287c0d44b83287fc34125410529aca5d6f4c779198092aedc9ba8"
+    },
+    {
+      "path": "definitions/features/iron_ore_feature.json",
+      "bytes": 347,
+      "sha256": "0263c5a6c3289ac52865227ba2dba39922c3c3d8647e3dc3b46516378fe33c2f"
+    },
+    {
+      "path": "definitions/features/jungle_bush_feature.json",
+      "bytes": 1893,
+      "sha256": "6a486475a05602b251facaf3a4efa1f2c326a6ed145113d9fb485cfee3a57fe5"
+    },
+    {
+      "path": "definitions/features/jungle_tall_grass_feature.json",
+      "bytes": 303,
+      "sha256": "1b3779480e50143d1956bd3e699854066d3b7dfecdce50fe0476fe6a20f45fdf"
+    },
+    {
+      "path": "definitions/features/jungle_tree_feature.json",
+      "bytes": 3620,
+      "sha256": "509a7eb7259629cd3365080702f09d1216489dca9228f8e15dfd8d9d254c535c"
+    },
+    {
+      "path": "definitions/features/jungle_tree_with_cocoa_feature.json",
+      "bytes": 278,
+      "sha256": "eed9b0b9f3d130935eeb36aae3ceba61e05fe2c582f821971d4c56f3a1b28b14"
+    },
+    {
+      "path": "definitions/features/lapis_ore_feature.json",
+      "bytes": 349,
+      "sha256": "5b3b08915212d7e90aceb1838206100a805d4938fa5bf9274e1bdbf3157d89ca"
+    },
+    {
+      "path": "definitions/features/mega_jungle_tree_feature.json",
+      "bytes": 2717,
+      "sha256": "a69472bbd9ea8c7c0b8654a552362913661c980bc8381182825d6f132d5b0c55"
+    },
+    {
+      "path": "definitions/features/mega_pine_tree_feature.json",
+      "bytes": 2340,
+      "sha256": "b17b3ed57fa5baed81d3adf9038cc6d2f93a2bddef5e2df20911e101580d3670"
+    },
+    {
+      "path": "definitions/features/mega_spruce_tree_feature.json",
+      "bytes": 2344,
+      "sha256": "6033454e2a7e16641f42bafc7e649ffc4f31562522370de038d8c1cfe8d5d035"
+    },
+    {
+      "path": "definitions/features/nether_cave_carver_feature.json",
+      "bytes": 446,
+      "sha256": "427e3970108ab3cf47152ef1f15dff8656057a80ddd4309d119d7bd4ef115e62"
+    },
+    {
+      "path": "definitions/features/nether_soul_sand_underground_feature.json",
+      "bytes": 415,
+      "sha256": "90fa75bd768189075effbae677aee451dc122cc4e3428d2929fb8cae115259b0"
+    },
+    {
+      "path": "definitions/features/nether_sprouts_feature.json",
+      "bytes": 355,
+      "sha256": "50ae827002ce185b959d29db9f8ac0570471e5dd27e0b843190ca7dfb501ee08"
+    },
+    {
+      "path": "definitions/features/nether_sprouts_scatter_feature.json",
+      "bytes": 552,
+      "sha256": "8405db6375c931c993efb0017d8af96e34d01a20df4d1d726490447f0397b036"
+    },
+    {
+      "path": "definitions/features/noop_undecorated_jungle_tree_feature.json",
+      "bytes": 392,
+      "sha256": "d6764d92ffbf1fe5632719e6b84857b6759b1d8e3c9a4a67654b928832ca9d22"
+    },
+    {
+      "path": "definitions/features/oak_tree_feature.json",
+      "bytes": 3256,
+      "sha256": "b01f11159fa004a5d90b898ca62b2e4262eb70b41b0121691becd83bda854dfc"
+    },
+    {
+      "path": "definitions/features/oak_tree_with_beehive_feature.json",
+      "bytes": 297,
+      "sha256": "ffb7f93f97df63c7d077ca0e615fe56cb65002fdba160d4faf1c1d7c640fcb13"
+    },
+    {
+      "path": "definitions/features/oak_tree_with_optional_beehive_feature.json",
+      "bytes": 308,
+      "sha256": "a0f6dccf64df7bb4b311e32948173564e974dec4e5f06073eb3a53bbe29b7231"
+    },
+    {
+      "path": "definitions/features/oak_tree_with_vines_feature.json",
+      "bytes": 3385,
+      "sha256": "99278e324d35dd62ff60ceda07218c01937d0c7680caf2e6bc551113a3fc7587"
+    },
+    {
+      "path": "definitions/features/optional_beehive_feature.json",
+      "bytes": 722,
+      "sha256": "419400329811a0e2a9ff711440f9b9416026c0bf8cc26c09e016fb0d93e92e6d"
+    },
+    {
+      "path": "definitions/features/optional_fallen_birch_tree_feature.json",
+      "bytes": 396,
+      "sha256": "0bb62eddc1d02534a266d0493be4c6b36ee507c7c6c8bcbacbe80669204dd22e"
+    },
+    {
+      "path": "definitions/features/optional_fallen_jungle_tree_feature.json",
+      "bytes": 398,
+      "sha256": "cbff46de164350493ecbcf049f2bfc3c1b6823af4498e6eda2e681b59b843cbc"
+    },
+    {
+      "path": "definitions/features/optional_fallen_oak_tree_feature.json",
+      "bytes": 392,
+      "sha256": "14b6644bb2815a9163daab1e1bf251ae27cb50d02cb0e57ac4422409f252c3a2"
+    },
+    {
+      "path": "definitions/features/optional_fallen_spruce_tree_feature.json",
+      "bytes": 398,
+      "sha256": "07b47c819ba3e85bdd13102ebaaede38cda9dff69bc32ae1ace23945a75e394f"
+    },
+    {
+      "path": "definitions/features/optional_fallen_super_birch_tree_feature.json",
+      "bytes": 408,
+      "sha256": "96282682f8dfdf4253b33bb8e4ea8b9aea92db2dbe6bac0495b0209607c1020e"
+    },
+    {
+      "path": "definitions/features/optional_ferns_feature.json",
+      "bytes": 378,
+      "sha256": "ef81529565a42f50afcb84dd6a963274c520ae634c4597a6df9acd0e2ca0fd49"
+    },
+    {
+      "path": "definitions/features/optional_jungle_tree_cocoa_feature.json",
+      "bytes": 403,
+      "sha256": "c5316a3078bf35c5dadf93c2e1d3ee49ad8b1374f1474cdb5c843d770c6d2390"
+    },
+    {
+      "path": "definitions/features/optional_log_brown_mushroom_feature.json",
+      "bytes": 345,
+      "sha256": "7e43f080f63a6abe43c58e219b3efcae0d848d5a776c75eb46df5ddad1e38ec3"
+    },
+    {
+      "path": "definitions/features/optional_log_mushrooms_feature.json",
+      "bytes": 394,
+      "sha256": "df93395b1530d693d73f6d3354181b1c7834bd453abeb1cf11954a9c5035fe8e"
+    },
+    {
+      "path": "definitions/features/optional_lower_cocoa_feature.json",
+      "bytes": 384,
+      "sha256": "3ee9a67fbf2536431bf3c7d9e3681c85d867df13e5a977039f077bb741c97115"
+    },
+    {
+      "path": "definitions/features/optional_oak_tree_with_vines_feature.json",
+      "bytes": 400,
+      "sha256": "3fb4546044a192c38b44b5a495b8b17211ed26f9c37fc84ba1568bf050aad037"
+    },
+    {
+      "path": "definitions/features/optional_podzol_feature.json",
+      "bytes": 330,
+      "sha256": "a31b6abebf63fdcdfb6bc2bd26a48cbc5dad3e8838723da4a8ec10682b5f9084"
+    },
+    {
+      "path": "definitions/features/optional_roofed_tree_with_vines_feature.json",
+      "bytes": 405,
+      "sha256": "a1ae1f70f1d88c625f0b723261b04afce07f7ac8cb0eb94b36e8988fb950184e"
+    },
+    {
+      "path": "definitions/features/optional_spruce_tree_with_vines_feature.json",
+      "bytes": 406,
+      "sha256": "c0ff977b5da5311667e3e99147bff50ed28be9ddbcbd2117c7f2ec7863950a70"
+    },
+    {
+      "path": "definitions/features/optional_tall_grass_feature.json",
+      "bytes": 389,
+      "sha256": "978578e11172aabbea6e4c38dac537deb4abe955bf871153d97c987bd1fcf7d1"
+    },
+    {
+      "path": "definitions/features/optional_undecorated_jungle_tree_with_vines_feature.json",
+      "bytes": 430,
+      "sha256": "6351abf3af52069e8cd4650975e76411c9fce26939f4129e0d2b78021bb43120"
+    },
+    {
+      "path": "definitions/features/optional_upper_cocoa_feature.json",
+      "bytes": 384,
+      "sha256": "083b4fff2c0704b49475de10a6660e060ecc930d65fbb08b2b3aa3a2f42a0100"
+    },
+    {
+      "path": "definitions/features/pine_tree_feature.json",
+      "bytes": 1757,
+      "sha256": "f3afb64df33c0d221d153b972825cac54b7928ee2bf9d6927cff858e7e2597b1"
+    },
+    {
+      "path": "definitions/features/random_oak_tree_from_sapling_feature.json",
+      "bytes": 307,
+      "sha256": "818ce60c61df17fea00db3df1850d4e23e9896c7025ef83856cfc7b618beff5e"
+    },
+    {
+      "path": "definitions/features/random_oak_tree_with_beehive_from_sapling_feature.json",
+      "bytes": 330,
+      "sha256": "7df021aad3401eb67ed33685cf5c19132c63ed2b6cf4fbd73bb767fcabe0c2b8"
+    },
+    {
+      "path": "definitions/features/random_roofed_forest_feature.json",
+      "bytes": 450,
+      "sha256": "7c4cd0c71da7da6850b2c320558841c070f7a75061400fbca620c421dbbc6752"
+    },
+    {
+      "path": "definitions/features/random_roofed_forest_feature_with_decoration_feature.json",
+      "bytes": 351,
+      "sha256": "2440ac8b5da9c4ba7a1dcbe89e8e94b3cf7f49fd19d834cd1794188a55a4875a"
+    },
+    {
+      "path": "definitions/features/redstone_ore_feature.json",
+      "bytes": 355,
+      "sha256": "6a0c41cf5ce699ec6f887eb8813179988caba9b70685a548505c4f16b3015a4a"
+    },
+    {
+      "path": "definitions/features/roofed_tree_feature.json",
+      "bytes": 3806,
+      "sha256": "c55f75f5717a4ce3ebc1f81d4ab14dff382a3a50cd8a020e6dc9cefabc3b993b"
+    },
+    {
+      "path": "definitions/features/roofed_tree_with_vines_feature.json",
+      "bytes": 3994,
+      "sha256": "f8945f0d728b8385063b2b05d04412c661463863d6b2b9644ffd6fdfb65e65de"
+    },
+    {
+      "path": "definitions/features/savanna_tree_feature.json",
+      "bytes": 3727,
+      "sha256": "329fddeebb48b1371ddf279bd77d10773ca674a604a2e87420e11b5d30d3479a"
+    },
+    {
+      "path": "definitions/features/scatter_fern_feature.json",
+      "bytes": 490,
+      "sha256": "40ff21f46ee89928c442be528410fdbc1f2f0ec68674a772295dd0738dc26a83"
+    },
+    {
+      "path": "definitions/features/scatter_jungle_tree_cocoa_feature.json",
+      "bytes": 307,
+      "sha256": "35ca768aafbc79178618a6a0c1a99033cfd49544afbc150706d614f4702dd37b"
+    },
+    {
+      "path": "definitions/features/scatter_jungle_tree_lower_cocoa_feature.json",
+      "bytes": 561,
+      "sha256": "380feb900e77aa27e832f7d0dbe49b033779bf5cf9f5bd362b0a8e4ede2c3204"
+    },
+    {
+      "path": "definitions/features/scatter_jungle_tree_upper_cocoa_feature.json",
+      "bytes": 561,
+      "sha256": "ea486b691c670d1926d47db299f503380924d2c31768cc90565885b2af9f47c9"
+    },
+    {
+      "path": "definitions/features/scatter_sweet_berry_bush_feature.json",
+      "bytes": 515,
+      "sha256": "f7c18f812f4a85e4df74eaec9a6b70c3f82af94af73b7f2b189e0798dd3f80eb"
+    },
+    {
+      "path": "definitions/features/scatter_tall_grass_around_forest_foliage_feature.json",
+      "bytes": 524,
+      "sha256": "0e9f64cf92203a78909c5d86c8d8195833923ee80613c7948e4f774020f33c34"
+    },
+    {
+      "path": "definitions/features/scatter_tall_grass_around_tree_feature.json",
+      "bytes": 514,
+      "sha256": "9595e5bb43e7078493e594dac52cf1a4ff5156957bec162525256b938d253023"
+    },
+    {
+      "path": "definitions/features/scatter_tall_grass_feature.json",
+      "bytes": 502,
+      "sha256": "3db74ca4fe3de9050b68ec479f09c9f4cc53cdae364798dc19aaafec669fc18e"
+    },
+    {
+      "path": "definitions/features/select_beehive_feature.json",
+      "bytes": 340,
+      "sha256": "61c189d1464383a150b7fbbb8a4e8f76194b2f6ff3862531012b0e33a1f68518"
+    },
+    {
+      "path": "definitions/features/select_birch_tree_feature.json",
+      "bytes": 307,
+      "sha256": "b34bab83159427aea57a4a2e998bfd1d0678d97068d7347ca6fe76396dca5cf4"
+    },
+    {
+      "path": "definitions/features/select_cocoa_feature.json",
+      "bytes": 320,
+      "sha256": "f71868099af0edd51c3253e681897019c9f0e8b871a276226e740033f97e16cb"
+    },
+    {
+      "path": "definitions/features/select_jungle_tree_feature.json",
+      "bytes": 710,
+      "sha256": "e29196f4b934a018e6908e349791805e8605620c67785d45d7b20f50ff742a1d"
+    },
+    {
+      "path": "definitions/features/select_log_mushroom_feature.json",
+      "bytes": 312,
+      "sha256": "da00a11e9122ed65c6245966defc10a408659e9616541a2e06997e248c8cf1e3"
+    },
+    {
+      "path": "definitions/features/select_oak_tree_feature.json",
+      "bytes": 317,
+      "sha256": "0a9a3b7d314a4d7ddd0b2c1ca6feb3f3c3f7e4aea73dff2028357e84f4a6e0f9"
+    },
+    {
+      "path": "definitions/features/select_roofed_tree_feature.json",
+      "bytes": 314,
+      "sha256": "dfa513dcc294c39e20a1ec7feefcea9af49a3f06e1bf9f1f21658281d08aa343"
+    },
+    {
+      "path": "definitions/features/select_spruce_tree_feature.json",
+      "bytes": 326,
+      "sha256": "e1b842a4558fec40d2db4d2dd517dbc16e01fe2eba79c414123c8658964b5ea3"
+    },
+    {
+      "path": "definitions/features/select_standing_oak_tree_feature.json",
+      "bytes": 314,
+      "sha256": "4a6ac7aa3ac079c599978f8e381791a3979bbd8d001d1b12448cdfcc9f6411c7"
+    },
+    {
+      "path": "definitions/features/select_standing_spruce_tree_feature.json",
+      "bytes": 323,
+      "sha256": "570314b39e0d555f14a105f4f09f4d68ab19738579caadfe7dede6cb4fcea78c"
+    },
+    {
+      "path": "definitions/features/select_super_birch_tree_feature.json",
+      "bytes": 347,
+      "sha256": "fbe72876f4abca60dc2a0937c64867c485b3f9bf822f2d2279ce585f641ec4cc"
+    },
+    {
+      "path": "definitions/features/select_undecorated_jungle_tree_feature.json",
+      "bytes": 350,
+      "sha256": "36d9edafe73a0e11079cfb805b4313d74cce1b9fb4cba9594a9b51fb171dcfc6"
+    },
+    {
+      "path": "definitions/features/silverfish_feature.json",
+      "bytes": 355,
+      "sha256": "5c4da838468b575b92b2275617d69ebd606d5019e56defa153b28a38f1ea5957"
+    },
+    {
+      "path": "definitions/features/spruce_tree_feature.json",
+      "bytes": 3150,
+      "sha256": "9caa7378b941886874a3df18741070bf74535037373d56eef22c2f4c217048fe"
+    },
+    {
+      "path": "definitions/features/spruce_tree_with_vines_feature.json",
+      "bytes": 3279,
+      "sha256": "91c662343897ad24c2814db787472621a772d63d0b26ca2c0216568a1423ce2f"
+    },
+    {
+      "path": "definitions/features/sunflower_double_plant_feature.json",
+      "bytes": 347,
+      "sha256": "0c4b6e4c092512a83079f190810bdac5a1922d4dbb45aec1cb37b9ea0f1838e0"
+    },
+    {
+      "path": "definitions/features/sunflower_double_plant_lower_feature.json",
+      "bytes": 426,
+      "sha256": "ba68d08a164de86bf4fc81137f0ee61382036f02563b267e8cefb2eca82ada40"
+    },
+    {
+      "path": "definitions/features/sunflower_double_plant_patch_feature.json",
+      "bytes": 561,
+      "sha256": "bcda8bf9b48425c325a62965667d4f8811d8bddbd0325f7c3c5a4f94e1526d69"
+    },
+    {
+      "path": "definitions/features/sunflower_double_plant_upper_feature.json",
+      "bytes": 426,
+      "sha256": "ad6ec65d0296c608e201c9b1ed3b696b904003c63795bfe0f036ccbc9b2fb64e"
+    },
+    {
+      "path": "definitions/features/super_birch_tree_feature.json",
+      "bytes": 3351,
+      "sha256": "0fa1cdc521d1d8d9209cbcdbf5775f00e5828c3add51bebfaa896fd92e95dbdb"
+    },
+    {
+      "path": "definitions/features/super_birch_tree_with_beehive_feature.json",
+      "bytes": 313,
+      "sha256": "c87876e43d1d8279a1845c0a55d8bebf613f7fd1aa0bb89680fd741599c0a31a"
+    },
+    {
+      "path": "definitions/features/super_birch_tree_with_optional_beehive_feature.json",
+      "bytes": 324,
+      "sha256": "9f60c6ed85afc768bfb79667bbfe5be1b9c27d05e6fe7f7d47965303b438035d"
+    },
+    {
+      "path": "definitions/features/swamp_tree_feature.json",
+      "bytes": 3407,
+      "sha256": "5b0f2bb8f810ebfbae977073cb588ae03d0bc2b13bc3fd318f9e96518028faf6"
+    },
+    {
+      "path": "definitions/features/taiga_tall_grass_feature.json",
+      "bytes": 301,
+      "sha256": "077cfd5bc3a590caffe1f88b08189159d5e99d749ad23aaa636bde644ea9ac6f"
+    },
+    {
+      "path": "definitions/features/tall_grass_feature.json",
+      "bytes": 408,
+      "sha256": "9d692e2ac331afff435f029c0e0f841627c583768f67db7245c1c967565522d2"
+    },
+    {
+      "path": "definitions/features/undecorated_jungle_tree_feature.json",
+      "bytes": 3278,
+      "sha256": "0293dedb0e498d437e935d1f0134ed1b2fb111000409bdd6e603051917feceb4"
+    },
+    {
+      "path": "definitions/features/undecorated_jungle_tree_with_vines_feature.json",
+      "bytes": 3407,
+      "sha256": "bf2da24ed70966b1aa5b37fda0df2e935dee6c281b1d5ed420e0c5b2b5d9908b"
+    },
+    {
+      "path": "definitions/features/underground_cave_carver_feature.json",
+      "bytes": 444,
+      "sha256": "f37f5e7b30ff10030a6bdd5d8ffe7605ec2e64fdf2fb22151de294750c33464d"
+    },
+    {
+      "path": "definitions/features/underground_underwater_cave_carver_feature.json",
+      "bytes": 512,
+      "sha256": "c1a8f9544812f92f304008b2244804391deb5f17b6285e72acab01493aab3efe"
+    },
+    {
+      "path": "definitions/features/warped_fungus_feature.json",
+      "bytes": 354,
+      "sha256": "deef0de14e8485bcb465c0cd57958274b6354f65a1fb5e68f1c6a7c0e2a8ae9d"
+    },
+    {
+      "path": "definitions/features/warped_fungus_scatter_feature.json",
+      "bytes": 545,
+      "sha256": "917ca8eae50e6a26ff09d0a27457c4d65a87338ea393020edfa3be975ee2a856"
+    },
+    {
+      "path": "definitions/features/warped_roots_feature.json",
+      "bytes": 352,
+      "sha256": "628853881b45bf3e6b0dd129496a40b3f09d31bd9a39a9643fdbc748dd15edfa"
+    },
+    {
+      "path": "definitions/features/warped_roots_scatter_feature.json",
+      "bytes": 543,
+      "sha256": "20d6842c7018b7cd2c442fcad39645d861adc7de18b4fb6874338a90a9142f3d"
+    },
+    {
+      "path": "release-notes.txt",
+      "bytes": 398,
+      "sha256": "23393b598f7b356fa2cfa9999793d0a3c11e6268f667482cb260063139a0f9ce"
+    },
+    {
+      "path": "server.properties",
+      "bytes": 15680,
+      "sha256": "1396b2cfca8bb63383333fcefbfc2f0c591db68f66a5863912f0468f0a31de77"
+    }
+  ]
+}

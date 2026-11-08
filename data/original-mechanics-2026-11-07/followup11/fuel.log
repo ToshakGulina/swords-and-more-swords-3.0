@@ -1,0 +1,164 @@
+389.626 SERVER NO LOG FILE! - setting up server logging...
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Starting Server
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Version: 1.20.50.03
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Build ID: 19782165
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Branch: r/20_u5
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Configuration: Publish
+389.626 SERVER [2026-11-07 21:52:27:626 INFO] Level Name: Arena fuel test
+389.628 SERVER [2026-11-07 21:52:27:627 INFO] No CDN config file found for dedicated server
+389.628 SERVER [2026-11-07 21:52:27:627 INFO] Game mode: 1 Creative
+389.628 SERVER [2026-11-07 21:52:27:627 INFO] Difficulty: 1 EASY
+389.629 SERVER [2026-11-07 21:52:27:628 INFO] Content logging to console is enabled.
+390.352 SERVER [2026-11-07 21:52:28:351 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+390.352 SERVER [2026-11-07 21:52:28:351 INFO] Opening level 'worlds/Arena fuel test/db'
+390.830 SERVER [2026-11-07 21:52:28:829 ERROR] [FeatureRegistry] Arena fuel test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+390.831 SERVER 
+390.831 SERVER [2026-11-07 21:52:28:829 ERROR] [FeatureRegistry] Arena fuel test | No definition found for feature 'effect99:quartz_diamond_ore'
+390.831 SERVER 
+390.831 SERVER [2026-11-07 21:52:28:829 ERROR] [FeatureRegistry] Arena fuel test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+390.831 SERVER 
+390.831 SERVER [2026-11-07 21:52:28:829 ERROR] [FeatureRegistry] Arena fuel test | No definition found for feature 'effect99:silver_ore'
+390.831 SERVER 
+391.121 SERVER [2026-11-07 21:52:29:120 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+391.121 SERVER [2026-11-07 21:52:29:120 INFO] IPv6 supported, port: 19133: Used for gameplay
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] Server started.
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] ================ TELEMETRY MESSAGE ===================
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] Server Telemetry is currently not enabled.
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] Enabling this telemetry helps us improve the game.
+391.257 SERVER [2026-11-07 21:52:29:257 INFO]
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] to the server.properties file in the handheld/src-server directory
+391.257 SERVER [2026-11-07 21:52:29:257 INFO] ======================================================
+392.092 SERVER [2026-11-07 21:52:30:092 INFO] Player connected: ArenaFuel, xuid:
+392.488 BOT BOT START_GAME {"runtime_id":"undefined","movement":"server"}
+396.986 SERVER [2026-11-07 21:52:34:985 INFO] Player Spawned: ArenaFuel xuid: ,
+397.000 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaFuel
+397.175 SERVER [2026-11-07 21:52:35:175 INFO] Set ArenaFuel's game mode to Creative
+COMMAND tp ArenaFuel 50 100 50
+397.780 SERVER [2026-11-07 21:52:35:779 INFO] Teleported ArenaFuel to 50.50, 100.00, 50.50
+397.792 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamerule doMobSpawning false
+COMMAND fill 47 99 47 60 99 53 stone
+402.432 SERVER [2026-11-07 21:52:40:431 INFO] 98 blocks filled
+COMMAND setblock 53 100 50 furnace
+403.132 SERVER [2026-11-07 21:52:41:131 INFO] Block placed
+COMMAND setblock 55 100 50 furnace
+403.832 SERVER [2026-11-07 21:52:41:831 INFO] Block placed
+COMMAND setblock 57 100 50 furnace
+404.532 SERVER [2026-11-07 21:52:42:531 INFO] Block placed
+COMMAND scriptevent arena:fuel start
+405.231 SERVER [2026-11-07 21:52:43:231 INFO] Script event arena:fuel has been sent
+405.232 SERVER [2026-11-07 21:52:43:231 WARN] [Scripting] FUEL_PREP {"name":"coal_sword","input":{"id":"minecraft:iron_ore","amount":64},"fuel":{"id":"effect:coal_sword","amount":1}}
+405.232 SERVER 
+405.232 SERVER [2026-11-07 21:52:43:232 WARN] [Scripting] FUEL_PREP {"name":"coal","input":{"id":"minecraft:iron_ore","amount":64},"fuel":{"id":"minecraft:coal","amount":1}}
+405.232 SERVER 
+405.232 SERVER [2026-11-07 21:52:43:232 WARN] [Scripting] FUEL_PREP {"name":"stick","input":{"id":"minecraft:iron_ore","amount":64},"fuel":{"id":"minecraft:stick","amount":1}}
+405.232 SERVER 
+405.730 SERVER [2026-11-07 21:52:43:730 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":10,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":64},"fuel":null,"output":null}
+405.730 SERVER 
+405.730 SERVER [2026-11-07 21:52:43:730 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":10,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":64},"fuel":null,"output":null}
+405.730 SERVER 
+405.730 SERVER [2026-11-07 21:52:43:730 WARN] [Scripting] FUEL_STATE {"name":"stick","ticks":10,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":64},"fuel":null,"output":null}
+405.730 SERVER 
+410.732 SERVER [2026-11-07 21:52:48:731 WARN] [Scripting] FUEL_STATE {"name":"stick","ticks":110,"block":"minecraft:furnace","input":{"id":"minecraft:iron_ore","amount":64},"fuel":null,"output":null}
+410.732 SERVER 
+415.232 SERVER [2026-11-07 21:52:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":63},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":1}}
+415.232 SERVER 
+415.232 SERVER [2026-11-07 21:52:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":63},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":1}}
+415.232 SERVER 
+425.232 SERVER [2026-11-07 21:53:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":62},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":2}}
+425.232 SERVER 
+425.232 SERVER [2026-11-07 21:53:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":62},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":2}}
+425.232 SERVER 
+435.232 SERVER [2026-11-07 21:53:13:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":61},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":3}}
+435.232 SERVER 
+435.232 SERVER [2026-11-07 21:53:13:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":61},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":3}}
+435.232 SERVER 
+445.233 SERVER [2026-11-07 21:53:23:232 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":60},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":4}}
+445.233 SERVER 
+445.233 SERVER [2026-11-07 21:53:23:232 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":60},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":4}}
+445.233 SERVER 
+455.232 SERVER [2026-11-07 21:53:33:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":1000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":59},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":5}}
+455.232 SERVER 
+455.232 SERVER [2026-11-07 21:53:33:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":1000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":59},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":5}}
+455.232 SERVER 
+465.232 SERVER [2026-11-07 21:53:43:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":1200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":58},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":6}}
+465.232 SERVER 
+465.232 SERVER [2026-11-07 21:53:43:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":1200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":58},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":6}}
+465.232 SERVER 
+475.232 SERVER [2026-11-07 21:53:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":1400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":57},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":7}}
+475.232 SERVER 
+475.232 SERVER [2026-11-07 21:53:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":1400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":57},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":7}}
+475.232 SERVER 
+485.231 SERVER [2026-11-07 21:54:03:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":1600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":56},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":8}}
+485.231 SERVER 
+485.231 SERVER [2026-11-07 21:54:03:230 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":1600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":56},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":8}}
+485.231 SERVER 
+485.732 SERVER [2026-11-07 21:54:03:731 WARN] [Scripting] FUEL_STATE {"name":"coal","ticks":1610,"block":"minecraft:furnace","input":{"id":"minecraft:iron_ore","amount":56},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":8}}
+485.732 SERVER 
+495.235 SERVER [2026-11-07 21:54:13:234 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":1800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":55},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":9}}
+495.235 SERVER 
+505.231 SERVER [2026-11-07 21:54:23:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":2000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":54},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":10}}
+505.231 SERVER 
+515.231 SERVER [2026-11-07 21:54:33:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":2200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":53},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":11}}
+515.231 SERVER 
+525.231 SERVER [2026-11-07 21:54:43:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":2400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":52},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":12}}
+525.231 SERVER 
+535.231 SERVER [2026-11-07 21:54:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":2600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":51},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":13}}
+535.231 SERVER 
+545.231 SERVER [2026-11-07 21:55:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":2800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":50},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":14}}
+545.231 SERVER 
+555.231 SERVER [2026-11-07 21:55:13:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":3000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":49},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":15}}
+555.231 SERVER 
+565.230 SERVER [2026-11-07 21:55:23:229 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":3200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":48},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":16}}
+565.230 SERVER 
+575.231 SERVER [2026-11-07 21:55:33:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":3400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":47},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":17}}
+575.231 SERVER 
+585.231 SERVER [2026-11-07 21:55:43:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":3600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":46},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":18}}
+585.232 SERVER 
+595.230 SERVER [2026-11-07 21:55:53:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":3800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":45},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":19}}
+595.230 SERVER 
+605.233 SERVER [2026-11-07 21:56:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":4000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":44},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":20}}
+605.233 SERVER 
+615.231 SERVER [2026-11-07 21:56:13:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":4200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":43},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":21}}
+615.231 SERVER 
+625.231 SERVER [2026-11-07 21:56:23:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":4400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":42},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":22}}
+625.231 SERVER 
+635.234 SERVER [2026-11-07 21:56:33:233 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":4600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":41},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":23}}
+635.234 SERVER 
+645.231 SERVER [2026-11-07 21:56:43:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":4800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":40},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":24}}
+645.232 SERVER 
+655.231 SERVER [2026-11-07 21:56:53:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":5000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":39},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":25}}
+655.231 SERVER 
+665.232 SERVER [2026-11-07 21:57:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":5200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":38},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":26}}
+665.232 SERVER 
+675.232 SERVER [2026-11-07 21:57:13:232 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":5400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":37},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":27}}
+675.232 SERVER 
+685.230 SERVER [2026-11-07 21:57:23:229 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":5600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":36},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":28}}
+685.230 SERVER 
+695.230 SERVER [2026-11-07 21:57:33:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":5800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":35},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":29}}
+695.230 SERVER 
+705.231 SERVER [2026-11-07 21:57:43:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":6000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":34},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":30}}
+705.231 SERVER 
+715.231 SERVER [2026-11-07 21:57:53:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":6200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":33},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":31}}
+715.231 SERVER 
+725.231 SERVER [2026-11-07 21:58:03:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":6400,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":32},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":32}}
+725.232 SERVER 
+735.230 SERVER [2026-11-07 21:58:13:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":6600,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":31},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":33}}
+735.230 SERVER 
+745.231 SERVER [2026-11-07 21:58:23:231 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":6800,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":30},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":34}}
+745.231 SERVER 
+755.231 SERVER [2026-11-07 21:58:33:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":7000,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":29},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":35}}
+755.231 SERVER 
+765.231 SERVER [2026-11-07 21:58:43:230 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":7200,"block":"minecraft:lit_furnace","input":{"id":"minecraft:iron_ore","amount":28},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":36}}
+765.231 SERVER 
+765.730 SERVER [2026-11-07 21:58:43:730 WARN] [Scripting] FUEL_STATE {"name":"coal_sword","ticks":7210,"block":"minecraft:furnace","input":{"id":"minecraft:iron_ore","amount":28},"fuel":null,"output":{"id":"minecraft:iron_ingot","amount":36}}
+765.730 SERVER 
+825.230 SERVER [2026-11-07 21:59:43:230 WARN] [Scripting] FUEL_FINISHED ticks=8400
+825.231 SERVER 
+825.280 SERVER [2026-11-07 21:59:43:279 INFO] Server stop requested.
+825.298 SERVER [2026-11-07 21:59:43:298 INFO] Stopping server...
+825.639 SERVER Quit correctly
+DONE

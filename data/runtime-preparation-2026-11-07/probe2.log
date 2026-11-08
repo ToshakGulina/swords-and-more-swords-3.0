@@ -1,0 +1,92 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:21:20:769 INFO] Starting Server
+[2026-11-07 00:21:20:769 INFO] Version: 1.26.62.1
+[2026-11-07 00:21:20:769 INFO] Build ID: 53244563
+[2026-11-07 00:21:20:769 INFO] Branch: r/26_u6
+[2026-11-07 00:21:20:769 INFO] Commit ID: 414445034e1ffed4e53bce99de8f8c08781d7ac7
+[2026-11-07 00:21:20:769 INFO] Configuration: Publish
+[2026-11-07 00:21:20:769 INFO] Level Name: Arena modern probe
+[2026-11-07 00:21:20:769 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-11-07 00:21:20:770 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-11-07 00:21:20:770 INFO] Game mode: 1 Creative
+[2026-11-07 00:21:20:770 INFO] Difficulty: 1 EASY
+[2026-11-07 00:21:20:773 INFO] Content logging to console is enabled.
+[2026-11-07 00:21:20:774 INFO] 
+
+#####################################################
+#                                                   #
+#               LOADING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-11-07 00:21:21:154 INFO] Content logging to disk is enabled. Writing log to: ./ContentLog2026-11-07_00-21-21.txt
+[2026-11-07 00:21:21:154 INFO] Opening level 'worlds/Arena modern probe/db'
+[2026-11-07 00:21:21:188 INFO] Pack Stack - [00] Arena isolated diagnostics (id: bc5efcd3-d098-4164-bf69-449207a30f18, version: 1.0.0) @ behavior_packs/Arena_Probe
+[2026-11-07 00:21:21:883 WARN] [Recipes] recipes/diamond_sword.json | minecraft:diamond_sword | Recipe "minecraft:diamond_sword" has the same ingredients as arena_probe:test_sword's recipe but outputs minecraft:diamond_sword instead. Adding duplicate crafting_table recipe.
+
+[2026-11-07 00:21:21:902 INFO] Signed in to signaling service successfully
+[2026-11-07 00:21:22:023 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:21:22:023 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:21:22:031 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 probe2 true
+[2026-11-07 00:21:22:031 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-11-07 00:21:22:031 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-11-07 00:21:22:031 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-11-07 00:21:22:031 ERROR] 
+[2026-11-07 00:21:22:031 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-11-07 00:21:22:031 ERROR] 
+[2026-11-07 00:21:22:031 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-11-07 00:21:22:031 ERROR] =======================================================
+[2026-11-07 00:21:22:031 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:21:22:031 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:21:22:031 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:21:22:031 INFO] 
+[2026-11-07 00:21:22:031 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 00:21:22:031 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:21:22:031 INFO] ======================================================
+[2026-11-07 00:21:22:039 WARN] [Scripting] ARENA_PROBE_SCRIPT_READY
+
+[2026-11-07 00:21:22:148 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: kill @e[type=pig]
+[2026-11-07 00:21:32:064 INFO] Killed Pig
+[2026-11-07 00:21:32:100 WARN] [Scripting] ARENA_PROBE_HURT type=minecraft:pig damage=10
+
+[2026-11-07 00:21:32:100 WARN] [Scripting] ARENA_PROBE_DIED type=minecraft:pig
+
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:21:32:464 INFO] Killed Probe Sword, Raw Porkchop
+[2026-11-07 00:21:32:500 WARN] [Scripting] ARENA_PROBE_DIED type=minecraft:item
+
+[2026-11-07 00:21:32:500 WARN] [Scripting] ARENA_PROBE_DIED type=minecraft:item
+
+HARNESS COMMAND: summon minecraft:pig 10 100 10
+[2026-11-07 00:21:32:869 INFO] Object successfully summoned
+HARNESS COMMAND: damage @e[type=pig,c=1] 2 entity_attack
+[2026-11-07 00:21:33:374 INFO] Applied damage to Pig
+[2026-11-07 00:21:33:399 WARN] [Scripting] ARENA_PROBE_HURT type=minecraft:pig damage=2
+
+HARNESS COMMAND: damage @e[type=pig,c=1] 100 entity_attack
+[2026-11-07 00:21:34:174 INFO] Applied damage to Pig
+[2026-11-07 00:21:34:200 WARN] [Scripting] ARENA_PROBE_HURT type=minecraft:pig damage=100
+
+[2026-11-07 00:21:34:200 WARN] [Scripting] ARENA_PROBE_DIED type=minecraft:pig
+
+HARNESS COMMAND: setblock 20 100 20 arena_probe:test_ore
+[2026-11-07 00:21:35:179 ERROR] The block couldn't be placed
+HARNESS COMMAND: testforblock 20 100 20 arena_probe:test_ore
+[2026-11-07 00:21:35:684 INFO] Successfully found the block at 20,100,20.
+HARNESS COMMAND: setblock 20 100 20 air destroy
+[2026-11-07 00:21:36:184 INFO] Block placed
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:21:36:884 INFO] Found Raw Porkchop, Diamond
+HARNESS COMMAND: tickingarea remove probe2
+[2026-11-07 00:21:37:389 INFO] Removed ticking area(s)
+- probe2 (Circle): 8 0 8 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:21:38:640 INFO] Server stop requested.
+[2026-11-07 00:21:38:688 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

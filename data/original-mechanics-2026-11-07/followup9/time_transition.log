@@ -1,0 +1,131 @@
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Starting Server
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Version: 1.20.50.03
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Build ID: 19782165
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Branch: r/20_u5
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1706.780 SERVER [2026-11-07 18:45:33:779 INFO] Configuration: Publish
+1706.780 SERVER [2026-11-07 18:45:33:780 INFO] Level Name: Bedrock level
+1706.781 SERVER [2026-11-07 18:45:33:781 INFO] No CDN config file found for dedicated server
+1706.781 SERVER [2026-11-07 18:45:33:781 INFO] Game mode: 0 Survival
+1706.781 SERVER [2026-11-07 18:45:33:781 INFO] Difficulty: 1 EASY
+1706.782 SERVER [2026-11-07 18:45:33:782 INFO] Content logging to console is enabled.
+1707.165 SERVER [2026-11-07 18:45:34:164 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+1707.165 SERVER [2026-11-07 18:45:34:164 INFO] Opening level 'worlds/Bedrock level/db'
+1707.517 SERVER [2026-11-07 18:45:34:516 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1707.517 SERVER [2026-11-07 18:45:34:517 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+1707.517 SERVER [2026-11-07 18:45:34:517 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1707.517 SERVER [2026-11-07 18:45:34:517 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+1707.757 SERVER [2026-11-07 18:45:34:756 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1707.757 SERVER [2026-11-07 18:45:34:757 INFO] IPv6 supported, port: 19133: Used for gameplay
+1707.836 SERVER [2026-11-07 18:45:34:835 INFO] Server started.
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] ================ TELEMETRY MESSAGE ===================
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] Server Telemetry is currently not enabled.
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] Enabling this telemetry helps us improve the game.
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO]
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] to the server.properties file in the handheld/src-server directory
+1707.837 SERVER [2026-11-07 18:45:34:835 INFO] ======================================================
+1708.466 SERVER [2026-11-07 18:45:35:465 INFO] Player connected: ArenaSilver, xuid:
+1708.830 BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+1709.043 BOT BOT HELD CONTENT {"network_id":0}
+1709.148 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1712.617 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1712.680 BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"2","position":{"x":-35.49999237060547,"y":34,"z":44.041908264160156}}
+1713.963 SERVER [2026-11-07 18:45:40:963 INFO] Player Spawned: ArenaSilver xuid: ,
+1713.975 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaSilver
+1714.117 SERVER [2026-11-07 18:45:40:117 INFO] Set ArenaSilver's game mode to Creative
+1714.380 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"5","position":{"x":39.728885650634766,"y":69,"z":49.80323028564453}}
+1714.381 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"4","position":{"x":43.372467041015625,"y":69,"z":51.27470779418945}}
+1714.381 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"3","position":{"x":47.48550796508789,"y":68,"z":59.347015380859375}}
+COMMAND gamerule doMobSpawning false
+COMMAND gamerule dodaylightcycle false
+COMMAND time set 18000
+1716.421 SERVER [2026-11-07 18:45:43:420 INFO] Set the time to 18000
+1716.631 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND weather clear 200
+1717.221 SERVER [2026-11-07 18:45:44:220 INFO] Changing to clear weather
+COMMAND tp ArenaSilver 50 100 50
+1718.021 SERVER [2026-11-07 18:45:44:021 INFO] Teleported ArenaSilver to 50.50, 100.00, 50.50
+1718.033 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+1718.131 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"12","position":{"x":65.6147689819336,"y":64,"z":50.300697326660156}}
+1718.131 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"9","position":{"x":69.28272247314453,"y":64,"z":49.13561248779297}}
+1718.132 BOT BOT ENTITY {"type":"minecraft:zombie_pigman","runtime":"8","position":{"x":54.96428680419922,"y":100,"z":49.57496643066406}}
+1718.132 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"7","position":{"x":51.51691818237305,"y":64,"z":62.277099609375}}
+1718.132 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"6","position":{"x":58.48539352416992,"y":64,"z":60.10054016113281}}
+1718.132 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"14","position":{"x":52.06403350830078,"y":100,"z":46.777565002441406}}
+1718.133 BOT BOT ENTITY EVENT {"runtime_entity_id":"14","event_id":"death_animation","data":0}
+1718.133 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"13","position":{"x":56.39820861816406,"y":100,"z":45.14719009399414}}
+1718.133 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"10","position":{"x":67.42229461669922,"y":64,"z":49.088417053222656}}
+1718.133 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"11","position":{"x":65.44136047363281,"y":64,"z":50.067588806152344}}
+1719.185 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"18","position":{"x":52.06403350830078,"y":100,"z":46.777565002441406}}
+1719.186 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"17","position":{"x":52.06403350830078,"y":100,"z":46.777565002441406}}
+1719.186 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"16","position":{"x":52.06403350830078,"y":100,"z":46.777565002441406}}
+1719.186 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"15","position":{"x":52.06403350830078,"y":100,"z":46.777565002441406}}
+1720.634 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 46 99 46 56 99 56 stone
+1721.075 SERVER [2026-11-07 18:45:47:074 ERROR] 0 blocks filled
+COMMAND fill 46 100 46 56 105 56 air
+1721.874 SERVER [2026-11-07 18:45:48:874 ERROR] 0 blocks filled
+COMMAND kill @e[type=entity:alpha_wolf]
+1722.674 SERVER [2026-11-07 18:45:49:673 ERROR] No targets matched selector
+MARK TRANSITION 23999 -> 24000
+COMMAND time set 23999
+1722.972 SERVER [2026-11-07 18:45:49:971 INFO] Set the time to 23999
+COMMAND summon entity:alpha_wolf 51 100 50
+1723.273 SERVER [2026-11-07 18:45:50:272 INFO] Object successfully summoned
+1723.333 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"19","position":{"x":51.5,"y":100,"z":50.5}}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1723.571 SERVER [2026-11-07 18:45:50:571 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1723.922 SERVER [2026-11-07 18:45:50:921 WARN] [Scripting] ARENA_WOLF {"id":"-85899345914","health":480,"max":480,"res":null,"reg":null}
+1723.972 SERVER [2026-11-07 18:45:50:972 INFO] Found entity.entity:alpha_wolf.name
+COMMAND time set 24000
+1724.272 SERVER [2026-11-07 18:45:51:271 INFO] Set the time to 24000
+1724.629 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1725.272 SERVER [2026-11-07 18:45:52:271 ERROR] No targets matched selector
+COMMAND kill @e[type=entity:alpha_wolf]
+1725.772 SERVER [2026-11-07 18:45:52:772 ERROR] No targets matched selector
+MARK TRANSITION 191999 -> 192000
+COMMAND time set 191999
+1726.071 SERVER [2026-11-07 18:45:52:070 INFO] Set the time to 191999
+COMMAND summon entity:alpha_wolf 51 100 50
+1726.374 SERVER [2026-11-07 18:45:53:373 INFO] Object successfully summoned
+1726.431 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"20","position":{"x":51.5,"y":100,"z":50.5}}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1726.673 SERVER [2026-11-07 18:45:53:672 ERROR] No targets matched selector
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1727.077 SERVER [2026-11-07 18:45:53:076 ERROR] No targets matched selector
+COMMAND time set 192000
+1727.371 SERVER [2026-11-07 18:45:54:371 INFO] Set the time to 192000
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1728.372 SERVER [2026-11-07 18:45:55:372 ERROR] No targets matched selector
+1728.632 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND kill @e[type=entity:alpha_wolf]
+1728.873 SERVER [2026-11-07 18:45:55:872 ERROR] No targets matched selector
+MARK TRANSITION 210000 -> 42000
+COMMAND time set 210000
+1729.171 SERVER [2026-11-07 18:45:56:170 INFO] Set the time to 210000
+COMMAND summon entity:alpha_wolf 51 100 50
+1729.472 SERVER [2026-11-07 18:45:56:471 INFO] Object successfully summoned
+1729.530 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"21","position":{"x":51.5,"y":100,"z":50.5}}
+1729.583 BOT BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"shake_wet","data":0}
+1729.633 BOT BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"shake_wet","data":0}
+1729.683 BOT BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"shake_wet","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1729.733 BOT BOT ENTITY EVENT {"runtime_entity_id":"21","event_id":"shake_wet","data":0}
+1729.771 SERVER [2026-11-07 18:45:56:770 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+1729.921 SERVER [2026-11-07 18:45:56:921 WARN] [Scripting] ARENA_WOLF {"id":"-85899345912","health":480,"max":480,"res":null,"reg":null}
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1730.171 SERVER [2026-11-07 18:45:57:171 INFO] Found entity.entity:alpha_wolf.name
+COMMAND time set 42000
+1730.422 SERVER [2026-11-07 18:45:57:421 WARN] [Scripting] ARENA_WOLF {"id":"-85899345912","health":480,"max":480,"res":null,"reg":null}
+1730.472 SERVER [2026-11-07 18:45:57:471 INFO] Set the time to 42000
+COMMAND testfor @e[type=entity:alpha_wolf,tag=probe]
+1731.472 SERVER [2026-11-07 18:45:58:471 ERROR] No targets matched selector
+COMMAND kill @e[type=entity:alpha_wolf]
+1731.972 SERVER [2026-11-07 18:45:58:972 ERROR] No targets matched selector
+1732.273 SERVER [2026-11-07 18:45:59:273 INFO] Server stop requested.
+1732.299 SERVER [2026-11-07 18:45:59:298 INFO] Stopping server...
+DONE

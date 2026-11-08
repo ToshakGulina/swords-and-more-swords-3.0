@@ -1,0 +1,250 @@
+{
+  "repo": "Mojang/bedrock-samples",
+  "ref": "v1.26.60.5",
+  "tree_sha": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "tree_truncated": false,
+  "scope": "Direct texture paths reported absent locally in docs/resource-graph-2.8.8.md; tested extensions png/tga/jpeg/jpg",
+  "conclusion": "Path presence only; runtime binding, exact version appearance, and licensing are not established.",
+  "textures": [
+    {
+      "referenced_texture": "textures/entity/bed/black",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/black.png",
+          "git_blob_sha1": "50346bcd4ba3b4a9c0586eeff49fbcfc8e648572",
+          "bytes": 1147
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/blue",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/blue.png",
+          "git_blob_sha1": "cadaddba61c1e2360cdbb8cffaf782be0007a5d8",
+          "bytes": 1154
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/brown",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/brown.png",
+          "git_blob_sha1": "b45f3b45f7566eafd3c4fe7d84783ec559254caf",
+          "bytes": 1150
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/cyan",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/cyan.png",
+          "git_blob_sha1": "ae3df0cd7920d1ebba7bd20a725ccb59037783a4",
+          "bytes": 1158
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/gray",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/gray.png",
+          "git_blob_sha1": "73b57d66eb6e34db4337e0ffa9ad66ceda36860c",
+          "bytes": 1159
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/green",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/green.png",
+          "git_blob_sha1": "64d602955e37bdbc6046fdd2f9fb32336e836cf2",
+          "bytes": 1150
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/light_blue",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/light_blue.png",
+          "git_blob_sha1": "7112b9e53d0c3b0a457b3ec6c6cac9a939323ee7",
+          "bytes": 1159
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/lime",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/lime.png",
+          "git_blob_sha1": "ffc62dca5037ceff1376b38f0c57a58e812bbbc6",
+          "bytes": 1146
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/magenta",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/magenta.png",
+          "git_blob_sha1": "b532a8131bddc98fd8d1f1503fec2ba3af26415e",
+          "bytes": 1150
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/orange",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/orange.png",
+          "git_blob_sha1": "ff70dec3022fb69f7c4025e143288bfdf2bd25f0",
+          "bytes": 1156
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/pink",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/pink.png",
+          "git_blob_sha1": "89d47e4bca3cce9a38e3ec345fe7140ed6d8ba34",
+          "bytes": 1159
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/purple",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/purple.png",
+          "git_blob_sha1": "f5523b68480cd02abc6a2995ca66e9bb296e2a63",
+          "bytes": 1152
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/red",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/red.png",
+          "git_blob_sha1": "f563d0da827432b828b0070849897ef68e18397a",
+          "bytes": 1183
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/silver",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/silver.png",
+          "git_blob_sha1": "d6f348f7313c30029dcb904174163367be509ff3",
+          "bytes": 1145
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/white",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/white.png",
+          "git_blob_sha1": "e58a0702026edfeccdb078843a498566b7006b65",
+          "bytes": 1096
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bed/yellow",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bed/yellow.png",
+          "git_blob_sha1": "5efabbe9aa5f717505047fe2cc1be8b19629f162",
+          "bytes": 1170
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/bee/bee_angry",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/bee/bee_angry.png",
+          "git_blob_sha1": "0decc4e21cc53d908a8662a9bb945065c67457c3",
+          "bytes": 949
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/cape_invisible",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/cape_invisible.png",
+          "git_blob_sha1": "f1ccd60d9475fd1b5d5ce3a8a7f482643ee499fb",
+          "bytes": 172
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/steve",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/steve.png",
+          "git_blob_sha1": "b821a51840d216541a777bdc719abcc8e2cf729c",
+          "bytes": 1379
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/witch",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/witch.png",
+          "git_blob_sha1": "c8b3106f3e5d09b5e2f4f0012e4b806cdd474e11",
+          "bytes": 1460
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/wolf/wolf_angry",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/wolf/wolf_angry.png",
+          "git_blob_sha1": "05536b628f651c862457996f171b1cf34a24f8c6",
+          "bytes": 1683
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/entity/wolf/wolf_tame",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/entity/wolf/wolf_tame.tga",
+          "git_blob_sha1": "d34f3b4f23eb19b27bf1b5191d23f0af6acc1d48",
+          "bytes": 8236
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/items/fireball",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/items/fireball.png",
+          "git_blob_sha1": "3b0df97f7feb88f3dc565c5b63e4d6cce82edc2c",
+          "bytes": 271
+        }
+      ]
+    },
+    {
+      "referenced_texture": "textures/items/nether_star",
+      "official_files": [
+        {
+          "path": "resource_pack/textures/items/nether_star.png",
+          "git_blob_sha1": "f8fd32463dec09c8989d44b1a2ac2c5ef51f539a",
+          "bytes": 227
+        }
+      ]
+    }
+  ]
+}

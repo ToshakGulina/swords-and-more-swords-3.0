@@ -1,0 +1,64 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:06:51:720 INFO] Starting Server
+SERVER [2026-11-07 08:06:51:720 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:06:51:720 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:06:51:720 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:06:51:720 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:06:51:720 INFO] Configuration: Publish
+SERVER [2026-11-07 08:06:51:720 INFO] Level Name: Bot baseline
+SERVER [2026-11-07 08:06:51:721 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:06:51:721 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:06:51:721 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:06:51:724 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:06:51:107 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_06_51
+SERVER [2026-11-07 08:06:51:107 INFO] Opening level 'worlds/Bot baseline/db'
+SERVER [2026-11-07 08:06:52:639 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:06:52:639 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:06:52:647 INFO] Server started.
+HARNESS starting client inside isolated network
+SERVER [2026-11-07 08:06:52:647 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:06:52:647 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:06:52:647 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:06:52:647 INFO] 
+SERVER [2026-11-07 08:06:52:647 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:06:52:647 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:06:52:647 INFO] ======================================================
+node:internal/modules/cjs/loader:1433
+  throw err;
+  ^
+
+Error: Cannot find module 'prismarine-nbt/zigzag'
+Require stack:
+- /home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/datatypes/minecraft.js
+- /home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/datatypes/compiler-minecraft.js
+- /home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/transforms/serializer.js
+- /home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/client.js
+- /home/user/swords-analysis/bot/node_modules/bedrock-protocol/index.js
+- /home/user/swords-analysis/bot-runtime/bot.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/datatypes/minecraft.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/datatypes/minecraft.js',
+    '/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/datatypes/compiler-minecraft.js',
+    '/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/transforms/serializer.js',
+    '/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/client.js',
+    '/home/user/swords-analysis/bot/node_modules/bedrock-protocol/index.js',
+    '/home/user/swords-analysis/bot-runtime/bot.js'
+  ]
+}
+
+Node.js v22.22.3
+HARNESS CLIENT DID NOT SPAWN
+SERVER [2026-11-07 08:07:37:766 INFO] Server stop requested.
+SERVER [2026-11-07 08:07:37:802 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= False server_exit= 0

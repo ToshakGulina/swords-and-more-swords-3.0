@@ -1,0 +1,157 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:23:47:313 INFO] Starting Server
+[2026-11-07 00:23:47:313 INFO] Version: 1.20.50.03
+[2026-11-07 00:23:47:313 INFO] Build ID: 19782165
+[2026-11-07 00:23:47:313 INFO] Branch: r/20_u5
+[2026-11-07 00:23:47:313 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 00:23:47:313 INFO] Configuration: Publish
+[2026-11-07 00:23:47:313 INFO] Level Name: Arena original
+[2026-11-07 00:23:47:314 INFO] No CDN config file found for dedicated server
+[2026-11-07 00:23:47:314 INFO] Game mode: 1 Creative
+[2026-11-07 00:23:47:314 INFO] Difficulty: 1 EASY
+[2026-11-07 00:23:47:314 INFO] Content logging to console is enabled.
+[2026-11-07 00:23:47:670 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__00_23_47
+[2026-11-07 00:23:47:670 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 00:23:47:670 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 00:23:48:017 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 00:23:48:018 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 00:23:48:018 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 00:23:48:018 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 00:23:48:227 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:23:48:227 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:23:48:290 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 event_lab true
+[2026-11-07 00:23:48:290 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:23:48:290 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:23:48:290 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:23:48:290 INFO] 
+[2026-11-07 00:23:48:290 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 00:23:48:290 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:23:48:290 INFO] ======================================================
+[2026-11-07 00:23:48:505 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:23:58:356 ERROR] No targets matched selector
+HARNESS COMMAND: kill @e[type=entity:alpha_wolf]
+[2026-11-07 00:23:58:761 INFO] Killed entity.entity:alpha_wolf.name
+HARNESS COMMAND: summon entity:alpha_wolf 0 100 0
+[2026-11-07 00:23:59:217 INFO] Object successfully summoned
+HARNESS COMMAND: testfor @e[type=entity:alpha_wolf]
+[2026-11-07 00:23:59:656 INFO] Found entity.entity:alpha_wolf.name
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:156 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:307 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:461 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:607 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:760 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:00:906 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:056 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:211 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:356 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:512 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:659 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:806 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:01:962 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:106 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:211 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:356 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:511 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:657 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:806 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:02:961 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:111 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:306 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:461 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:611 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:712 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:03:861 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:057 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:211 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:361 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:461 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:612 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:807 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:04:962 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:112 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:257 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:406 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:556 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:712 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:05:861 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:006 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:157 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:307 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:461 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:611 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:757 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:06:906 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:07:056 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:07:211 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:07:361 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: event entity @e[type=entity:alpha_wolf,c=1] minecraft:wolf_sword
+[2026-11-07 00:24:07:506 INFO] minecraft:wolf_sword successfully executed on: entity:alpha_wolf
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:24:07:656 INFO] Found item.effect:wolf_sword, item.effect:wolf_sword, item.effect:wolf_sword, item.effect:wolf_sword, item.effect:wolf_sword
+HARNESS COMMAND: tickingarea remove event_lab
+[2026-11-07 00:24:08:656 INFO] Removed ticking area(s)
+- event_lab (Circle): 8 0 8 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:24:10:057 INFO] Server stop requested.
+[2026-11-07 00:24:10:085 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

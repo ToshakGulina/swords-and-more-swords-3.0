@@ -1,0 +1,1034 @@
+{
+  "source_name": "swordsandmoreswords_2_8_8.mcaddon",
+  "source_sha256": "ab8cbb75c930948f386bf0119bb0a4ee79c084db888c2e9b05deac61b799bb7f",
+  "scope": "all non-directory Swords_R members, all Swords_B/structures/*.mcstructure, and Swords_B/pack_icon.png",
+  "file_count": 203,
+  "uncompressed_bytes": 2285824,
+  "extensions": {
+    ".jpeg": 7,
+    ".json": 82,
+    ".lang": 1,
+    ".material": 1,
+    ".mcstructure": 18,
+    ".ogg": 3,
+    ".png": 88,
+    ".tga": 3
+  },
+  "files": [
+    {
+      "path": "Swords_B/pack_icon.png",
+      "bytes": 225,
+      "sha256": "1d1faeae22cbb8db31db1380c25dfeb4b68ca649f6cc72bd974720823152bec3"
+    },
+    {
+      "path": "Swords_B/structures/armor stands swords.mcstructure",
+      "bytes": 100843,
+      "sha256": "2738255459cb9f87abcd43d1f983050d0a3a46dddf699f428f5fdc563e62fe7a"
+    },
+    {
+      "path": "Swords_B/structures/bedrock_sword.mcstructure",
+      "bytes": 932,
+      "sha256": "14ae80aec8cbde5eeeb5802f77cae0e4cbf338d277af1510946bf11c079c3d97"
+    },
+    {
+      "path": "Swords_B/structures/bone_sword.mcstructure",
+      "bytes": 949,
+      "sha256": "f06d4150170ce46f09645260a2cc19865edebbb689d616102dc7ac8dc89592b3"
+    },
+    {
+      "path": "Swords_B/structures/creeper_sword.mcstructure",
+      "bytes": 932,
+      "sha256": "9e4f6a847837f92c24f3b9a9643b6254a7b1fee710d620dfe29dcf1f8d1eeb0a"
+    },
+    {
+      "path": "Swords_B/structures/fire_sword.mcstructure",
+      "bytes": 981,
+      "sha256": "be3526950e28b61ebe4814e880630478d8b8c6084d344eb8a107903681a78f89"
+    },
+    {
+      "path": "Swords_B/structures/ghost_sword.mcstructure",
+      "bytes": 930,
+      "sha256": "7bdb70032e43e8c4475c782da21ff6b60f9ef64d696aef5a1cf3efc8dc7591c7"
+    },
+    {
+      "path": "Swords_B/structures/glass_sword.mcstructure",
+      "bytes": 913,
+      "sha256": "a7b2145ffeda7605c71f117084ab11d52ab14d19f7cced4d21e4bfafcc7fb617"
+    },
+    {
+      "path": "Swords_B/structures/grass_sword.mcstructure",
+      "bytes": 930,
+      "sha256": "217d738c4a8f3071bd712bf35ba827e649e536e152278f8a5f00ebfbd7416a34"
+    },
+    {
+      "path": "Swords_B/structures/lightning_sword.mcstructure",
+      "bytes": 1064,
+      "sha256": "632be5f2fa4dc526c9f73f8e53c831bfb2347bd812ef4e5bd6bb9f9b42733cee"
+    },
+    {
+      "path": "Swords_B/structures/obsidian_sword.mcstructure",
+      "bytes": 936,
+      "sha256": "77d1c64f704c07cef821b2059021248e0bb6c1ad8c5078663d94d16cf2d74f15"
+    },
+    {
+      "path": "Swords_B/structures/quartz_diamond_ore.mcstructure",
+      "bytes": 286,
+      "sha256": "05037a12b1bdaaf22700285709ddecc917ee56f5c8bbc18bbe704cd8ec39ea55"
+    },
+    {
+      "path": "Swords_B/structures/silver_ore.mcstructure",
+      "bytes": 278,
+      "sha256": "4a7a9f4c3f735431aa3c82d969d54ac03201c031c24799a16b6522c4e6e1f701"
+    },
+    {
+      "path": "Swords_B/structures/spectral_sword.mcstructure",
+      "bytes": 953,
+      "sha256": "77710d08327cdc2a14abe38ec14736f173b21e2223ea0716c6e44a7b3995c107"
+    },
+    {
+      "path": "Swords_B/structures/time_sword.mcstructure",
+      "bytes": 932,
+      "sha256": "c204e663c087940aaa9b05b097ac5386b5712d8bcbb349f4f4441a3687572d83"
+    },
+    {
+      "path": "Swords_B/structures/ultra_instinct_sword.mcstructure",
+      "bytes": 939,
+      "sha256": "e1aee9291e51f24fe965f12afbc8cd3685dcf5972268c23eb390e2064ce614e1"
+    },
+    {
+      "path": "Swords_B/structures/wet_sponge_sword.mcstructure",
+      "bytes": 935,
+      "sha256": "0176cf89b0ab3dfe3b8ff5a5ff148997e7467a788cdfa674d95e58ce7f1d6452"
+    },
+    {
+      "path": "Swords_B/structures/wither_sword.mcstructure",
+      "bytes": 948,
+      "sha256": "67ff65a8a1baf594519210244c89978a078b60911768b84e9568b5a6c7f985f2"
+    },
+    {
+      "path": "Swords_B/structures/wolf_sword.mcstructure",
+      "bytes": 929,
+      "sha256": "00361d97e4ab5190d45d9e6d7928dd78f018c0dd8ab2bbf7c72b683044469aeb"
+    },
+    {
+      "path": "Swords_R/animation_controllers/baby_slime.animation_controllers.json",
+      "bytes": 469,
+      "sha256": "410b806138f3f3bcbcb2f53e955c430bab5c22eb13ec82ab2fb80566f8342992"
+    },
+    {
+      "path": "Swords_R/animation_controllers/ghost.animation_controllers.json",
+      "bytes": 249,
+      "sha256": "76bcb560dd4c1deca4c82be7d82831275457c0397e2f1fa6facf9405016b6afe"
+    },
+    {
+      "path": "Swords_R/animation_controllers/grass.animation_controllers.json",
+      "bytes": 231,
+      "sha256": "921a672759fac15653073b92cf27ffbe24a9caa72a0d600d5dd05b332b5829d4"
+    },
+    {
+      "path": "Swords_R/animation_controllers/shulker_shield.animation_controllers.json",
+      "bytes": 240,
+      "sha256": "7b9bbd7305fe30545dfeda7178e82b06fa40ddef7fb0e4a5c72800d24ea728d9"
+    },
+    {
+      "path": "Swords_R/animation_controllers/ultra_instinct_projectile.animation_controllers.json",
+      "bytes": 251,
+      "sha256": "b351006f50b8ee5d8cc37f160b58a42c95aa1993f9bae7ce921acc3581dbf7e0"
+    },
+    {
+      "path": "Swords_R/animations/baby_slime.animation.json",
+      "bytes": 1143,
+      "sha256": "2ff25c4c3e1cc11e634da947eea87aaf9f3f535570030f70497537e83f006084"
+    },
+    {
+      "path": "Swords_R/animations/blaze_rods.animation.json",
+      "bytes": 2802,
+      "sha256": "25e5e97e44e19bfcaaf3666639f46aa8cbb26fce46ee20e277311f560c35b728"
+    },
+    {
+      "path": "Swords_R/animations/ghost.animation.json",
+      "bytes": 1025,
+      "sha256": "d7da2dc5210566687929a27b2720938b7b0223d30e62fef45ffb299ad7b32e88"
+    },
+    {
+      "path": "Swords_R/animations/grass.animation.json",
+      "bytes": 1423,
+      "sha256": "4649a576a7ef5d6191a41a3c736e6182c017ec9d5c0784f7161abfe1ab09a116"
+    },
+    {
+      "path": "Swords_R/animations/mermaid_player.animation.json",
+      "bytes": 5689,
+      "sha256": "eb26e0a5bd9d5a94378c18b8c8172cd1adb6d91d054c724b4bb3aebf43ed8ed1"
+    },
+    {
+      "path": "Swords_R/animations/mobs.animation.json",
+      "bytes": 2975,
+      "sha256": "fcd99e85c9b2ce1237325735a2f5400bbff3db6983cb32800d9c040c56fbff84"
+    },
+    {
+      "path": "Swords_R/animations/shulker_shield.animation.json",
+      "bytes": 317,
+      "sha256": "5676e31445e170b1812ee3935d8a92a79f37f0a0cac764a8c761340db80a6071"
+    },
+    {
+      "path": "Swords_R/animations/ultra_instinct_move.animation.json",
+      "bytes": 650,
+      "sha256": "802a9868471451dfab189254d2dceb580c9f6338bba3a636e911d521aa898460"
+    },
+    {
+      "path": "Swords_R/animations/ultra_instinct_projectile.animation.json",
+      "bytes": 365,
+      "sha256": "896f981aa6e68ef88c1fd0291ef24f447cb20319ccdf8419edf1c3a068368901"
+    },
+    {
+      "path": "Swords_R/blocks.json",
+      "bytes": 680,
+      "sha256": "1331675b1b19b5c746bfba5a9baa8ed85e900cec15533bddeb692f906d0d8323"
+    },
+    {
+      "path": "Swords_R/entity/alpha_wolf.entity.json",
+      "bytes": 2901,
+      "sha256": "264a901eea43a8b357b31b177a0d742d75343e33e483929370923557d6afe04f"
+    },
+    {
+      "path": "Swords_R/entity/bed_sword.entity.json",
+      "bytes": 1013,
+      "sha256": "fd3b2844465544a30b1ffd5d6d5d0d1e90c06b4d1991fc0b33b71d27fd3e318f"
+    },
+    {
+      "path": "Swords_R/entity/bee_sword.json",
+      "bytes": 529,
+      "sha256": "496bb0ca7a167b5f8384d48868e5f9cb3305b13a1ad8d068e4ab43edde424304"
+    },
+    {
+      "path": "Swords_R/entity/enderman.entity.json",
+      "bytes": 2041,
+      "sha256": "6225cc0d55bc01b03551ec6c265a75d528206479328057ab017e15d366a47238"
+    },
+    {
+      "path": "Swords_R/entity/fake_fireball.entity.json",
+      "bytes": 619,
+      "sha256": "8f5a1a54b224e88e009b074ad8137d5923ad2119d6cc323d46d510cb4d3fa71b"
+    },
+    {
+      "path": "Swords_R/entity/ghost.v1.0.json",
+      "bytes": 728,
+      "sha256": "29e704a89c0fec228e1ab684e44b2d692d22a82c2386e78dbe8ed2528b5d1133"
+    },
+    {
+      "path": "Swords_R/entity/grass.v1.0.json",
+      "bytes": 589,
+      "sha256": "e48f83132b2e425f9d6ec518b4c50c30f9a3b36297a2e8c7a8143d0d36d6fa00"
+    },
+    {
+      "path": "Swords_R/entity/mountable_slime.v1.0.json",
+      "bytes": 1462,
+      "sha256": "07b23e973c411cfc176f9a289a5dec0fc0fa06854522fe003bd98e304d541f1c"
+    },
+    {
+      "path": "Swords_R/entity/nether_star.v1.0.json",
+      "bytes": 576,
+      "sha256": "db33d470fb3edf1407ec934c8761f427a1e3a2abc7a6e6179475eb51c8b62096"
+    },
+    {
+      "path": "Swords_R/entity/player.entity.json",
+      "bytes": 9734,
+      "sha256": "05c0e53f5482dcae8f66be42e219a97934d32dcd6244f943c7fd4e1ae67f729b"
+    },
+    {
+      "path": "Swords_R/entity/pumpkin_projectile.entity.json",
+      "bytes": 622,
+      "sha256": "69f403303427cc8d2e75e877453149a93aaca5c51490ac9232e646f98f6d3084"
+    },
+    {
+      "path": "Swords_R/entity/shulker_shield.v1.0.json",
+      "bytes": 652,
+      "sha256": "425cf6f6b98cd428acc7b1164aadabc6e0a36f2ceb4a3ae2b4f004d342682b5d"
+    },
+    {
+      "path": "Swords_R/entity/slime_king.entity.json",
+      "bytes": 1301,
+      "sha256": "ea65ab4758d2f61c372836f6f1f01746cf0ca560643473dda15751bb9e1422bf"
+    },
+    {
+      "path": "Swords_R/entity/ultra_instinct_projectile.json",
+      "bytes": 670,
+      "sha256": "d832d28f704b220105095592970d0586084853453e0d049c71c47c3bc77599a2"
+    },
+    {
+      "path": "Swords_R/entity/web.v1.0.json",
+      "bytes": 550,
+      "sha256": "6cd625976e2ebdc4082962db2f77480dcaa3066336fa55ee442f4f2b1eafcd40"
+    },
+    {
+      "path": "Swords_R/entity/witch.entity.json",
+      "bytes": 1032,
+      "sha256": "fea1576d77bdeb113b945db339a0211e65705f70c40bfff9933557e3298f7f33"
+    },
+    {
+      "path": "Swords_R/entity/witch.v1.0.entity.json",
+      "bytes": 1035,
+      "sha256": "d3a76a3b24d8b15090cf11c9cbdb9ab4faefa9d475ae139808dfc42c1319b298"
+    },
+    {
+      "path": "Swords_R/manifest.json",
+      "bytes": 647,
+      "sha256": "54814d2f2e54806620d4606c88b86ac8954d8660883f1c0103de27786d011cf5"
+    },
+    {
+      "path": "Swords_R/materials/entity.material",
+      "bytes": 454,
+      "sha256": "a55ae77cbeec468298cc37688d3c73a3881aa9fa9fc69c235306a4ac33479e4c"
+    },
+    {
+      "path": "Swords_R/models/blocks/fake_ice.json",
+      "bytes": 800,
+      "sha256": "d5ff978680e3a0037a0a2cd555338353623bc85e7de66f826a4105c8aecadee0"
+    },
+    {
+      "path": "Swords_R/models/blocks/fake_ice2.json",
+      "bytes": 803,
+      "sha256": "3fa71f3de818d5f433eab5d38544d845426e29ca6776f35c4255a1b357aa29af"
+    },
+    {
+      "path": "Swords_R/models/blocks/fake_ice3.json",
+      "bytes": 803,
+      "sha256": "ff2e1e9b01893dd97c4c5c066b430b90a114c8151e53521c62098082a5098bfc"
+    },
+    {
+      "path": "Swords_R/models/blocks/fake_ice4.json",
+      "bytes": 809,
+      "sha256": "a99306467997fd4ebb803ac9fb0298ff0c010cc8a6d07b320b8d48ab94f38050"
+    },
+    {
+      "path": "Swords_R/models/blocks/null.geo.json",
+      "bytes": 201,
+      "sha256": "e0ae421ba8041b70ccd4581b967d32211a90f61eff33d1642cf542f7b5e044b9"
+    },
+    {
+      "path": "Swords_R/models/blocks/spectral_block.json",
+      "bytes": 815,
+      "sha256": "14b9545a4fa4125ff1a96bbd002c69818ae2fd2119473e320be5056edf36dc09"
+    },
+    {
+      "path": "Swords_R/models/entity/baby_slime.geo.json",
+      "bytes": 5649,
+      "sha256": "4080689c9587f6743dd2e13ef7094d0d019b1a80456fbb314f65f75d72e93661"
+    },
+    {
+      "path": "Swords_R/models/entity/blaze_aura.geo.json",
+      "bytes": 5379,
+      "sha256": "aed029e6747d55ddb91c741e8e471c5f5adc5392c38fb95f5493d021d56e04c5"
+    },
+    {
+      "path": "Swords_R/models/entity/blaze_rods.geo.json",
+      "bytes": 2020,
+      "sha256": "d604a51c17059ee88dab22311302b263d3847cb47291425d861389b8da6fd3e0"
+    },
+    {
+      "path": "Swords_R/models/entity/ghost.geo.json",
+      "bytes": 1831,
+      "sha256": "69e1b1f2cef2d387f47fe8134cbdf8c15abf51865e58eb6d945136e7008353da"
+    },
+    {
+      "path": "Swords_R/models/entity/grass.geo.json",
+      "bytes": 3228,
+      "sha256": "990ae9323bc5cbb4632a4b8cb5ed9db640dd843bda76638f5f7adfc104185693"
+    },
+    {
+      "path": "Swords_R/models/entity/mermaid_player.geo.json",
+      "bytes": 7849,
+      "sha256": "848d40095db8ef5fd6a3e8784c4b1b77e878619ecbf4d64caa6921e56a3575a4"
+    },
+    {
+      "path": "Swords_R/models/entity/mountable_slime.geo.json",
+      "bytes": 874,
+      "sha256": "394404abf568b1296b8c783013244d4941f18197bc6b422cc1fad534ef127318"
+    },
+    {
+      "path": "Swords_R/models/entity/player_ghost.geo.json",
+      "bytes": 4106,
+      "sha256": "b6d667edbe2b7cfdfa8e77d487786646367580af3955076d866691301e250eec"
+    },
+    {
+      "path": "Swords_R/models/entity/pumpkin_projectile.geo.json",
+      "bytes": 819,
+      "sha256": "7e6dcb41e60c6618df175b2b690547bfde14c543d2c55df892367481f422e756"
+    },
+    {
+      "path": "Swords_R/models/entity/shulker_shield.geo.json",
+      "bytes": 633,
+      "sha256": "84e84885fd289da6f71ec46123cb551ca7fa6ecdbc657c6b3d55a94e19545633"
+    },
+    {
+      "path": "Swords_R/models/entity/slime_king_armor.geo.json",
+      "bytes": 4182,
+      "sha256": "db0d4edd317f0acad14c4ba88c4680cc152a13ef982fa47b59a6ece733c1ef6b"
+    },
+    {
+      "path": "Swords_R/models/entity/ultra_instinct_aura.geo.json",
+      "bytes": 3163,
+      "sha256": "8b2acf9fdf620b0355b114beb5b4c9307e946af271cf6aeea9ce4e81aaec4794"
+    },
+    {
+      "path": "Swords_R/models/entity/ultra_instinct_projectile.geo.json",
+      "bytes": 828,
+      "sha256": "e372473ed661970f1872bc449ff3aa28efeee15a90aee90ef6afa3102e2b0433"
+    },
+    {
+      "path": "Swords_R/models/entity/wolf_transformation.geo.json",
+      "bytes": 7437,
+      "sha256": "904c513357bcba37b6c3e6f61832ea13b2c2452a83c09559a370eee83f74d73d"
+    },
+    {
+      "path": "Swords_R/models/entity/wolf_vision.geo.json",
+      "bytes": 2484,
+      "sha256": "9149fe52f3fd5dd1fff6540afd1e0f5e43f0f1ed222ef02c3cca72848e879972"
+    },
+    {
+      "path": "Swords_R/pack_icon.png",
+      "bytes": 225,
+      "sha256": "1d1faeae22cbb8db31db1380c25dfeb4b68ca649f6cc72bd974720823152bec3"
+    },
+    {
+      "path": "Swords_R/particles/examples/example_bounce.json",
+      "bytes": 1560,
+      "sha256": "fe7bf18d4c506de7f3078fbeb75d3b97b23a2c03cc0ba8129518264a93d14516"
+    },
+    {
+      "path": "Swords_R/particles/examples/example_directional_sphere.json",
+      "bytes": 1040,
+      "sha256": "9171f253cd76356cdef65c817807ba452e3fb6fc2719a95ee432522ec148bd99"
+    },
+    {
+      "path": "Swords_R/particles/examples/example_directional_sphere_2.json",
+      "bytes": 1042,
+      "sha256": "6a22353392c263e0b4471874382e110c4379c0758f2c0846c13f1c59486f28b0"
+    },
+    {
+      "path": "Swords_R/particles/examples/example_flipbook.json",
+      "bytes": 1655,
+      "sha256": "c082f13ccbd6ef16f1ccdd3631f1be3afedb6c309ca953593bfe19ed0fb9b94d"
+    },
+    {
+      "path": "Swords_R/particles/examples/example_linearcurve.json",
+      "bytes": 2099,
+      "sha256": "0e8779b63de7280bf1e0de933f1126082c17ceab09a4b92f8540e735d5f6719f"
+    },
+    {
+      "path": "Swords_R/particles/examples/ghost_spiral.json",
+      "bytes": 1499,
+      "sha256": "6e4dbb039dccb23c53f8c7c0ab2224ca61399c297f6e45aa3357c15e3f39bf89"
+    },
+    {
+      "path": "Swords_R/particles/nether_star_hit.json",
+      "bytes": 2216,
+      "sha256": "cea98a3a0700492d7ab320d042a9fed43c02cf75c86a5d3db5781a3b907a34fe"
+    },
+    {
+      "path": "Swords_R/render_controllers/blaze_aura.render_controllers.json",
+      "bytes": 457,
+      "sha256": "90e48feb1ca0bc1905e1556b709602f5af0520d2bf1b7a628ee5a1200b48ac34"
+    },
+    {
+      "path": "Swords_R/render_controllers/blaze_rods.render_controllers.json",
+      "bytes": 242,
+      "sha256": "165e89a6608f2030fe27c7f8dc3b05d91b377b72b2bee88c0a877d535cc401ef"
+    },
+    {
+      "path": "Swords_R/render_controllers/default.render_controllers.json",
+      "bytes": 234,
+      "sha256": "61f489b438ab7ed930ccf433247fd86114b1350e04a366641e2fef78a6e1c2ca"
+    },
+    {
+      "path": "Swords_R/render_controllers/enderman.render_controllers.json",
+      "bytes": 525,
+      "sha256": "375d940ffc9380df499b05c8f265d90d24ea96ed5b174aa31d39254c59d3a0c9"
+    },
+    {
+      "path": "Swords_R/render_controllers/ghost.render_controllers.json",
+      "bytes": 483,
+      "sha256": "ff2afb889a7b0cb49c130032776043724c0a9eb6a2e216ce5f9f2bf640066d3f"
+    },
+    {
+      "path": "Swords_R/render_controllers/grass.render_controllers.json",
+      "bytes": 292,
+      "sha256": "d716827edfdb8e2ff751b2a4e2a06e186d39f6bba1cf94a901de9e92ff9f78ff"
+    },
+    {
+      "path": "Swords_R/render_controllers/mermaid_player.render_controllers.json",
+      "bytes": 254,
+      "sha256": "01deeafbfaffed1f177461b17742b91b9c08cdc6964f8a8a1fca09f9e3f21441"
+    },
+    {
+      "path": "Swords_R/render_controllers/player_ghost.render_controllers.json",
+      "bytes": 504,
+      "sha256": "8aa60aa9fd452e1f28fe879d841d221f5b927097491cba71e4a6aabbe76c1d50"
+    },
+    {
+      "path": "Swords_R/render_controllers/pumpkin_projectile.render_controllers.json",
+      "bytes": 522,
+      "sha256": "1e0d2245ed096e5efef4934950e18597e2293143b8d8a77732d794d194075559"
+    },
+    {
+      "path": "Swords_R/render_controllers/shulker_shield.render_controllers.json",
+      "bytes": 301,
+      "sha256": "d9e2f9721f0a1b582f403eeb3e6442af9ccf446218eae132d70641dd13d07b3e"
+    },
+    {
+      "path": "Swords_R/render_controllers/ultra_instinct_aura.render_controllers.json",
+      "bytes": 539,
+      "sha256": "dcf9952d51faad5709ab1f7e992fa2fb2fd378189cd0cc7010a7484a12d5d65f"
+    },
+    {
+      "path": "Swords_R/render_controllers/ultra_instinct_projectile.render_controllers.json",
+      "bytes": 344,
+      "sha256": "2e8b0c601e0c76babc9f2b7cfbccddee5b849d06fd2be0167e34e4c3a0737f19"
+    },
+    {
+      "path": "Swords_R/render_controllers/witch.render_controllers.json",
+      "bytes": 1130,
+      "sha256": "ea636495e315816b4f1f7f756f004491c7051b99bc3ffa163feacf32bba92bfe"
+    },
+    {
+      "path": "Swords_R/render_controllers/wolf_transformation.render_controllers.json",
+      "bytes": 269,
+      "sha256": "af424e0c4cd4e26a911cfeea379dc405cabf7e36d56831566be7b3ce409344e3"
+    },
+    {
+      "path": "Swords_R/render_controllers/wolf_vision.render_controllers.json",
+      "bytes": 507,
+      "sha256": "919c5a71b63703dd9a85a22929a9c83f6e0004f73d401f31b47c398b9145722c"
+    },
+    {
+      "path": "Swords_R/sounds.json",
+      "bytes": 2110,
+      "sha256": "f2b5876e7121aab05e83a5d889a55a719bd525750a91eef42ec2877ea8d13f3f"
+    },
+    {
+      "path": "Swords_R/sounds/ghost_sword/wailing.ogg",
+      "bytes": 270240,
+      "sha256": "7f2574957dfa0b3ec48295bd94073e22840ac3c7eedf6739923deccaabcc1348"
+    },
+    {
+      "path": "Swords_R/sounds/sound_definitions.json",
+      "bytes": 555,
+      "sha256": "f172f276d5bb20596a647fea880195df7198853d26f8f2a75025b422b1280330"
+    },
+    {
+      "path": "Swords_R/sounds/wolf_sword/distant_howl.ogg",
+      "bytes": 65677,
+      "sha256": "5d6bdea2ba2183e7ab965c17d36cb66a54a93c634047ca3163cf69552e66c0e8"
+    },
+    {
+      "path": "Swords_R/sounds/wolf_sword/howl.ogg",
+      "bytes": 62100,
+      "sha256": "db2b08a2103d38d3b32feebe187c7c38b153b46e9e44ac147936fc6941c76020"
+    },
+    {
+      "path": "Swords_R/texts/en_US.lang",
+      "bytes": 48992,
+      "sha256": "824e9ad38b2388dde75b49a99f3d7ef24d5ddf94f6652a41c8425eba070250db"
+    },
+    {
+      "path": "Swords_R/textures/blocks/fake_ice.png",
+      "bytes": 3392,
+      "sha256": "e31f1cb478052654d5699d232d9419b888dd0cfe3c9106a435552602e39bd17f"
+    },
+    {
+      "path": "Swords_R/textures/blocks/lightblock.png",
+      "bytes": 91,
+      "sha256": "8ff30cd9dc11cc06a7377bb427946861d492966ac3d4e4f663dd2ad9d1ad6941"
+    },
+    {
+      "path": "Swords_R/textures/blocks/lightblock2.png",
+      "bytes": 91,
+      "sha256": "8ff30cd9dc11cc06a7377bb427946861d492966ac3d4e4f663dd2ad9d1ad6941"
+    },
+    {
+      "path": "Swords_R/textures/blocks/quartz_diamond_block.png",
+      "bytes": 3292,
+      "sha256": "70fb2e4f54bd24009c1f551cb56a85e31960dbe1f3094c13ad322d2b20e16716"
+    },
+    {
+      "path": "Swords_R/textures/blocks/quartz_diamond_ore.png",
+      "bytes": 2324,
+      "sha256": "8eea7d0972a09c6a2a2b2eb2c61efe0d3e7fdd8c9c36e6a2a750874c72248636"
+    },
+    {
+      "path": "Swords_R/textures/blocks/silver_ore.png",
+      "bytes": 2319,
+      "sha256": "7702d245fe117c87be86e053f33ffe76a23ec0d8cb03f9d5d848a3f826556f44"
+    },
+    {
+      "path": "Swords_R/textures/blocks/spectral_block.png",
+      "bytes": 2383,
+      "sha256": "92a580a28da5631c6b2af03c3312b228545996ebf12683532c70acc48f84415e"
+    },
+    {
+      "path": "Swords_R/textures/entity/blaze_rods.png",
+      "bytes": 3076,
+      "sha256": "900c49dbb88a0b070a69b7c44a5f769d9d3b6f11032953bfd25a7fb2bd1f0e13"
+    },
+    {
+      "path": "Swords_R/textures/entity/enderman/enderman.tga",
+      "bytes": 8236,
+      "sha256": "a94d1e061aa62a01a9f8fdde09afcc2079af09cc796df6e94b70a2bcc1ec9c95"
+    },
+    {
+      "path": "Swords_R/textures/entity/enderman/red_enderman.tga",
+      "bytes": 8236,
+      "sha256": "6343454292704fdc8058869a5d4ffd9cd9b809601f93a558a04bf3a3cc4a8820"
+    },
+    {
+      "path": "Swords_R/textures/entity/ghost.png",
+      "bytes": 187,
+      "sha256": "303f938f5c4dc69a12aacb03fc358fbf5ea0b297bf55734de8aea9d134f2febe"
+    },
+    {
+      "path": "Swords_R/textures/entity/grass.png",
+      "bytes": 2579,
+      "sha256": "3375f62630ed50c085962131b5119aa071927dbae37f1777e5155ba525f43247"
+    },
+    {
+      "path": "Swords_R/textures/entity/grass_witch.png",
+      "bytes": 4058,
+      "sha256": "1e9f744e4177825de9fb6f141a216348182e1fb15c63f0642eca61ea23dfaba7"
+    },
+    {
+      "path": "Swords_R/textures/entity/mermaid_player.png",
+      "bytes": 1256,
+      "sha256": "c2189f171a816a6ee0eb6f856cfc3e4d5acbc02797911c32012f45590a80a3dd"
+    },
+    {
+      "path": "Swords_R/textures/entity/particles.png",
+      "bytes": 4662,
+      "sha256": "955e7797a40eebcae6476279bfcd114ff3817a958c75d002ccd9c06b312017c9"
+    },
+    {
+      "path": "Swords_R/textures/entity/pumpkin_projectile.png",
+      "bytes": 3092,
+      "sha256": "5e990f27e0757f610d7fdce6273d1e3934d537ae3d8c3c57f6a2a9041adf520f"
+    },
+    {
+      "path": "Swords_R/textures/entity/shulker_shield.png",
+      "bytes": 1923,
+      "sha256": "312641c04dd9ed443815fd7c305c8a91fb33118ebb5ba8bb5c143623d7549ce2"
+    },
+    {
+      "path": "Swords_R/textures/entity/slime.png",
+      "bytes": 426,
+      "sha256": "48251f1a8a4ee083bfed0011c9457b50ffda68a9158d40379cb4c01150d7eba0"
+    },
+    {
+      "path": "Swords_R/textures/entity/slime/baby_slime.png",
+      "bytes": 950,
+      "sha256": "9d7bbd30f787de51a5ef38461d7d3e09496ae1a37eb25257b919560f62f34481"
+    },
+    {
+      "path": "Swords_R/textures/entity/slime/magmacube.tga",
+      "bytes": 3716,
+      "sha256": "e9275615a3a6dddab130c3fa4f1a0f6bf44d1f45d9dd5728c30955afa4d6e59f"
+    },
+    {
+      "path": "Swords_R/textures/entity/slime/slime.png",
+      "bytes": 426,
+      "sha256": "48251f1a8a4ee083bfed0011c9457b50ffda68a9158d40379cb4c01150d7eba0"
+    },
+    {
+      "path": "Swords_R/textures/entity/slime/slime_king.png",
+      "bytes": 865,
+      "sha256": "5e75b92a375831d8a3a71ede3f2b0701f4ff55f3495615d6f6b369f717668bdd"
+    },
+    {
+      "path": "Swords_R/textures/entity/ultra_instinct_aura.png",
+      "bytes": 187,
+      "sha256": "76438c4073849ec8069a1ca525513026e8034b99fde47156f39970e447b778ac"
+    },
+    {
+      "path": "Swords_R/textures/entity/ultra_instinct_projectile.png",
+      "bytes": 6133,
+      "sha256": "85507e324829992c7cce8a77d09ecad6e45501a30db1cf34a9c27e4fcb5c7741"
+    },
+    {
+      "path": "Swords_R/textures/entity/web.png",
+      "bytes": 243,
+      "sha256": "5d4f7313d3c8f84bbfc3e5b420604db34ffde520f3f6b4e58757ae10fe88cb37"
+    },
+    {
+      "path": "Swords_R/textures/entity/wolf_transformation.png",
+      "bytes": 1683,
+      "sha256": "719a7679f035a2dfe3f21c736c67583dd4fcd0ed0cc8e0d86a83e9eaa13f24a2"
+    },
+    {
+      "path": "Swords_R/textures/entity/wolf_vision.png",
+      "bytes": 185,
+      "sha256": "1f240c2a07cdcf59dc32dbe479934e4f836ce0fa8b117d7d0097e5bc8936e558"
+    },
+    {
+      "path": "Swords_R/textures/flipbook_textures.json",
+      "bytes": 211,
+      "sha256": "224f536330eb815e17dcebc2485926a2c565957016ba5d708ecb2c2ce70813b1"
+    },
+    {
+      "path": "Swords_R/textures/item_texture.json",
+      "bytes": 3541,
+      "sha256": "b6b6ebbd91a3000c0115b9408d3968d962158d29b3ea1a86b92f3bf687e94266"
+    },
+    {
+      "path": "Swords_R/textures/items/bedrock_stick.png",
+      "bytes": 2182,
+      "sha256": "72be8cf26b84d6a599bf2afea02bf95c28e0e78b038e222296381c51ec8481a4"
+    },
+    {
+      "path": "Swords_R/textures/items/bedrock_sword.png",
+      "bytes": 2681,
+      "sha256": "52e028becdd098421e1b8c24e8dd2b42c278cc8d43e959463943ca8dd2dae4cb"
+    },
+    {
+      "path": "Swords_R/textures/items/bee_sword.png",
+      "bytes": 2373,
+      "sha256": "a7a1f2bcb56ffbf8ed52c37c9dc0461f3f64f3322eebf1db8209f4f7faa567b5"
+    },
+    {
+      "path": "Swords_R/textures/items/blaze_sword.png",
+      "bytes": 330,
+      "sha256": "8532306bd2c18e25943f1b6198790c0ff4ccf4d9f418ff4cd3ae666c25da3f76"
+    },
+    {
+      "path": "Swords_R/textures/items/bone_sword.png",
+      "bytes": 2219,
+      "sha256": "863e3528e79706e43173fb56275fabc0f7813af6b354219159bd22b321b16343"
+    },
+    {
+      "path": "Swords_R/textures/items/cactus_sword.png",
+      "bytes": 2154,
+      "sha256": "df524ac680c19c71561de5ccbf76b9ddcc3edfab2e1502948c16bc73e488d228"
+    },
+    {
+      "path": "Swords_R/textures/items/clock_sword.png",
+      "bytes": 2049,
+      "sha256": "6493d97bc9192e94984d2f1eaeb4bee695b63c2e1342bb565dd92d41ca17999a"
+    },
+    {
+      "path": "Swords_R/textures/items/coal_sword.png",
+      "bytes": 368,
+      "sha256": "566127fc934b020394c5c29304f99cd5b51bb9e854265537d69cadfec6dba70a"
+    },
+    {
+      "path": "Swords_R/textures/items/creeper_sword.png",
+      "bytes": 1039,
+      "sha256": "ec2af8b371675ab860e66cffb56f8e3f8062528b7231be4c7349eb98e796b798"
+    },
+    {
+      "path": "Swords_R/textures/items/cursed_pumpkin_sword.png",
+      "bytes": 2104,
+      "sha256": "f301ee652b12ea0a52d3f1a2cc9bad76d3c8ecfc2d1239edf76e75d09dc96f07"
+    },
+    {
+      "path": "Swords_R/textures/items/emerald_sword.png",
+      "bytes": 293,
+      "sha256": "0728c4803871f0283c9a904248098ebeac819014fb086b6328c24b38ac00bc8b"
+    },
+    {
+      "path": "Swords_R/textures/items/ender_sword.png",
+      "bytes": 4310,
+      "sha256": "eaf4f33d930a1f075c803dca5aaa8e608f1eb422d37dab20dc10ad9a7881a24d"
+    },
+    {
+      "path": "Swords_R/textures/items/fire_sword.png",
+      "bytes": 250,
+      "sha256": "9c2995edde2c4ea27559c636a0266a05b0e8ba374bcc976d41e7d6e8aa704954"
+    },
+    {
+      "path": "Swords_R/textures/items/ghost_sword.png",
+      "bytes": 2815,
+      "sha256": "e7b59ed2c2c89035b93cdc34c7d7c816ee180db379a3335a951d7f5eff5d3ec0"
+    },
+    {
+      "path": "Swords_R/textures/items/glass_sword.png",
+      "bytes": 1993,
+      "sha256": "9cbe175e0cdf04dc46953b97b2243ba967bd529c473a35a674d46fa1d1c76e97"
+    },
+    {
+      "path": "Swords_R/textures/items/glowstone_sword.png",
+      "bytes": 513,
+      "sha256": "9bf6215f356e21253b7f666ea026ab8c1dcf153d8eef1976620e559c6624d1db"
+    },
+    {
+      "path": "Swords_R/textures/items/grass_sword.png",
+      "bytes": 3769,
+      "sha256": "414f293674739c42179ddb809c9a0fb41c6fc20931106624358fe9b7fc79dfd1"
+    },
+    {
+      "path": "Swords_R/textures/items/ice_sword.png",
+      "bytes": 1836,
+      "sha256": "f912711e247fcffd64e6ad6e68b6381b984c7a22309a8d68f065c052f0658173"
+    },
+    {
+      "path": "Swords_R/textures/items/jungle_sword.png",
+      "bytes": 371,
+      "sha256": "3200c0995ae59ca2aaf8d37dddc04fbfa725e4b84c2614bda305387a627ffff7"
+    },
+    {
+      "path": "Swords_R/textures/items/lapis_sword.png",
+      "bytes": 493,
+      "sha256": "522b021c3db852101f9b2af524f600cb3f7e26260c852cf1aac75eb55a54392c"
+    },
+    {
+      "path": "Swords_R/textures/items/lightning_sword.png",
+      "bytes": 3213,
+      "sha256": "3268d71fcf9dc4dc6ea5095be108d29503894e4d5b3fe041db66062faf0ca1f1"
+    },
+    {
+      "path": "Swords_R/textures/items/magma_sword.png",
+      "bytes": 498,
+      "sha256": "50ed2c1d5474e491fdfa96fdfdcab934c57be738a880ea02f7d61ce69eb33f59"
+    },
+    {
+      "path": "Swords_R/textures/items/nether_star_sword.png",
+      "bytes": 2713,
+      "sha256": "e3d608b8d6c590b99094fb2ffd16c45a8ab8098f8cc55562286e0625e79a04f8"
+    },
+    {
+      "path": "Swords_R/textures/items/obsidian_sword.png",
+      "bytes": 387,
+      "sha256": "0c83b7e711181e538c4eda4bb8ed05d7a8d1e0b4975d0d79aceae2e1296b29b5"
+    },
+    {
+      "path": "Swords_R/textures/items/pumpkin_face_off.png",
+      "bytes": 306,
+      "sha256": "8993e19661e39829ec6e126ea3fe97e5e63725c268d0776c3c71ff824087f1aa"
+    },
+    {
+      "path": "Swords_R/textures/items/pumpkin_face_on.png",
+      "bytes": 330,
+      "sha256": "8a68b2727006eaa8bda90f283723e75474bbe805973bd30b70b716bb8463c034"
+    },
+    {
+      "path": "Swords_R/textures/items/pumpkin_side.png",
+      "bytes": 259,
+      "sha256": "4794db787370fd96d9b767600e6b8a678e49683ce2be12b2668ee8e8c11b7cb0"
+    },
+    {
+      "path": "Swords_R/textures/items/pumpkin_top.png",
+      "bytes": 313,
+      "sha256": "d454f99259a049130e4be02ec3c7a59ccac2d6754c9f5fc1283259e200f05e41"
+    },
+    {
+      "path": "Swords_R/textures/items/quartz_diamond.png",
+      "bytes": 2270,
+      "sha256": "eb79d9e236605948856f24e5f926a13800b861ed61c492b596f9d0127cc70cd3"
+    },
+    {
+      "path": "Swords_R/textures/items/quartz_diamond_block.png",
+      "bytes": 327,
+      "sha256": "ed4fb6f97aab41428a63566ae10145c7384d2f058c93c5bf1c5494a858eaaebe"
+    },
+    {
+      "path": "Swords_R/textures/items/quartz_diamond_stick.png",
+      "bytes": 2746,
+      "sha256": "25e2cb5e50c3b5fafe704e73adb90e041e602e76c7c87682f92eb105a30612de"
+    },
+    {
+      "path": "Swords_R/textures/items/quartz_sword.png",
+      "bytes": 1985,
+      "sha256": "5c7fd825f86ef9528d971253e47024df1f6fce7b569925bfc7612e3016129beb"
+    },
+    {
+      "path": "Swords_R/textures/items/sea_sword.png",
+      "bytes": 318,
+      "sha256": "e64d64e8f69ad01c900d4c824420a7062bfe9818d393a729dbc4676a88a32e15"
+    },
+    {
+      "path": "Swords_R/textures/items/shulker_sword.png",
+      "bytes": 501,
+      "sha256": "1077079d6121fb7e789fa1d8af9a5d158466a76c0826e3cc59dfe6ca754fb5bd"
+    },
+    {
+      "path": "Swords_R/textures/items/silver_ingot.png",
+      "bytes": 2305,
+      "sha256": "0fcfb476a35e3b9b3387c1d2ed374fc255005fe1ac3e3beda380a517fccea95c"
+    },
+    {
+      "path": "Swords_R/textures/items/silver_sword.png",
+      "bytes": 2237,
+      "sha256": "f69e66b46bc6e572e7f2c8fa413790ee8897ff155f3f1410e452bd114dfbd389"
+    },
+    {
+      "path": "Swords_R/textures/items/slime_sword.png",
+      "bytes": 329,
+      "sha256": "c338b8ef4bd7a2db5d8ac9668f02762588016a9c4a67b939656ed6255e0cc049"
+    },
+    {
+      "path": "Swords_R/textures/items/spectral_sword.png",
+      "bytes": 3629,
+      "sha256": "c855d7c151b6e2f005d471c493fb6d9f077ef735921ccb3a2e7647b8acbed5e3"
+    },
+    {
+      "path": "Swords_R/textures/items/spider_sword.png",
+      "bytes": 355,
+      "sha256": "a539b45e47f31927483860d79a9153826192dc770cb6b2299cad27ccba4579b7"
+    },
+    {
+      "path": "Swords_R/textures/items/sponge_sword.png",
+      "bytes": 436,
+      "sha256": "515995799f9fae14dc2736a7257ae2ed08b5129c0c832f528c82502e066dfea2"
+    },
+    {
+      "path": "Swords_R/textures/items/time_sword.png",
+      "bytes": 3076,
+      "sha256": "50805410a3babc7cb414ace2cdc38f29a619087cf4715933649dd11225840b59"
+    },
+    {
+      "path": "Swords_R/textures/items/tnt_sword.png",
+      "bytes": 293,
+      "sha256": "6acd50a4dd2fd9f61a4e45bc1e2864b62a88e7a28e26af163c8835d90a4039b0"
+    },
+    {
+      "path": "Swords_R/textures/items/ultra_instinct_sword.png",
+      "bytes": 7052,
+      "sha256": "fe84556e2aba4f502eacdf13806e65e923ccf240ee542e054fbdee56d6752dd0"
+    },
+    {
+      "path": "Swords_R/textures/items/wet_sponge_sword.png",
+      "bytes": 2249,
+      "sha256": "b67a6c4157ff319553a47ed7d904e53c3906114d9c659308c544fc270199b00e"
+    },
+    {
+      "path": "Swords_R/textures/items/wither_skeleton_sword.png",
+      "bytes": 1936,
+      "sha256": "d6e66480ed746a00937e98d385aec5f592ff9176ec6ff49a29d9bf2f236d0739"
+    },
+    {
+      "path": "Swords_R/textures/items/wither_sword.png",
+      "bytes": 8096,
+      "sha256": "7978d1d7d7c9050875cc252513c48c962edcd06ac19c074b77d5fcda4621087d"
+    },
+    {
+      "path": "Swords_R/textures/items/wolf_sword.png",
+      "bytes": 2067,
+      "sha256": "5f7cabfeeb15e918b3dc8adaf69d11929ad6e4e8145ec147372d108c6fb1a21b"
+    },
+    {
+      "path": "Swords_R/textures/particles.png",
+      "bytes": 7588,
+      "sha256": "60ec9fe01780817a547ef2735075f131a9a061c32a5e787e1eaff65063541cd5"
+    },
+    {
+      "path": "Swords_R/textures/terrain_texture.json",
+      "bytes": 664,
+      "sha256": "bd237ff3e0f77c262d20f7aff4c202961b3144b6a86ab49903ef3c0db278774a"
+    },
+    {
+      "path": "Swords_R/textures/ui/apha_wolf.jpeg",
+      "bytes": 51640,
+      "sha256": "5ae27b8f2804c96f593256a24e8b13130baa7dc8ed9aba646216f8c51d3e7139"
+    },
+    {
+      "path": "Swords_R/textures/ui/centella.jpeg",
+      "bytes": 70120,
+      "sha256": "42363e8c1f699a29a191750c9f372cc28cf0fcc3077300f49374267fd87317f3"
+    },
+    {
+      "path": "Swords_R/textures/ui/coal_sword_fuel.png",
+      "bytes": 7000,
+      "sha256": "763efa4df77445750c716bb2fcbc60436f3acbe8eec085b05113fe97bd3046fa"
+    },
+    {
+      "path": "Swords_R/textures/ui/crafting_clock_sword.png",
+      "bytes": 17191,
+      "sha256": "150cb979b9696174bbc490bb9f2df32f68883e5f2dc23a97609e12c3da326f95"
+    },
+    {
+      "path": "Swords_R/textures/ui/ghost.png",
+      "bytes": 29299,
+      "sha256": "e19c749d85b8ace3428bec1062ae3d7bff1e961093d4919f89f604aff76f8f30"
+    },
+    {
+      "path": "Swords_R/textures/ui/ghost_.jpeg",
+      "bytes": 46635,
+      "sha256": "e05522c603f53c8f2f63de4a13ffb858ee06bc04b2cd63ccad604c2c6d964691"
+    },
+    {
+      "path": "Swords_R/textures/ui/grass_witch.jpeg",
+      "bytes": 64758,
+      "sha256": "44d632b111fcc7587491557e0151e5660f15abbdd7b13c94b249136f850c4c0a"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_default.png",
+      "bytes": 2343,
+      "sha256": "0f6923f6a3a87cab5a97bc71e8c6c3f9ae86927050a6b8141a1934dc1035b80d"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_default_light.png",
+      "bytes": 2343,
+      "sha256": "39ddc7d64afbeff0397a783f3fb935688c02112ac781bc2b016981d147f0d240"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_hover.png",
+      "bytes": 2343,
+      "sha256": "294cb7e6a8dcfddc6ec567333a1b8c58ae6dfdcf9496be4d46e2bbd1a4bd4eb6"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_hover_light.png",
+      "bytes": 2343,
+      "sha256": "215efc32dee80b9bbf7f2db21078c3bd7b41fee65b15f6f4919d1a4e0be70b1d"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_pressed.png",
+      "bytes": 2338,
+      "sha256": "9e21111c5b9f61844e892944a205bf8f3aaa3ccdcad7fb1aea31fad04edc6d31"
+    },
+    {
+      "path": "Swords_R/textures/ui/how_to_play_button_pressed_light.png",
+      "bytes": 2338,
+      "sha256": "ce45b620f6a223bda758f0be16d92277bdb575cb48b15a22e24420ba72f54cdf"
+    },
+    {
+      "path": "Swords_R/textures/ui/lapis_sword_xp.png",
+      "bytes": 5008,
+      "sha256": "ebdf758611869d88b247ba83bd8e85d06e2e053b2af2a488ba3ad5b7b38e6278"
+    },
+    {
+      "path": "Swords_R/textures/ui/red_enderman.png",
+      "bytes": 24732,
+      "sha256": "324d4dac935dc541400f7007ddf134060ce2d765360ef42ef6065dab2f5e6f58"
+    },
+    {
+      "path": "Swords_R/textures/ui/red_enderman_.jpeg",
+      "bytes": 45542,
+      "sha256": "81e2ff0d7f2ce2e773ae224556eb8c491b8d106109941e67a4f755d37522e2ea"
+    },
+    {
+      "path": "Swords_R/textures/ui/slime_baby.png",
+      "bytes": 32175,
+      "sha256": "ee4dc47daeaf1636d0bab8ea172dceb2c8850e565e8f2d09c715b072263d7a97"
+    },
+    {
+      "path": "Swords_R/textures/ui/slime_king.jpeg",
+      "bytes": 64214,
+      "sha256": "107364239559d0c250360186adb6191d82f267b86a543319a4ddc54e70e30be2"
+    },
+    {
+      "path": "Swords_R/textures/ui/swords_and_more_swords.jpeg",
+      "bytes": 207926,
+      "sha256": "a40a7d488be41d46b6e8e6823882c0a4e3e8b4430974959845600673b021bb4d"
+    },
+    {
+      "path": "Swords_R/textures/ui/well.png",
+      "bytes": 660385,
+      "sha256": "e915b68ca50aeb113add008f375dfd200d861ccb5b938fe654e5af381216e9a2"
+    },
+    {
+      "path": "Swords_R/textures/ui/werewolf.png",
+      "bytes": 15418,
+      "sha256": "04af8970d047c406afe7089bf11acf5cf21293ecbc7ca018380a7b226d2ba907"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "bytes": 83525,
+      "sha256": "5048424cc16b4080268f96e3b1f6c1aa342c717e14b602a37c6dc079d6e9f3cf"
+    }
+  ]
+}

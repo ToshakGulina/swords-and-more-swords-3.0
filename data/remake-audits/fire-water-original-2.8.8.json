@@ -1,0 +1,718 @@
+{
+  "source": "sources/swordsandmoreswords_2_8_8.mcaddon",
+  "source_sha256": "ab8cbb75c930948f386bf0119bb0a4ee79c084db888c2e9b05deac61b799bb7f",
+  "scope": "All JSON, mcfunction and JS files under Swords_B and Swords_R were searched literally; specific player, item entity and item JSON parsed with duplicate-key rejection. Static analysis, not runtime; external packs excluded.",
+  "scanned_text_files": 282,
+  "direct_source_files": [
+    "Swords_B/entities/player.json",
+    "Swords_B/entities/item.json",
+    "Swords_B/items/fire_sword.json"
+  ],
+  "player_fire_sensors": [
+    {
+      "filters": {
+        "all_of": [
+          {
+            "test": "has_equipment",
+            "subject": "self",
+            "domain": "hand",
+            "value": "effect:fire_sword"
+          }
+        ]
+      },
+      "event": "minecraft:fire_sword"
+    },
+    {
+      "filters": {
+        "all_of": [
+          {
+            "test": "has_equipment",
+            "subject": "self",
+            "domain": "hand",
+            "operator": "!=",
+            "value": "effect:fire_sword"
+          }
+        ]
+      },
+      "event": "stop_fire_sword_event"
+    }
+  ],
+  "player_fire_group": {
+    "minecraft:timer": {
+      "time": [
+        0.2,
+        0.7
+      ],
+      "looping": true,
+      "randomInterval": true,
+      "time_down_event": {
+        "event": "fire_sword_sound",
+        "target": "self"
+      }
+    },
+    "minecraft:damage_sensor": {
+      "triggers": {
+        "on_damage": {
+          "filters": {
+            "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "value": "fire"
+              },
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "value": "fire_tick"
+              }
+            ]
+          }
+        },
+        "deals_damage": false
+      }
+    },
+    "minecraft:type_family": {
+      "family": [
+        "player",
+        "fire_sword"
+      ]
+    }
+  },
+  "player_fire_events": {
+    "minecraft:fire_sword": {
+      "sequence": [
+        {
+          "filters": {
+            "test": "is_family",
+            "subject": "self",
+            "operator": "!=",
+            "value": "fire_sword"
+          },
+          "add": {
+            "component_groups": [
+              "minecraft:fire_sword"
+            ]
+          }
+        },
+        {
+          "run_command": {
+            "command": [
+              "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 air 0 replace snow_layer",
+              "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 water 0 replace ice",
+              "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 water 0 replace blue_ice",
+              "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 water 0 replace packed_ice",
+              "execute @e[family=!player,type=!item,r=3] ~ ~ ~ summon entity:fire",
+              "fill ~1 ~1 ~1 ~-1 ~-1 ~-1 effect99:lightblock 0 replace air",
+              "fill ~1 ~1 ~1 ~-1 ~-1 ~-1 effect99:lightblock 0 replace effect99:lightblock"
+            ]
+          }
+        }
+      ]
+    },
+    "stop_fire_sword_event": {
+      "sequence": [
+        {
+          "filters": {
+            "test": "is_family",
+            "subject": "self",
+            "operator": "==",
+            "value": "fire_sword"
+          },
+          "remove": {
+            "component_groups": [
+              "minecraft:fire_sword"
+            ]
+          },
+          "add": {
+            "component_groups": [
+              "minecraft:default_player"
+            ]
+          }
+        }
+      ]
+    },
+    "fire_sword_sound": {
+      "run_command": {
+        "command": [
+          "playsound fire.fire @a[r=8]"
+        ]
+      }
+    }
+  },
+  "fire_item_events": {
+    "on_use": {
+      "sequence": [
+        {
+          "run_command": {
+            "command": [
+              "summon entity:living_flame ~ ~14 ~ minecraft:target",
+              "summon entity:living_flame ~ ~4 ~ fire_sword_skill",
+              "summon entity:living_flame ~3 ~4 ~ fire_sword_skill",
+              "summon entity:living_flame ~ ~4 ~3 fire_sword_skill",
+              "summon entity:living_flame ~-3 ~4 ~ fire_sword_skill",
+              "summon entity:living_flame ~ ~4 ~-3 fire_sword_skill",
+              "particle minecraft:example_linearcurve ~ ~0.2 ~",
+              "title @s actionbar §l§6Fire rain"
+            ],
+            "target": "holder"
+          }
+        },
+        {
+          "damage": {
+            "type": "durability",
+            "amount": 20,
+            "target": "self"
+          }
+        }
+      ]
+    },
+    "weapon": {
+      "sequence": [
+        {
+          "damage": {
+            "type": "durability",
+            "amount": 1,
+            "target": "self"
+          }
+        },
+        {
+          "randomize": [
+            {
+              "weight": 85,
+              "shoot": {
+                "projectile": "entity:fire",
+                "launch_power": 1
+              }
+            },
+            {
+              "weight": 15,
+              "shoot": {
+                "projectile": "entity:living_flame",
+                "launch_power": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "dropped_item_fire_sensors": [
+    {
+      "filters": {
+        "all_of": [
+          {
+            "test": "has_tag",
+            "value": "fire_sword"
+          },
+          {
+            "test": "in_water",
+            "operator": "!="
+          },
+          {
+            "test": "in_water_or_rain"
+          }
+        ]
+      },
+      "event": "fading_fire_sword"
+    },
+    {
+      "filters": {
+        "all_of": [
+          {
+            "test": "has_tag",
+            "value": "fire_sword"
+          },
+          {
+            "test": "in_water"
+          }
+        ]
+      },
+      "event": "fire_sword_event_2"
+    },
+    {
+      "filters": {
+        "all_of": [
+          {
+            "test": "is_family",
+            "value": "fire_sword"
+          },
+          {
+            "test": "in_water_or_rain",
+            "operator": "!="
+          }
+        ]
+      },
+      "event": "stop_fire_sword"
+    }
+  ],
+  "dropped_item_water_event": {
+    "run_command": {
+      "command": [
+        "playsound random.fizz @a[r=12] ~ ~ ~ 0.6",
+        "particle minecraft:cauldron_explosion_emitter ~ ~ ~",
+        "structure load glass_sword ~ ~ ~",
+        "kill @s"
+      ]
+    }
+  },
+  "fire_text_references": [
+    {
+      "path": "Swords_B/animation_controllers/item_events.json",
+      "line": 9,
+      "text": "\"on_fire_swords\": \"q.is_on_fire\""
+    },
+    {
+      "path": "Swords_B/animation_controllers/item_events.json",
+      "line": 13,
+      "text": "\"on_fire_swords\": {"
+    },
+    {
+      "path": "Swords_B/animation_controllers/item_events.json",
+      "line": 15,
+      "text": "\"/event entity @s[tag=fire_sword,tag=!fire_sword_respawn] fire_sword_event_3\","
+    },
+    {
+      "path": "Swords_B/animation_controllers/item_events.json",
+      "line": 23,
+      "text": "\"/event entity @s[tag=fire_sword_respawn] respawn_event_2\""
+    },
+    {
+      "path": "Swords_B/entities/fire.json",
+      "line": 12,
+      "text": "\"fire_sword\": {"
+    },
+    {
+      "path": "Swords_B/entities/fire.json",
+      "line": 51,
+      "text": "\"filters\": { \"test\": \"has_equipment\", \"subject\": \"other\", \"domain\": \"hand\", \"value\": \"effect:fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/fire.json",
+      "line": 53,
+      "text": "\"component_groups\": [ \"fire_sword\" ]"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 11,
+      "text": "\"on_fire_swords\""
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 15,
+      "text": "\"on_fire_swords\": \"controller.animation.item_events\""
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 25,
+      "text": "\"fire_sword\": {"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 27,
+      "text": "\"time_down_event\": { \"event\": \"fire_sword_event_1\", \"target\": \"self\" }"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 29,
+      "text": "\"minecraft:type_family\": { \"family\": [ \"fire_sword\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 38,
+      "text": "{ \"test\": \"has_tag\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 42,
+      "text": "\"event\": \"fading_fire_sword\""
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 48,
+      "text": "{ \"test\": \"has_tag\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 51,
+      "text": "\"event\": \"fire_sword_event_2\""
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 57,
+      "text": "{ \"test\": \"is_family\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 60,
+      "text": "\"event\": \"stop_fire_sword\""
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 184,
+      "text": "\"run_command\": { \"command\": [ \"structure load fire_sword ~ ~1 ~\", \"kill @s\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 216,
+      "text": "\"fading_fire_sword\": {"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 219,
+      "text": "\"filters\": { \"test\": \"is_family\", \"operator\": \"!=\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 220,
+      "text": "\"add\": { \"component_groups\": [ \"fire_sword\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 227,
+      "text": "\"stop_fire_sword\": { \"remove\": { \"component_groups\": [ \"fire_sword\" ] } },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 228,
+      "text": "\"fire_sword_event_1\": { \"run_command\": { \"command\": [ \"structure load obsidian_sword ~ ~ ~\", \"playsound random.fizz @a[r=12] ~ ~ ~\", \"kill @s\" ] } },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 229,
+      "text": "\"fire_sword_event_2\": { \"run_command\": { \"command\": [ \"playsound random.fizz @a[r=12] ~ ~ ~ 0.6\", \"particle minecraft:cauldron_explosion_emitter ~ ~ ~\", \"structure load glass_sword ~ ~ ~\", \"kill @s\" ] } },"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 230,
+      "text": "\"fire_sword_event_3\": {"
+    },
+    {
+      "path": "Swords_B/entities/item.json",
+      "line": 233,
+      "text": "\"filters\": { \"test\": \"has_tag\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 11,
+      "text": "\"fire_sword_skill\": {"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 15,
+      "text": "\"minecraft:type_family\": { \"family\": [ \"fire_sword_skill\", \"effect99_entities\" ] },"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 176,
+      "text": "{ \"test\": \"is_family\", \"subject\": \"self\", \"operator\": \"!=\", \"value\": \"fire_sword_skill\" },"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 187,
+      "text": "\"filters\": { \"test\": \"has_equipment\", \"subject\": \"other\", \"domain\": \"hand\", \"value\": \"effect:fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 204,
+      "text": "{ \"test\": \"is_family\", \"subject\": \"self\", \"operator\": \"!=\", \"value\": \"fire_sword_skill\" },"
+    },
+    {
+      "path": "Swords_B/entities/living_flame.json",
+      "line": 270,
+      "text": "\"fire_sword_skill\": { \"add\": { \"component_groups\": [ \"fire_sword_skill\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 323,
+      "text": "\"minecraft:fire_sword\": {"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 325,
+      "text": "\"time_down_event\": { \"event\": \"fire_sword_sound\", \"target\": \"self\" }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 332,
+      "text": "\"minecraft:type_family\": { \"family\": [ \"player\", \"fire_sword\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 698,
+      "text": "\"filters\": { \"all_of\": [ { \"test\": \"has_equipment\", \"subject\": \"self\", \"domain\": \"hand\", \"value\": \"effect:fire_sword\" } ]"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 700,
+      "text": "\"event\": \"minecraft:fire_sword\""
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 705,
+      "text": "\"filters\": { \"all_of\": [ { \"test\": \"has_equipment\", \"subject\": \"self\", \"domain\": \"hand\", \"operator\": \"!=\", \"value\": \"effect:fire_sword\" } ]"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 707,
+      "text": "\"event\": \"stop_fire_sword_event\""
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2054,
+      "text": "\"minecraft:fire_sword\": {"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2057,
+      "text": "\"filters\": { \"test\": \"is_family\", \"subject\": \"self\", \"operator\": \"!=\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2058,
+      "text": "\"add\": { \"component_groups\": [ \"minecraft:fire_sword\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2075,
+      "text": "\"stop_fire_sword_event\": {"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2078,
+      "text": "\"filters\": { \"test\": \"is_family\", \"subject\": \"self\", \"operator\": \"==\", \"value\": \"fire_sword\" },"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2079,
+      "text": "\"remove\": { \"component_groups\": [ \"minecraft:fire_sword\" ] },"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 2084,
+      "text": "\"fire_sword_sound\": { \"run_command\": { \"command\": [ \"playsound fire.fire @a[r=8]\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/small_fireball.json",
+      "line": 122,
+      "text": "\"filters\": { \"test\": \"is_family\", \"subject\": \"other\", \"value\": \"fire_sword_skill\" },"
+    },
+    {
+      "path": "Swords_B/functions/commands/swords_and_more_swords/swords_and_more_swords/tag_swords.mcfunction",
+      "line": 1,
+      "text": "tag @e[type=item,name=\"§l§6Fire Sword\",tag=!fire_sword] add fire_sword"
+    },
+    {
+      "path": "Swords_B/functions/give.mcfunction",
+      "line": 8,
+      "text": "give @p effect:fire_sword"
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 5,
+      "text": "\"identifier\": \"effect:fire_sword\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 19,
+      "text": "\"category\": \"fire_sword\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 29,
+      "text": "\"texture\": \"fire_sword\""
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 35,
+      "text": "\"effect:fire_sword\""
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 86,
+      "text": "\"summon entity:living_flame ~ ~4 ~ fire_sword_skill\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 87,
+      "text": "\"summon entity:living_flame ~3 ~4 ~ fire_sword_skill\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 88,
+      "text": "\"summon entity:living_flame ~ ~4 ~3 fire_sword_skill\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 89,
+      "text": "\"summon entity:living_flame ~-3 ~4 ~ fire_sword_skill\","
+    },
+    {
+      "path": "Swords_B/items/fire_sword.json",
+      "line": 90,
+      "text": "\"summon entity:living_flame ~ ~4 ~-3 fire_sword_skill\","
+    },
+    {
+      "path": "Swords_B/loot_tables/entities/living_flame.json",
+      "line": 8,
+      "text": "\"name\": \"effect:fire_sword\","
+    },
+    {
+      "path": "Swords_B/recipes/fire_sword.json",
+      "line": 5,
+      "text": "\"identifier\": \"effect:fire_sword\""
+    },
+    {
+      "path": "Swords_B/recipes/fire_sword.json",
+      "line": 22,
+      "text": "\"item\": \"effect:fire_sword\""
+    },
+    {
+      "path": "Swords_R/textures/item_texture.json",
+      "line": 47,
+      "text": "\"fire_sword\": {"
+    },
+    {
+      "path": "Swords_R/textures/item_texture.json",
+      "line": 48,
+      "text": "\"textures\": \"textures/items/fire_sword\""
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 65,
+      "text": "{ \"fire_sword_button@how_to_play.fire_sword_button\": { \"$toggle_group_forced_index\": 30 } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 124,
+      "text": "{ \"fire_sword_section@how_to_play.fire_sword_section\": {} },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 916,
+      "text": "\"fire_sword_button@how_to_play_common.section_toggle_button\": { \"$section_topic\": \"fire_sword\""
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 918,
+      "text": "\"fire_sword_section@how_to_play_common.main_sections\": {"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 919,
+      "text": "\"bindings\": [ { \"binding_type\": \"view\", \"source_control_name\": \"fire_sword_button_toggle\", \"source_property_name\": \"#toggle_state\", \"target_property_name\": \"#visible\" }"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 922,
+      "text": "{ \"header_0@how_to_play_common.header\": { \"$text\": \"fire_sword.header.title\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 924,
+      "text": "{ \"image_sword@how_to_play_common.image\": { \"texture\": \"textures/items/fire_sword\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 925,
+      "text": "{ \"paragraph_0@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.0\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 926,
+      "text": "{ \"paragraph_1@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.1\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 927,
+      "text": "{ \"paragraph_2@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.2\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 928,
+      "text": "{ \"paragraph_3@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.3\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 929,
+      "text": "{ \"paragraph_4@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.4\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 930,
+      "text": "{ \"paragraph_5@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.5\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 931,
+      "text": "{ \"paragraph_6@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.6\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 932,
+      "text": "{ \"paragraph_7@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.7\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 933,
+      "text": "{ \"paragraph_8@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.8\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 934,
+      "text": "{ \"paragraph_9@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.9\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 935,
+      "text": "{ \"paragraph_10@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.10\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 936,
+      "text": "{ \"paragraph_11@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.11\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 937,
+      "text": "{ \"paragraph_12@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.12\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 938,
+      "text": "{ \"paragraph_13@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.13\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 939,
+      "text": "{ \"paragraph_14@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.14\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 940,
+      "text": "{ \"paragraph_15@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.15\" } },"
+    },
+    {
+      "path": "Swords_R/ui/how_to_play_screen.json",
+      "line": 941,
+      "text": "{ \"paragraph_16@how_to_play_common.paragraph\": { \"$text\": \"effect.fire_sword.text.16\" } },"
+    }
+  ],
+  "inventory_command_literal_matches": [
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 1595,
+      "text": "\"run_command\": { \"command\": [ \"replaceitem entity @s slot.weapon.mainhand 0 effect:wet_sponge_sword 1\", \"scoreboard players set @s sponge_sword 0\", \"title @s actionbar §l§gWet Sponge Sword\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 1928,
+      "text": "\"run_command\": { \"command\": [ \"playsound random.fizz @a[r=10] ~ ~ ~\", \"setblock ~ ~ ~ flowing_water\", \"replaceitem entity @s slot.weapon.mainhand 0 air 1 0\", \"particle minecraft:cauldron_explosion_emitter ~ ~ ~\" ] }"
+    },
+    {
+      "path": "Swords_B/entities/player.json",
+      "line": 1932,
+      "text": "\"run_command\": { \"command\": [ \"playsound random.fizz @a[r=10] ~ ~ ~\", \"replaceitem entity @s slot.weapon.mainhand 0 air 1 0\", \"particle minecraft:cauldron_explosion_emitter ~ ~ ~\" ] }"
+    }
+  ],
+  "script_module": "Swords_B/scripts/javascript.js: playerBreakBlock pumpkin loot only; no water or inventory handling"
+}

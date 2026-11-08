@@ -1,0 +1,89 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 00:19:59:695 INFO] Starting Server
+[2026-11-07 00:19:59:695 INFO] Version: 1.20.50.03
+[2026-11-07 00:19:59:695 INFO] Build ID: 19782165
+[2026-11-07 00:19:59:695 INFO] Branch: r/20_u5
+[2026-11-07 00:19:59:695 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 00:19:59:695 INFO] Configuration: Publish
+[2026-11-07 00:19:59:695 INFO] Level Name: Arena original
+[2026-11-07 00:19:59:696 INFO] No CDN config file found for dedicated server
+[2026-11-07 00:19:59:696 INFO] Game mode: 1 Creative
+[2026-11-07 00:19:59:696 INFO] Difficulty: 1 EASY
+[2026-11-07 00:19:59:696 INFO] Content logging to console is enabled.
+[2026-11-07 00:20:00:035 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__00_20_00
+[2026-11-07 00:20:00:036 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 00:20:00:036 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 00:20:00:361 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 00:20:00:361 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 00:20:00:361 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 00:20:00:361 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 00:20:00:554 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 00:20:00:554 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 00:20:00:632 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 loot2 true
+[2026-11-07 00:20:00:632 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 00:20:00:632 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 00:20:00:632 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 00:20:00:632 INFO] 
+[2026-11-07 00:20:00:633 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 00:20:00:633 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 00:20:00:633 INFO] ======================================================
+[2026-11-07 00:20:00:893 INFO] Added ticking area centered at 8, 0, 8 with a radius of 2 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:10:694 ERROR] No targets matched selector
+HARNESS COMMAND: loot spawn 20 100 20 loot bee_sword
+[2026-11-07 00:20:11:994 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:11:494 INFO] Found item.effect:bee_sword
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:11:894 INFO] Killed item.effect:bee_sword
+HARNESS COMMAND: loot spawn 20 100 20 loot "blocks/silver_ore"
+[2026-11-07 00:20:12:194 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:12:694 INFO] Found tile.effect99:silver_ore.name
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:13:088 INFO] Killed tile.effect99:silver_ore.name
+HARNESS COMMAND: loot spawn 20 100 20 loot "blocks/quartz_diamond_ore"
+[2026-11-07 00:20:13:394 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:13:893 INFO] Found item.effect:quartz_diamond
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:14:289 INFO] Killed item.effect:quartz_diamond
+HARNESS COMMAND: loot spawn 20 100 20 loot "entities/living_flame"
+[2026-11-07 00:20:14:589 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:15:093 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:15:494 INFO] Killed item.effect:fire_sword
+HARNESS COMMAND: loot spawn 20 100 20 loot "chests/spawn_bonus_chest"
+[2026-11-07 00:20:15:790 INFO] 14 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:16:289 INFO] Found Acacia Log, Beetroot Seeds, Apple, Raw Salmon, Stick, Oak Log, Wooden Pickaxe, Oak Planks, Brown Mushroom, Cactus, Wooden Axe, Bread, Jungle Sapling, Potato
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:16:694 INFO] Killed Acacia Log, Beetroot Seeds, Apple, Raw Salmon, Stick, Oak Log, Wooden Pickaxe, Oak Planks, Brown Mushroom, Cactus, Wooden Axe, Bread, Jungle Sapling, Potato
+HARNESS COMMAND: loot spawn 20 100 20 loot "entities/blaze"
+[2026-11-07 00:20:17:994 INFO] 0 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:17:493 ERROR] No targets matched selector
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 00:20:17:888 ERROR] No targets matched selector
+HARNESS COMMAND: loot spawn 20 100 20 loot "not/a/real/table"
+[2026-11-07 00:20:18:194 ERROR] Loot table 'loot_tables/not/a/real/table.json' not found
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 00:20:18:694 ERROR] No targets matched selector
+HARNESS COMMAND: tickingarea remove loot2
+[2026-11-07 00:20:19:093 INFO] Removed ticking area(s)
+- loot2 (Circle): 8 0 8 Radius: 2 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 00:20:20:444 INFO] Server stop requested.
+[2026-11-07 00:20:20:488 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

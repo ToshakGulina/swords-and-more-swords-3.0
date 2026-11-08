@@ -1,0 +1,44 @@
+Version: 1.26.62.1
+Experiment(s) active: ucft, gtst, ddi_, mola
+Pack Stack - [00] §l§fSwords and more swords V1.6 (id: 1ecf4d4b-3a3c-1be3-bc21-9512946109b6, version: 1.0.0) @ behavior_packs/Arena_16
+HARNESS: server ready, send commands
+HARNESS COMMAND: give @a minecraft:diamond 1
+HARNESS COMMAND: give @a effect:not_real_item 1
+HARNESS COMMAND: give @a effect:blaze_sword 1
+HARNESS COMMAND: give @a effect:bone_sword 1
+HARNESS COMMAND: give @a effect:cactus_sword 1
+HARNESS COMMAND: give @a effect:coal_sword 1
+HARNESS COMMAND: give @a effect:creeper_sword 1
+HARNESS COMMAND: give @a effect:emerald_sword 1
+HARNESS COMMAND: give @a effect:ender_sword 1
+HARNESS COMMAND: give @a effect:fire_sword 1
+HARNESS COMMAND: give @a effect:glowstone_sword 1
+HARNESS COMMAND: give @a effect:grass_sword 1
+HARNESS COMMAND: give @a effect:ice_sword 1
+HARNESS COMMAND: give @a effect:jungle_sword 1
+HARNESS COMMAND: give @a effect:lapis_sword 1
+HARNESS COMMAND: give @a effect:lightning_sword 1
+HARNESS COMMAND: give @a effect:magma_sword 1
+HARNESS COMMAND: give @a effect:obsidian_sword 1
+HARNESS COMMAND: give @a effect:quartz_sword 1
+HARNESS COMMAND: give @a effect:sea_sword 1
+HARNESS COMMAND: give @a effect:shulker_sword 1
+HARNESS COMMAND: give @a effect:slime_sword 1
+HARNESS COMMAND: give @a effect:spectral_sword 1
+HARNESS COMMAND: give @a effect:spider_sword 1
+HARNESS COMMAND: give @a effect:sponge_sword 1
+HARNESS COMMAND: give @a effect:sword_of_time 1
+HARNESS COMMAND: give @a effect:tnt_sword 1
+HARNESS COMMAND: give @a effect:wither_sword 1
+HARNESS COMMAND: tickingarea add circle 0 110 0 2 arena_old true
+HARNESS COMMAND: summon minecraft:pig 0 110 0
+HARNESS COMMAND: summon entity:blaze 0 110 0
+HARNESS COMMAND: testfor @e[type=entity:blaze]
+HARNESS COMMAND: summon entity:bone 2 110 0
+HARNESS COMMAND: testfor @e[type=entity:bone]
+HARNESS COMMAND: summon entity:shulker 4 110 0
+HARNESS COMMAND: testfor @e[type=entity:shulker]
+HARNESS COMMAND: function give
+HARNESS COMMAND: tickingarea remove arena_old
+HARNESS COMMAND: stop
+HARNESS: exit 0

@@ -1,0 +1,45 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:08:11:693 INFO] Starting Server
+SERVER [2026-11-07 08:08:11:693 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:08:11:693 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:08:11:693 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:08:11:693 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:08:11:693 INFO] Configuration: Publish
+SERVER [2026-11-07 08:08:11:693 INFO] Level Name: Bot baseline
+SERVER [2026-11-07 08:08:11:694 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:08:11:694 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:08:11:694 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:08:11:695 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:08:11:099 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_08_11
+SERVER [2026-11-07 08:08:11:099 INFO] Opening level 'worlds/Bot baseline/db'
+SERVER [2026-11-07 08:08:12:650 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:08:12:650 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:08:12:656 INFO] Server started.
+SERVER [2026-11-07 08:08:12:656 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:08:12:656 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:08:12:656 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:08:12:656 INFO] 
+SERVER [2026-11-07 08:08:12:656 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:08:12:656 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:08:12:656 INFO] ======================================================
+HARNESS starting client inside isolated network
+Server closed connection: undefined
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connect timed out
+    at Timeout.<anonymous> (/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/client.js:127:28)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+Emitted 'error' event on Client instance at:
+    at Timeout.<anonymous> (/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/client.js:127:14)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+
+Node.js v22.22.3
+HARNESS CLIENT DID NOT SPAWN
+SERVER [2026-11-07 08:08:57:775 INFO] Server stop requested.
+SERVER [2026-11-07 08:08:57:818 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= False server_exit= 0

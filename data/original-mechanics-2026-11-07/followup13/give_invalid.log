@@ -1,0 +1,201 @@
+1417.603 SERVER NO LOG FILE! - setting up server logging...
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Starting Server
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Version: 1.20.50.03
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Build ID: 19782165
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Branch: r/20_u5
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Configuration: Publish
+1417.603 SERVER [2026-11-08 09:43:03:603 INFO] Level Name: ArenaSlime
+1417.604 SERVER [2026-11-08 09:43:03:604 INFO] No CDN config file found for dedicated server
+1417.604 SERVER [2026-11-08 09:43:03:604 INFO] Game mode: 1 Creative
+1417.604 SERVER [2026-11-08 09:43:03:604 INFO] Difficulty: 2 NORMAL
+1417.605 SERVER [2026-11-08 09:43:03:605 INFO] Content logging to console is enabled.
+1418.078 SERVER [2026-11-08 09:43:03:077 INFO] Experiment(s) active: ddi_, ucft, gtst
+1418.078 SERVER [2026-11-08 09:43:03:077 INFO] Opening level 'worlds/ArenaSlime/db'
+1418.481 SERVER [2026-11-08 09:43:04:480 ERROR] [FeatureRegistry] ArenaSlime | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1418.481 SERVER 
+1418.481 SERVER [2026-11-08 09:43:04:481 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:quartz_diamond_ore'
+1418.481 SERVER 
+1418.481 SERVER [2026-11-08 09:43:04:481 ERROR] [FeatureRegistry] ArenaSlime | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1418.481 SERVER 
+1418.481 SERVER [2026-11-08 09:43:04:481 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:silver_ore'
+1418.481 SERVER 
+1418.705 SERVER [2026-11-08 09:43:04:704 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1418.705 SERVER [2026-11-08 09:43:04:704 INFO] IPv6 supported, port: 19133: Used for gameplay
+1418.779 SERVER [2026-11-08 09:43:04:779 INFO] Server started.
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] ================ TELEMETRY MESSAGE ===================
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] Server Telemetry is currently not enabled.
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] Enabling this telemetry helps us improve the game.
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO]
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] to the server.properties file in the handheld/src-server directory
+1418.780 SERVER [2026-11-08 09:43:04:779 INFO] ======================================================
+1419.529 SERVER [2026-11-08 09:43:05:528 INFO] Player connected: ArenaGive, xuid:
+1430.671 SERVER [2026-11-08 09:43:16:671 INFO] Player Spawned: ArenaGive xuid: ,
+1430.684 BOT BOT SPAWN 1
+COMMAND gamerule doMobSpawning false
+COMMAND fill 45 99 45 55 99 55 stone
+1431.078 SERVER [2026-11-08 09:43:16:078 ERROR] Cannot place blocks outside of the world
+COMMAND tp ArenaGive 50 100 50
+1431.429 SERVER [2026-11-08 09:43:17:429 INFO] Teleported ArenaGive to 50.50, 100.00, 50.50
+COMMAND gamemode survival ArenaGive
+1433.428 SERVER [2026-11-08 09:43:19:427 INFO] Set ArenaGive's game mode to Survival
+COMMAND clear ArenaGive
+1433.779 SERVER [2026-11-08 09:43:19:778 ERROR] Could not clear the inventory of ArenaGive, no items to remove
+COMMAND execute as ArenaGive at @s run kill @e[type=item,r=20]
+1434.129 SERVER [2026-11-08 09:43:19:128 ERROR] No targets matched selector
+1434.129 SERVER Failed to execute 'kill' as ArenaGive
+COMMAND give ArenaGive diamond 2304
+1434.479 SERVER [2026-11-08 09:43:20:479 INFO] Gave Diamond * 2304 to ArenaGive
+COMMAND scriptevent arena:giveprobe survival_full_before
+1434.880 SERVER [2026-11-08 09:43:20:879 INFO] Script event arena:giveprobe has been sent
+1434.881 SERVER [2026-11-08 09:43:20:880 WARN] [Scripting] GIVE_SNAPSHOT {"label":"survival_full_before","tick":1625,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1434.881 SERVER 
+COMMAND give ArenaGive iron_sword 1
+1435.879 SERVER [2026-11-08 09:43:21:879 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND scriptevent arena:giveprobe survival_full_after
+1436.228 SERVER [2026-11-08 09:43:22:228 INFO] Script event arena:giveprobe has been sent
+1436.229 SERVER [2026-11-08 09:43:22:229 WARN] [Scripting] GIVE_SNAPSHOT {"label":"survival_full_after","tick":1652,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[{"id":"minecraft:iron_sword","count":1,"loc":{"x":50.48584747314453,"y":100.043701171875,"z":52.485321044921875}}]}
+1436.229 SERVER 
+COMMAND scriptevent arena:giveprobe survival_full_wait
+1440.178 SERVER [2026-11-08 09:43:26:178 INFO] Script event arena:giveprobe has been sent
+1440.179 SERVER [2026-11-08 09:43:26:179 WARN] [Scripting] GIVE_SNAPSHOT {"label":"survival_full_wait","tick":1731,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1440.179 SERVER 
+COMMAND gamemode creative ArenaGive
+1441.179 SERVER [2026-11-08 09:43:27:178 INFO] Set ArenaGive's game mode to Creative
+COMMAND clear ArenaGive
+1441.529 SERVER [2026-11-08 09:43:27:529 INFO] Cleared the inventory of ArenaGive, removing 2304 items
+COMMAND execute as ArenaGive at @s run kill @e[type=item,r=20]
+1441.879 SERVER [2026-11-08 09:43:27:878 ERROR] No targets matched selector
+1441.879 SERVER Failed to execute 'kill' as ArenaGive
+COMMAND give ArenaGive diamond 2304
+1442.229 SERVER [2026-11-08 09:43:28:228 INFO] Gave Diamond * 2304 to ArenaGive
+COMMAND scriptevent arena:giveprobe creative_full_before
+1442.579 SERVER [2026-11-08 09:43:28:578 INFO] Script event arena:giveprobe has been sent
+1442.580 SERVER [2026-11-08 09:43:28:579 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_full_before","tick":1779,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1442.580 SERVER 
+COMMAND give ArenaGive iron_sword 1
+1443.579 SERVER [2026-11-08 09:43:29:578 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND scriptevent arena:giveprobe creative_full_after
+1443.928 SERVER [2026-11-08 09:43:29:928 INFO] Script event arena:giveprobe has been sent
+1443.929 SERVER [2026-11-08 09:43:29:929 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_full_after","tick":1806,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1443.929 SERVER 
+COMMAND scriptevent arena:giveprobe creative_full_wait
+1447.928 SERVER [2026-11-08 09:43:33:928 INFO] Script event arena:giveprobe has been sent
+1447.929 SERVER [2026-11-08 09:43:33:929 WARN] [Scripting] GIVE_SNAPSHOT {"label":"creative_full_wait","tick":1886,"slots":[{"slot":0,"id":"minecraft:diamond","count":64},{"slot":1,"id":"minecraft:diamond","count":64},{"slot":2,"id":"minecraft:diamond","count":64},{"slot":3,"id":"minecraft:diamond","count":64},{"slot":4,"id":"minecraft:diamond","count":64},{"slot":5,"id":"minecraft:diamond","count":64},{"slot":6,"id":"minecraft:diamond","count":64},{"slot":7,"id":"minecraft:diamond","count":64},{"slot":8,"id":"minecraft:diamond","count":64},{"slot":9,"id":"minecraft:diamond","count":64},{"slot":10,"id":"minecraft:diamond","count":64},{"slot":11,"id":"minecraft:diamond","count":64},{"slot":12,"id":"minecraft:diamond","count":64},{"slot":13,"id":"minecraft:diamond","count":64},{"slot":14,"id":"minecraft:diamond","count":64},{"slot":15,"id":"minecraft:diamond","count":64},{"slot":16,"id":"minecraft:diamond","count":64},{"slot":17,"id":"minecraft:diamond","count":64},{"slot":18,"id":"minecraft:diamond","count":64},{"slot":19,"id":"minecraft:diamond","count":64},{"slot":20,"id":"minecraft:diamond","count":64},{"slot":21,"id":"minecraft:diamond","count":64},{"slot":22,"id":"minecraft:diamond","count":64},{"slot":23,"id":"minecraft:diamond","count":64},{"slot":24,"id":"minecraft:diamond","count":64},{"slot":25,"id":"minecraft:diamond","count":64},{"slot":26,"id":"minecraft:diamond","count":64},{"slot":27,"id":"minecraft:diamond","count":64},{"slot":28,"id":"minecraft:diamond","count":64},{"slot":29,"id":"minecraft:diamond","count":64},{"slot":30,"id":"minecraft:diamond","count":64},{"slot":31,"id":"minecraft:diamond","count":64},{"slot":32,"id":"minecraft:diamond","count":64},{"slot":33,"id":"minecraft:diamond","count":64},{"slot":34,"id":"minecraft:diamond","count":64},{"slot":35,"id":"minecraft:diamond","count":64}],"empty":0,"drops":[]}
+1447.929 SERVER 
+COMMAND gamemode survival ArenaGive
+1448.929 SERVER [2026-11-08 09:43:34:929 INFO] Set ArenaGive's game mode to Survival
+COMMAND clear ArenaGive
+1449.279 SERVER [2026-11-08 09:43:35:278 INFO] Cleared the inventory of ArenaGive, removing 2304 items
+COMMAND execute as ArenaGive at @s run kill @e[type=item,r=20]
+1449.628 SERVER [2026-11-08 09:43:35:628 ERROR] No targets matched selector
+1449.628 SERVER Failed to execute 'kill' as ArenaGive
+COMMAND give ArenaGive iron_sword 1
+1449.979 SERVER [2026-11-08 09:43:35:979 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND give ArenaGive iron_sword 1
+1450.079 SERVER [2026-11-08 09:43:35:078 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND give ArenaGive iron_sword 1
+1450.130 SERVER [2026-11-08 09:43:35:129 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND give ArenaGive iron_sword 1
+1450.229 SERVER [2026-11-08 09:43:36:228 INFO] Gave Iron Sword * 1 to ArenaGive
+COMMAND give ArenaGive iron_sword 1
+1450.280 SERVER [2026-11-08 09:43:36:280 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.379 SERVER [2026-11-08 09:43:36:378 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.480 SERVER [2026-11-08 09:43:36:479 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.528 SERVER [2026-11-08 09:43:36:528 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.628 SERVER [2026-11-08 09:43:36:628 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.678 SERVER [2026-11-08 09:43:36:678 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.778 SERVER [2026-11-08 09:43:36:778 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.878 SERVER [2026-11-08 09:43:36:878 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1450.929 SERVER [2026-11-08 09:43:36:928 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.028 SERVER [2026-11-08 09:43:36:028 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.078 SERVER [2026-11-08 09:43:36:078 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.178 SERVER [2026-11-08 09:43:37:178 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.278 SERVER [2026-11-08 09:43:37:278 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.329 SERVER [2026-11-08 09:43:37:328 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.428 SERVER [2026-11-08 09:43:37:428 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.478 SERVER [2026-11-08 09:43:37:478 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1451.578 SERVER [2026-11-08 09:43:37:578 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1451.728 SERVER [2026-11-08 09:43:37:727 ERROR] No targets matched selector
+1451.778 SERVER [2026-11-08 09:43:37:778 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1451.878 SERVER [2026-11-08 09:43:37:878 ERROR] No targets matched selector
+1451.928 SERVER [2026-11-08 09:43:37:928 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1452.028 SERVER [2026-11-08 09:43:37:028 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1452.128 SERVER [2026-11-08 09:43:37:128 ERROR] No targets matched selector
+1452.179 SERVER [2026-11-08 09:43:38:178 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1452.278 SERVER [2026-11-08 09:43:38:278 ERROR] No targets matched selector
+1452.328 SERVER [2026-11-08 09:43:38:328 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1452.428 SERVER [2026-11-08 09:43:38:428 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1452.528 SERVER [2026-11-08 09:43:38:528 ERROR] No targets matched selector
+1452.578 SERVER [2026-11-08 09:43:38:578 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1452.678 SERVER [2026-11-08 09:43:38:678 ERROR] No targets matched selector
+1452.728 SERVER [2026-11-08 09:43:38:728 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+COMMAND give ArenaGive iron_sword 1
+1452.828 SERVER [2026-11-08 09:43:38:828 ERROR] No targets matched selector
+COMMAND give ArenaGive iron_sword 1
+1452.931 SERVER [2026-11-08 09:43:38:930 ERROR] No targets matched selector
+1452.978 SERVER [2026-11-08 09:43:38:978 ERROR] No targets matched selector
+COMMAND scriptevent arena:giveprobe survival_38_separate
+1453.093 SERVER [2026-11-08 09:43:38:087 INFO] Script event arena:giveprobe has been sent
+1453.093 SERVER [2026-11-08 09:43:38:092 WARN] [Scripting] GIVE_SNAPSHOT {"label":"survival_38_separate","tick":1989,"slots":[],"empty":36,"drops":[{"id":"minecraft:iron_sword","count":1,"loc":{"x":53.875,"y":100,"z":51.621543884277344}}]}
+1453.093 SERVER 
+COMMAND scriptevent arena:giveprobe survival_38_wait
+1457.078 SERVER [2026-11-08 09:43:42:077 INFO] Script event arena:giveprobe has been sent
+1457.078 SERVER [2026-11-08 09:43:42:078 WARN] [Scripting] GIVE_SNAPSHOT {"label":"survival_38_wait","tick":2069,"slots":[],"empty":36,"drops":[{"id":"minecraft:iron_sword","count":1,"loc":{"x":53.875,"y":100,"z":51.62169647216797}}]}
+1457.078 SERVER 
+COMMAND clear ArenaGive
+1458.077 SERVER [2026-11-08 09:43:43:077 ERROR] No targets matched selector
+COMMAND execute as ArenaGive at @s run kill @e[type=item,r=20]
+1458.428 SERVER [2026-11-08 09:43:44:428 ERROR] No targets matched selector
+COMMAND give ArenaGive diamond 128
+1458.778 SERVER [2026-11-08 09:43:44:778 ERROR] No targets matched selector
+COMMAND scriptevent arena:giveprobe function_before
+1459.128 SERVER [2026-11-08 09:43:44:127 INFO] Script event arena:giveprobe has been sent
+1459.128 SERVER [2026-11-08 09:43:44:128 WARN] [Scripting] GIVE_SNAPSHOT {"label":"function_before","tick":2110,"slots":[],"empty":36,"drops":[{"id":"minecraft:iron_sword","count":1,"loc":{"x":53.875,"y":100,"z":51.62169647216797}}]}
+1459.128 SERVER 
+COMMAND execute as ArenaGive at @s run function give
+1460.078 SERVER [2026-11-08 09:43:45:078 ERROR] No targets matched selector
+COMMAND scriptevent arena:giveprobe function_after
+1462.078 SERVER [2026-11-08 09:43:47:078 INFO] Script event arena:giveprobe has been sent
+1462.079 SERVER [2026-11-08 09:43:47:078 WARN] [Scripting] GIVE_SNAPSHOT {"label":"function_after","tick":2169,"slots":[],"empty":36,"drops":[{"id":"minecraft:iron_sword","count":1,"loc":{"x":53.875,"y":100,"z":51.62169647216797}}]}
+1462.079 SERVER 
+COMMAND scriptevent arena:giveprobe function_wait
+1466.078 SERVER [2026-11-08 09:43:51:078 INFO] Script event arena:giveprobe has been sent
+1466.079 SERVER [2026-11-08 09:43:51:078 WARN] [Scripting] GIVE_SNAPSHOT {"label":"function_wait","tick":2249,"slots":[],"empty":36,"drops":[]}
+1466.079 SERVER 
+1467.082 SERVER [2026-11-08 09:43:52:082 INFO] Server stop requested.
+1467.102 SERVER [2026-11-08 09:43:52:101 INFO] Stopping server...
+1467.444 SERVER Quit correctly
+DONE

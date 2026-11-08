@@ -1,0 +1,471 @@
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Starting Server
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Version: 1.20.50.03
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Build ID: 19782165
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Branch: r/20_u5
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Configuration: Publish
+1301.066 SERVER [2026-11-07 18:38:47:065 INFO] Level Name: Bedrock level
+1301.067 SERVER [2026-11-07 18:38:47:066 INFO] No CDN config file found for dedicated server
+1301.067 SERVER [2026-11-07 18:38:47:066 INFO] Game mode: 0 Survival
+1301.067 SERVER [2026-11-07 18:38:47:066 INFO] Difficulty: 1 EASY
+1301.067 SERVER [2026-11-07 18:38:47:067 INFO] Content logging to console is enabled.
+1301.426 SERVER [2026-11-07 18:38:48:425 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+1301.426 SERVER [2026-11-07 18:38:48:425 INFO] Opening level 'worlds/Bedrock level/db'
+1301.780 SERVER [2026-11-07 18:38:48:780 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1301.780 SERVER [2026-11-07 18:38:48:780 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+1301.780 SERVER [2026-11-07 18:38:48:780 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1301.780 SERVER [2026-11-07 18:38:48:780 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+1302.022 SERVER [2026-11-07 18:38:48:022 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1302.022 SERVER [2026-11-07 18:38:48:022 INFO] IPv6 supported, port: 19133: Used for gameplay
+1302.108 SERVER [2026-11-07 18:38:48:107 INFO] Server started.
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] ================ TELEMETRY MESSAGE ===================
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] Server Telemetry is currently not enabled.
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] Enabling this telemetry helps us improve the game.
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO]
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] to the server.properties file in the handheld/src-server directory
+1302.109 SERVER [2026-11-07 18:38:48:108 INFO] ======================================================
+1302.750 SERVER [2026-11-07 18:38:49:749 INFO] Player connected: ArenaSilver, xuid:
+1303.084 BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+1303.246 BOT BOT HELD CONTENT {"network_id":0}
+1303.351 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1306.829 BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"2","position":{"x":-35.52945327758789,"y":33,"z":42.90367889404297}}
+1306.829 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1309.979 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"4","position":{"x":-28.5,"y":60.459999084472656,"z":127.5}}
+1310.031 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"5","position":{"x":-28.5,"y":61.459999084472656,"z":127.5}}
+1310.081 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"8","position":{"x":-27.5,"y":61.459999084472656,"z":127.5}}
+1310.082 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"6","position":{"x":-27.5,"y":60.459999084472656,"z":127.5}}
+1310.082 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"7","position":{"x":-28.5,"y":62.459999084472656,"z":127.5}}
+1310.131 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"9","position":{"x":-27.5,"y":62.459999084472656,"z":127.5}}
+1310.183 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"14","position":{"x":-27.5,"y":62.459999084472656,"z":126.5}}
+1310.183 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"13","position":{"x":-26.5,"y":61.459999084472656,"z":127.5}}
+1310.183 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"12","position":{"x":-27.5,"y":61.459999084472656,"z":126.5}}
+1310.184 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"11","position":{"x":-26.5,"y":60.459999084472656,"z":127.5}}
+1310.184 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"10","position":{"x":-27.5,"y":60.459999084472656,"z":126.5}}
+1310.273 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"15","position":{"x":-25.5,"y":60.459999084472656,"z":127.5}}
+1310.273 BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"16","position":{"x":-25.5,"y":61.459999084472656,"z":127.5}}
+1310.828 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1312.623 SERVER [2026-11-07 18:38:59:622 INFO] Player Spawned: ArenaSilver xuid: ,
+1312.636 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaSilver
+1312.755 SERVER [2026-11-07 18:38:59:754 INFO] Set ArenaSilver's game mode to Creative
+COMMAND gamerule doMobSpawning false
+COMMAND gamerule dodaylightcycle false
+1314.834 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time set 18000
+1315.077 SERVER [2026-11-07 18:39:01:076 INFO] Set the time to 18000
+COMMAND weather clear 200
+1315.876 SERVER [2026-11-07 18:39:02:875 INFO] Changing to clear weather
+COMMAND tp ArenaSilver 50 100 50
+1316.722 SERVER [2026-11-07 18:39:03:721 INFO] Teleported ArenaSilver to 50.50, 100.00, 50.50
+1316.728 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+1316.841 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"24","position":{"x":65.6147689819336,"y":64,"z":50.300697326660156}}
+1316.841 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"23","position":{"x":65.44136047363281,"y":64,"z":50.067588806152344}}
+1316.841 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"22","position":{"x":67.42229461669922,"y":64,"z":49.088417053222656}}
+1316.841 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"21","position":{"x":69.28272247314453,"y":64,"z":49.13561248779297}}
+1316.841 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"20","position":{"x":52.416404724121094,"y":100,"z":50.5}}
+1316.841 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"19","position":{"x":58.34844207763672,"y":100,"z":51.10601043701172}}
+1316.841 BOT BOT ENTITY {"type":"minecraft:zombie_pigman","runtime":"18","position":{"x":57.01719665527344,"y":100,"z":49.57339859008789}}
+1316.879 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1316.929 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1316.981 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.031 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.081 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.126 SERVER [2026-11-07 18:39:03:126 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":478,"max":480,"res":{"duration":343,"amplifier":2},"reg":{"duration":343,"amplifier":2}}
+1317.131 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.187 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.225 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.287 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.328 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.377 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.430 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.480 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.530 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.580 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.627 SERVER [2026-11-07 18:39:04:626 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":479,"max":480,"res":{"duration":333,"amplifier":2},"reg":{"duration":333,"amplifier":2}}
+1317.633 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.683 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.723 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.786 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.827 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.885 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.926 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1317.979 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.038 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.078 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.125 SERVER [2026-11-07 18:39:04:124 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":323,"amplifier":2},"reg":{"duration":323,"amplifier":2}}
+1318.131 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.181 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.230 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.283 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.335 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.385 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.428 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.475 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.539 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.580 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.626 SERVER [2026-11-07 18:39:05:626 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":313,"amplifier":2},"reg":{"duration":313,"amplifier":2}}
+1318.630 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.680 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.733 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.783 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.834 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.834 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1318.886 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.927 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1318.977 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.036 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.080 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.127 SERVER [2026-11-07 18:39:05:127 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":303,"amplifier":2},"reg":{"duration":303,"amplifier":2}}
+1319.139 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.180 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.230 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.283 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.333 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.383 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.423 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.477 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.538 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.580 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.626 SERVER [2026-11-07 18:39:06:626 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":293,"amplifier":2},"reg":{"duration":293,"amplifier":2}}
+1319.631 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+COMMAND fill 46 99 46 56 99 56 stone
+1319.681 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.720 SERVER [2026-11-07 18:39:06:720 ERROR] 0 blocks filled
+1319.734 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.787 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.828 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.889 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1319.931 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"shake_wet","data":0}
+1320.127 SERVER [2026-11-07 18:39:06:127 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":283,"amplifier":2},"reg":{"duration":283,"amplifier":2}}
+COMMAND fill 46 100 46 56 105 56 air
+1320.527 SERVER [2026-11-07 18:39:07:526 ERROR] 0 blocks filled
+1320.626 SERVER [2026-11-07 18:39:07:626 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":273,"amplifier":2},"reg":{"duration":273,"amplifier":2}}
+1321.125 SERVER [2026-11-07 18:39:07:125 WARN] [Scripting] ARENA_WOLF {"id":"-55834574834","health":480,"max":480,"res":{"duration":263,"amplifier":2},"reg":{"duration":263,"amplifier":2}}
+COMMAND kill @e[type=entity:alpha_wolf]
+1321.321 SERVER [2026-11-07 18:39:08:321 INFO] Killed entity.entity:alpha_wolf.name
+1321.322 SERVER [2026-11-07 18:39:08:321 WARN] [Scripting] ARENA_HURT {"damage":480,"source":"suicide","health":0,"res":{"duration":259,"amplifier":2},"reg":{"duration":259,"amplifier":2}}
+1321.328 BOT BOT ENTITY EVENT {"runtime_entity_id":"20","event_id":"death_animation","data":0}
+COMMAND summon entity:alpha_wolf 51 100 50
+1322.125 SERVER [2026-11-07 18:39:08:125 INFO] Object successfully summoned
+1322.183 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"25","position":{"x":51.5,"y":100,"z":50.5}}
+1322.426 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"29","position":{"x":52.197227478027344,"y":100,"z":50.72017288208008}}
+1322.426 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"28","position":{"x":52.197227478027344,"y":100,"z":50.72017288208008}}
+1322.426 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"27","position":{"x":52.197227478027344,"y":100,"z":50.72017288208008}}
+1322.427 BOT BOT ENTITY {"type":"minecraft:xp_orb","runtime":"26","position":{"x":52.197227478027344,"y":100,"z":50.72017288208008}}
+1322.822 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1323.125 SERVER [2026-11-07 18:39:09:124 INFO] Added tag 'probe' to entity.entity:alpha_wolf.name
+1323.125 SERVER [2026-11-07 18:39:09:125 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+1323.626 SERVER [2026-11-07 18:39:10:626 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 effect:silver_sword 1
+1323.920 SERVER [2026-11-07 18:39:10:919 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * item.effect:silver_sword
+1323.933 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1324.125 SERVER [2026-11-07 18:39:10:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+1324.625 SERVER [2026-11-07 18:39:11:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+1325.126 SERVER [2026-11-07 18:39:11:125 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+1325.625 SERVER [2026-11-07 18:39:12:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+MARK SILVER FRESH
+1325.846 BOT BOT ATTACK BEGIN 25 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1326.125 SERVER [2026-11-07 18:39:12:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":480,"max":480,"res":null,"reg":null}
+1326.449 BOT BOT ATTACK SENT 1
+1326.470 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"hurt_animation","data":2}
+1326.470 SERVER [2026-11-07 18:39:13:469 WARN] [Scripting] ARENA_HURT {"damage":7,"source":"entityAttack","health":473,"res":null,"reg":null}
+1326.625 SERVER [2026-11-07 18:39:13:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1326.825 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1326.927 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1326.977 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.027 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.080 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.125 SERVER [2026-11-07 18:39:13:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1327.129 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.179 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.232 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.282 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.323 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.385 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.425 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.475 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.537 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.578 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.625 SERVER [2026-11-07 18:39:14:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1327.628 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.678 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.726 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.785 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.825 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.888 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.928 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1327.978 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.031 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.082 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.125 SERVER [2026-11-07 18:39:14:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1328.131 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.171 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.234 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.283 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.324 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.386 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.427 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.477 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.530 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.579 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.625 SERVER [2026-11-07 18:39:15:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1328.629 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.680 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.730 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.783 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.823 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 iron_sword 1
+1328.882 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.921 SERVER [2026-11-07 18:39:15:920 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * Iron Sword
+1328.926 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1328.926 BOT BOT HELD CONTENT {"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1328.975 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.037 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.077 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.127 SERVER [2026-11-07 18:39:15:126 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1329.137 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.189 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.230 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.280 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.332 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.382 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.422 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.472 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.534 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.577 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.625 SERVER [2026-11-07 18:39:16:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1329.635 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.680 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.733 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.782 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.823 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.885 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.925 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1329.975 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.037 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.077 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.125 SERVER [2026-11-07 18:39:16:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1330.136 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.177 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.229 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.279 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.337 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.378 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.428 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.481 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.530 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.580 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.625 SERVER [2026-11-07 18:39:17:625 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1330.632 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.671 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.724 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.782 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.826 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.826 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK IRON
+1330.846 BOT BOT ATTACK BEGIN 25 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1330.885 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.925 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1330.978 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.036 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.077 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.125 SERVER [2026-11-07 18:39:17:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":null,"reg":null}
+1331.130 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.179 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.229 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.282 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.332 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.381 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1331.447 BOT BOT ATTACK SENT 1
+1331.485 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"hurt_animation","data":2}
+1331.525 SERVER [2026-11-07 18:39:18:524 WARN] [Scripting] ARENA_HURT {"damage":7,"source":"entityAttack","health":466,"res":{"duration":399,"amplifier":2},"reg":{"duration":399,"amplifier":2}}
+1331.625 SERVER [2026-11-07 18:39:18:624 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":466,"max":480,"res":{"duration":397,"amplifier":2},"reg":{"duration":397,"amplifier":2}}
+1332.125 SERVER [2026-11-07 18:39:18:124 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":467,"max":480,"res":{"duration":387,"amplifier":2},"reg":{"duration":387,"amplifier":2}}
+1332.583 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.621 SERVER [2026-11-07 18:39:19:621 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":468,"max":480,"res":{"duration":377,"amplifier":2},"reg":{"duration":377,"amplifier":2}}
+1332.633 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.683 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.725 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.787 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.837 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.877 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.927 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1332.980 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.030 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.079 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.120 SERVER [2026-11-07 18:39:19:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":469,"max":480,"res":{"duration":367,"amplifier":2},"reg":{"duration":367,"amplifier":2}}
+1333.132 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.181 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.221 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.283 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.333 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.373 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.426 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.475 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.537 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.587 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.620 SERVER [2026-11-07 18:39:20:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":470,"max":480,"res":{"duration":357,"amplifier":2},"reg":{"duration":357,"amplifier":2}}
+1333.628 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.678 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.730 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.780 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.830 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 effect:silver_sword 1
+1333.870 SERVER [2026-11-07 18:39:20:869 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * item.effect:silver_sword
+1333.883 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.891 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1333.926 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1333.976 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.038 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.088 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.120 SERVER [2026-11-07 18:39:20:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471,"max":480,"res":{"duration":347,"amplifier":2},"reg":{"duration":347,"amplifier":2}}
+1334.128 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.178 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.230 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.280 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.336 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.377 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.427 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.477 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.527 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.580 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.622 SERVER [2026-11-07 18:39:21:621 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471,"max":480,"res":{"duration":337,"amplifier":2},"reg":{"duration":337,"amplifier":2}}
+1334.630 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.680 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1334.833 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1335.120 SERVER [2026-11-07 18:39:21:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":472,"max":480,"res":{"duration":327,"amplifier":2},"reg":{"duration":327,"amplifier":2}}
+1335.620 SERVER [2026-11-07 18:39:22:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":473,"max":480,"res":{"duration":317,"amplifier":2},"reg":{"duration":317,"amplifier":2}}
+1335.624 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.676 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.727 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.777 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.830 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+MARK SILVER VS RESISTANCE
+1335.847 BOT BOT ATTACK BEGIN 25 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1335.879 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.929 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1335.982 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.031 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.081 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.120 SERVER [2026-11-07 18:39:22:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":474,"max":480,"res":{"duration":307,"amplifier":2},"reg":{"duration":307,"amplifier":2}}
+1336.121 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.174 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.224 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.286 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.335 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.375 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.428 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.448 BOT BOT ATTACK SENT 1
+1336.479 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.479 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"hurt_animation","data":2}
+1336.525 SERVER [2026-11-07 18:39:23:524 WARN] [Scripting] ARENA_HURT {"damage":2.79998779296875,"source":"entityAttack","health":471.20001220703125,"res":null,"reg":null}
+1336.529 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.620 SERVER [2026-11-07 18:39:23:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1336.832 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.873 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.925 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1336.975 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.037 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.086 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.120 SERVER [2026-11-07 18:39:23:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1337.127 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.176 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.229 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.278 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.328 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.380 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.430 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.483 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.532 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.582 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.620 SERVER [2026-11-07 18:39:24:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1337.622 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.674 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.724 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.786 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.835 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.875 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.925 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1337.978 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.027 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.080 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.120 SERVER [2026-11-07 18:39:24:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1338.129 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.179 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.231 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.288 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.328 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.377 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.427 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.480 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.529 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.582 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.620 SERVER [2026-11-07 18:39:25:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1338.631 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.681 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.721 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.783 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.833 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.833 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SILVER AFTER CLEAR
+1338.847 BOT BOT ATTACK BEGIN 25 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1338.873 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.926 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1338.976 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1339.038 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1339.087 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1339.120 SERVER [2026-11-07 18:39:25:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":471.20001220703125,"max":480,"res":null,"reg":null}
+1339.127 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1339.177 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1339.460 BOT BOT ATTACK SENT 1
+1339.481 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"hurt_animation","data":2}
+1339.525 SERVER [2026-11-07 18:39:26:524 WARN] [Scripting] ARENA_HURT {"damage":7,"source":"entityAttack","health":464.20001220703125,"res":null,"reg":null}
+1339.620 SERVER [2026-11-07 18:39:26:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1340.120 SERVER [2026-11-07 18:39:26:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1340.620 SERVER [2026-11-07 18:39:27:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1341.086 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.120 SERVER [2026-11-07 18:39:27:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1341.127 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.176 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.226 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.278 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.328 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.372 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.424 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.474 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.536 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.585 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.620 SERVER [2026-11-07 18:39:28:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1341.625 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.675 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.728 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.778 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.828 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.880 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.930 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1341.979 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.032 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.087 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.120 SERVER [2026-11-07 18:39:28:119 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1342.127 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.177 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.226 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.279 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.329 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.378 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.431 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.480 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.530 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.582 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.620 SERVER [2026-11-07 18:39:29:619 WARN] [Scripting] ARENA_WOLF {"id":"-60129542128","health":464.20001220703125,"max":480,"res":null,"reg":null}
+1342.623 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.685 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.725 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.784 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.836 BOT BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"shake_wet","data":0}
+1342.836 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1342.919 SERVER [2026-11-07 18:39:29:919 INFO] Server stop requested.
+1342.924 SERVER [2026-11-07 18:39:29:923 INFO] Stopping server...
+DONE

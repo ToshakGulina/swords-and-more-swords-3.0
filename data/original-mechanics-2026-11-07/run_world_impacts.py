@@ -1,0 +1,72 @@
+import subprocess,threading,time,sys
+from pathlib import Path
+root=Path('/home/user/swords-analysis/bot-runtime/server')
+env={'PATH':'/usr/bin:/bin','HOME':str(root),'LD_LIBRARY_PATH':'.','LANG':'C.UTF-8'}
+p=subprocess.Popen(['./bedrock_server'],cwd=root,env=env,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1,errors='replace')
+ready=threading.Event();spawn=threading.Event();pig=threading.Event()
+def serverout():
+ for line in p.stdout:
+  if 'Session ID:' not in line:print('SERVER',line.split('pfid:')[0],end='',flush=True)
+  if 'Server started.' in line:ready.set()
+threading.Thread(target=serverout,daemon=True).start()
+if not ready.wait(60):p.terminate();sys.exit(1)
+bot=subprocess.Popen(['node','/home/user/swords-analysis/bot-runtime/bot_world.js'],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,bufsize=1)
+def botout():
+ for line in bot.stdout:
+  print(line,end='',flush=True)
+  if 'BOT SPAWN' in line:spawn.set()
+  if 'BOT ENTITY' in line and 'minecraft:pig' in line:pig.set()
+threading.Thread(target=botout,daemon=True).start()
+def cmd(c,delay=1):
+ print('COMMAND',c,flush=True);p.stdin.write(c+'\n');p.stdin.flush();time.sleep(delay)
+if spawn.wait(45):
+ cmd('gamerule mobgriefing true')
+ cmd('gamerule dofiretick false')
+ cmd('gamemode survival ArenaWorld')
+ cmd('tp ArenaWorld 30 100 30',7)
+ cmd('fill 24 99 24 38 99 40 stone')
+ cmd('fill 24 100 24 38 106 40 air')
+ cmd('fill 27 100 32 33 105 32 stone')
+ cmd('testforblock 30 101 32 stone')
+ cmd('clear ArenaWorld')
+ cmd('replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:ghost_sword 1',5)
+ cmd('testfor @a[name=ArenaWorld,family=ghost_sword]')
+ cmd('querytarget @a[name=ArenaWorld]')
+ print('HARNESS GHOST WALL USE',flush=True);bot.stdin.write('use\n');bot.stdin.flush();time.sleep(3)
+ cmd('querytarget @a[name=ArenaWorld]')
+ cmd('testforblock 30 101 32 stone')
+ cmd('replaceitem entity ArenaWorld slot.weapon.mainhand 0 air',3)
+ cmd('gamemode creative ArenaWorld')
+ cmd('tp ArenaWorld 60 100 60',7)
+ cmd('fill 54 99 54 68 99 66 stone')
+ cmd('fill 54 100 54 68 106 66 air')
+ cmd('setblock 62 100 60 ice')
+ cmd('setblock 63 100 60 red_flower')
+ cmd('setblock 64 101 60 leaves')
+ cmd('setblock 65 99 60 grass')
+ cmd('setblock 67 99 60 grass')
+ for c in ['62 100 60 ice','63 100 60 red_flower','64 101 60 leaves','65 99 60 grass','67 99 60 grass']:
+  cmd('testforblock '+c)
+ cmd('replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:wither_sword 1',6)
+ cmd('testfor @a[name=ArenaWorld,family=wither_sword]')
+ for c in ['62 100 60 water','63 100 60 wither_rose','64 101 60 air','65 99 60 dirt','67 99 60 grass']:
+  cmd('testforblock '+c)
+ cmd('replaceitem entity ArenaWorld slot.weapon.mainhand 0 air',4)
+ for c in ['63 100 60 wither_rose','64 101 60 air','65 99 60 dirt']:
+  cmd('testforblock '+c)
+ cmd('tp ArenaWorld 100 100 100',7)
+ cmd('fill 85 99 85 115 99 115 stone')
+ cmd('fill 85 100 85 115 107 115 air')
+ cmd('testforblock 102 99 100 stone')
+ cmd('testforblock 112 99 100 stone')
+ cmd('replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:tnt_sword 1',4)
+ print('HARNESS TNT USE',flush=True);bot.stdin.write('use\n');bot.stdin.flush();time.sleep(2)
+ cmd('testfor @e[type=tnt]',10)
+ cmd('testforblock 102 99 100 stone')
+ cmd('testforblock 102 99 100 air')
+ cmd('testforblock 112 99 100 stone')
+ cmd('testfor @e[type=tnt]')
+
+else:print('NO SPAWN',flush=True)
+bot.terminate();bot.wait(5);p.stdin.write('stop\n');p.stdin.flush();rc=p.wait(20)
+print('HARNESS RESULT',spawn.is_set(),rc,flush=True)

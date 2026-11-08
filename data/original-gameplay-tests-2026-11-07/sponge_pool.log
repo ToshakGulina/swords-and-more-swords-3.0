@@ -1,0 +1,78 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:47:33:115 INFO] Starting Server
+[2026-11-07 07:47:33:115 INFO] Version: 1.20.50.03
+[2026-11-07 07:47:33:115 INFO] Build ID: 19782165
+[2026-11-07 07:47:33:115 INFO] Branch: r/20_u5
+[2026-11-07 07:47:33:115 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:47:33:115 INFO] Configuration: Publish
+[2026-11-07 07:47:33:115 INFO] Level Name: Arena original
+[2026-11-07 07:47:33:116 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:47:33:116 INFO] Game mode: 1 Creative
+[2026-11-07 07:47:33:116 INFO] Difficulty: 1 EASY
+[2026-11-07 07:47:33:117 INFO] Content logging to console is enabled.
+[2026-11-07 07:47:33:469 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_47_33
+[2026-11-07 07:47:33:469 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:47:33:469 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:47:34:828 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:47:34:828 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:47:34:828 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:47:34:828 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:47:34:044 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:47:34:044 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:47:34:130 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 3 sponge_pool true
+[2026-11-07 07:47:34:130 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:47:34:130 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:47:34:130 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:47:34:130 INFO] 
+[2026-11-07 07:47:34:130 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:47:34:130 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:47:34:130 INFO] ======================================================
+[2026-11-07 07:47:34:351 INFO] Added ticking area centered at 8, 0, 8 with a radius of 3 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:47:46:203 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:47:46:603 INFO] Killed Seeds
+HARNESS COMMAND: fill 10 98 10 30 110 30 air
+[2026-11-07 07:47:47:003 INFO] 68 blocks filled
+HARNESS COMMAND: fill 10 99 10 30 99 30 stone
+[2026-11-07 07:47:47:406 INFO] 441 blocks filled
+HARNESS COMMAND: fill 10 100 10 30 101 30 water
+[2026-11-07 07:47:48:806 INFO] 882 blocks filled
+HARNESS COMMAND: testforblock 20 100 20 water
+[2026-11-07 07:47:48:403 INFO] Successfully found the block at 20,100,20.
+HARNESS COMMAND: loot spawn 20 101 20 loot "arena/sponge_sword"
+[2026-11-07 07:47:49:803 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:47:49:303 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: tag @e[type=item] add sponge_sword
+[2026-11-07 07:47:49:603 INFO] Added tag 'sponge_sword' to item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=sponge_sword]
+[2026-11-07 07:47:50:904 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: testforblock 20 100 20 water
+[2026-11-07 07:47:50:303 ERROR] The block at 20,100,20 is Air (expected: Water).
+HARNESS COMMAND: execute as @e[type=item,tag=sponge_sword] at @s run testforblock ~ ~ ~ water
+[2026-11-07 07:47:50:604 ERROR] The block at 19,100,20 is Air (expected: Water).
+Failed to execute 'testforblock' as item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:47:51:904 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:47:55:905 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=sponge_sword]
+[2026-11-07 07:47:55:406 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: tickingarea remove sponge_pool
+[2026-11-07 07:47:56:903 INFO] Removed ticking area(s)
+- sponge_pool (Circle): 8 0 8 Radius: 3 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:47:57:302 INFO] Server stop requested.
+[2026-11-07 07:47:57:329 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

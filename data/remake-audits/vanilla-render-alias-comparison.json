@@ -1,0 +1,194 @@
+{
+  "repository": "Mojang/bedrock-samples",
+  "ref": "v1.26.60.5",
+  "commit": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "scope": "Static Texture/Geometry/Material alias tokens in official render controllers referenced by saved original client entity descriptions; compares declaration keys only, including conditional branches, without evaluating any Molang, inheritance, engine aliases, resource-pack stacking or runtime behavior. Local controller overrides do not necessarily use the official controller.",
+  "entries": [
+    {
+      "entity": "entity:alpha_wolf",
+      "client_file": "Swords_R/entity/alpha_wolf.entity.json",
+      "controller": "controller.render.wolf",
+      "official_file": "resource_pack/render_controllers/wolf.render_controllers.json",
+      "official_file_sha256": "4ea15df146e30e73ff9edb9d779259f784d24b0166df210f3453338dc9bfae23",
+      "unmatched_aliases": {
+        "Texture": {
+          "requested": [
+            "ashen_angry",
+            "ashen_default",
+            "ashen_tame",
+            "black_angry",
+            "black_default",
+            "black_tame",
+            "chestnut_angry",
+            "chestnut_default",
+            "chestnut_tame",
+            "pale_angry",
+            "pale_default",
+            "pale_tame",
+            "rusty_angry",
+            "rusty_default",
+            "rusty_tame",
+            "snowy_angry",
+            "snowy_default",
+            "snowy_tame",
+            "spotted_angry",
+            "spotted_default",
+            "spotted_tame",
+            "striped_angry",
+            "striped_default",
+            "striped_tame",
+            "woods_angry",
+            "woods_default",
+            "woods_tame"
+          ],
+          "declared": [
+            "angry",
+            "default",
+            "tame"
+          ],
+          "missing": [
+            "ashen_angry",
+            "ashen_default",
+            "ashen_tame",
+            "black_angry",
+            "black_default",
+            "black_tame",
+            "chestnut_angry",
+            "chestnut_default",
+            "chestnut_tame",
+            "pale_angry",
+            "pale_default",
+            "pale_tame",
+            "rusty_angry",
+            "rusty_default",
+            "rusty_tame",
+            "snowy_angry",
+            "snowy_default",
+            "snowy_tame",
+            "spotted_angry",
+            "spotted_default",
+            "spotted_tame",
+            "striped_angry",
+            "striped_default",
+            "striped_tame",
+            "woods_angry",
+            "woods_default",
+            "woods_tame"
+          ]
+        }
+      }
+    },
+    {
+      "entity": "entity:bee_sword",
+      "client_file": "Swords_R/entity/bee_sword.json",
+      "controller": "controller.render.default",
+      "official_file": "resource_pack/render_controllers/default.render_controllers.json",
+      "official_file_sha256": "61f489b438ab7ed930ccf433247fd86114b1350e04a366641e2fef78a6e1c2ca",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:enderman",
+      "client_file": "Swords_R/entity/enderman.entity.json",
+      "controller": "controller.render.enderman",
+      "official_file": "resource_pack/render_controllers/enderman.render_controllers.json",
+      "official_file_sha256": "f7453f7ae555c580e464f0b0fecf5e8dad3856b2a6789da21c7a5d69ef07bc0d",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:fake_fireball",
+      "client_file": "Swords_R/entity/fake_fireball.entity.json",
+      "controller": "controller.render.fireball",
+      "official_file": "resource_pack/render_controllers/fireball.render_controllers.json",
+      "official_file_sha256": "663500bc068a0159a2e0a0e64a51ba884ccb19c244a7744b84d8270ce821a2d8",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:mountable_slime",
+      "client_file": "Swords_R/entity/mountable_slime.v1.0.json",
+      "controller": "controller.render.slime",
+      "official_file": "resource_pack/render_controllers/slime.render_controllers.json",
+      "official_file_sha256": "1822938c6675e685748d7e6a7048cffbcd6171c95a50852bd29e79dcc73e0a1e",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:mountable_slime",
+      "client_file": "Swords_R/entity/mountable_slime.v1.0.json",
+      "controller": "controller.render.slime_armor",
+      "official_file": "resource_pack/render_controllers/slime_armor.render_controllers.json",
+      "official_file_sha256": "d65c7186eb2ab9a130b271ccfa1113f7fcd4405ed7e7c596ac7b954615d814fc",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:nether_star_projectile",
+      "client_file": "Swords_R/entity/nether_star.v1.0.json",
+      "controller": "controller.render.item_sprite",
+      "official_file": "resource_pack/render_controllers/item_sprite.render_controllers.json",
+      "official_file_sha256": "c15ea02dedf88980aeb40714a932707999f1eb2a94f62d027c97bfa1de3ed20b",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:player",
+      "client_file": "Swords_R/entity/player.entity.json",
+      "controller": "controller.render.player.first_person",
+      "official_file": "resource_pack/render_controllers/player.render_controllers.json",
+      "official_file_sha256": "9fdcf008895fcefcaa5f0bb948728b8d4513007b200c19b717c70908d026299a",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:player",
+      "client_file": "Swords_R/entity/player.entity.json",
+      "controller": "controller.render.player.map",
+      "official_file": "resource_pack/render_controllers/player.render_controllers.json",
+      "official_file_sha256": "9fdcf008895fcefcaa5f0bb948728b8d4513007b200c19b717c70908d026299a",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:player",
+      "client_file": "Swords_R/entity/player.entity.json",
+      "controller": "controller.render.player.third_person",
+      "official_file": "resource_pack/render_controllers/player.render_controllers.json",
+      "official_file_sha256": "9fdcf008895fcefcaa5f0bb948728b8d4513007b200c19b717c70908d026299a",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:slime_king",
+      "client_file": "Swords_R/entity/slime_king.entity.json",
+      "controller": "controller.render.slime",
+      "official_file": "resource_pack/render_controllers/slime.render_controllers.json",
+      "official_file_sha256": "1822938c6675e685748d7e6a7048cffbcd6171c95a50852bd29e79dcc73e0a1e",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:slime_king",
+      "client_file": "Swords_R/entity/slime_king.entity.json",
+      "controller": "controller.render.slime_armor",
+      "official_file": "resource_pack/render_controllers/slime_armor.render_controllers.json",
+      "official_file_sha256": "d65c7186eb2ab9a130b271ccfa1113f7fcd4405ed7e7c596ac7b954615d814fc",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "entity:web",
+      "client_file": "Swords_R/entity/web.v1.0.json",
+      "controller": "controller.render.item_sprite",
+      "official_file": "resource_pack/render_controllers/item_sprite.render_controllers.json",
+      "official_file_sha256": "c15ea02dedf88980aeb40714a932707999f1eb2a94f62d027c97bfa1de3ed20b",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:witch",
+      "client_file": "Swords_R/entity/witch.entity.json",
+      "controller": "controller.render.witch",
+      "official_file": "resource_pack/render_controllers/witch.render_controllers.json",
+      "official_file_sha256": "e43558c06a220ab4d3f44b838bcdc0c7644c0a232b5ac701c99f80ea445d0281",
+      "unmatched_aliases": {}
+    },
+    {
+      "entity": "minecraft:witch",
+      "client_file": "Swords_R/entity/witch.v1.0.entity.json",
+      "controller": "controller.render.witch.v1.0",
+      "official_file": "resource_pack/render_controllers/witch.render_controllers.json",
+      "official_file_sha256": "e43558c06a220ab4d3f44b838bcdc0c7644c0a232b5ac701c99f80ea445d0281",
+      "unmatched_aliases": {}
+    }
+  ]
+}

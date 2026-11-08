@@ -1,0 +1,242 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:33:47:254 INFO] Starting Server
+SERVER [2026-11-07 09:33:47:254 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:33:47:254 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:33:47:254 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:33:47:254 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:33:47:254 INFO] Configuration: Publish
+SERVER [2026-11-07 09:33:47:254 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:33:47:255 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:33:47:255 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:33:47:255 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:33:47:255 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:33:47:613 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:33:47:613 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:33:47:966 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:33:47:966 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:33:47:967 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:33:47:967 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:33:48:188 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:33:48:188 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:33:48:262 INFO] Server started.
+SERVER [2026-11-07 09:33:48:262 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:33:48:262 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:33:48:262 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:33:48:262 INFO] 
+SERVER [2026-11-07 09:33:48:262 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:33:48:262 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:33:48:262 INFO] ======================================================
+SERVER [2026-11-07 09:33:48:308 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:33:50:464 INFO] Player connected: ArenaGhostDef, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:33:55:214 INFO] Player Spawned: ArenaGhostDef xuid: , BOT SPAWN
+COMMAND tp ArenaGhostDef 30 100 30
+SERVER [2026-11-07 09:33:55:335 INFO] Teleported ArenaGhostDef to 30.50, 100.00, 30.50
+SERVER [2026-11-07 09:33:55:339 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT POSITION {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"3","position":{"x":10,"y":130,"z":4}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"2","position":{"x":10,"y":130,"z":4}}
+BOT ENTITY {"type":"minecraft:pig","runtime":"5","position":{"x":27,"y":74,"z":54}}
+BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":27,"y":74,"z":54}}
+SERVER [2026-11-07 09:33:56:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"6","position":{"x":48,"y":125,"z":32}}
+SERVER [2026-11-07 09:33:57:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"7","position":{"x":67,"y":119,"z":29}}
+SERVER [2026-11-07 09:33:58:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:33:59:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:34:00:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:01:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:02:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"7","event_id":"eat_grass_animation","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 27 99 27 35 99 33 stone
+SERVER [2026-11-07 09:34:03:269 INFO] 52 blocks filled
+SERVER [2026-11-07 09:34:03:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"8","position":{"x":-4,"y":86,"z":47}}
+COMMAND fill 27 100 27 35 104 33 air
+SERVER [2026-11-07 09:34:04:267 INFO] 94 blocks filled
+SERVER [2026-11-07 09:34:04:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND gamemode survival ArenaGhostDef
+SERVER [2026-11-07 09:34:05:267 INFO] Set ArenaGhostDef's game mode to Survival
+SERVER [2026-11-07 09:34:05:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND clear ArenaGhostDef
+SERVER [2026-11-07 09:34:06:267 ERROR] Could not clear the inventory of ArenaGhostDef, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:34:06:319 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND damage ArenaGhostDef 4 entity_attack
+SERVER [2026-11-07 09:34:07:317 INFO] Applied damage to ArenaGhostDef
+SERVER [2026-11-07 09:34:07:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":16,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":2}
+SERVER [2026-11-07 09:34:08:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":16,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:34:09:323 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":16,"max":20}
+SERVER 
+COMMAND effect ArenaGhostDef instant_health 1 10 true
+SERVER [2026-11-07 09:34:10:267 INFO] Gave Instant Health * 10 to ArenaGhostDef for 1 seconds
+SERVER [2026-11-07 09:34:10:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:34:11:319 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:34:12:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaGhostDef slot.weapon.mainhand 0 effect:ghost_sword 1
+SERVER [2026-11-07 09:34:13:267 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaGhostDef with 1 * item.effect:ghost_sword
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:34:13:320 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:14:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:34:15:319 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:16:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:17:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaGhostDef,family=ghost_sword]
+SERVER [2026-11-07 09:34:18:270 INFO] Found ArenaGhostDef
+SERVER [2026-11-07 09:34:18:320 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND damage ArenaGhostDef 4 entity_attack
+SERVER [2026-11-07 09:34:19:269 ERROR] Could not apply damage to ArenaGhostDef
+SERVER [2026-11-07 09:34:19:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:20:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"9","position":{"x":-4,"y":110,"z":32}}
+SERVER [2026-11-07 09:34:21:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND damage ArenaGhostDef 4 fire
+BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:34:22:318 ERROR] Could not apply damage to ArenaGhostDef
+SERVER [2026-11-07 09:34:22:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:34:23:319 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:24:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":30.5,"y":101.62001037597656,"z":30.5},"network_id":270}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":6}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"10","position":{"x":30.5,"y":101.62001037597656,"z":30.5}}
+SERVER [2026-11-07 09:34:25:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT POSITION {"x":30.5,"y":103.24002075195312,"z":34}
+SERVER [2026-11-07 09:34:26:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 09:34:27:268 ERROR] No targets matched selector
+SERVER [2026-11-07 09:34:27:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaGhostDef]
+SERVER [2026-11-07 09:34:28:268 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 30.50,
+SERVER          "y" : 103.2400207519531,
+SERVER          "z" : 34.0
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:34:28:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"11","position":{"x":65,"y":120,"z":25}}
+COMMAND replaceitem entity ArenaGhostDef slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:34:29:267 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaGhostDef with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:34:29:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+SERVER [2026-11-07 09:34:30:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":18,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+SERVER [2026-11-07 09:34:31:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":16,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+SERVER [2026-11-07 09:34:32:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":14,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+COMMAND testfor @a[name=ArenaGhostDef,family=ghost_sword]
+SERVER [2026-11-07 09:34:33:267 ERROR] No targets matched selector
+SERVER [2026-11-07 09:34:33:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":13,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+COMMAND damage ArenaGhostDef 4 entity_attack
+SERVER [2026-11-07 09:34:34:267 INFO] Applied damage to ArenaGhostDef
+BOT ENTITY EVENT {"runtime_entity_id":"11","event_id":"eat_grass_animation","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":2}
+SERVER [2026-11-07 09:34:34:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":8,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+SERVER [2026-11-07 09:34:35:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":6,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+SERVER [2026-11-07 09:34:36:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":4,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+COMMAND damage ArenaGhostDef 4 fire
+SERVER [2026-11-07 09:34:37:317 INFO] Applied damage to ArenaGhostDef
+SERVER [2026-11-07 09:34:37:318 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":0,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":4}
+BOT HELD CONTENT {"network_id":0}
+BOT HELD CONTENT {"network_id":0}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"death_animation","data":0}
+BOT TEXT {"type":"translation","needs_translation":true,"message":"death.attack.inFire","parameters":["ArenaGhostDef"],"xuid":"","platform_chat_id":""}
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:34:38:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":0,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:34:39:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":0,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:40:317 INFO] Server stop requested.
+SERVER [2026-11-07 09:34:40:317 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaGhostDef","health":0,"max":20}
+SERVER 
+SERVER [2026-11-07 09:34:40:320 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

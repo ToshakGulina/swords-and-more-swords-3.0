@@ -1,0 +1,665 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 12:09:34:865 INFO] Starting Server
+SERVER [2026-11-07 12:09:34:865 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 12:09:34:865 INFO] Build ID: 19782165
+SERVER [2026-11-07 12:09:34:865 INFO] Branch: r/20_u5
+SERVER [2026-11-07 12:09:34:865 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 12:09:34:865 INFO] Configuration: Publish
+SERVER [2026-11-07 12:09:34:865 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 12:09:34:866 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 12:09:34:866 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 12:09:34:866 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 12:09:34:867 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 12:09:35:223 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 12:09:35:223 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 12:09:35:556 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 12:09:35:556 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 12:09:35:556 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 12:09:35:556 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 12:09:35:746 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 12:09:35:746 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 12:09:35:826 INFO] Server started.
+SERVER [2026-11-07 12:09:35:826 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 12:09:35:826 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 12:09:35:826 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 12:09:35:826 INFO] 
+SERVER [2026-11-07 12:09:35:826 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 12:09:35:826 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 12:09:35:826 INFO] ======================================================
+SERVER [2026-11-07 12:09:35:873 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 12:09:36:926 WARN] [Scripting] [Watchdog] 101.340 ms script spike detected in behavior pack 'Arena Observer'
+SERVER 
+SERVER [2026-11-07 12:09:37:909 INFO] Player connected: ArenaMeasure, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"2","position":{"x":-34.5,"y":24.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"3","position":{"x":-34.5,"y":25.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"4","position":{"x":-34.5,"y":25.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"5","position":{"x":-34.5,"y":26.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"6","position":{"x":-35.5,"y":25.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"7","position":{"x":-34.5,"y":26.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"15","position":{"x":-34.5,"y":27.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"8","position":{"x":-33.5,"y":24.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"16","position":{"x":-35.5,"y":26.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"9","position":{"x":-34.5,"y":25.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"12","position":{"x":-35.5,"y":26.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"13","position":{"x":-34.5,"y":27.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"10","position":{"x":-33.5,"y":25.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"11","position":{"x":-35.5,"y":25.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"14","position":{"x":-34.5,"y":26.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"19","position":{"x":-33.5,"y":27.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"18","position":{"x":-35.5,"y":27.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"17","position":{"x":-33.5,"y":26.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"23","position":{"x":-36.5,"y":26.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"22","position":{"x":-35.5,"y":25.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"21","position":{"x":-35.5,"y":27.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"20","position":{"x":-36.5,"y":25.459999084472656,"z":-32.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"31","position":{"x":-36.5,"y":26.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"30","position":{"x":-33.5,"y":27.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"29","position":{"x":-33.5,"y":26.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"28","position":{"x":-36.5,"y":25.459999084472656,"z":-31.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"27","position":{"x":-33.5,"y":25.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"26","position":{"x":-33.5,"y":24.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"25","position":{"x":-35.5,"y":26.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"24","position":{"x":-35.5,"y":25.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"33","position":{"x":-35.5,"y":27.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"32","position":{"x":-35.5,"y":26.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"36","position":{"x":-36.5,"y":27.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"34","position":{"x":-36.5,"y":25.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"35","position":{"x":-36.5,"y":26.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"39","position":{"x":-32.5,"y":26.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"38","position":{"x":-32.5,"y":25.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"37","position":{"x":-32.5,"y":24.459999084472656,"z":-30.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"41","position":{"x":-36.5,"y":26.459999084472656,"z":-34.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"40","position":{"x":-36.5,"y":25.459999084472656,"z":-34.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"42","position":{"x":-37.5,"y":26.459999084472656,"z":-33.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"45","position":{"x":-36.5,"y":26.459999084472656,"z":-35.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"44","position":{"x":-36.5,"y":25.459999084472656,"z":-35.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"43","position":{"x":-36.5,"y":24.459999084472656,"z":-35.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"48","position":{"x":-36.5,"y":25.459999084472656,"z":-36.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"47","position":{"x":-37.5,"y":25.459999084472656,"z":-35.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"46","position":{"x":-36.5,"y":24.459999084472656,"z":-36.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"49","position":{"x":-37.5,"y":25.459999084472656,"z":-36.5}}
+SERVER [2026-11-07 12:09:44:548 INFO] Player Spawned: ArenaMeasure xuid: , BOT SPAWN
+COMMAND gamemode creative ArenaMeasure
+SERVER [2026-11-07 12:09:44:670 INFO] Set ArenaMeasure's game mode to Creative
+SERVER [2026-11-07 12:09:44:853 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:44:854 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY {"type":"minecraft:turtle","runtime":"53","position":{"x":5,"y":66,"z":-82}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"52","position":{"x":5,"y":66,"z":-82}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"51","position":{"x":5,"y":66,"z":-82}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"50","position":{"x":5,"y":66,"z":-82}}
+COMMAND tp ArenaMeasure 50 100 50
+SERVER [2026-11-07 12:09:45:600 INFO] Teleported ArenaMeasure to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+SERVER [2026-11-07 12:09:45:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:45:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:09:46:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:46:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:09:47:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:47:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:09:48:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:48:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:09:49:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:49:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:09:50:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:50:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:09:51:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:51:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:09:52:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:52:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND fill 47 99 47 55 99 55 stone
+SERVER [2026-11-07 12:09:53:602 INFO] 81 blocks filled
+SERVER [2026-11-07 12:09:53:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:53:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 47 100 47 55 105 55 air
+SERVER [2026-11-07 12:09:54:600 ERROR] 0 blocks filled
+SERVER [2026-11-07 12:09:54:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:54:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND gamerule dodaylightcycle true
+SERVER [2026-11-07 12:09:55:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:55:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND gamerule randomtickspeed 1
+SERVER [2026-11-07 12:09:56:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:56:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND clear ArenaMeasure
+SERVER [2026-11-07 12:09:57:599 ERROR] Could not clear the inventory of ArenaMeasure, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 12:09:57:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:57:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 12:09:58:599 ERROR] No targets matched selector
+SERVER [2026-11-07 12:09:58:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:58:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND summon pig 53 100 53
+SERVER [2026-11-07 12:09:59:650 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"54","position":{"x":53.5,"y":100,"z":53.5}}
+SERVER [2026-11-07 12:09:59:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:09:59:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+COMMAND tag @e[type=pig,x=53,y=100,z=53,r=5,c=1] add probe
+SERVER [2026-11-07 12:10:00:650 INFO] Added tag 'probe' to Pig
+SERVER [2026-11-07 12:10:00:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:00:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:00:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:00:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.51582336425781,"y":100,"z":54.515926361083984},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time set 1000
+SERVER [2026-11-07 12:10:01:649 INFO] Set the time to 1000
+SERVER [2026-11-07 12:10:01:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:01:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:01:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:01:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":55.18390655517578,"y":100,"z":55.18394088745117},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS TIME BASELINE
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:02:650 INFO] Daytime is 1020
+SERVER [2026-11-07 12:10:02:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:02:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:02:851 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:02:851 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":55.18397903442383,"y":100,"z":55.18401336669922},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:03:851 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:03:851 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:03:851 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:03:851 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":55.18397903442383,"y":100,"z":55.18401336669922},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:04:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:04:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:04:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:04:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":55.1845703125,"y":100,"z":55.184173583984375},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:05:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:05:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:05:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:05:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.61089324951172,"y":100,"z":53.98143005371094},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:06:599 INFO] Daytime is 1099
+SERVER [2026-11-07 12:10:06:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:06:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:06:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:06:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND replaceitem entity ArenaMeasure slot.weapon.mainhand 0 effect:time_sword 1
+SERVER [2026-11-07 12:10:07:599 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaMeasure with 1 * item.effect:time_sword
+BOT HELD CONTENT {"network_id":293,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 12:10:07:867 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:07:867 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:07:867 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:07:867 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+SERVER [2026-11-07 12:10:08:864 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:08:864 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:08:864 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:08:864 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+SERVER [2026-11-07 12:10:09:867 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:09:868 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:09:868 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:09:868 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:10:10:871 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:10:871 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:10:871 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:10:871 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+COMMAND testfor @a[name=ArenaMeasure,family=time_sword]
+SERVER [2026-11-07 12:10:11:668 INFO] Found ArenaMeasure
+SERVER [2026-11-07 12:10:11:869 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:11:869 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:11:869 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:11:869 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 12:10:12:667 INFO] randomtickspeed = 300
+SERVER [2026-11-07 12:10:12:871 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:12:871 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:12:871 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:12:871 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+HARNESS TIME ACTIVE
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:13:669 INFO] Daytime is 4870
+SERVER [2026-11-07 12:10:13:864 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:13:864 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:13:864 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:13:864 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:10:14:867 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:14:867 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:14:867 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:14:867 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+SERVER [2026-11-07 12:10:15:869 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:15:870 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:15:870 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:15:870 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":54.60057067871094,"y":100,"z":53.93769454956055},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+SERVER [2026-11-07 12:10:16:864 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:16:864 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:16:864 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:16:864 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.47590637207031,"y":98.85488891601562,"z":56.236289978027344},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:17:619 INFO] Daytime is 7319
+SERVER [2026-11-07 12:10:17:868 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:17:868 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:17:868 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:17:868 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.44728088378906,"y":78.16650390625,"z":56.24920654296875},"current":1.0499999523162842,"base":0.25,"effect":{"amplifier":15,"duration":20}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaMeasure slot.weapon.mainhand 0 air
+SERVER [2026-11-07 12:10:18:614 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaMeasure with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 12:10:18:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:18:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:18:849 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:18:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.44344711303711,"y":53.6851921081543,"z":56.250938415527344},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:19:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:19:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:19:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:19:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":53.73737335205078,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:20:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:20:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:20:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:20:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":55.254310607910156,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:21:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:21:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:21:849 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:21:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":56.78782653808594,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS TIME END
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 12:10:22:601 INFO] randomtickspeed = 1
+SERVER [2026-11-07 12:10:22:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:22:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:22:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:22:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":58.278560638427734,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:23:649 INFO] Daytime is 8040
+SERVER [2026-11-07 12:10:23:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:23:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:23:849 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:23:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":59.488399505615234,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:24:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:24:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:24:849 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:24:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":60.472023010253906,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:25:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:25:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:25:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:25:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":61.55628204345703,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:10:26:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:26:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:26:851 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:26:851 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":62.548095703125,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:27:649 INFO] Daytime is 8120
+SERVER [2026-11-07 12:10:27:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:27:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:27:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:27:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":62.59052658081055,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND gamerule dodaylightcycle false
+SERVER [2026-11-07 12:10:28:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:28:849 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:28:849 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:28:849 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.4433708190918,"y":62.31989288330078,"z":56.250972747802734},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time set 1000
+SERVER [2026-11-07 12:10:29:650 INFO] Set the time to 1000
+SERVER [2026-11-07 12:10:29:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:29:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:29:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:29:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.399864196777344,"y":62.79206085205078,"z":56.307979583740234},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaMeasure slot.weapon.mainhand 0 effect:clock_sword 1
+SERVER [2026-11-07 12:10:30:650 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaMeasure with 1 * item.effect:clock_sword
+BOT HELD CONTENT {"network_id":264,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 12:10:30:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:30:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:30:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:30:851 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.09513473510742,"y":62.24516677856445,"z":56.71156311035156},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:31:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:31:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:31:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:31:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.78824996948242,"y":62.413658142089844,"z":57.1453857421875},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:32:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:32:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:32:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:32:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.6632080078125,"y":62.59547424316406,"z":57.64558792114258},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:33:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:33:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:33:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:33:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.579612731933594,"y":62.24306869506836,"z":58.18398666381836},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaMeasure,family=clock_sword]
+SERVER [2026-11-07 12:10:34:599 INFO] Found ArenaMeasure
+SERVER [2026-11-07 12:10:34:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:34:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:34:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:34:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.54610061645508,"y":62.40294647216797,"z":58.71326446533203},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:35:600 INFO] Daytime is 1000
+SERVER [2026-11-07 12:10:35:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:35:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:35:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:35:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.521583557128906,"y":62.56147384643555,"z":59.25245666503906},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+HARNESS CLOCK USE
+BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":264}
+BOT USE SENT
+SERVER [2026-11-07 12:10:36:856 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:36:856 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:36:856 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:36:856 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.51164627075195,"y":62.484439849853516,"z":59.80230712890625},"current":0.800000011920929,"base":0.25,"effect":{"amplifier":10,"duration":20}}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:37:654 INFO] Daytime is 1210
+SERVER [2026-11-07 12:10:37:855 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:37:855 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:37:855 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:37:855 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.87078094482422,"y":62.66307830810547,"z":61.03678894042969},"current":0.800000011920929,"base":0.25,"effect":{"amplifier":10,"duration":20}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 12:10:38:655 INFO] randomtickspeed = 100
+SERVER [2026-11-07 12:10:38:854 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:38:854 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:38:854 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:38:855 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.48319625854492,"y":62.32298278808594,"z":62.25703048706055},"current":0.800000011920929,"base":0.25,"effect":{"amplifier":10,"duration":20}}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:39:656 INFO] Daytime is 1610
+SERVER [2026-11-07 12:10:39:854 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:39:855 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:39:855 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:39:855 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47151184082031,"y":62.75017166137695,"z":62.337303161621094},"current":0.800000011920929,"base":0.25,"effect":{"amplifier":10,"duration":20}}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:40:655 INFO] Daytime is 1810
+SERVER [2026-11-07 12:10:40:855 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:40:855 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:40:855 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":1,"base":1,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:40:855 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.41167449951172,"z":62.33839416503906},"current":0.800000011920929,"base":0.25,"effect":{"amplifier":10,"duration":20}}
+SERVER 
+SERVER [2026-11-07 12:10:41:849 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:41:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:41:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:41:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.49562454223633,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:10:42:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:42:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:42:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:42:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.06512451171875,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:43:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:43:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:43:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:43:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.36992645263672,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:44:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:44:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:44:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:44:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.5128059387207,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:45:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:45:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:45:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:45:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.66392517089844,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS CLOCK END
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 12:10:46:600 INFO] randomtickspeed = 1
+SERVER [2026-11-07 12:10:46:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:46:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:46:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:46:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.54829788208008,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:47:599 INFO] Daytime is 2010
+SERVER [2026-11-07 12:10:47:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:47:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:47:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:47:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.532562255859375,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:48:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:48:851 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:48:851 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:48:851 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.80622863769531,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:49:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:49:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:49:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:49:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.840049743652344,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time query daytime
+SERVER [2026-11-07 12:10:50:649 INFO] Daytime is 2010
+SERVER [2026-11-07 12:10:50:850 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:10:50:850 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaMeasure","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:10:50:850 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaMeasure","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:50:850 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.55997085571289,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:10:51:649 INFO] Server stop requested.
+SERVER [2026-11-07 12:10:51:651 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

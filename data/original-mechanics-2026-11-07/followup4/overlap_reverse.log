@@ -1,0 +1,102 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:10:06:121 INFO] Starting Server
+SERVER [2026-11-07 16:10:06:121 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:10:06:121 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:10:06:121 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:10:06:121 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:10:06:121 INFO] Configuration: Publish
+SERVER [2026-11-07 16:10:06:121 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 16:10:06:122 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:10:06:122 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:10:06:122 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:10:06:123 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:10:06:449 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:10:06:449 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 16:10:07:876 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:10:07:876 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:10:07:876 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:10:07:876 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:10:07:066 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:10:07:066 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:10:07:121 INFO] Server started.
+SERVER [2026-11-07 16:10:07:121 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:10:07:121 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:10:07:121 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:10:07:121 INFO]
+SERVER [2026-11-07 16:10:07:121 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:10:07:121 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:10:07:121 INFO] ======================================================
+SERVER [2026-11-07 16:10:07:195 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 16:10:09:495 INFO] Player connected: ArenaReverseTime, xuid:
+SERVER [2026-11-07 16:10:09:526 INFO] Player connected: ArenaReverseClock, xuid:
+ArenaReverseTime BOT HELD CONTENT {"network_id":0}
+ArenaReverseClock BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 16:10:16:689 INFO] Player Spawned: ArenaReverseClock xuid: , pfid: f42c38fee8d1361a
+SERVER [2026-11-07 16:10:16:689 INFO] Player Spawned: ArenaReverseTime xuid: , pfid: 1e46f8450ffc3a11
+ArenaReverseTime BOT SPAWN
+ArenaReverseClock BOT SPAWN
+COMMAND gamemode creative ArenaReverseClock
+SERVER [2026-11-07 16:10:16:794 INFO] Set ArenaReverseClock's game mode to Creative
+COMMAND clear ArenaReverseClock
+SERVER [2026-11-07 16:10:17:443 ERROR] Could not clear the inventory of ArenaReverseClock, no items to remove
+ArenaReverseClock BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaReverseClock 50 100 50
+SERVER [2026-11-07 16:10:18:192 INFO] Teleported ArenaReverseClock to 50.50, 100.00, 50.50
+ArenaReverseClock BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamemode creative ArenaReverseTime
+SERVER [2026-11-07 16:10:20:192 INFO] Set ArenaReverseTime's game mode to Creative
+COMMAND clear ArenaReverseTime
+SERVER [2026-11-07 16:10:21:892 ERROR] Could not clear the inventory of ArenaReverseTime, no items to remove
+ArenaReverseTime BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaReverseTime 50 100 50
+SERVER [2026-11-07 16:10:21:597 INFO] Teleported ArenaReverseTime to 50.50, 100.00, 50.50
+ArenaReverseTime BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamerule dodaylightcycle false
+COMMAND gamerule randomtickspeed 7
+COMMAND time set 1000
+SERVER [2026-11-07 16:10:25:943 INFO] Set the time to 1000
+COMMAND replaceitem entity ArenaReverseClock slot.weapon.mainhand 0 effect:clock_sword 1
+SERVER [2026-11-07 16:10:25:648 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaReverseClock with 1 * item.effect:clock_sword
+ArenaReverseClock BOT HELD CONTENT {"network_id":264,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+MARKER CLOCK FIRST
+ArenaReverseClock BOT USE BEGIN {"pos":{"x":50.5,"y":101.62001037597656,"z":50.5},"network_id":264}
+ArenaReverseClock BOT USE SENT
+COMMAND testfor @a[name=ArenaReverseClock,family=clock_sword_skill]
+SERVER [2026-11-07 16:10:29:258 INFO] Found ArenaReverseClock
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:10:29:453 INFO] randomtickspeed = 100
+COMMAND time query daytime
+SERVER [2026-11-07 16:10:29:658 INFO] Daytime is 1210
+MARKER TIME WHILE CLOCK ACTIVE
+COMMAND replaceitem entity ArenaReverseTime slot.weapon.mainhand 0 effect:time_sword 1
+SERVER [2026-11-07 16:10:30:863 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaReverseTime with 1 * item.effect:time_sword
+ArenaReverseTime BOT HELD CONTENT {"network_id":293,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaReverseTime,family=time_sword]
+SERVER [2026-11-07 16:10:30:531 INFO] Found ArenaReverseTime
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:10:30:689 INFO] randomtickspeed = 300
+COMMAND time query daytime
+SERVER [2026-11-07 16:10:31:935 INFO] Daytime is 2090
+MARKER REMOVE TIME BEFORE CLOCK ENDS
+COMMAND replaceitem entity ArenaReverseTime slot.weapon.mainhand 0 air
+SERVER [2026-11-07 16:10:31:128 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaReverseTime with 1 * Air
+ArenaReverseTime BOT HELD CONTENT {"network_id":0}
+COMMAND testfor @a[name=ArenaReverseClock,family=clock_sword_skill]
+SERVER [2026-11-07 16:10:31:508 INFO] Found ArenaReverseClock
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:10:31:703 INFO] randomtickspeed = 100
+COMMAND time query daytime
+SERVER [2026-11-07 16:10:32:008 INFO] Daytime is 2430
+COMMAND gamerule randomtickspeed
+SERVER [2026-11-07 16:10:37:192 INFO] randomtickspeed = 1
+COMMAND testfor @a[name=ArenaReverseClock,family=clock_sword_skill]
+SERVER [2026-11-07 16:10:38:849 ERROR] No targets matched selector
+SERVER [2026-11-07 16:10:38:542 INFO] Server stop requested.
+SERVER [2026-11-07 16:10:38:571 INFO] Stopping server...
+SERVER Quit correctly
+DONE

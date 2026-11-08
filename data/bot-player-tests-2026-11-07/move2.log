@@ -1,0 +1,47 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:10:30:853 INFO] Starting Server
+SERVER [2026-11-07 08:10:30:853 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:10:30:853 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:10:30:853 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:10:30:853 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:10:30:853 INFO] Configuration: Publish
+SERVER [2026-11-07 08:10:30:853 INFO] Level Name: Bot baseline
+SERVER [2026-11-07 08:10:30:854 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:10:30:854 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:10:30:854 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:10:30:854 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:10:31:206 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_10_31
+SERVER [2026-11-07 08:10:31:206 INFO] Opening level 'worlds/Bot baseline/db'
+SERVER [2026-11-07 08:10:31:759 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:10:31:759 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:10:31:765 INFO] Server started.
+SERVER [2026-11-07 08:10:31:766 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:10:31:766 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:10:31:766 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:10:31:766 INFO] 
+SERVER [2026-11-07 08:10:31:766 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:10:31:766 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:10:31:766 INFO] ======================================================
+SERVER [2026-11-07 08:10:33:981 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","position":{"x":0.5,"y":32769.62109375,"z":0.5}}
+BOT SPAWN
+COMMAND fill 8 99 8 20 99 12 stone
+SERVER [2026-11-07 08:10:38:644 ERROR] 0 blocks filled
+COMMAND fill 8 100 8 20 103 12 air
+SERVER [2026-11-07 08:10:39:567 ERROR] 0 blocks filled
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:10:40:567 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+BOT TELEPORT {"x":10.5,"y":101.62001037597656,"z":10.5}
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=1]
+SERVER [2026-11-07 08:10:42:567 ERROR] No targets matched selector
+HARNESS instruct bot WALK
+BOT WALK BEGIN position={"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT WALK SENT
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=2]
+SERVER [2026-11-07 08:10:48:617 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBot,x=10,y=100,z=10,r=1]
+SERVER [2026-11-07 08:10:49:617 INFO] Found ArenaBot
+SERVER [2026-11-07 08:10:50:617 INFO] Server stop requested.
+SERVER [2026-11-07 08:10:50:635 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= True server_exit= 0

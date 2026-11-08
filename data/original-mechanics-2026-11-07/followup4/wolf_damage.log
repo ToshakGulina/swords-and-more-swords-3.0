@@ -1,0 +1,95 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:13:25:799 INFO] Starting Server
+SERVER [2026-11-07 16:13:25:799 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:13:25:799 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:13:25:799 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:13:25:799 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:13:25:799 INFO] Configuration: Publish
+SERVER [2026-11-07 16:13:25:800 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 16:13:25:800 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:13:25:800 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:13:25:800 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:13:25:801 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:13:26:088 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:13:26:088 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 16:13:26:425 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:13:26:425 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:13:26:425 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:13:26:425 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:13:26:610 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:13:26:610 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:13:26:669 INFO] Server started.
+SERVER [2026-11-07 16:13:26:670 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:13:26:670 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:13:26:670 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:13:26:670 INFO]
+SERVER [2026-11-07 16:13:26:670 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:13:26:670 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:13:26:670 INFO] ======================================================
+SERVER [2026-11-07 16:13:26:761 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 16:13:29:889 INFO] Player connected: ArenaWolfProbe, xuid:
+SERVER [2026-11-07 16:13:29:173 INFO] Player connected: ArenaWolfObserver, xuid:
+ArenaWolfProbe BOT HELD CONTENT {"network_id":0}
+ArenaWolfObserver BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 16:13:40:343 INFO] Player Spawned: ArenaWolfObserver xuid: , pfid: e7306b929c823fde
+SERVER [2026-11-07 16:13:40:344 INFO] Player Spawned: ArenaWolfProbe xuid: , pfid: 05be3d9179b232b3
+ArenaWolfObserver BOT SPAWN
+ArenaWolfProbe BOT SPAWN
+COMMAND gamemode creative ArenaWolfProbe
+SERVER [2026-11-07 16:13:40:440 INFO] Set ArenaWolfProbe's game mode to Creative
+COMMAND clear ArenaWolfProbe
+SERVER [2026-11-07 16:13:41:096 ERROR] Could not clear the inventory of ArenaWolfProbe, no items to remove
+ArenaWolfProbe BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaWolfProbe 50 100 50
+SERVER [2026-11-07 16:13:42:846 INFO] Teleported ArenaWolfProbe to 50.50, 100.00, 50.50
+ArenaWolfProbe BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamemode creative ArenaWolfObserver
+SERVER [2026-11-07 16:13:44:847 INFO] Set ArenaWolfObserver's game mode to Creative
+COMMAND clear ArenaWolfObserver
+SERVER [2026-11-07 16:13:44:547 ERROR] Could not clear the inventory of ArenaWolfObserver, no items to remove
+ArenaWolfObserver BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaWolfObserver 50 100 50
+SERVER [2026-11-07 16:13:45:247 INFO] Teleported ArenaWolfObserver to 50.50, 100.00, 50.50
+ArenaWolfObserver BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND fill 47 99 47 55 99 55 stone
+SERVER [2026-11-07 16:13:47:246 INFO] 32 blocks filled
+COMMAND fill 47 100 47 55 105 55 air
+SERVER [2026-11-07 16:13:48:946 INFO] 42 blocks filled
+COMMAND gamerule dodaylightcycle false
+COMMAND time set 18000
+SERVER [2026-11-07 16:13:49:297 INFO] Set the time to 18000
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 16:13:50:996 ERROR] No targets matched selector
+COMMAND summon pig 51 100 50
+SERVER [2026-11-07 16:13:50:697 INFO] Object successfully summoned
+COMMAND tag @e[type=pig,x=51,y=100,z=50,r=5,c=1] add probe
+SERVER [2026-11-07 16:13:51:398 INFO] Added tag 'probe' to Pig
+SERVER [2026-11-07 16:13:51:798 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+COMMAND replaceitem entity ArenaWolfProbe slot.weapon.mainhand 0 effect:wolf_sword 1
+SERVER [2026-11-07 16:13:52:096 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWolfProbe with 1 * item.effect:wolf_sword
+ArenaWolfProbe BOT HELD CONTENT {"network_id":299,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 16:13:52:797 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 16:13:53:798 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+COMMAND testfor @a[name=ArenaWolfProbe,family=complete_wolf_transformation]
+SERVER [2026-11-07 16:13:54:097 INFO] Found ArenaWolfProbe
+COMMAND event entity ArenaWolfProbe wolf_transformation
+SERVER [2026-11-07 16:13:54:397 INFO] wolf_transformation successfully executed on: minecraft:player
+COMMAND testfor @a[name=ArenaWolfProbe,family=complete_wolf_transformation]
+SERVER [2026-11-07 16:13:54:799 INFO] Found ArenaWolfProbe
+SERVER [2026-11-07 16:13:54:800 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+MARKER WOLF ATTACK
+COMMAND testfor @e[type=pig,tag=probe]
+SERVER [2026-11-07 16:13:58:247 ERROR] No targets matched selector
+SERVER [2026-11-07 16:13:59:949 INFO] Server stop requested.
+SERVER [2026-11-07 16:13:59:952 INFO] Stopping server...
+SERVER Quit correctly
+DONE

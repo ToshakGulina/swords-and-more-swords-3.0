@@ -1,0 +1,173 @@
+3682.482 SERVER NO LOG FILE! - setting up server logging...
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Starting Server
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Version: 1.20.50.03
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Build ID: 19782165
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Branch: r/20_u5
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+3682.482 SERVER [2026-11-08 11:05:32:481 INFO] Configuration: Publish
+3682.482 SERVER [2026-11-08 11:05:32:482 INFO] Level Name: ArenaSlime
+3682.483 SERVER [2026-11-08 11:05:32:482 INFO] No CDN config file found for dedicated server
+3682.483 SERVER [2026-11-08 11:05:32:482 INFO] Game mode: 1 Creative
+3682.483 SERVER [2026-11-08 11:05:32:482 INFO] Difficulty: 2 NORMAL
+3682.484 SERVER [2026-11-08 11:05:32:483 INFO] Content logging to console is enabled.
+3682.840 SERVER [2026-11-08 11:05:32:840 INFO] Experiment(s) active: ddi_, ucft, gtst
+3682.840 SERVER [2026-11-08 11:05:32:840 INFO] Opening level 'worlds/ArenaSlime/db'
+3683.230 SERVER [2026-11-08 11:05:33:229 ERROR] [FeatureRegistry] ArenaSlime | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+3683.230 SERVER 
+3683.230 SERVER [2026-11-08 11:05:33:229 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:quartz_diamond_ore'
+3683.230 SERVER 
+3683.230 SERVER [2026-11-08 11:05:33:229 ERROR] [FeatureRegistry] ArenaSlime | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+3683.230 SERVER 
+3683.230 SERVER [2026-11-08 11:05:33:229 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:silver_ore'
+3683.230 SERVER 
+3683.500 SERVER [2026-11-08 11:05:33:492 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+3683.500 SERVER [2026-11-08 11:05:33:492 INFO] IPv6 supported, port: 19133: Used for gameplay
+3683.576 SERVER [2026-11-08 11:05:33:575 INFO] Server started.
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] ================ TELEMETRY MESSAGE ===================
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] Server Telemetry is currently not enabled.
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] Enabling this telemetry helps us improve the game.
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO]
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] to the server.properties file in the handheld/src-server directory
+3683.580 SERVER [2026-11-08 11:05:33:580 INFO] ======================================================
+3684.329 SERVER [2026-11-08 11:05:34:328 INFO] Player connected: ArenaSpecSurvival, xuid:
+3689.534 SERVER [2026-11-08 11:05:39:533 INFO] Player Spawned: ArenaSpecSurvival xuid: ,
+3689.553 BOT BOT SPAWN 1
+COMMAND gamerule doMobSpawning false
+COMMAND gamerule mobgriefing false
+COMMAND gamemode survival ArenaSpecSurvival
+3690.585 SERVER [2026-11-08 11:05:40:584 INFO] Set ArenaSpecSurvival's game mode to Survival
+COMMAND effect ArenaSpecSurvival resistance 255 255 true
+3691.086 SERVER [2026-11-08 11:05:41:085 INFO] Gave Resistance * 255 to ArenaSpecSurvival for 255 seconds
+COMMAND tp ArenaSpecSurvival 50 110 50
+3691.585 SERVER [2026-11-08 11:05:41:584 INFO] Teleported ArenaSpecSurvival to 50.50, 110.00, 50.50
+COMMAND fill 40 99 40 60 99 60 stone
+3694.636 SERVER [2026-11-08 11:05:44:635 INFO] 169 blocks filled
+COMMAND fill 40 100 40 60 110 60 air
+3695.137 SERVER [2026-11-08 11:05:45:137 ERROR] 0 blocks filled
+COMMAND tp ArenaSpecSurvival 50 100 50
+3695.638 SERVER [2026-11-08 11:05:45:638 INFO] Teleported ArenaSpecSurvival to 50.50, 100.00, 50.50
+COMMAND clear ArenaSpecSurvival
+3697.635 SERVER [2026-11-08 11:05:47:635 ERROR] Could not clear the inventory of ArenaSpecSurvival, no items to remove
+COMMAND execute as ArenaSpecSurvival at @s run kill @e[type=ender_crystal,r=32]
+3698.135 SERVER [2026-11-08 11:05:48:135 ERROR] No targets matched selector
+3698.135 SERVER Failed to execute 'kill' as ArenaSpecSurvival
+COMMAND scriptevent arena:spectral_probe start
+3698.636 SERVER [2026-11-08 11:05:48:635 INFO] Script event arena:spectral_probe has been sent
+3698.636 SERVER [2026-11-08 11:05:48:636 WARN] [Scripting] SPEC_SAMPLE {"label":"start","tick":10979,"delta":0,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3698.636 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run event entity @s default_player
+3699.136 SERVER [2026-11-08 11:05:49:135 INFO] default_player successfully executed on: minecraft:player
+3699.637 SERVER [2026-11-08 11:05:49:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":10999,"delta":20,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3699.638 SERVER 
+3700.636 SERVER [2026-11-08 11:05:50:635 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11019,"delta":40,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3700.636 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run testfor @s[family=default_player]
+3701.135 SERVER [2026-11-08 11:05:51:135 INFO] Found ArenaSpecSurvival
+3701.636 SERVER [2026-11-08 11:05:51:635 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11039,"delta":60,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3701.636 SERVER 
+COMMAND replaceitem entity ArenaSpecSurvival slot.weapon.mainhand 0 effect:spectral_sword 1
+3702.135 SERVER [2026-11-08 11:05:52:135 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpecSurvival with 1 * item.effect:spectral_sword
+3702.638 SERVER [2026-11-08 11:05:52:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11059,"delta":80,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3702.639 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run event entity @s minecraft:spectral_sword
+3703.138 SERVER [2026-11-08 11:05:53:137 INFO] minecraft:spectral_sword successfully executed on: minecraft:player
+3703.637 SERVER [2026-11-08 11:05:53:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11079,"delta":100,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3703.637 SERVER 
+3704.638 SERVER [2026-11-08 11:05:54:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11099,"delta":120,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3704.638 SERVER 
+3705.637 SERVER [2026-11-08 11:05:55:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11119,"delta":140,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3705.637 SERVER 
+3706.639 SERVER [2026-11-08 11:05:56:639 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11139,"delta":160,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3706.639 SERVER 
+3707.638 SERVER [2026-11-08 11:05:57:638 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11159,"delta":180,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3707.638 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run testfor @s[family=spectral_sword]
+3708.092 SERVER [2026-11-08 11:05:58:091 ERROR] No targets matched selector
+3708.092 SERVER Failed to execute 'testfor' as ArenaSpecSurvival
+3708.637 SERVER [2026-11-08 11:05:58:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11179,"delta":200,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3708.638 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run testfor @e[type=ender_crystal,family=spectral_sword,r=5]
+3709.092 SERVER [2026-11-08 11:05:59:091 ERROR] No targets matched selector
+3709.092 SERVER Failed to execute 'testfor' as ArenaSpecSurvival
+3709.638 SERVER [2026-11-08 11:05:59:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11199,"delta":220,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3709.638 SERVER 
+COMMAND scriptevent arena:spectral_probe armed
+3710.092 SERVER [2026-11-08 11:06:00:091 INFO] Script event arena:spectral_probe has been sent
+3710.093 SERVER [2026-11-08 11:06:00:092 WARN] [Scripting] SPEC_SAMPLE {"label":"armed","tick":11208,"delta":229,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3710.093 SERVER 
+3710.637 SERVER [2026-11-08 11:06:00:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11219,"delta":240,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3710.637 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run event entity @e[type=ender_crystal,family=spectral_sword,c=1,r=5] minecraft:crystal_explode
+3711.096 SERVER [2026-11-08 11:06:01:096 ERROR] No targets matched selector
+3711.096 SERVER Failed to execute 'event' as ArenaSpecSurvival
+3711.638 SERVER [2026-11-08 11:06:01:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11239,"delta":260,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3711.638 SERVER 
+COMMAND scriptevent arena:spectral_probe exploded
+3712.092 SERVER [2026-11-08 11:06:02:091 INFO] Script event arena:spectral_probe has been sent
+3712.093 SERVER [2026-11-08 11:06:02:092 WARN] [Scripting] SPEC_SAMPLE {"label":"exploded","tick":11248,"delta":269,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3712.093 SERVER 
+3712.638 SERVER [2026-11-08 11:06:02:637 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11259,"delta":280,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3712.638 SERVER 
+3713.639 SERVER [2026-11-08 11:06:03:638 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11279,"delta":300,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3713.639 SERVER 
+3714.643 SERVER [2026-11-08 11:06:04:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11299,"delta":320,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3714.643 SERVER 
+3715.643 SERVER [2026-11-08 11:06:05:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11319,"delta":340,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3715.643 SERVER 
+3716.643 SERVER [2026-11-08 11:06:06:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11339,"delta":360,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3716.643 SERVER 
+3717.645 SERVER [2026-11-08 11:06:07:645 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11359,"delta":380,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3717.646 SERVER 
+3718.643 SERVER [2026-11-08 11:06:08:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11379,"delta":400,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3718.643 SERVER 
+3719.643 SERVER [2026-11-08 11:06:09:643 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11399,"delta":420,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3719.644 SERVER 
+3720.642 SERVER [2026-11-08 11:06:10:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11419,"delta":440,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3720.642 SERVER 
+3721.642 SERVER [2026-11-08 11:06:11:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11439,"delta":460,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3721.642 SERVER 
+3722.643 SERVER [2026-11-08 11:06:12:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11459,"delta":480,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3722.643 SERVER 
+3723.642 SERVER [2026-11-08 11:06:13:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11479,"delta":500,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3723.642 SERVER 
+COMMAND replaceitem entity ArenaSpecSurvival slot.weapon.mainhand 0 air
+3724.145 SERVER [2026-11-08 11:06:14:145 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpecSurvival with 1 * Air
+3724.640 SERVER [2026-11-08 11:06:14:640 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11499,"delta":520,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3724.641 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run event entity @s stop_spectral_sword_event
+3725.140 SERVER [2026-11-08 11:06:15:139 INFO] stop_spectral_sword_event successfully executed on: minecraft:player
+3725.640 SERVER [2026-11-08 11:06:15:639 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11519,"delta":540,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3725.640 SERVER 
+3726.640 SERVER [2026-11-08 11:06:16:639 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11539,"delta":560,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":null,"crystals":[]}
+3726.640 SERVER 
+COMMAND replaceitem entity ArenaSpecSurvival slot.weapon.mainhand 0 effect:spectral_sword 1
+3727.142 SERVER [2026-11-08 11:06:17:141 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpecSurvival with 1 * item.effect:spectral_sword
+3727.642 SERVER [2026-11-08 11:06:17:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11559,"delta":580,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3727.642 SERVER 
+COMMAND execute as ArenaSpecSurvival at @s run event entity @s minecraft:spectral_sword
+3728.144 SERVER [2026-11-08 11:06:18:143 INFO] minecraft:spectral_sword successfully executed on: minecraft:player
+3728.642 SERVER [2026-11-08 11:06:18:641 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11579,"delta":600,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3728.642 SERVER 
+3729.643 SERVER [2026-11-08 11:06:19:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11599,"delta":620,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3729.643 SERVER 
+3730.642 SERVER [2026-11-08 11:06:20:641 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11619,"delta":640,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3730.642 SERVER 
+3731.642 SERVER [2026-11-08 11:06:21:641 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11639,"delta":660,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3731.642 SERVER 
+3732.644 SERVER [2026-11-08 11:06:22:643 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11659,"delta":680,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3732.644 SERVER 
+COMMAND scriptevent arena:spectral_probe reactivated
+3733.092 SERVER [2026-11-08 11:06:23:091 INFO] Script event arena:spectral_probe has been sent
+3733.092 SERVER [2026-11-08 11:06:23:092 WARN] [Scripting] SPEC_SAMPLE {"label":"reactivated","tick":11668,"delta":689,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3733.092 SERVER 
+3733.642 SERVER [2026-11-08 11:06:23:642 WARN] [Scripting] SPEC_SAMPLE {"label":"periodic","tick":11679,"delta":700,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3733.643 SERVER 
+COMMAND scriptevent arena:spectral_probe end
+3734.092 SERVER [2026-11-08 11:06:24:091 INFO] Script event arena:spectral_probe has been sent
+3734.092 SERVER [2026-11-08 11:06:24:092 WARN] [Scripting] SPEC_SAMPLE {"label":"end","tick":11688,"delta":709,"dimension":"minecraft:overworld","player":{"x":50.5,"y":100,"z":50.5},"item":"effect:spectral_sword","crystals":[]}
+3734.092 SERVER 
+3735.142 SERVER [2026-11-08 11:06:25:142 INFO] Server stop requested.
+3735.170 SERVER [2026-11-08 11:06:25:169 INFO] Stopping server...
+3735.506 SERVER Quit correctly
+DONE

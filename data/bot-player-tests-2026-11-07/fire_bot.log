@@ -1,0 +1,65 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:14:03:072 INFO] Starting Server
+SERVER [2026-11-07 08:14:03:072 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:14:03:072 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:14:03:072 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:14:03:072 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:14:03:072 INFO] Configuration: Publish
+SERVER [2026-11-07 08:14:03:072 INFO] Level Name: Bot addon
+SERVER [2026-11-07 08:14:03:073 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:14:03:073 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:14:03:073 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:14:03:074 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:14:04:448 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_14_04
+SERVER [2026-11-07 08:14:04:449 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:14:04:449 INFO] Opening level 'worlds/Bot addon/db'
+SERVER [2026-11-07 08:14:04:816 ERROR] [FeatureRegistry] Bot addon | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:14:04:817 ERROR] [FeatureRegistry] Bot addon | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:14:04:817 ERROR] [FeatureRegistry] Bot addon | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:14:04:817 ERROR] [FeatureRegistry] Bot addon | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:14:04:036 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:14:04:036 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:14:04:121 INFO] Server started.
+SERVER [2026-11-07 08:14:04:121 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:14:04:121 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:14:04:121 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:14:04:121 INFO] 
+SERVER [2026-11-07 08:14:04:121 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:14:04:121 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:14:04:121 INFO] ======================================================
+SERVER [2026-11-07 08:14:07:206 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","position":{"x":0.5,"y":32769.62109375,"z":0.5}}
+BOT SPAWN
+COMMAND weather clear 6000
+SERVER [2026-11-07 08:14:11:920 INFO] Changing to clear weather
+COMMAND tp ArenaBot 37 260 17
+SERVER [2026-11-07 08:14:12:346 INFO] Teleported ArenaBot to 37.50, 260.00, 17.50
+BOT TELEPORT {"x":37.5,"y":261.6199951171875,"z":17.5}
+COMMAND fill 33 259 13 43 259 21 stone
+SERVER [2026-11-07 08:14:15:393 INFO] 99 blocks filled
+COMMAND fill 33 260 13 43 319 21 air
+SERVER [2026-11-07 08:14:15:895 ERROR] 0 blocks filled
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:14:16:392 INFO] Killed Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds, Seeds
+COMMAND structure load fire_sword 35 260 17
+SERVER [2026-11-07 08:14:16:891 INFO] Loaded a structure of name fire_sword
+COMMAND testfor @e[type=item,tag=fire_sword]
+SERVER [2026-11-07 08:14:17:890 INFO] Found item.effect:fire_sword
+COMMAND testfor @e[type=item,tag=fire_sword]
+SERVER [2026-11-07 08:14:20:841 INFO] Found item.effect:fire_sword
+COMMAND weather rain 60
+SERVER [2026-11-07 08:14:21:340 INFO] Changing to rainy weather
+COMMAND testfor @e[type=item]
+SERVER [2026-11-07 08:14:46:341 INFO] Found Seeds, Seeds, item.effect:fire_sword
+COMMAND testfor @e[type=item,tag=fire_sword]
+SERVER [2026-11-07 08:14:46:840 INFO] Found item.effect:fire_sword
+COMMAND weather clear 6000
+SERVER [2026-11-07 08:14:47:340 INFO] Changing to clear weather
+SERVER [2026-11-07 08:14:47:840 INFO] Server stop requested.
+SERVER [2026-11-07 08:14:47:882 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= True server_exit= 0

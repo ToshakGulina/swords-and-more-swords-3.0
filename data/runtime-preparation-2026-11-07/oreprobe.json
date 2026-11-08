@@ -1,0 +1,1 @@
+[["tickingarea add circle 1008 80 1008 2 oregen true", 20], ["kill @e[type=item]", 0.5], ["setblock 1008 120 1008 arena_probe:test_ore", 0.5], ["testforblock 1008 120 1008 arena_probe:test_ore", 0.5], ["setblock 1008 120 1008 air destroy", 0.7], ["testfor @e[type=item]", 0.5], ["tickingarea remove oregen", 0.3]]

@@ -1,0 +1,348 @@
+787.481 SERVER NO LOG FILE! - setting up server logging...
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Starting Server
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Version: 1.20.50.03
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Build ID: 19782165
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Branch: r/20_u5
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Configuration: Publish
+787.481 SERVER [2026-11-07 18:19:11:481 INFO] Level Name: Bedrock level
+787.482 SERVER [2026-11-07 18:19:11:482 INFO] No CDN config file found for dedicated server
+787.482 SERVER [2026-11-07 18:19:11:482 INFO] Game mode: 0 Survival
+787.482 SERVER [2026-11-07 18:19:11:482 INFO] Difficulty: 1 EASY
+787.483 SERVER [2026-11-07 18:19:11:482 INFO] Content logging to console is enabled.
+787.828 SERVER [2026-11-07 18:19:11:828 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+787.828 SERVER [2026-11-07 18:19:11:828 INFO] Opening level 'worlds/Bedrock level/db'
+788.173 SERVER [2026-11-07 18:19:11:172 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+788.173 SERVER 
+788.173 SERVER [2026-11-07 18:19:11:172 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+788.173 SERVER 
+788.173 SERVER [2026-11-07 18:19:11:172 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+788.173 SERVER 
+788.173 SERVER [2026-11-07 18:19:11:172 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+788.173 SERVER 
+788.383 SERVER [2026-11-07 18:19:12:382 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+788.383 SERVER [2026-11-07 18:19:12:382 INFO] IPv6 supported, port: 19133: Used for gameplay
+788.459 SERVER [2026-11-07 18:19:12:459 INFO] Server started.
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] ================ TELEMETRY MESSAGE ===================
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] Server Telemetry is currently not enabled.
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] Enabling this telemetry helps us improve the game.
+788.460 SERVER [2026-11-07 18:19:12:459 INFO]
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] to the server.properties file in the handheld/src-server directory
+788.460 SERVER [2026-11-07 18:19:12:459 INFO] ======================================================
+789.109 SERVER [2026-11-07 18:19:12:109 INFO] Player connected: ArenaCentella, xuid:
+789.512 BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+789.737 BOT BOT HELD CONTENT {"network_id":0}
+789.851 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+793.300 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+793.452 BOT BOT ENTITY {"type":"minecraft:bee","runtime":"3","position":{"x":-31.407695770263672,"y":64.19451141357422,"z":57.45623016357422}}
+793.453 BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"2","position":{"x":-35.5,"y":33,"z":41.94163513183594}}
+794.152 BOT BOT ENTITY {"type":"minecraft:bee","runtime":"4","position":{"x":-52.28233337402344,"y":63.500003814697266,"z":71.32707214355469}}
+797.299 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+799.538 SERVER [2026-11-07 18:19:23:537 INFO] Player Spawned: ArenaCentella xuid: ,
+799.549 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaCentella
+799.681 SERVER [2026-11-07 18:19:23:680 INFO] Set ArenaCentella's game mode to Creative
+COMMAND tp ArenaCentella 50 100 50
+800.390 SERVER [2026-11-07 18:19:24:390 INFO] Teleported ArenaCentella to 50.50, 100.00, 50.50
+800.397 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+800.500 BOT BOT ENTITY {"type":"minecraft:zombie_pigman","runtime":"6","position":{"x":57.49643325805664,"y":100,"z":51.04245376586914}}
+801.304 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamerule doMobSpawning false
+COMMAND weather clear 200
+805.190 SERVER [2026-11-07 18:19:28:189 INFO] Changing to clear weather
+805.300 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 45 99 45 60 99 55 stone
+805.991 SERVER [2026-11-07 18:19:29:991 ERROR] 0 blocks filled
+COMMAND fill 45 100 45 60 105 55 air
+806.790 SERVER [2026-11-07 18:19:30:789 ERROR] 0 blocks filled
+MARK TRIAL 0
+COMMAND kill @e[type=entity:centella]
+807.590 SERVER [2026-11-07 18:19:31:589 ERROR] No targets matched selector
+COMMAND summon entity:centella 55 100 50
+808.590 SERVER [2026-11-07 18:19:32:589 INFO] Object successfully summoned
+808.645 BOT BOT ENTITY {"type":"entity:centella","runtime":"7","position":{"x":55.5,"y":100,"z":50.5}}
+808.646 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"add","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.698 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.747 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.797 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.847 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.900 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+808.951 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.001 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.053 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.094 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.153 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.203 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.243 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.297 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+809.297 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.347 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.396 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.450 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.500 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.550 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.603 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.653 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.703 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.743 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.795 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.845 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.899 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+809.949 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.002 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND testfor @e[type=entity:centella]
+810.052 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.102 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.140 SERVER [2026-11-07 18:19:33:139 INFO] Found entity.entity:centella.name
+810.142 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.195 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.246 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.295 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.348 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.398 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.448 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.501 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.550 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.600 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND damage @e[type=entity:centella,c=1] 250 magic
+810.653 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.693 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.741 SERVER [2026-11-07 18:19:34:741 INFO] Applied damage to entity.entity:centella.name
+810.753 BOT BOT MOB EFFECT {"runtime_entity_id":"7","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+810.753 BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"entity.entity:centella.name","message":"[entity.entity:centella.name] 2","xuid":"","platform_chat_id":""}
+810.753 BOT BOT ENTITY EVENT {"runtime_entity_id":"7","event_id":"death_animation","data":0}
+810.806 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"8","position":{"x":54.41908645629883,"y":100,"z":49.73915100097656}}
+810.806 BOT BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"hurt_animation","data":24}
+813.295 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK TRIAL 1
+COMMAND kill @e[type=entity:centella]
+813.739 SERVER [2026-11-07 18:19:37:739 ERROR] No targets matched selector
+COMMAND summon entity:centella 55 100 50
+814.740 SERVER [2026-11-07 18:19:38:739 INFO] Object successfully summoned
+814.798 BOT BOT ENTITY {"type":"entity:centella","runtime":"9","position":{"x":55.5,"y":100,"z":50.5}}
+814.798 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"add","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+814.848 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+814.900 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+814.950 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+814.999 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.052 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.101 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.142 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.194 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.258 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.299 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.348 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.398 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.450 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.500 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.549 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.602 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.652 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.692 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.742 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.795 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.844 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.894 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.946 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+815.996 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.046 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.098 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.148 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND testfor @e[type=entity:centella]
+816.200 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.239 SERVER [2026-11-07 18:19:40:239 INFO] Found entity.entity:centella.name
+816.250 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.299 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.352 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.401 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.442 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.494 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.544 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.593 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.646 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.695 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.745 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND damage @e[type=entity:centella,c=1] 250 magic
+816.798 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.841 SERVER [2026-11-07 18:19:40:840 INFO] Applied damage to entity.entity:centella.name
+816.848 BOT BOT MOB EFFECT {"runtime_entity_id":"9","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+816.848 BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"entity.entity:centella.name","message":"[entity.entity:centella.name] 2","xuid":"","platform_chat_id":""}
+816.848 BOT BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"death_animation","data":0}
+816.898 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"10","position":{"x":55.5,"y":100,"z":50.5}}
+817.294 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK TRIAL 2
+COMMAND kill @e[type=entity:centella]
+819.839 SERVER [2026-11-07 18:19:43:839 ERROR] No targets matched selector
+COMMAND summon entity:centella 55 100 50
+820.790 SERVER [2026-11-07 18:19:44:789 INFO] Object successfully summoned
+820.848 BOT BOT ENTITY {"type":"entity:centella","runtime":"11","position":{"x":55.5,"y":100,"z":50.5}}
+820.848 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"add","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+820.900 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+820.950 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.002 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.052 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.092 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.145 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.194 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.244 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.296 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+821.297 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.346 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.395 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.448 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.498 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.547 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.600 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.649 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.699 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.751 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.801 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.841 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.894 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.944 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+821.993 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.046 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.095 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.145 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.198 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.247 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND testfor @e[type=entity:centella]
+822.290 SERVER [2026-11-07 18:19:46:289 INFO] Found entity.entity:centella.name
+822.300 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.350 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.400 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.452 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.502 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.551 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.592 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.644 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.694 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.743 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.796 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.845 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND damage @e[type=entity:centella,c=1] 250 magic
+822.890 SERVER [2026-11-07 18:19:46:889 INFO] Applied damage to entity.entity:centella.name
+822.898 BOT BOT MOB EFFECT {"runtime_entity_id":"11","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+822.898 BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"entity.entity:centella.name","message":"[entity.entity:centella.name] 2","xuid":"","platform_chat_id":""}
+822.898 BOT BOT ENTITY EVENT {"runtime_entity_id":"11","event_id":"death_animation","data":0}
+822.948 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"12","position":{"x":55.5,"y":100,"z":50.5}}
+825.297 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK TRIAL 3
+COMMAND kill @e[type=entity:centella]
+825.890 SERVER [2026-11-07 18:19:49:889 ERROR] No targets matched selector
+COMMAND summon entity:centella 55 100 50
+826.890 SERVER [2026-11-07 18:19:50:889 INFO] Object successfully summoned
+826.952 BOT BOT ENTITY {"type":"entity:centella","runtime":"13","position":{"x":55.5,"y":100,"z":50.5}}
+826.952 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"add","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.001 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.051 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.091 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.144 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.194 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.244 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.295 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.348 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.397 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.447 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.500 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.549 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.599 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.652 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.702 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.753 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.793 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.845 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.895 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.945 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+827.998 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.048 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.098 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.150 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.200 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.250 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.303 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.352 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND testfor @e[type=entity:centella]
+828.390 SERVER [2026-11-07 18:19:52:390 INFO] Found entity.entity:centella.name
+828.393 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.442 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.495 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.544 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.597 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.647 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.696 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.749 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.799 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.849 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.898 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+828.951 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND damage @e[type=entity:centella,c=1] 250 magic
+828.990 SERVER [2026-11-07 18:19:52:989 INFO] Applied damage to entity.entity:centella.name
+829.001 BOT BOT MOB EFFECT {"runtime_entity_id":"13","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+829.001 BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"entity.entity:centella.name","message":"[entity.entity:centella.name] 2","xuid":"","platform_chat_id":""}
+829.001 BOT BOT ENTITY EVENT {"runtime_entity_id":"13","event_id":"death_animation","data":0}
+829.050 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"14","position":{"x":55.5,"y":100,"z":50.5}}
+829.295 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK TRIAL 4
+COMMAND kill @e[type=entity:centella]
+831.989 SERVER [2026-11-07 18:19:55:989 ERROR] No targets matched selector
+COMMAND summon entity:centella 55 100 50
+832.990 SERVER [2026-11-07 18:19:56:990 INFO] Object successfully summoned
+833.043 BOT BOT ENTITY {"type":"entity:centella","runtime":"15","position":{"x":55.5,"y":100,"z":50.5}}
+833.044 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"add","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.096 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.145 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.195 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.248 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.298 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+833.298 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.347 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.400 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.450 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.499 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.552 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.602 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.642 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.693 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.745 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.795 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.845 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.898 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.947 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+833.997 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.050 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.100 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.150 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.203 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.253 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.303 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.343 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.396 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.446 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND testfor @e[type=entity:centella]
+834.495 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.540 SERVER [2026-11-07 18:19:58:540 INFO] Found entity.entity:centella.name
+834.548 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.598 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.650 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.700 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.750 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.802 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.852 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.893 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.942 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+834.995 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+835.044 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+COMMAND damage @e[type=entity:centella,c=1] 250 magic
+835.094 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+835.140 SERVER [2026-11-07 18:19:58:140 INFO] Applied damage to entity.entity:centella.name
+835.146 BOT BOT MOB EFFECT {"runtime_entity_id":"15","event_id":"update","effect_id":27,"amplifier":0,"particles":false,"duration":200}
+835.147 BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"entity.entity:centella.name","message":"[entity.entity:centella.name] 2","xuid":"","platform_chat_id":""}
+835.147 BOT BOT ENTITY EVENT {"runtime_entity_id":"15","event_id":"death_animation","data":0}
+835.196 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"16","position":{"x":55.5,"y":100,"z":50.5}}
+837.302 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+838.140 SERVER [2026-11-07 18:20:01:140 INFO] Server stop requested.
+838.143 SERVER [2026-11-07 18:20:01:143 INFO] Stopping server...
+838.482 SERVER Quit correctly
+DONE

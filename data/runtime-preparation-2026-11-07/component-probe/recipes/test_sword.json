@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "arena_probe:test_sword_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:emerald"
+      },
+      "#": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "arena_probe:test_sword"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:emerald"
+      }
+    ]
+  }
+}

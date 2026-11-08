@@ -1,0 +1,118 @@
+1968.270 SERVER NO LOG FILE! - setting up server logging...
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Starting Server
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Version: 1.20.50.03
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Build ID: 19782165
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Branch: r/20_u5
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Configuration: Publish
+1968.270 SERVER [2026-11-08 10:09:45:270 INFO] Level Name: ArenaSlime
+1968.271 SERVER [2026-11-08 10:09:45:271 INFO] No CDN config file found for dedicated server
+1968.271 SERVER [2026-11-08 10:09:45:271 INFO] Game mode: 1 Creative
+1968.271 SERVER [2026-11-08 10:09:45:271 INFO] Difficulty: 2 NORMAL
+1968.274 SERVER [2026-11-08 10:09:45:274 INFO] Content logging to console is enabled.
+1968.795 SERVER [2026-11-08 10:09:45:795 INFO] Experiment(s) active: ddi_, ucft, gtst
+1968.795 SERVER [2026-11-08 10:09:45:795 INFO] Opening level 'worlds/ArenaSlime/db'
+1969.170 SERVER [2026-11-08 10:09:46:169 ERROR] [FeatureRegistry] ArenaSlime | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1969.170 SERVER 
+1969.170 SERVER [2026-11-08 10:09:46:169 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:quartz_diamond_ore'
+1969.170 SERVER 
+1969.170 SERVER [2026-11-08 10:09:46:169 ERROR] [FeatureRegistry] ArenaSlime | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1969.170 SERVER 
+1969.170 SERVER [2026-11-08 10:09:46:169 ERROR] [FeatureRegistry] ArenaSlime | No definition found for feature 'effect99:silver_ore'
+1969.170 SERVER 
+1969.389 SERVER [2026-11-08 10:09:46:388 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1969.389 SERVER [2026-11-08 10:09:46:388 INFO] IPv6 supported, port: 19133: Used for gameplay
+1969.465 SERVER [2026-11-08 10:09:46:464 INFO] Server started.
+1969.465 SERVER [2026-11-08 10:09:46:465 INFO] ================ TELEMETRY MESSAGE ===================
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO] Server Telemetry is currently not enabled.
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO] Enabling this telemetry helps us improve the game.
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO]
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO] to the server.properties file in the handheld/src-server directory
+1969.466 SERVER [2026-11-08 10:09:46:465 INFO] ======================================================
+1970.271 SERVER [2026-11-08 10:09:47:270 INFO] Player connected: ArenaGiveTwo, xuid:
+1974.600 SERVER [2026-11-08 10:09:51:600 INFO] Player Spawned: ArenaGiveTwo xuid: ,
+1974.614 BOT BOT SPAWN 1
+COMMAND gamerule doMobSpawning false
+COMMAND gamemode creative ArenaGiveTwo
+1975.003 SERVER [2026-11-08 10:09:51:002 INFO] Set ArenaGiveTwo's game mode to Creative
+COMMAND tp ArenaGiveTwo 50 110 50
+1975.356 SERVER [2026-11-08 10:09:52:356 INFO] Teleported ArenaGiveTwo to 50.50, 110.00, 50.50
+COMMAND fill 40 99 40 60 99 60 stone
+1978.353 SERVER [2026-11-08 10:09:55:352 ERROR] 0 blocks filled
+COMMAND fill 40 100 40 60 106 60 air
+1978.709 SERVER [2026-11-08 10:09:55:708 ERROR] 0 blocks filled
+COMMAND tp ArenaGiveTwo 50 100 50
+1979.053 SERVER [2026-11-08 10:09:55:053 INFO] Teleported ArenaGiveTwo to 50.50, 100.00, 50.50
+COMMAND difficulty normal
+1981.103 SERVER [2026-11-08 10:09:57:103 INFO] Set game difficulty to NORMAL
+COMMAND time set day
+1981.458 SERVER [2026-11-08 10:09:58:457 INFO] Set the time to 25000
+COMMAND weather clear
+1981.803 SERVER [2026-11-08 10:09:58:802 INFO] Changing to clear weather
+COMMAND scriptevent arena:beevictim start
+1982.158 SERVER [2026-11-08 10:09:59:157 INFO] Script event arena:beevictim has been sent
+1982.160 SERVER [2026-11-08 10:09:59:159 WARN] [Scripting] BEE_SETUP {"tick":4198,"bee":"minecraft:bee","skeleton":"minecraft:skeleton"}
+1982.160 SERVER 
+1983.158 SERVER [2026-11-08 10:10:00:158 WARN] [Scripting] BEE_SAMPLE {"tick":20,"bee":{"x":50.37812805175781,"y":100.78595733642578,"z":50.64702606201172},"skeleton":{"x":54.5,"y":100,"z":50.5}}
+1983.159 SERVER 
+1984.160 SERVER [2026-11-08 10:10:01:159 WARN] [Scripting] BEE_PROVOKE 4238
+1984.160 SERVER 
+1984.160 SERVER [2026-11-08 10:10:01:159 WARN] [Scripting] BEE_SAMPLE {"tick":40,"bee":{"x":49.33157730102539,"y":100.95885467529297,"z":52.97351837158203},"skeleton":{"x":54.5,"y":100,"z":50.5}}
+1984.160 SERVER 
+1984.160 SERVER [2026-11-08 10:10:01:159 WARN] [Scripting] BEE_HURT {"tick":4238,"victim":"minecraft:bee","source":"minecraft:skeleton","cause":"entityAttack","damage":1}
+1984.160 SERVER 
+1985.159 SERVER [2026-11-08 10:10:02:158 WARN] [Scripting] BEE_SAMPLE {"tick":60,"bee":{"x":48.56863021850586,"y":103.77290344238281,"z":53.81620407104492},"skeleton":{"x":54.5,"y":100,"z":50.5}}
+1985.159 SERVER 
+1986.159 SERVER [2026-11-08 10:10:03:158 WARN] [Scripting] BEE_SAMPLE {"tick":80,"bee":{"x":51.95355224609375,"y":102.93928527832031,"z":52.04615020751953},"skeleton":{"x":54.5,"y":100,"z":50.5}}
+1986.159 SERVER 
+1986.604 SERVER [2026-11-08 10:10:03:603 WARN] [Scripting] BEE_HURT {"tick":4287,"victim":"minecraft:skeleton","source":"minecraft:bee","cause":"entityAttack","damage":0}
+1986.604 SERVER 
+1987.158 SERVER [2026-11-08 10:10:04:158 WARN] [Scripting] BEE_SAMPLE {"tick":100,"bee":{"x":53.99330520629883,"y":102.56702423095703,"z":51.24797821044922},"skeleton":{"x":56.04118347167969,"y":100,"z":49.4204216003418}}
+1987.158 SERVER 
+1988.004 SERVER [2026-11-08 10:10:04:004 WARN] [Scripting] BEE_HURT {"tick":4315,"victim":"minecraft:bee","source":"minecraft:skeleton","cause":"projectile","damage":1.734769344329834}
+1988.004 SERVER 
+1988.158 SERVER [2026-11-08 10:10:05:158 WARN] [Scripting] BEE_SAMPLE {"tick":120,"bee":{"x":55.279293060302734,"y":102.71253967285156,"z":53.96806335449219},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1988.158 SERVER 
+1989.158 SERVER [2026-11-08 10:10:06:158 WARN] [Scripting] BEE_SAMPLE {"tick":140,"bee":{"x":55.605045318603516,"y":103.66107177734375,"z":53.199806213378906},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1989.158 SERVER 
+1989.703 SERVER [2026-11-08 10:10:06:703 WARN] [Scripting] BEE_HURT {"tick":4349,"victim":"minecraft:bee","source":"minecraft:skeleton","cause":"projectile","damage":3.301074981689453}
+1989.703 SERVER 
+1990.160 SERVER [2026-11-08 10:10:07:159 WARN] [Scripting] BEE_SAMPLE {"tick":160,"bee":{"x":56.49819564819336,"y":104.95744323730469,"z":54.73531723022461},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1990.160 SERVER 
+1991.161 SERVER [2026-11-08 10:10:08:160 WARN] [Scripting] BEE_SAMPLE {"tick":180,"bee":{"x":54.592201232910156,"y":104.36766052246094,"z":55.62313461303711},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1991.161 SERVER 
+1992.158 SERVER [2026-11-08 10:10:09:158 WARN] [Scripting] BEE_SAMPLE {"tick":200,"bee":{"x":51.18260192871094,"y":102.68035125732422,"z":56.42234420776367},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1992.158 SERVER 
+1993.159 SERVER [2026-11-08 10:10:10:158 WARN] [Scripting] BEE_SAMPLE {"tick":220,"bee":{"x":50.22844314575195,"y":101.81581115722656,"z":53.59398651123047},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1993.159 SERVER 
+1994.160 SERVER [2026-11-08 10:10:11:159 WARN] [Scripting] BEE_SAMPLE {"tick":240,"bee":{"x":49.108543395996094,"y":102.391845703125,"z":51.112125396728516},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1994.160 SERVER 
+1995.158 SERVER [2026-11-08 10:10:12:158 WARN] [Scripting] BEE_SAMPLE {"tick":260,"bee":{"x":46.507972717285156,"y":102.42945861816406,"z":48.49436950683594},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1995.158 SERVER 
+1996.160 SERVER [2026-11-08 10:10:13:159 WARN] [Scripting] BEE_SAMPLE {"tick":280,"bee":{"x":45.48837661743164,"y":103.64163970947266,"z":46.73883056640625},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1996.160 SERVER 
+1997.158 SERVER [2026-11-08 10:10:14:158 WARN] [Scripting] BEE_SAMPLE {"tick":300,"bee":{"x":48.14502716064453,"y":103.27295684814453,"z":44.99591827392578},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1997.158 SERVER 
+1998.159 SERVER [2026-11-08 10:10:15:158 WARN] [Scripting] BEE_SAMPLE {"tick":320,"bee":{"x":48.86463165283203,"y":101.94440460205078,"z":42.94253921508789},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1998.159 SERVER 
+1999.158 SERVER [2026-11-08 10:10:16:158 WARN] [Scripting] BEE_SAMPLE {"tick":340,"bee":{"x":49.62130355834961,"y":101.5025405883789,"z":44.43523406982422},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+1999.158 SERVER 
+2000.154 SERVER [2026-11-08 10:10:17:153 WARN] [Scripting] BEE_SAMPLE {"tick":360,"bee":{"x":48.51753234863281,"y":100.50684356689453,"z":47.3181037902832},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+2000.154 SERVER 
+2000.559 SERVER [2026-11-08 10:10:17:558 WARN] [Scripting] BEE_HURT {"tick":4566,"victim":"minecraft:bee","source":"minecraft:skeleton","cause":"projectile","damage":2.6055376529693604}
+2000.559 SERVER 
+2001.155 SERVER [2026-11-08 10:10:18:154 WARN] [Scripting] BEE_SAMPLE {"tick":380,"bee":{"x":46.857112884521484,"y":103.41893005371094,"z":46.18355178833008},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+2001.155 SERVER 
+2002.155 SERVER [2026-11-08 10:10:19:154 WARN] [Scripting] BEE_SAMPLE {"tick":400,"bee":{"x":48.71884536743164,"y":100.90545654296875,"z":45.930503845214844},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+2002.155 SERVER 
+2002.654 SERVER [2026-11-08 10:10:19:653 WARN] [Scripting] BEE_HURT {"tick":4608,"victim":"minecraft:bee","source":"minecraft:skeleton","cause":"projectile","damage":3.4408721923828125}
+2002.654 SERVER 
+2003.153 SERVER [2026-11-08 10:10:20:153 WARN] [Scripting] BEE_SAMPLE {"tick":420,"bee":{"x":46.13336181640625,"y":104.62545776367188,"z":41.24365997314453},"skeleton":{"x":56.133235931396484,"y":100,"z":49.35594177246094}}
+2003.153 SERVER 
+2004.153 SERVER [2026-11-08 10:10:21:153 WARN] [Scripting] BEE_END Error: Failed to get property 'location'
+2004.153 SERVER 
+2010.609 SERVER [2026-11-08 10:10:27:608 INFO] Server stop requested.
+2010.632 SERVER [2026-11-08 10:10:27:632 INFO] Stopping server...
+2010.975 SERVER Quit correctly
+DONE

@@ -1,0 +1,471 @@
+A pack of 39 swords with special powers.
+
+· Bee Stinger (Bee Sword)
+  -Durability: 1080
+  -Damage: 5
+  -Enchantable: true
+  -Repairable: true (bee sword, honeycomb, honey block)
+  -Special skills:
+  When attacking the enemies you will release from time to time small aggressive bees that will defend you.
+  -Description:
+  Flowers will appear from time to time, when you walk through grass.
+  -How to create or get it:
+  When a bee stings you, it will drop its stinger with a 2% percent chance.
+· Ice Sword
+  -Durability: 500
+  -Damage: 8.5
+  -Enchantable: true
+  -Repairable: true (For ice and the same sword.)
+  -Special skills:
+  The ice that is placed when using this sword will disappear after approximately 8 seconds
+  All the water under your feet will turn to ice.
+  Sometimes you will throw snowballs at the entities you attack.
+  Right-clicking or pressing the screen will cause entities within a radius of 8 to be encased in blocks of ice. (Sword durability: -6)
+  -Description:
+  If the player is on fire the sword will turn into water.
+  -How to create or get it:
+  In the chests of: Igloos and Villages in the snow.
+· Nether Star Sword
+  -Durability: 3256
+  -Damage: 7 (12= Her damage was reduced to 7 as her new power makes her too powerful in this Add-On update.)
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: true
+  -Repairable: true (With a nether star and the same sword.)
+  -Special skills:
+  The stars of the nether will fall from the sky when you are attacking an entity, these stars will deal 6 damage per hit.
+  -Description:
+  When using it to kill the Wither you may get the Wither sword.
+  When thrown into the fire it explodes violently, this explosion is capable of breaking bedrock.
+  This sword is slightly unstable and can explode with a 0.01% chance when attacking entities.
+  -How to create or get it:
+  Crafting her with a diamond sword and a nether star.
+· Blaze Sword
+  -Durability: 2300
+  -Damage: 6
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  By right-clicking or pressing the screen, your body will levitate for a few seconds and then launch several small fireballs in the direction you are looking.
+  The fire won't hurt you.
+  Sometimes you will throw fireballs when hitting entities.
+  Small fireballs will not be able to approach you within a radius of 7.
+  -Description:
+  Blaze rods will surround you around your body.
+  Your body will turn somewhat orange.
+  -How to create or get it:
+  A snow golem must kill a blaze this will release it with 0.5%
+· Slime Sword
+  -Durability: 675
+  -Damage: 6
+  -Enchantable: true
+  -Repairable: true (With slime and with the same sword.)
+  -Special skills:
+  By having the sword in hand you will get a baby slime mount.
+  If you get off the slime mount, the slime will defend you from all nearby monsters. (The slime deals one point of damage and is immortal, plus it will teleport to its owner when it gets too far away.)
+  Jumping with the slime mount and falling on an entity will damage it. (Jumping with the slime mount can be tricky.)
+  -How to create or get it:
+  Killing the slime king that appears at night in the swamp biome with a 4% chance.
+· Sea Sword
+  -Durability: 1356
+  -Damage: 7
+  -Enchantable: true
+  -Repairable: true (By heart of the sea and the same sword.)
+  -Special skills:
+  You can swim as fast as dolphins.
+  You will become a mermaid.
+  You can breathe underwater but you cannot breathe air.
+  -Description:
+  You will jump like a fish when you are out of the water.
+  -How to create or get it:
+  In treasure chests.
+· Clock Sword
+  -Durability: 4800
+  -Damage: 7
+  -Enchantable: true
+  -Repairable: true (= Creation materials.)
+  -Special skills:
+  Right-clicking or pressing the screen will advance one hour (1000 ticks) into the game. (The game will go 10 times faster for 5 seconds)
+  -How to create or get it:
+  "pattern":
+  "#GG"
+  "GCG"
+  "IG#"
+  "G": "item": "minecraft:gold_block"
+  "C": "item": "minecraft:clock"
+  "I": "item": "minecraft:gold_ingot"
+  "#": "item": "nothing"
+· Spider Sword
+  -Durability: 628
+  -Damage: 5
+  -Enchantable: true
+  -Repairable: true (With cobwebs, spider eyes and the same sword.)
+  -Special skills:
+  The spider mount will be able to climb walls.
+  You will throw cobwebs when attacking entities with a 5% chance.
+  Holding the sword in your hand you will get a spider mount.
+  Right-clicking or pressing the screen will fire cobweb projectiles for a few seconds. (Sword durability: -8)
+  -How to create or get it:
+  In the chests of the abandoned mineshaft
+· Ender Sword
+  -Durability: 1256
+  -Damage: 9
+  -Enchantable: true
+  -Repairable: true (By ender pearl, ender eye or the same sword.)
+  -Special skills:
+  You will not take damage from any projectile and will randomly teleport within a radius of 16 when you are attacked with one.
+  When they attack you, you will randomly teleport in a radius of 16 with a 50% chance.
+  The water will cause you damage and you will teleport randomly.
+  By right clicking or pressing the screen, you will randomly teleport in a radius of between 16 to 32 blocks. (Sword durability: -5)
+  "minecraft:cooldown": { "category": "ender_sword", "duration": 2 = seconds }
+  -How to create or get it:
+  By killing the red-eyed enderman with a 2.5% chance, this enderman only appears in the overworld (normal world) with a low probability.
+· Coal Sword
+  -Durability: 121
+  -Damage: 4
+  -Enchantable: true
+  -Repairable: true (With coal, sticks and the same sword.)
+  -Special skills: None (It only serves as fuel for the furnace.)
+  -How to create or get it:
+  Two blocks of coal and a stick.
+· Shulker sword
+  -Durability: 2609
+  -Damage: 6
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  Throw shulker projectiles with a 10% chance when attacking entities.
+  Right-clicking or pressing the screen will levitate entities within a radius of 6. (Sword durability: -8)
+  You will be immune to the effect of levitation.
+  When you duck you will get a shulker shell, which will protect you from enemy attacks but if they destroy the shell with you inside you will die too.
+  -How to create or get it:
+  When killing shulkers with a 4.5% chance
+· Jungle Sword
+  -Durability: 128
+  -Damage: 4
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  Your health will be reduced to 4 hearts, but an absorption potion effect will be added.
+  Vines will be placed in nearby blocks. (Blocks: logs, grass, dirt, sand, cobblestone, stone, obsidian, endstone, gravel, ice, planks, leaves, netherrack, and nether bricks.)
+  -How to create or get it:
+  Fishing in the jungle biome or jungle temple.
+· Cactus Sword
+  -Durability: 125
+  -Damage: 6
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  You will receive damage when having the sword in hand, but you will also damage very close entities.
+  -How to create or get it:
+  A stick and two cacti
+· Emerald Sword
+  -Durability: 2300
+  -Damage: 7
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  You'll get a village hero potion effect for being inside a village and it will give villagers a resistance effect within 64 radius.
+  -How to create or get it:
+  Found in the chests of: Stronghold, Woodland Mansion, and Pillager Outpost.
+· Spectral Sword
+  -Durability: 3256
+  -Damage: 9
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: false
+  -Repairable: true (By ender crystal, nether star and by the same sword.)
+  -Special skills:
+  It will make the main block of each dimension transparent only in that dimension. (Overworld: stone, Nether: netherrack, End: endstone.)
+  Fire an explosive projectile. (Sword durability: -15)
+  -Description:
+  This sword is somewhat unstable so it may explode when attacking entities with a 1% chance.
+  This sword will emit a slight light.
+  An ender crystal will appear above you and follow you everywhere.
+  -How to create or get it:
+  When exploding ender crystals in the Nether with a 2% chance.
+  Kill a Ghast with his own projectile with a 6% chance.
+· Lapis Sword
+  -Durability: 528
+  -Damage: 5
+  -Enchantable: true
+  -Repairable: true (With lapis lazuli and the same sword.)
+  -Special skills:
+  You will be given 5 experience points in a random period of between 2.5 and 6 seconds.
+  -How to create or get it:
+  Found in the chests of: Stronghold and Pillager Outpost.
+· Grass Sword
+  -Durability: 250
+  -Damage: 8
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  All nearby entities within a radius of 8 will be attacked by a strange grass entity that will bury them a bit underground or completely depending on the size of the entity.
+  The dirt blocks will turn into grass.
+  -How to create or get it:
+  You will have to kill a grass witch, these appear at night with a low probability and will drop the sword with a 20% probability.
+  (This witch will have the same abilities that the grass sword grants you.)
+· Obsidian Sword
+  -Durability: 3000
+  -Damage: 8
+  -Explodable: false
+  -Enchantable: true
+  -Repairable: true (By obsidian and the same sword.)
+  -Special skills:
+  You will be immune to explosions and you will have knockback resistance.
+  -Description:
+  When attacking, the durability points of the sword could lose 1 point with a probability of 55%, 2 points with a probability of 30% and 3 points with a probability of 15%.
+  -How to create or get it:
+  You must throw the fire sword into the rain and wait a few seconds.
+· Glowstone Sword
+  -Durability: 128
+  -Damage: 4
+  -Enchantable: true
+  -Repairable: true (By glowstone, glowstone dust and the same sword.)
+  -Special skills:
+  This sword emits a lot of light and can be placed in the left hand.
+  -How to create or get it:
+  Two glowstone blocks and a blaze rod
+· Time Sword
+  -Durability: 13770
+  -Damage: 13
+  -Enchantable: false
+  -Repairable: false
+  -Special skills:
+  Time will advance faster, you and all entities will be able to move much faster, and the plants will grow much faster.
+  -Description:
+  When attacking, the durability points of the sword could lose 1 point with a probability of 90%, 16 points with a probability of 6%, 32 points with a probability of 3% and 64 points with a probability of 1%.
+  This sword emits light.
+  -How to create or get it:
+  You must throw clock swords into the water of the source structure that is in the desert, this source will serve as a source of wishes and will give you the sword with a 2.5% probability.
+· Creeper Sword
+  -Durability: 1500
+  -Damage: 6
+  -Explodable: false
+  -Enchantable: true
+  -Repairable: true (For gunpowder and the same sword.)
+  -Special skills:
+  When attacking, it will launch small Creepers with a 20% chance that will explode in a few seconds with a small explosion.
+  By right-clicking or pressing the screen, the player will inflate like a Creeper and then the player will explode and die! (Sword durability: -1)
+  -How to create or get it:
+  You will have to explode a Creeper loaded with a lighter and it will drop the sword with a 5% probability.
+· Fire Sword
+  -Durability: 2000
+  -Damage: 6 (It will burn the enemies you attack.)
+  -Enchantable: true
+  -Repairable: true (By fire blocks(rare) and the same sword)
+  -Special skills:
+  You will be immune to fire.
+  When you attack you will launch living flames with a 15% probability, these entities will attack the monsters and they will die after a few seconds.
+  By right clicking or pressing the screen, you will activate the ability "rain of fire" this will create a shower of fireballs that will set fire all around. (Sword durability: -20)
+  Entities very close to you will burn.
+  The ice and snow will melt.
+  -Description:
+  It disappears if you enter the water.
+  This sword emits light.
+  By throwing the fire sword into the water it turns into an obsidian sword.
+  Throwing the fire sword into the rain will cause it to turn into a crystal sword after a few seconds.
+  -How to create or get it:
+  You must kill living flames, these appear in the Nether and some of them will attack you, to kill this entity correctly without the fire sword falling into the fire and vanishing, you will have to place blocks such as slabs, pressure plates or other types of I do not complete this to prevent the entity from setting fire. The entity will drop the sword with a 4.9% chance. This entity will disappear in a random period of between 25 and 60 seconds.
+· Magma Sword
+  -Durability: 1316
+  -Damage: 7.2
+  -Enchantable: true
+  -Repairable: true (By magma blocks and the same sword.)
+  -Special skills:
+  Magma blocks won't hurt you.
+  Fire will only hurt you if you are standing on it.
+  The lava under your feet will turn into magma blocks.
+  -How to create or get it:
+  In chests of great underwater ruins.
+· Wither Sword
+  -Durability: 3856
+  -Damage: 10
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: false
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  When attacking, it will drop wither skulls with a 10% chance.
+  It will be immune to the wither effect.
+  The leaves of the trees will wither, the flowers will turn into withered roses, the grass will turn to dirt.
+  Right clicking or pressing the screen will launch a dangerous wither skull. (Sword durability: -3)
+  -Description:
+  This sword emits light.
+  By having the sword you will see a life bar on your screen with the name "Wither Sword" this is only decoration.
+  You will have the effect of wither but it will not hurt you.
+  -How to create or get it:
+  You will have to kill the wither with a "Nether star sword" and it will drop it with a 13% chance.
+· TNT Sword
+  -Durability: 64
+  -Damage: 4
+  -Enchantable: true
+  -Repairable: true (By tnt and the same sword.)
+  -Special skills:
+  When attacking, you will throw small explosions.
+  By right clicking or pressing the screen, a very powerful tnt will appear that will explode in 8 seconds. (Sword durability: -18)
+  -Description:
+  When thrown into the fire it will explode violently.
+  -How to create or get it:
+  In the chests of the desert temple.
+· Lightning sword
+  -Durability: 2012
+  -Damage: 8
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  When attacking it will throw thunder.
+  By right clicking or pressing the screen, 41 rays will fall around you. (Sword durability: -9)
+  You will be immune to lightning damage but not fire.
+  -Description:
+  This sword emits light.
+  -How to create or get it:
+  You must kill an entity called "Centella in Spanish" or "spherical lightning or ball lightning in English", this entity will only appear with a 20% probability when lightning strikes during a storm, this entity will not try to harm you but if you get too close you will receive a lot damage, also this entity has 200 life points, that is, 100 hearts, it will not be easy to kill it, you must do it before it disappears since it only lives in a random period of between 10 to 60 seconds. (This entity is a reference to a strange real-life atmospheric phenomenon.)
+· Sponge Sword
+  -Durability: 128
+  -Damage: 5
+  -Enchantable: true
+  -Repairable: true (By sponge and the same sword.)
+  -Special skills:
+  It will absorb water in a radius of 2 blocks, after several seconds absorbing water the sword will transform into a "wet sponge sword".
+  -How to create or get it:
+  On killing the elder guardian with a 6.5% chance.
+  When putting the wet sponge sword in the oven.
+· Skeleton bone Sword
+  -Durability: 820
+  -Damage: 5
+  -Enchantable: true
+  -Repairable: true (Everything that is made of: bone.)
+  -Special skills:
+  When attacking you will throw arrows with a 20% chance.
+  Crops will grow much faster within a 2 block radius.
+  Enemy arrows within 8 radius will slow down.
+  -How to create or get it:
+  Killing skeletons at night in the desert biome with a 0.7% chance.
+· Quartz Diamond Sword
+  -Durability: 1
+  -Damage: 600
+  -Enchantable: false
+  -Repairable: false
+  -Special skills: None
+  -Description:
+  Putting the sword in your hand will cause you a lot of damage for a moment and taking it out of your hand will too.
+  The sword causes so much damage that when you attack an enemy you will die too. (everything has a price)
+  -How to create or get it:
+  With two quartz diamond blocks and a quartz diamond stick that is created with the same material.
+  (You should look for quartz diamond ores below height 15 in small quantities. (they are rare to find))
+· Bedrock Sword
+  -Durability: (Infinite)
+  -Damage: 18
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: false
+  -Special skills: none
+  -Description: It works as an extremely powerful pickaxe.
+  -How to create or get it:
+  It is created with two bedrock blocks and a bedrock stick that is created with the same material.
+  (Bedrock can only be obtained by using the Ultra Instinct sword projectile or by throwing the Nether Star Sword into fire, which will cause a loud explosion that will shatter the bedrock.)
+· Wither Skeleton Sword
+  -Durability: 128
+  -Damage: 4
+  -Enchantable: true
+  -Repairable: true (Coal, sticks and the same sword)
+  -Special skills:
+  Will give wither effect to the entities you attack
+  -How to create or get it:
+  When killing wither skeletons with a 2.5% chance
+· Glass Sword
+  -Durability: 1
+  -Damage: 33
+  -Enchantable: true
+  -Repairable: false
+  -Special skills: none
+  -How to create or get it:
+  You will have to throw the fire sword into the water.
+· Silver Sword
+  -Durability: 1800
+  -Damage: 6
+  -Enchantable: true
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  Causes more damage than normal to "alpha wolves"
+  -How to create or get it:
+  You must find the silver ore in the depths of the overworld (normal world) below height 15 and place it in the oven to obtain the silver ingot and be able to create the sword.
+· Wolf Sword
+  -Durability: 2800
+  -Damage: 5 (+15 points during the night of the full moon. (They will not be visible in the sword damage))
+  -Enchantable: false
+  -Repairable: true (Only with the same sword.)
+  -Special skills:
+  -During the night of the full moon:
+  The player will deal 15 points of damage per attack plus 5 points of sword attack for a total of 20.
+  The player will move faster.
+  The monsters will not attack you, you will be part of them.
+  -Description:
+  -During the night of the full moon:
+  Your vision will look somewhat red
+  If you remove the sword from your hand before the end of the full moon night you will get negative potion effects. (They will disappear at dawn.)
+  If you have the sword in your hand during the sunset before the night of the full moon, you will feel dizzy.
+  -How to create or get it:
+  You must kill an alpha wolf during the full moon with the silver sword and it will drop the sword with a 10% chance.
+  (Alpha wolves appear in the taiga biome during the night of the full moon, you will hear a distant howl when one appears nearby.)
+· Ghost Sword
+  -Durability: 3333
+  -Damage: -666 (Being a negative number you cannot harm any entity)
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: false
+  -Repairable: false
+  -Special skills:
+  By holding the sword in hand, the player's legs will disappear and the player will turn into a ghost.
+  Nothing can harm the player, not fire, not lava, not explosions, basically nothing.
+  By right-clicking or pressing the screen the player will be able to teleport to any direction they are looking. (Sword durability: -6)
+  By getting very close to the walls, the player will be able to see nearby caves and will be able to teleport to any cave they are looking at.
+  By crouching, the player will levitate, he can basically fly.
+  You can move faster than normal.
+  The monsters will not attack you, now you are one of them.
+  -Description:
+  The player's vision will look somewhat white.
+  The player will not be able to attack any entity.
+  -How to create or get it:
+  At night ghosts will appear, these entities are not dangerous, they will not try to attack you and you will not be able to attack them either, but if you touch them as if you were trying to harm them, the entity will drop the sword with a probability of 0.3% so it could take you a while to get it. It will also be 1% likely that the entity will teleport randomly so it could escape you. This entity is also sensitive to light, so if it gets too close to the light it will disappear. This entity only appears in blocks of grass or stone.
+· Ultra Instinct Sword
+  -Durability: 9999
+  -Damage: 16
+  -Explodable: false
+  -Should Despawn Item: false
+  -Enchantable: false
+  -Repairable: false
+  -Special skills:
+  Melee attack, projectiles, fire, and explosions cannot harm you. (You can dodge the melee attack and the projectiles automatically)
+  Right clicking or pressing the screen will fire a powerful projectile capable of destroying everything in its path and the bedrock will not be a problem. (This ability recharges every 61 seconds) (Sword durability: -48) (The Ultra Instinct projectile can cause a lot of lag for a few seconds.)
+  -How to create or get it:
+  You must throw quartz diamonds or quartz diamond blocks (new material) into the water of the source structure that is in the desert, this source will serve as a source of wishes and will give you the sword with a 0.8% probability when throwing quartz diamond or 2.5% chance with the quartz diamond block.
+  (Quartz diamond ores are spawned below height 15 in small quantities and are rare to find)
+· Wet Sponge Sword
+  -Durability: 64
+  -Damage: 3
+  -Enchantable: false
+  -Repairable: true (Sponges and more sponges.)
+  -Special skills: none
+  -How to create or get it:
+  When wetting the sponge sword.
+· New materials, ores and more:
+  -Quartz diamond ore { Spawns below height 16 (Rare) (will deal damage when sting if you're too close) }
+  -Quartz diamond
+  -Quartz stick { Durability: 20, Damage: 24, (Causes you damage when you attack entities) (It is crafted like a common stick) }
+  -Silver ore { Spawns below height 35 (common) (Place in the oven to get silver ingot) }
+  -Silver ingot
+  -Bedrock stick { Durability: Unbreakable, Damage: 6 (It is crafted like a common stick) }
+
+Use the command "/function give" to get all the swords. Swords can be found in the Creative Inventory under the Swords tab.
+
+Report error to my Twitter @Effectoo
+
+· Any suggestions to add in the addon are welcome as long as you send them to me on my Twitter.
+
+How to install
+
+· Download and install the behavior pack and resource pack
+· Activate both the behavior and the resource pack in your world settings
+· Activate the option "Holiday Creator Features" and "Creation of Custom Biomes" and "Beta APIs" for the correct functioning of the Add-On.

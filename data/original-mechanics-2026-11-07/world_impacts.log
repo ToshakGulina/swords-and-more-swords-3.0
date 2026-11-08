@@ -1,0 +1,435 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:54:38:610 INFO] Starting Server
+SERVER [2026-11-07 09:54:38:610 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:54:38:610 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:54:38:610 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:54:38:610 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:54:38:610 INFO] Configuration: Publish
+SERVER [2026-11-07 09:54:38:610 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:54:38:611 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:54:38:611 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:54:38:611 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:54:38:612 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:54:39:079 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:54:39:079 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:54:39:519 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:54:39:519 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:54:39:519 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:54:39:519 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:54:40:761 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:54:40:761 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:54:40:856 INFO] Server started.
+SERVER [2026-11-07 09:54:40:856 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:54:40:856 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:54:40:856 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:54:40:856 INFO] 
+SERVER [2026-11-07 09:54:40:856 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:54:40:856 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:54:40:856 INFO] ======================================================
+SERVER [2026-11-07 09:54:40:907 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:54:42:073 INFO] Player connected: ArenaWorld, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:54:48:346 INFO] Player Spawned: ArenaWorld xuid: , BOT SPAWN
+COMMAND gamerule mobgriefing true
+BOT ENTITY {"type":"minecraft:spider","runtime":"2","position":{"x":27,"y":28,"z":-55}}
+SERVER [2026-11-07 09:54:49:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"4","position":{"x":81,"y":66,"z":-37}}
+COMMAND gamerule dofiretick false
+BOT ENTITY {"type":"minecraft:sheep","runtime":"3","position":{"x":81,"y":66,"z":-37}}
+SERVER [2026-11-07 09:54:50:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode survival ArenaWorld
+SERVER [2026-11-07 09:54:50:399 INFO] Set ArenaWorld's game mode to Survival
+BOT ENTITY {"type":"minecraft:llama","runtime":"6","position":{"x":24,"y":64,"z":-80}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"5","position":{"x":24,"y":64,"z":-80}}
+SERVER [2026-11-07 09:54:51:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND tp ArenaWorld 30 100 30
+SERVER [2026-11-07 09:54:51:399 INFO] Teleported ArenaWorld to 30.50, 100.00, 30.50
+BOT POSITION {"x":30.5,"y":101.62001037597656,"z":30.5}
+BOT ENTITY {"type":"minecraft:horse","runtime":"10","position":{"x":38,"y":66,"z":33}}
+BOT ENTITY {"type":"minecraft:horse","runtime":"9","position":{"x":38,"y":66,"z":33}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"8","position":{"x":43,"y":64,"z":23}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"7","position":{"x":43,"y":64,"z":23}}
+SERVER [2026-11-07 09:54:52:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:54:53:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:54:54:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:54:55:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:54:56:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:54:57:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:cow","runtime":"11","position":{"x":51,"y":64,"z":36}}
+SERVER [2026-11-07 09:54:58:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 24 99 24 38 99 40 stone
+SERVER [2026-11-07 09:54:58:450 INFO] 255 blocks filled
+SERVER [2026-11-07 09:54:59:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND fill 24 100 24 38 106 40 air
+SERVER [2026-11-07 09:54:59:453 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:55:00:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND fill 27 100 32 33 105 32 stone
+SERVER [2026-11-07 09:55:00:449 INFO] 42 blocks filled
+SERVER [2026-11-07 09:55:01:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 30 101 32 stone
+SERVER [2026-11-07 09:55:01:449 INFO] Successfully found the block at 30,101,32.
+SERVER [2026-11-07 09:55:02:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND clear ArenaWorld
+SERVER [2026-11-07 09:55:02:449 ERROR] Could not clear the inventory of ArenaWorld, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:55:03:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:ghost_sword 1
+SERVER [2026-11-07 09:55:03:404 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWorld with 1 * item.effect:ghost_sword
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:55:04:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:05:951 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:06:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:55:07:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:08:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:cow","runtime":"13","position":{"x":31,"y":68,"z":43}}
+COMMAND testfor @a[name=ArenaWorld,family=ghost_sword]
+SERVER [2026-11-07 09:55:08:450 INFO] Found ArenaWorld
+SERVER [2026-11-07 09:55:09:952 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWorld]
+SERVER [2026-11-07 09:55:09:449 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 30.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 30.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:55:10:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS GHOST WALL USE
+BOT USE BEGIN {"pos":{"x":30.5,"y":101.62001037597656,"z":30.5},"network_id":270}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":6}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"14","position":{"x":30.5,"y":101.62001037597656,"z":30.5}}
+SERVER [2026-11-07 09:55:11:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:12:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:13:952 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWorld]
+SERVER [2026-11-07 09:55:13:450 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 30.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 30.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:55:14:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 30 101 32 stone
+SERVER [2026-11-07 09:55:14:402 INFO] Successfully found the block at 30,101,32.
+SERVER [2026-11-07 09:55:15:952 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaWorld slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:55:15:400 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWorld with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:55:16:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:17:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:18:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode creative ArenaWorld
+SERVER [2026-11-07 09:55:18:399 INFO] Set ArenaWorld's game mode to Creative
+SERVER [2026-11-07 09:55:19:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND tp ArenaWorld 60 100 60
+SERVER [2026-11-07 09:55:19:399 INFO] Teleported ArenaWorld to 60.50, 100.00, 60.50
+BOT POSITION {"x":60.5,"y":101.62001037597656,"z":60.5}
+BOT ENTITY {"type":"minecraft:pig","runtime":"16","position":{"x":66,"y":69,"z":72}}
+BOT ENTITY {"type":"minecraft:pig","runtime":"15","position":{"x":66,"y":69,"z":72}}
+SERVER [2026-11-07 09:55:20:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:llama","runtime":"18","position":{"x":81,"y":68,"z":68}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"17","position":{"x":81,"y":68,"z":68}}
+SERVER [2026-11-07 09:55:21:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:22:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:55:23:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:24:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:25:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:26:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 54 99 54 68 99 66 stone
+BOT ENTITY {"type":"minecraft:pig","runtime":"19","position":{"x":58,"y":70,"z":73}}
+SERVER [2026-11-07 09:55:26:449 INFO] 195 blocks filled
+SERVER [2026-11-07 09:55:27:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND fill 54 100 54 68 106 66 air
+SERVER [2026-11-07 09:55:27:448 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:55:28:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND setblock 62 100 60 ice
+SERVER [2026-11-07 09:55:28:449 INFO] Block placed
+SERVER [2026-11-07 09:55:29:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND setblock 63 100 60 red_flower
+SERVER [2026-11-07 09:55:29:449 INFO] Block placed
+SERVER [2026-11-07 09:55:30:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND setblock 64 101 60 leaves
+SERVER [2026-11-07 09:55:30:448 INFO] Block placed
+SERVER [2026-11-07 09:55:31:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND setblock 65 99 60 grass
+SERVER [2026-11-07 09:55:31:448 INFO] Block placed
+SERVER [2026-11-07 09:55:32:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND setblock 67 99 60 grass
+SERVER [2026-11-07 09:55:32:448 INFO] Block placed
+SERVER [2026-11-07 09:55:33:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 62 100 60 ice
+SERVER [2026-11-07 09:55:33:448 INFO] Successfully found the block at 62,100,60.
+SERVER [2026-11-07 09:55:34:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 63 100 60 red_flower
+SERVER [2026-11-07 09:55:34:449 INFO] Successfully found the block at 63,100,60.
+SERVER [2026-11-07 09:55:35:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 64 101 60 leaves
+SERVER [2026-11-07 09:55:35:398 INFO] Successfully found the block at 64,101,60.
+SERVER [2026-11-07 09:55:36:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 65 99 60 grass
+SERVER [2026-11-07 09:55:36:398 INFO] Successfully found the block at 65,99,60.
+SERVER [2026-11-07 09:55:37:948 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 67 99 60 grass
+SERVER [2026-11-07 09:55:37:399 INFO] Successfully found the block at 67,99,60.
+SERVER [2026-11-07 09:55:38:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:wither_sword 1
+SERVER [2026-11-07 09:55:38:398 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWorld with 1 * item.effect:wither_sword
+BOT HELD CONTENT {"network_id":298,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"entity_spawn","data":2}
+BOT ENTITY {"type":"entity:name","runtime":"20","position":{"x":60.5,"y":101.62001037597656,"z":60.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"entity_spawn","data":2}
+BOT ENTITY {"type":"entity:name","runtime":"22","position":{"x":60.5,"y":102.02001190185547,"z":60.5}}
+SERVER [2026-11-07 09:55:39:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:40:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:41:949 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:42:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:55:43:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:44:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaWorld,family=wither_sword]
+SERVER [2026-11-07 09:55:44:454 INFO] Found ArenaWorld
+SERVER [2026-11-07 09:55:45:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 62 100 60 water
+SERVER [2026-11-07 09:55:45:454 INFO] Successfully found the block at 62,100,60.
+SERVER [2026-11-07 09:55:46:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 63 100 60 wither_rose
+SERVER [2026-11-07 09:55:46:454 ERROR] The block at 63,100,60 is Water (expected: Wither Rose).
+SERVER [2026-11-07 09:55:47:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 64 101 60 air
+SERVER [2026-11-07 09:55:47:455 INFO] Successfully found the block at 64,101,60.
+SERVER [2026-11-07 09:55:48:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 65 99 60 dirt
+SERVER [2026-11-07 09:55:48:456 INFO] Successfully found the block at 65,99,60.
+SERVER [2026-11-07 09:55:49:956 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 67 99 60 grass
+SERVER [2026-11-07 09:55:49:454 INFO] Successfully found the block at 67,99,60.
+SERVER [2026-11-07 09:55:50:955 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaWorld slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:55:50:454 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWorld with 1 * Air
+BOT ENTITY {"type":"minecraft:sheep","runtime":"25","position":{"x":52,"y":66,"z":47}}
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:55:51:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:52:956 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:53:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:55:54:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 63 100 60 wither_rose
+SERVER [2026-11-07 09:55:54:401 ERROR] The block at 63,100,60 is Water (expected: Wither Rose).
+SERVER [2026-11-07 09:55:55:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 64 101 60 air
+SERVER [2026-11-07 09:55:55:398 INFO] Successfully found the block at 64,101,60.
+BOT ENTITY EVENT {"runtime_entity_id":"25","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:55:56:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 65 99 60 dirt
+SERVER [2026-11-07 09:55:56:399 INFO] Successfully found the block at 65,99,60.
+SERVER [2026-11-07 09:55:57:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND tp ArenaWorld 100 100 100
+SERVER [2026-11-07 09:55:57:400 INFO] Teleported ArenaWorld to 100.50, 100.00, 100.50
+BOT POSITION {"x":100.5,"y":101.62001037597656,"z":100.5}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"27","position":{"x":109.5,"y":4.5,"z":142}}
+SERVER [2026-11-07 09:55:58:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:55:59:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:00:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:01:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:02:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:56:03:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:04:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND fill 85 99 85 115 99 115 stone
+SERVER [2026-11-07 09:56:04:459 INFO] 961 blocks filled
+SERVER [2026-11-07 09:56:05:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND fill 85 100 85 115 107 115 air
+SERVER [2026-11-07 09:56:05:454 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:56:06:966 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 102 99 100 stone
+SERVER [2026-11-07 09:56:06:454 INFO] Successfully found the block at 102,99,100.
+SERVER [2026-11-07 09:56:07:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 112 99 100 stone
+SERVER [2026-11-07 09:56:07:453 INFO] Successfully found the block at 112,99,100.
+SERVER [2026-11-07 09:56:08:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaWorld slot.weapon.mainhand 0 effect:tnt_sword 1
+SERVER [2026-11-07 09:56:08:453 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWorld with 1 * item.effect:tnt_sword
+BOT HELD CONTENT {"network_id":294,"count":1,"metadata":0,"has_stack_id":1,"stack_id":4,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:56:09:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:10:955 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:56:11:953 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:12:954 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+HARNESS TNT USE
+BOT USE BEGIN {"pos":{"x":100.5,"y":101.62001037597656,"z":100.5},"network_id":294}
+BOT USE SENT
+BOT ENTITY {"type":"minecraft:tnt","runtime":"30","position":{"x":100.5,"y":100.9800033569336,"z":100.5}}
+SERVER [2026-11-07 09:56:13:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:14:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=tnt]
+SERVER [2026-11-07 09:56:14:401 INFO] Found Block of TNT
+BOT ENTITY {"type":"minecraft:pig","runtime":"31","position":{"x":90,"y":64,"z":120}}
+SERVER [2026-11-07 09:56:15:952 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:16:952 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:17:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:18:951 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:56:19:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:20:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:21:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:22:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:56:23:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:24:951 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 102 99 100 stone
+SERVER [2026-11-07 09:56:24:450 ERROR] The block at 102,99,100 is Air (expected: Stone).
+SERVER [2026-11-07 09:56:25:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testforblock 102 99 100 air
+SERVER [2026-11-07 09:56:25:451 INFO] Successfully found the block at 102,99,100.
+SERVER [2026-11-07 09:56:26:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 112 99 100 stone
+SERVER [2026-11-07 09:56:26:450 INFO] Successfully found the block at 112,99,100.
+SERVER [2026-11-07 09:56:27:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+COMMAND testfor @e[type=tnt]
+SERVER [2026-11-07 09:56:27:450 ERROR] No targets matched selector
+SERVER [2026-11-07 09:56:28:950 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWorld","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:56:28:451 INFO] Server stop requested.
+SERVER [2026-11-07 09:56:28:472 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

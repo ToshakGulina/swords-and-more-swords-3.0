@@ -1,0 +1,41 @@
+BDS 1.26.63.1, isolated disposable worlds, no players, Beta APIs not enabled.
+Temporary diagnostic packs and their worlds removed. Not a remake.
+Interpretation and important limitations: docs/remake-readiness-matrix-ru.md.
+
+--- diagnostic 1 ---
+Version: 1.26.63.1
+[Scripting] DIAG_BEFORE_SUBSCRIBED
+Server started.
+[Scripting] DIAG_CONTAINER minecraft:shulker_box component=false
+[Scripting] DIAG_CONTAINER minecraft:undyed_shulker_box component=false
+[Scripting] DIAG_CONTAINER minecraft:red_shulker_box component=false
+[Scripting] DIAG_HEALTH_START 10 10
+[Scripting] DIAG_BEFORE_HURT 4 magic
+[Scripting] DIAG_HEALTH_END 10 6 return=true,true
+Server stop requested.
+Quit correctly
+
+--- diagnostic 2 ---
+Version: 1.26.63.1
+Server started.
+[Scripting] DIAG_TIME moon=0 tick=41
+[Scripting] DIAG_LOOT_TABLE true
+[Scripting] DIAG_LOOT_GENERATED 1 type=minecraft:white_shulker_box inv=false
+[Scripting] DIAG_FRACTION_SET=1.25
+[Scripting] DIAG_FRACTION_HEALTH 10->8.75 10->6.5
+Server stop requested.
+Quit correctly
+
+--- diagnostic 3 ---
+Version: 1.26.63.1
+Server started.
+[Scripting] DIAG_EXP_BEFORE forced=false count=0 bedrock=false
+[Scripting] DIAG_EXP_NORMAL type=minecraft:bedrock
+[Scripting] DIAG_EXP_BEFORE forced=true count=0 bedrock=false
+[Scripting] DIAG_EXP_FORCED_ADDED
+[Scripting] DIAG_EXP_FORCED type=minecraft:air
+[Scripting] DIAG_PROJECTILE minecraft:arrow gravity=0.05000000074505806->0.05999999865889549 air=0 owner=false
+[Scripting] DIAG_PROJECTILE_ERROR minecraft:small_fireball InvalidArgumentError: Invalid value passed to argument [0]. 'minecraft:small_fireball' is not summonable (is_summonable is set to false in the entity definition file).
+[Scripting] DIAG_PROJECTILE minecraft:snowball gravity=0.029999999329447746->0.05999999865889549 air=0 owner=false
+Server stop requested.
+Quit correctly

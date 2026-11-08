@@ -1,0 +1,652 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 12:10:58:502 INFO] Starting Server
+SERVER [2026-11-07 12:10:58:502 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 12:10:58:502 INFO] Build ID: 19782165
+SERVER [2026-11-07 12:10:58:502 INFO] Branch: r/20_u5
+SERVER [2026-11-07 12:10:58:502 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 12:10:58:502 INFO] Configuration: Publish
+SERVER [2026-11-07 12:10:58:502 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 12:10:58:502 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 12:10:58:503 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 12:10:58:503 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 12:10:58:503 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 12:10:58:784 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 12:10:58:784 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 12:10:59:117 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 12:10:59:117 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 12:10:59:117 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 12:10:59:117 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 12:10:59:278 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 12:10:59:278 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 12:10:59:341 INFO] Server started.
+SERVER [2026-11-07 12:10:59:341 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 12:10:59:341 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 12:10:59:341 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 12:10:59:341 INFO] 
+SERVER [2026-11-07 12:10:59:341 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 12:10:59:341 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 12:10:59:341 INFO] ======================================================
+SERVER [2026-11-07 12:10:59:380 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 12:11:01:281 INFO] Player connected: ArenaCollision, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"5","position":{"x":5,"y":66,"z":-81.83489227294922}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"4","position":{"x":5,"y":66,"z":-81.83489227294922}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"3","position":{"x":5,"y":66,"z":-81.83489227294922}}
+BOT ENTITY {"type":"minecraft:turtle","runtime":"2","position":{"x":5,"y":66,"z":-81.83489227294922}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:07:143 INFO] Player Spawned: ArenaCollision xuid: , BOT SPAWN
+COMMAND gamemode creative ArenaCollision
+SERVER [2026-11-07 12:11:07:257 INFO] Set ArenaCollision's game mode to Creative
+SERVER [2026-11-07 12:11:07:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:07:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY {"type":"minecraft:drowned","runtime":"8","position":{"x":-2,"y":49,"z":-50}}
+BOT ENTITY {"type":"minecraft:drowned","runtime":"7","position":{"x":-2,"y":49,"z":-50}}
+BOT ENTITY {"type":"minecraft:drowned","runtime":"6","position":{"x":-2,"y":49,"z":-50}}
+COMMAND tp ArenaCollision 50 100 50
+SERVER [2026-11-07 12:11:08:194 INFO] Teleported ArenaCollision to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+SERVER [2026-11-07 12:11:08:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:08:344 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+BOT ENTITY {"type":"minecraft:pig","runtime":"9","position":{"x":48.47135543823242,"y":62.29701614379883,"z":62.338409423828125}}
+SERVER [2026-11-07 12:11:09:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:09:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:09:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:09:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.472816467285156,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:10:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:10:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:10:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:10:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.67056655883789,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:11:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:11:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:11:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:11:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47135543823242,"y":62.26042556762695,"z":62.338409423828125},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:12:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:12:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:12:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:12:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.47798538208008,"y":62.45758819580078,"z":62.33686828613281},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:13:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:13:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:13:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:13:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":48.79090881347656,"y":61.93461227416992,"z":62.083457946777344},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:14:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:14:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:14:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:14:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.19357681274414,"y":62.334041595458984,"z":61.74535369873047},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:15:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:15:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:15:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:15:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.567691802978516,"y":62.44267272949219,"z":61.391746520996094},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND fill 47 99 47 53 99 53 stone
+SERVER [2026-11-07 12:11:16:244 ERROR] 0 blocks filled
+SERVER [2026-11-07 12:11:16:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:16:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:16:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:16:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":49.94587326049805,"y":62.569175720214844,"z":61.03008270263672},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND fill 59 95 47 65 95 53 stone
+SERVER [2026-11-07 12:11:17:195 INFO] 49 blocks filled
+SERVER [2026-11-07 12:11:17:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:17:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:17:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:17:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.3348503112793,"y":62.69672775268555,"z":60.65333557128906},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 59 96 47 65 105 53 air
+SERVER [2026-11-07 12:11:18:195 ERROR] 0 blocks filled
+SERVER [2026-11-07 12:11:18:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:18:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:18:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:18:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":50.70484924316406,"y":62.67745590209961,"z":60.287315368652344},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND summon pig 62 103 50
+SERVER [2026-11-07 12:11:19:196 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"10","position":{"x":62.5,"y":103,"z":50.5}}
+SERVER [2026-11-07 12:11:19:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:19:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:19:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:19:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.09502410888672,"y":62.34712600708008,"z":59.90095520019531},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"dust_particles","data":0}
+COMMAND tag @e[type=pig,x=62,y=103,z=50,r=10,c=1] add probe
+SERVER [2026-11-07 12:11:20:194 INFO] Added tag 'probe' to Pig
+SERVER [2026-11-07 12:11:20:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:20:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:20:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:20:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:20:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.45353317260742,"y":62.85160827636719,"z":59.543861389160156},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:20:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.282508850097656,"y":96,"z":50.29154586791992},"current":0.25,"base":0.25,"effect":null}
+SERVER 
+COMMAND effect @e[type=pig,tag=probe] slowness 120 255 true
+SERVER [2026-11-07 12:11:21:195 INFO] Gave Slowness * 255 to Pig for 120 seconds
+SERVER Gave Slowness * 255 to Pig for 120 seconds
+SERVER [2026-11-07 12:11:21:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:21:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:21:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:21:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:21:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.82212448120117,"y":62.87336349487305,"z":59.17620086669922},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:21:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":59.965816497802734,"y":96,"z":49.49964141845703},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND effect @e[type=pig,tag=probe] resistance 120 255 true
+SERVER [2026-11-07 12:11:22:194 INFO] Gave Resistance * 255 to Pig for 120 seconds
+SERVER Gave Resistance * 255 to Pig for 120 seconds
+SERVER [2026-11-07 12:11:22:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:22:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:22:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:22:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:22:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.88347244262695,"y":62.49575424194336,"z":59.114990234375},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:22:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":59.93586730957031,"y":96,"z":49.499576568603516},"current":0,"base":0.25,"effect":null}
+SERVER 
+HARNESS COLLISION stone
+COMMAND fill 60 99 48 64 99 52 stone
+SERVER [2026-11-07 12:11:23:194 INFO] 25 blocks filled
+SERVER [2026-11-07 12:11:23:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:23:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:23:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:23:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:23:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.88460922241211,"y":62.39505386352539,"z":59.113853454589844},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:23:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":59.93586730957031,"y":96,"z":49.499576568603516},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND testforblock 62 99 50 stone
+SERVER [2026-11-07 12:11:24:194 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:24:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:24:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:24:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:24:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:24:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":51.88462448120117,"y":62.67510223388672,"z":59.11383819580078},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:24:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":59.93586730957031,"y":96,"z":49.499576568603516},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND tp @e[type=pig,tag=probe] 62.5 103 50.5
+SERVER [2026-11-07 12:11:25:245 INFO] Teleported Pig, Pig to 62.50, 103.00, 50.50
+SERVER [2026-11-07 12:11:25:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:25:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:25:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:25:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:25:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":103,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:25:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":103,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:26:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:26:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:26:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:26:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:26:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:26:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:27:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:27:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:27:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:27:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:27:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:27:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:28:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:28:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:28:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:28:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:28:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:28:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:29:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:29:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:29:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:29:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:29:346 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:29:346 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @e[type=pig,tag=probe]
+SERVER [2026-11-07 12:11:30:244 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934538,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 100.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-8589934538",
+SERVER       "yRot" : 51.34017944335938
+SERVER    },
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -12884901883,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 100.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-12884901883",
+SERVER       "yRot" : 135.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 12:11:30:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:30:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:30:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:30:346 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:30:346 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:30:346 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND testforblock 62 99 50 stone
+SERVER [2026-11-07 12:11:31:195 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:31:346 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:31:346 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:31:346 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:31:346 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:31:346 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:31:347 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+HARNESS COLLISION air
+COMMAND fill 60 99 48 64 99 52 air
+SERVER [2026-11-07 12:11:32:194 INFO] 25 blocks filled
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":99.53583526611328,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:32:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":99.53583526611328,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"dust_particles","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"dust_particles","data":0}
+COMMAND testforblock 62 99 50 air
+SERVER [2026-11-07 12:11:33:195 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:33:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tp @e[type=pig,tag=probe] 62.5 103 50.5
+SERVER [2026-11-07 12:11:34:194 INFO] Teleported Pig, Pig to 62.50, 103.00, 50.50
+SERVER [2026-11-07 12:11:34:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:34:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:34:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:34:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:34:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":102.92160034179688,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:34:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":102.92160034179688,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"10","event_id":"dust_particles","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"9","event_id":"dust_particles","data":0}
+SERVER [2026-11-07 12:11:35:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:35:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:35:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:35:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:35:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:35:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:36:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:36:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:36:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:36:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:36:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:36:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:37:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:37:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:37:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:37:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:37:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:37:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:38:344 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND querytarget @e[type=pig,tag=probe]
+SERVER [2026-11-07 12:11:39:244 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934538,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 96.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-8589934538",
+SERVER       "yRot" : 51.34017944335938
+SERVER    },
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -12884901883,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 96.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-12884901883",
+SERVER       "yRot" : 135.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:39:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND testforblock 62 99 50 air
+SERVER [2026-11-07 12:11:40:244 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:40:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:40:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:40:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:40:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:40:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:40:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+HARNESS COLLISION effect99:spectral_block
+COMMAND fill 60 99 48 64 99 52 effect99:spectral_block
+SERVER [2026-11-07 12:11:41:244 INFO] 25 blocks filled
+SERVER [2026-11-07 12:11:41:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:41:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:41:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:41:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:41:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:41:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 62 99 50 effect99:spectral_block
+SERVER [2026-11-07 12:11:42:244 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:42:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:42:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:42:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:42:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:42:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:42:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":96,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND tp @e[type=pig,tag=probe] 62.5 103 50.5
+SERVER [2026-11-07 12:11:43:194 INFO] Teleported Pig, Pig to 62.50, 103.00, 50.50
+SERVER [2026-11-07 12:11:43:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:43:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:43:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:43:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:43:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":102.92160034179688,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:43:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":102.92160034179688,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:44:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:44:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:44:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:44:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:44:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:44:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:45:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:46:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:46:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:46:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:46:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:46:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:46:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:47:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND querytarget @e[type=pig,tag=probe]
+SERVER [2026-11-07 12:11:48:195 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934538,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 100.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-8589934538",
+SERVER       "yRot" : 135.0
+SERVER    },
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -12884901883,
+SERVER       "position" : {
+SERVER          "x" : 62.50,
+SERVER          "y" : 100.0,
+SERVER          "z" : 50.50
+SERVER       },
+SERVER       "uniqueId" : "-12884901883",
+SERVER       "yRot" : 45.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 12:11:48:344 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:48:344 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:48:344 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:48:344 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:48:344 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:48:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+COMMAND testforblock 62 99 50 effect99:spectral_block
+SERVER [2026-11-07 12:11:49:194 INFO] Successfully found the block at 62,99,50.
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_HEALTH {"health":10,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_HEALTH {"health":6,"max":10}
+SERVER 
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaCollision","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_SPEED {"entity":"player","name":"ArenaCollision","current":0.10000000149011612,"base":0.10000000149011612,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+SERVER [2026-11-07 12:11:49:345 WARN] [Scripting] ARENA_SPEED {"entity":"pig","location":{"x":62.5,"y":100,"z":50.5},"current":0,"base":0.25,"effect":null}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 12:11:50:244 INFO] Server stop requested.
+SERVER [2026-11-07 12:11:50:288 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

@@ -1,0 +1,127 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:12:05:048 INFO] Starting Server
+SERVER [2026-11-07 16:12:05:048 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:12:05:048 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:12:05:048 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:12:05:048 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:12:05:048 INFO] Configuration: Publish
+SERVER [2026-11-07 16:12:05:048 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 16:12:05:049 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:12:05:049 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:12:05:049 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:12:05:050 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:12:05:396 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:12:05:396 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 16:12:05:750 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:12:05:750 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:12:05:750 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:12:05:750 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:12:06:936 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:12:06:936 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:12:06:991 INFO] Server started.
+SERVER [2026-11-07 16:12:06:991 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:12:06:991 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:12:06:991 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:12:06:991 INFO]
+SERVER [2026-11-07 16:12:06:991 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:12:06:991 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:12:06:991 INFO] ======================================================
+SERVER [2026-11-07 16:12:06:079 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 16:12:08:145 INFO] Player connected: ArenaSpongeTest, xuid:
+SERVER [2026-11-07 16:12:08:478 INFO] Player connected: ArenaDummy, xuid:
+ArenaSpongeTest BOT HELD CONTENT {"network_id":0}
+ArenaDummy BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 16:12:20:310 INFO] Player Spawned: ArenaDummy xuid: , pfid: a4c044d13fd63bb5
+SERVER [2026-11-07 16:12:20:310 INFO] Player Spawned: ArenaSpongeTest xuid: , pfid: 63dea6e0713932b9
+ArenaDummy BOT SPAWN
+ArenaSpongeTest BOT SPAWN
+COMMAND gamemode creative ArenaSpongeTest
+SERVER [2026-11-07 16:12:20:459 INFO] Set ArenaSpongeTest's game mode to Creative
+COMMAND clear ArenaSpongeTest
+SERVER [2026-11-07 16:12:21:112 ERROR] Could not clear the inventory of ArenaSpongeTest, no items to remove
+ArenaSpongeTest BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaSpongeTest 50 100 50
+SERVER [2026-11-07 16:12:21:812 INFO] Teleported ArenaSpongeTest to 50.50, 100.00, 50.50
+ArenaSpongeTest BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND gamemode creative ArenaDummy
+SERVER [2026-11-07 16:12:23:813 INFO] Set ArenaDummy's game mode to Creative
+COMMAND clear ArenaDummy
+SERVER [2026-11-07 16:12:24:519 ERROR] Could not clear the inventory of ArenaDummy, no items to remove
+ArenaDummy BOT HELD CONTENT {"network_id":0}
+COMMAND tp ArenaDummy 50 100 50
+SERVER [2026-11-07 16:12:25:213 INFO] Teleported ArenaDummy to 50.50, 100.00, 50.50
+ArenaDummy BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+COMMAND fill 47 99 47 53 99 53 stone
+SERVER [2026-11-07 16:12:27:163 INFO] 49 blocks filled
+COMMAND fill 47 100 47 53 115 53 air
+SERVER [2026-11-07 16:12:28:864 INFO] 18 blocks filled
+COMMAND weather rain 120
+SERVER [2026-11-07 16:12:28:563 INFO] Changing to rainy weather
+COMMAND replaceitem entity ArenaSpongeTest slot.weapon.mainhand 0 effect:sponge_sword 1
+SERVER [2026-11-07 16:12:29:263 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpongeTest with 1 * item.effect:sponge_sword
+ArenaSpongeTest BOT HELD CONTENT {"network_id":292,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+MARKER SAMPLE 0 monotonic 4684.238713147
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:31:262 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 220 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:31:562 ERROR] No targets matched selector
+MARKER SAMPLE 1 monotonic 4686.539180664
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:33:612 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 267 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:34:913 ERROR] No targets matched selector
+MARKER SAMPLE 2 monotonic 4688.839721235
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:36:913 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 313 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:36:213 ERROR] No targets matched selector
+MARKER SAMPLE 3 monotonic 4691.140105391
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:38:212 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 359 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:38:512 ERROR] No targets matched selector
+MARKER SAMPLE 4 monotonic 4693.440489098
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:40:512 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 405 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:40:812 ERROR] No targets matched selector
+MARKER SAMPLE 5 monotonic 4695.740860426
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:42:812 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 451 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:43:112 ERROR] No targets matched selector
+MARKER SAMPLE 6 monotonic 4698.04115684
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:45:062 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 496 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:45:363 ERROR] No targets matched selector
+MARKER SAMPLE 7 monotonic 4700.341550736
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:47:363 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 542 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:47:663 ERROR] No targets matched selector
+MARKER SAMPLE 8 monotonic 4702.6419467
+COMMAND scoreboard players list ArenaSpongeTest
+SERVER [2026-11-07 16:12:49:714 INFO] §aShowing 1 tracked objective(s) for ArenaSpongeTest:
+SERVER - Effect99: 589 (Effect99)
+COMMAND testfor @a[name=ArenaSpongeTest,hasitem={item=effect:wet_sponge_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 16:12:50:013 ERROR] No targets matched selector
+COMMAND weather clear 5
+SERVER [2026-11-07 16:12:52:013 INFO] Changing to clear weather
+SERVER [2026-11-07 16:12:52:712 INFO] Server stop requested.
+SERVER [2026-11-07 16:12:52:723 INFO] Stopping server...
+SERVER Quit correctly
+DONE

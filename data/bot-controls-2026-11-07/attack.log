@@ -1,0 +1,73 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:24:34:804 INFO] Starting Server
+SERVER [2026-11-07 08:24:34:804 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:24:34:804 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:24:34:804 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:24:34:804 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:24:34:804 INFO] Configuration: Publish
+SERVER [2026-11-07 08:24:34:804 INFO] Level Name: Bot movement
+SERVER [2026-11-07 08:24:34:805 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:24:34:805 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:24:34:805 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:24:34:806 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:24:34:193 INFO] Opening level 'worlds/Bot movement/db'
+SERVER [2026-11-07 08:24:35:766 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:24:35:766 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:24:35:772 INFO] Server started.
+SERVER [2026-11-07 08:24:35:772 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:24:35:772 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:24:35:772 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:24:35:772 INFO] 
+SERVER [2026-11-07 08:24:35:772 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:24:35:772 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:24:35:772 INFO] ======================================================
+SERVER [2026-11-07 08:24:37:874 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","movement":"client"}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-416,"y":11.5,"z":-370.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-431,"y":15.5,"z":-383.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-428,"y":11.5,"z":-366.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-380.5,"y":13.5,"z":-429}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-360,"y":13.5,"z":-415.5}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-320.5,"y":19.5,"z":-404}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-444.5,"y":7.5,"z":-389}}
+BOT ENTITY {"type":"minecraft:chest_minecart","runtime":"undefined","position":{"x":-439,"y":9.5,"z":-408.5}}
+SERVER [2026-11-07 08:24:43:773 INFO] Player Spawned: ArenaBot xuid: , BOT SPAWN
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:24:43:883 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+BOT POSITION {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT TEXT {"type":"json","needs_translation":false,"message":"{\"rawtext\":[{\"translate\":\"commands.tp.successVictim\",\"with\":{\"rawtext\":[{\"text\":\"10.50, 100.00, 10.50\"}]}}]}\n","xuid":"","platform_chat_id":""}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 8 99 8 20 99 12 stone
+SERVER [2026-11-07 08:24:51:874 ERROR] 0 blocks filled
+COMMAND fill 11 100 9 13 102 11 glass
+SERVER [2026-11-07 08:24:52:875 INFO] 27 blocks filled
+COMMAND fill 12 100 10 12 101 10 air
+SERVER [2026-11-07 08:24:53:875 INFO] 2 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode survival ArenaBot
+SERVER [2026-11-07 08:24:54:874 INFO] Set ArenaBot's game mode to Survival
+BOT TEXT {"type":"json","needs_translation":false,"message":"{\"rawtext\":[{\"translate\":\"gameMode.changed\",\"with\":{\"rawtext\":[{\"text\":\"%createWorldScreen.gameMode.survival\"}]}}]}\n","xuid":"","platform_chat_id":""}
+COMMAND clear ArenaBot
+SERVER [2026-11-07 08:24:55:875 ERROR] Could not clear the inventory of ArenaBot, no items to remove
+COMMAND kill @e[type=pig]
+SERVER [2026-11-07 08:24:56:875 ERROR] No targets matched selector
+COMMAND summon pig 12 100 10
+SERVER [2026-11-07 08:24:57:875 INFO] Object successfully summoned
+BOT ENTITY {"type":"minecraft:pig","runtime":"undefined","position":{"x":12.5,"y":100,"z":10.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=pig,x=12,y=100,z=10,r=5]
+SERVER [2026-11-07 08:24:59:825 INFO] Found Pig
+HARNESS instruct ATTACK target_known= True
+BOT ATTACK BEGIN undefined {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=pig,x=12,y=100,z=10,r=5]
+SERVER [2026-11-07 08:25:09:874 INFO] Found Pig
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 08:25:10:874 INFO] Server stop requested.
+SERVER [2026-11-07 08:25:10:924 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

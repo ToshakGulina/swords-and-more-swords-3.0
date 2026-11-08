@@ -1,0 +1,48 @@
+# Ghost, Nether Star и Ultra Instinct: получение и снаряды 2.x
+
+Разбор 2.8.8/2.8.14. Точные ID `effect:ghost_sword`, `effect:nether_star_sword` и `effect:ultra_instinct_sword` среди item 1.6 отсутствуют; это не утверждение об отсутствии похожих механизмов. Item JSON и рассмотренные ниже player-события в двух 2.x архивных файлах совпадают побайтово/структурно; выполнение всех способностей игрой не проверялось; конкретное серверное испытание Ghost Sword описано ниже. [Указатель предметов](quick-reference.md) · [фонтаны](manual-fountain-2.8.md) · [снаряды и группы](projectile-component-index.md).
+
+## Ghost Sword
+
+**Серверное испытание 2.8.8 / 1.20.50.03:** свинье заранее снизили здоровье с 10 до 6 HP. Две отправленные ботом атаки с Ghost Sword в подтверждённой руке не изменили здоровье цели; контрольный удар пустой рукой после замены меча снизил его с 6 до 5. Нет отдельного подтверждения, что оба пакета Ghost Sword стали успешными попаданиями, поэтому это наблюдение не доказывает ни лечение, ни точное правило отрицательного урона. [Сценарий и журнал](../data/original-mechanics-2026-11-07/README.md).
+
+
+**Защита и применение (практика 2.8.8 / 1.20.50.03):** без меча серверная команда урона `entity_attack` на 4 HP снизила здоровье с 20 до 16. После лечения при активной family Ghost аналогичные команды `entity_attack` и `fire` были отклонены, здоровье осталось 20. Проверены только эти серверные команды, а не все причины урона и не удары мобов. Применение создало ghost_projectile, израсходовало 6 прочности и переместило игрока примерно на 3,5 блока по горизонтали и 1,62 по вертикали; конечную позицию подтвердил сервер. При повторных пробах с каменной стеной на z=202 игрок не переместился, а при стенах на z=204 и z=206 конечная координата совпала с плоскостью стены; пересечение на другую сторону не доказано. В открытом очищенном коридоре без конечного препятствия перемещения также не было. [Условия](../data/original-mechanics-2026-11-07/README.md). После снятия меча игрок получил непрерывный урон огнём, поэтому этот этап нельзя использовать как чистый контроль защиты. [Журнал](../data/original-mechanics-2026-11-07/README.md).
+
+[Условная межигровая матрица family и type](manual-family-cross-effects-2.8.md).
+
+`effect:ghost_sword`: damage **−666**, durability 3333, cooldown 2, offhand false, foil true, `should_despawn:false`; enchantable и repairable не объявлены. На три weapon-хука direct durability 1; on-use задаёт shoot `entity:ghost_projectile` launch_power 1 и отдельный durability damage 6. Отрицательный damage не доказывает лечение, отрицательный урон или иное поведение.
+
+Прямой локальный recipe и loot entry с этим ID не найдены. У `entity:ghost` runtime chicken, health 666, family `[ghost,mob,monster]`; damage sensor при `other` family player вызывает `disturbed_ghost`, deals_damage false, и отдельный trigger cause all также false. `disturbed_ghost` выбирает 987 пусто / 10 звук и `spreadplayers` / 3 `structure load ghost_sword` плюс despawn/частицы. 0.3% и 1% — только доли соответствующего выбора, не безусловный шанс любой атаки или фактической загрузки. Структура содержит один сохранённый предмет нужного ID. Underground и surface spawn rules имеют разные веса, а sensor самой сущности проверяет `is_brightness > 0.1`; их единицы, порядок и соответствие ночи не выводятся арифметически.
+
+Player group задаёт scale 1.05, collision 0×0, breathes water/air/lava, knockback resistance 1, damage_sensor cause all/deals_damage false и **family только `[ghost_sword]`**, без явно перечисленной `player`. Отдельная добавляемая группа `ghost_movement` задаёт movement 0.14. Stop явно удаляет `minecraft:ghost_sword` и добавляет default_player, но **не перечисляет `ghost_movement`**. Это не доказательство постоянной скорости или потери family player: разрешение перекрывающихся компонентов/групп неизвестно. В частности, другие селекторы с family player/default_player могут взаимодействовать с таким объявлением; считать взаимодействие доказанным нельзя.
+
+`entity:ghost_projectile` исходно имеет collision 0×0, has_collision false, projectile power 2.5, gravity 0, liquid_inertia 2.8, impact_damage −1; looping timer `[0,0]` запускает логику `teleport_owner`, которая при указанных air/water проверках добавляет `teleport_enable`. Эта группа изменяет collision до 10×10, включает collision и on-hit `teleport_owner`/`remove_on_hit`. Исходный timer и наличие группы не доказывают телепортацию сквозь каждый блок. Отдельный animation controller при sneak назначает levitation 1/3, при отсутствии sneak снимает её; это независимый вход от item on-use.
+
+## Nether Star Sword
+
+`effect:nether_star_sword`: damage 7, durability/self repair 3256, дополнительный repair `minecraft:nether_star` 3000, enchantable 9/sword, offhand false, `should_despawn:false`. В обеих 2.x объявлен **shapeless** recipe crafting_table: `minecraft:nether_star` data 0 + `minecraft:diamond_sword` data 0 → один меч (`count:1`). Это точная рецептурная декларация, не доказательство её принятия движком.
+
+Три weapon-хука ведут в один `sequence` из трёх шагов:
+
+1. `shoot entity:nether_star_projectile` launch_power 1.
+2. Randomize 80 — один summon `entity:nether_star ^ ^20 ^-6`; 20 — тот же и ещё один `^ ^18 ^-6`. При стандартном выборе условное среднее **1.2 записанного summon на вызов этого шага**; это не число созданных или попавших звёзд.
+3. Отдельный randomize 9999 — durability damage 1 / 1 — summon `entity:ultra_instinct_explode`. Доля 1/10000 = 0.01% условна на этот выбор; в редкой ветви direct durability damage не указан. Разные шаги не следует заменять одним испытанным шансом на удар.
+
+Базовый `nether_star_projectile` имеет timer `[5,5]`, collision 1×1, projectile power 1, impact damage 6 и `set_sound`; при entity_spawned и фильтре `other` с мечом в hand добавляемая группа вместо этого объявляет scale 0, timer `[0.1,0.1]`, power 5, impact damage −1 и `set_objective`. Значения базы и группы не нужно суммировать. `set_objective` вызывает `entity:objective`; тот с timer `[1,1]` выполняет `tp @s @e[r=8,c=1,type=!player,type=!item,family=!parrot_tame,family=!tamed,type=!arrow,type=!xp_orb,family=!effect99_entities]`, то есть выбор ближайшей подходящей сущности, не записанный идентификатор попадания. Звезда ищет family objective в радиусе 28, использует ranged shooter и timer `[0.5,0.5]`. Пустая выборка и приоритет групп не установлены.
+
+Есть отдельное событие projectile `objective`, добавляющее группу `objective`, которая **в том же файле не объявлена**; не путать его с `set_objective` и призывом другой сущности. Локальный буквальный поиск вызовов этого события не обнаружил, но внешние/динамические вызовы возможны. При fatal damage Wither от player с этим мечом в hand другой event выбирает 87 пусто/13 загрузить структуру Wither Sword — не выпадает из самого рецепта и не гарантировано каждым применением.
+
+## Ultra Instinct Sword
+
+`effect:ultra_instinct_sword`: damage 16, durability 9999, cooldown 61, offhand false, `should_despawn:false`, enchantable и repairable не объявлены; digger web/bamboo 999/999. Только on_hurt_entity задаёт прямую потерю durability 1; on-use отдельно задаёт shoot `entity:ultra_instinct_projectile`, durability 48 и звук. Прямых локальных recipe и loot entry с этим ID не найдено; структура содержится в архиве. В фонтане теги `wish_1`/`wish_2` срабатывают по именам выброшенных материалов и строгой геометрии, после чего выбирают success 8/1000 или 25/1000 соответственно — это не гарантия получения и не отдельные рецепты меча.
+
+Player damage sensor для одного trigger требует все девять `has_damage !=` значений lava/drowning/void/thorns/suicide/starve/fire/fire_tick/magic и задаёт deals_damage false вместе с событием spreadplayers; отдельные triggers также задают false для fire, fire_tick и block/entity explosion, и **true для lava**. Отсутствие явно заданного false для drowning, void, thorns, suicide, starve или magic не доказывает общий иммунитет. Перекрытие возможных triggers и действительную защиту нельзя разрешить только по тексту. Отдельная movement-группа 0.22 явно снимается в stop Ultra, в отличие от `ghost_movement` в stop Ghost.
+
+Projectile runtime snowball, collision 0×0, power 2/gravity 0, impact 64; on-hit вызывает `entity:ultra_instinct_explode`, power 8/max_resistance 4.0/fire false/griefing true. Event `projectile_particle` содержит **`kill @e[type=item,r=24]`**: это все подходящие item-сущности в селекторе вокруг контекста projectile, не только цель или предметы владельца. Ageable указывает отсутствующий в этом entity event `minecraft:end_scale`; потенциальный внешний механизм не исключён. Не выводить гарантированное разрушение bedrock или получение его блоков из одного max_resistance.
+
+В `player.json` есть ещё событие `shoot_ultra_instinct_projectile`: в одном объекте оно одновременно **add и remove** группу `ultra_instinct_projectile`, которая объявляет spawn одного одноразового одноимённого projectile с wait 0/0. Буквальный поиск по текстам JSON, mcfunction и JS обоих архивов обнаруживает имя события только в его собственном объявлении; внешние/динамические вызовы не исключены. Порядок соседних add/remove и фактическое создание из этой группы не установлены. Важно: это **не** тот же путь, что прямо объявленный item on-use `shoot` выше; отсутствие локального вызова player-event не доказывает отсутствие работы item-снаряда.
+
+## Границы
+
+Доли случайных выборов условны, а JSON-компоненты могут конфликтовать, не загрузиться или зависеть от ванильных/внешних определений. Рецепты, другие снаряды, воздействие на мир и мультиплеер здесь не проверялись; испытания Ghost ограничены описанными выше условиями.

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "arena_probe:test_ore",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      },
+      "minecraft:geometry": "geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "stone",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:loot": "loot_tables/blocks/test_ore.json"
+    }
+  }
+}

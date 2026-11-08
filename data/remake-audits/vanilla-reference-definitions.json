@@ -1,0 +1,585 @@
+{
+  "repo": "Mojang/bedrock-samples",
+  "ref": "v1.26.60.5",
+  "commit": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "scope": "Only literal geometry, animation and render controller identifiers marked missing locally in docs/resource-graph-2.8.8.md, matched against parsed top-level definitions in official sample resource pack, stripping legacy geometry inheritance after colon. Not sounds or materials; controller.animation references classified by ID prefix.",
+  "counts_of_successfully_parsed_json_files": {
+    "animation_controllers": 73,
+    "animations": 143,
+    "models": 198,
+    "render_controllers": 173
+  },
+  "parse_failures": [],
+  "categories": {
+    "geometry": [
+      {
+        "id": "geometry.bed",
+        "definition_files": [
+          "resource_pack/models/mobs.json"
+        ]
+      },
+      {
+        "id": "geometry.bee",
+        "definition_files": [
+          "resource_pack/models/entity/bee.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.cape",
+        "definition_files": [
+          "resource_pack/models/mobs.json"
+        ]
+      },
+      {
+        "id": "geometry.enderman.v1.8",
+        "definition_files": [
+          "resource_pack/models/entity/enderman.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.fireball",
+        "definition_files": [
+          "resource_pack/models/entity/fireball.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.humanoid.custom",
+        "definition_files": [
+          "resource_pack/models/entity/humanoid.custom.geo.json",
+          "resource_pack/models/mobs.json"
+        ]
+      },
+      {
+        "id": "geometry.item_sprite",
+        "definition_files": [
+          "resource_pack/models/entity/item_sprite.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.slime",
+        "definition_files": [
+          "resource_pack/models/entity/slime.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.villager.witch",
+        "definition_files": [
+          "resource_pack/models/entity/witch_v1.0.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.villager.witch.v1.8",
+        "definition_files": [
+          "resource_pack/models/entity/witch.geo.json"
+        ]
+      },
+      {
+        "id": "geometry.wolf",
+        "definition_files": [
+          "resource_pack/models/entity/wolf.geo.json"
+        ]
+      }
+    ],
+    "animation": [
+      {
+        "id": "animation.actor.billboard",
+        "definition_files": [
+          "resource_pack/animations/actor.animation.json"
+        ]
+      },
+      {
+        "id": "animation.bee.flying",
+        "definition_files": [
+          "resource_pack/animations/bee.animation.json"
+        ]
+      },
+      {
+        "id": "animation.common.look_at_target",
+        "definition_files": [
+          "resource_pack/animations/look_at_target.animation.json"
+        ]
+      },
+      {
+        "id": "animation.enderman.arms_legs",
+        "definition_files": [
+          "resource_pack/animations/enderman.animation.json"
+        ]
+      },
+      {
+        "id": "animation.enderman.base_pose",
+        "definition_files": [
+          "resource_pack/animations/enderman.animation.json"
+        ]
+      },
+      {
+        "id": "animation.enderman.carrying",
+        "definition_files": [
+          "resource_pack/animations/enderman.animation.json"
+        ]
+      },
+      {
+        "id": "animation.enderman.scary_face",
+        "definition_files": [
+          "resource_pack/animations/enderman.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.attack.rotations",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.base_pose",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.bob",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.bow_and_arrow",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.brandish_spear",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.charging",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.damage_nearby_mobs",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.look_at_target.default",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.look_at_target.gliding",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.look_at_target.swimming",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.move",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.humanoid.use_item_progress",
+        "definition_files": [
+          "resource_pack/animations/humanoid.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.attack.positions",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.attack.rotations",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.bob",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.bow_equipped",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.cape",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.crossbow_equipped",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.crossbow_hold",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.attack_rotation",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.attack_rotation_item",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.base_pose",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.breathing_bob",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.crossbow_equipped",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.crossbow_hold",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.empty_hand",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.map_hold",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.map_hold_attack",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.map_hold_main_hand",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.map_hold_off_hand",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.swap_item",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.vr_attack_rotation",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.first_person.walk",
+        "definition_files": [
+          "resource_pack/animations/player_firstperson.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.holding",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.look_at_target.inverted",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.look_at_target.ui",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.move.arms",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.move.legs",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.riding.arms",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.riding.legs",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.shield_block_main_hand",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.shield_block_off_hand",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.sleeping",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.sneaking",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.swim",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.player.swim.legs",
+        "definition_files": [
+          "resource_pack/animations/player.animation.json"
+        ]
+      },
+      {
+        "id": "animation.skeleton.attack",
+        "definition_files": [
+          "resource_pack/animations/skeleton.animation.json"
+        ]
+      },
+      {
+        "id": "animation.villager.general",
+        "definition_files": [
+          "resource_pack/animations/villager.animation.json"
+        ]
+      },
+      {
+        "id": "animation.villager.general.v1.0",
+        "definition_files": [
+          "resource_pack/animations/villager.animation.json"
+        ]
+      },
+      {
+        "id": "animation.villager.move",
+        "definition_files": [
+          "resource_pack/animations/villager.animation.json"
+        ]
+      },
+      {
+        "id": "animation.witch.general",
+        "definition_files": [
+          "resource_pack/animations/witch.animation.json"
+        ]
+      },
+      {
+        "id": "animation.wither_skull.move",
+        "definition_files": [
+          "resource_pack/animations/wither_skull.animation.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.angry",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.baby_scaling",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.head_rot_z",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.leg_default",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.setup",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.shaking",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.sitting",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      },
+      {
+        "id": "animation.wolf.tail_default",
+        "definition_files": [
+          "resource_pack/animations/wolf.animations.json"
+        ]
+      }
+    ],
+    "animation_controller": [
+      {
+        "id": "controller.animation.humanoid.look_at_target",
+        "definition_files": [
+          "resource_pack/animation_controllers/humanoid.animation_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.animation.persona.blink",
+        "definition_files": [
+          "resource_pack/animation_controllers/persona.animation_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.animation.player.base",
+        "definition_files": []
+      },
+      {
+        "id": "controller.animation.player.crossbow",
+        "definition_files": [
+          "resource_pack/animation_controllers/player.animation_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.animation.player.first_person_attack",
+        "definition_files": [
+          "resource_pack/animation_controllers/player.animation_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.animation.player.first_person_map",
+        "definition_files": [
+          "resource_pack/animation_controllers/player.animation_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.animation.player.hudplayer",
+        "definition_files": []
+      },
+      {
+        "id": "controller.animation.player.root",
+        "definition_files": [
+          "resource_pack/animation_controllers/player.animation_controllers.json"
+        ]
+      }
+    ],
+    "render_controller": [
+      {
+        "id": "controller.render.fireball",
+        "definition_files": [
+          "resource_pack/render_controllers/fireball.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.item_sprite",
+        "definition_files": [
+          "resource_pack/render_controllers/item_sprite.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.player.first_person",
+        "definition_files": [
+          "resource_pack/render_controllers/player.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.player.map",
+        "definition_files": [
+          "resource_pack/render_controllers/player.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.player.third_person",
+        "definition_files": [
+          "resource_pack/render_controllers/player.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.slime",
+        "definition_files": [
+          "resource_pack/render_controllers/slime.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.slime_armor",
+        "definition_files": [
+          "resource_pack/render_controllers/slime_armor.render_controllers.json"
+        ]
+      },
+      {
+        "id": "controller.render.wolf",
+        "definition_files": [
+          "resource_pack/render_controllers/wolf.render_controllers.json"
+        ]
+      }
+    ]
+  },
+  "conclusion": "Matching identifier only; does not establish compatible render behavior, aliases, skeletons, query support or presence in game runtime."
+}

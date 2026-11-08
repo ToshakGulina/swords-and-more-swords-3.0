@@ -1,0 +1,266 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 17:03:40:503 INFO] Starting Server
+SERVER [2026-11-07 17:03:40:503 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 17:03:40:503 INFO] Build ID: 19782165
+SERVER [2026-11-07 17:03:40:503 INFO] Branch: r/20_u5
+SERVER [2026-11-07 17:03:40:503 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 17:03:40:503 INFO] Configuration: Publish
+SERVER [2026-11-07 17:03:40:503 INFO] Level Name: Arena test
+SERVER [2026-11-07 17:03:40:504 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 17:03:40:504 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 17:03:40:504 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 17:03:40:507 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 17:03:40:999 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 17:03:40:999 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 17:03:41:381 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:03:41:381 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 17:03:41:381 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:03:41:381 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 17:03:41:620 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 17:03:41:621 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 17:03:41:698 INFO] Server started.
+SERVER [2026-11-07 17:03:41:698 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 17:03:41:698 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 17:03:41:698 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 17:03:41:698 INFO]
+SERVER [2026-11-07 17:03:41:698 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 17:03:41:698 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 17:03:41:698 INFO] ======================================================
+SERVER [2026-11-07 17:03:42:362 INFO] Player connected: ArenaSea, xuid:
+BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:witch","runtime":"4","position":{"x":3.966034412384033,"y":100,"z":33.49998092651367}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:wolf","runtime":"6","position":{"x":15.83045768737793,"y":102,"z":15.16953182220459}}
+SERVER [2026-11-07 17:03:47:665 INFO] Player Spawned: ArenaSea xuid: ,
+BOT BOT SPAWN
+COMMAND gamemode creative ArenaSea
+SERVER [2026-11-07 17:03:47:792 INFO] Set ArenaSea's game mode to Creative
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"7","position":{"x":-20,"y":109,"z":36}}
+COMMAND tp ArenaSea 50 100 50
+SERVER [2026-11-07 17:03:48:522 INFO] Teleported ArenaSea to 50.50, 100.00, 50.50
+BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"25","position":{"x":32.70000076293945,"y":75.0999984741211,"z":84.99090576171875}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"17","position":{"x":59.97947692871094,"y":58,"z":65.409423828125}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"16","position":{"x":54.61137771606445,"y":68,"z":74.05339050292969}}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"15","position":{"x":62.723472595214844,"y":64,"z":69.90194702148438}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"13","position":{"x":57.29999923706055,"y":78,"z":76.30000305175781}}
+BOT BOT ENTITY {"type":"minecraft:spider","runtime":"14","position":{"x":59.40616989135742,"y":65,"z":72.14318084716797}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"29","position":{"x":20.799381256103516,"y":96,"z":37.96723175048828}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"28","position":{"x":18.299999237060547,"y":97,"z":34.29999923706055}}
+BOT BOT ENTITY {"type":"minecraft:chicken","runtime":"31","position":{"x":40.74287796020508,"y":88,"z":43.74250411987305}}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"36","position":{"x":32.315887451171875,"y":93,"z":24.342830657958984}}
+BOT BOT ENTITY {"type":"minecraft:sheep","runtime":"35","position":{"x":32.52521896362305,"y":95,"z":16.982215881347656}}
+BOT BOT ENTITY {"type":"entity:ghost","runtime":"39","position":{"x":36,"y":86,"z":64}}
+BOT BOT ENTITY {"type":"minecraft:zombie","runtime":"41","position":{"x":61.036563873291016,"y":67,"z":36.55113220214844}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"40","position":{"x":76.98301696777344,"y":79,"z":43.55742645263672}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"44","position":{"x":54,"y":87,"z":25}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"49","position":{"x":86.24229431152344,"y":72.25,"z":67.03602600097656}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"55","position":{"x":91.00877380371094,"y":74,"z":34.56059646606445}}
+BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"54","position":{"x":81.30000305175781,"y":79,"z":40.29999923706055}}
+BOT BOT ENTITY {"type":"minecraft:creeper","runtime":"56","position":{"x":92.37662506103516,"y":72,"z":31.001338958740234}}
+COMMAND fill 45 99 45 65 99 55 stone
+SERVER [2026-11-07 17:03:51:524 INFO] 110 blocks filled
+COMMAND fill 45 100 45 65 106 55 air
+SERVER [2026-11-07 17:03:52:332 ERROR] 0 blocks filled
+COMMAND fill 59 100 48 63 104 52 water
+SERVER [2026-11-07 17:03:53:124 INFO] 125 blocks filled
+COMMAND clear ArenaSea
+SERVER [2026-11-07 17:03:53:920 ERROR] Could not clear the inventory of ArenaSea, no items to remove
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"36","event_id":"eat_grass_animation","data":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND effect ArenaSea clear
+SERVER [2026-11-07 17:03:54:720 ERROR] Couldn't take any effects from ArenaSea as they do not have any
+MARK AIR
+COMMAND replaceitem entity ArenaSea slot.weapon.mainhand 0 effect:sea_sword 1
+SERVER [2026-11-07 17:03:55:524 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSea with 1 * item.effect:sea_sword
+BOT BOT HELD CONTENT {"network_id":285,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaSea,family=sea_sword]
+SERVER [2026-11-07 17:04:00:519 INFO] Found ArenaSea
+COMMAND testfor @a[name=ArenaSea,hasitem={item=effect:sea_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 17:04:01:327 INFO] Found ArenaSea
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK WATER
+COMMAND tp ArenaSea 61 101 50
+SERVER [2026-11-07 17:04:05:175 INFO] Teleported ArenaSea to 61.50, 101.00, 50.50
+BOT BOT POSITION {"x":61.5,"y":102.62001037597656,"z":50.5}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT ENTITY {"type":"minecraft:rabbit","runtime":"62","position":{"x":42,"y":87,"z":31}}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+COMMAND execute as ArenaSea at @s if block ~ ~ ~ water run say IN_WATER_BLOCK
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"ArenaSea","message":"[ArenaSea] IN_WATER_BLOCK","xuid":"","platform_chat_id":""}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+MARK AIR AGAIN
+COMMAND tp ArenaSea 50 100 50
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+SERVER [2026-11-07 17:04:12:119 INFO] Teleported ArenaSea to 50.50, 100.00, 50.50
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"update","effect_id":26,"amplifier":0,"particles":false,"duration":20}
+BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+BOT BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":26,"amplifier":0,"particles":false,"duration":0}
+COMMAND execute as ArenaSea at @s if block ~ ~ ~ air run say IN_AIR_BLOCK
+BOT BOT TEXT {"type":"announcement","needs_translation":false,"source_name":"ArenaSea","message":"[ArenaSea] IN_AIR_BLOCK","xuid":"","platform_chat_id":""}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"65","position":{"x":88.5,"y":63.459999084472656,"z":80.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"66","position":{"x":87.5,"y":63.459999084472656,"z":80.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"67","position":{"x":89.5,"y":62.459999084472656,"z":80.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"70","position":{"x":89.5,"y":62.459999084472656,"z":79.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"68","position":{"x":89.5,"y":63.459999084472656,"z":80.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"69","position":{"x":89.5,"y":61.459999084472656,"z":79.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"71","position":{"x":89.5,"y":63.459999084472656,"z":79.5}}
+BOT BOT ENTITY {"type":"minecraft:falling_block","runtime":"72","position":{"x":88.5,"y":61.459999084472656,"z":80.5}}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK REMOVE
+COMMAND replaceitem entity ArenaSea slot.weapon.mainhand 0 air
+SERVER [2026-11-07 17:04:19:120 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSea with 1 * Air
+BOT BOT HELD CONTENT {"network_id":0}
+BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaSea,family=sea_sword]
+SERVER [2026-11-07 17:04:23:119 ERROR] No targets matched selector
+SERVER [2026-11-07 17:04:25:973 INFO] Server stop requested.
+SERVER [2026-11-07 17:04:25:010 INFO] Stopping server...
+SERVER Quit correctly
+DONE

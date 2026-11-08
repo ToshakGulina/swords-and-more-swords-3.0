@@ -1,0 +1,394 @@
+[
+  {
+    "id": "effect:bee_sword",
+    "screenshots": [
+      "115821"
+    ],
+    "damage": 5,
+    "durability": 1080,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:ice_sword",
+    "screenshots": [
+      "115821"
+    ],
+    "damage": 8.5,
+    "durability": 500,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:nether_star_sword",
+    "screenshots": [
+      "115826"
+    ],
+    "damage": 7,
+    "durability": 3256,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:blaze_sword",
+    "screenshots": [
+      "115826"
+    ],
+    "damage": 6,
+    "durability": 2300,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:slime_sword",
+    "screenshots": [
+      "115830"
+    ],
+    "damage": 6,
+    "durability": 675,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:sea_sword",
+    "screenshots": [
+      "115830"
+    ],
+    "damage": 7,
+    "durability": 1356,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:clock_sword",
+    "screenshots": [
+      "115837"
+    ],
+    "damage": 7,
+    "durability": 4800,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:spider_sword",
+    "screenshots": [
+      "115837"
+    ],
+    "damage": 5,
+    "durability": 628,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:ender_sword",
+    "screenshots": [
+      "115842"
+    ],
+    "damage": 9,
+    "durability": 1256,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:coal_sword",
+    "screenshots": [
+      "115842",
+      "115849"
+    ],
+    "damage": 4,
+    "durability": 121,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:shulker_sword",
+    "screenshots": [
+      "115849"
+    ],
+    "damage": 6,
+    "durability": 2609,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:jungle_sword",
+    "screenshots": [
+      "115849"
+    ],
+    "damage": 4,
+    "durability": 128,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:cactus_sword",
+    "screenshots": [
+      "115853"
+    ],
+    "damage": 6,
+    "durability": 125,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:emerald_sword",
+    "screenshots": [
+      "115853"
+    ],
+    "damage": 7,
+    "durability": 2300,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:spectral_sword",
+    "screenshots": [
+      "115853"
+    ],
+    "damage": 9,
+    "durability": 3256,
+    "enchantable": false,
+    "repairable": true
+  },
+  {
+    "id": "effect:lapis_sword",
+    "screenshots": [
+      "115858"
+    ],
+    "damage": 5,
+    "durability": 528,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:grass_sword",
+    "screenshots": [
+      "115858"
+    ],
+    "damage": 8,
+    "durability": 250,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:obsidian_sword",
+    "screenshots": [
+      "115902"
+    ],
+    "damage": 8,
+    "durability": 3000,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:glowstone_sword",
+    "screenshots": [
+      "115902"
+    ],
+    "damage": 4,
+    "durability": 128,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:time_sword",
+    "screenshots": [
+      "115910"
+    ],
+    "damage": 13,
+    "durability": 13770,
+    "enchantable": false,
+    "repairable": false
+  },
+  {
+    "id": "effect:creeper_sword",
+    "screenshots": [
+      "115910"
+    ],
+    "damage": 6,
+    "durability": 1500,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:fire_sword",
+    "screenshots": [
+      "115915"
+    ],
+    "damage": 6,
+    "durability": 2000,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:magma_sword",
+    "screenshots": [
+      "115920"
+    ],
+    "damage": 7.2,
+    "durability": 1316,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:wither_sword",
+    "screenshots": [
+      "115920"
+    ],
+    "damage": 10,
+    "durability": 3856,
+    "enchantable": false,
+    "repairable": true
+  },
+  {
+    "id": "effect:tnt_sword",
+    "screenshots": [
+      "115934"
+    ],
+    "damage": 4,
+    "durability": 64,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:lightning_sword",
+    "screenshots": [
+      "115934"
+    ],
+    "damage": 8,
+    "durability": 2012,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:sponge_sword",
+    "screenshots": [
+      "115955"
+    ],
+    "damage": 5,
+    "durability": 128,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:bone_sword",
+    "screenshots": [
+      "115955"
+    ],
+    "damage": 5,
+    "durability": 820,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:quartz_sword",
+    "screenshots": [
+      "120003"
+    ],
+    "damage": 600,
+    "durability": 1,
+    "enchantable": false,
+    "repairable": false
+  },
+  {
+    "id": "effect:bedrock_sword",
+    "screenshots": [
+      "120003"
+    ],
+    "damage": 18,
+    "durability": "Infinite",
+    "enchantable": false,
+    "repairable": null
+  },
+  {
+    "id": "effect:wither_skeleton_sword",
+    "screenshots": [
+      "120003",
+      "120007"
+    ],
+    "damage": 4,
+    "durability": 128,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:glass_sword",
+    "screenshots": [
+      "120007"
+    ],
+    "damage": 33,
+    "durability": 1,
+    "enchantable": true,
+    "repairable": false
+  },
+  {
+    "id": "effect:silver_sword",
+    "screenshots": [
+      "120007"
+    ],
+    "damage": 6,
+    "durability": 1800,
+    "enchantable": true,
+    "repairable": true
+  },
+  {
+    "id": "effect:wolf_sword",
+    "screenshots": [
+      "120007"
+    ],
+    "damage": 5,
+    "durability": 2800,
+    "enchantable": false,
+    "repairable": true
+  },
+  {
+    "id": "effect:ghost_sword",
+    "screenshots": [
+      "120011"
+    ],
+    "damage": -666,
+    "durability": 3333,
+    "enchantable": false,
+    "repairable": false
+  },
+  {
+    "id": "effect:ultra_instinct_sword",
+    "screenshots": [
+      "120025"
+    ],
+    "damage": 16,
+    "durability": 9999,
+    "enchantable": false,
+    "repairable": false
+  },
+  {
+    "id": "effect:wet_sponge_sword",
+    "screenshots": [
+      "120034"
+    ],
+    "damage": 3,
+    "durability": 64,
+    "enchantable": false,
+    "repairable": true
+  },
+  {
+    "id": "effect:quartz_diamond_stick",
+    "screenshots": [
+      "120034"
+    ],
+    "damage": 24,
+    "durability": 20,
+    "enchantable": null,
+    "repairable": null
+  },
+  {
+    "id": "effect:bedrock_stick",
+    "screenshots": [
+      "120050"
+    ],
+    "damage": 6,
+    "durability": "Unbreakable",
+    "enchantable": null,
+    "repairable": null
+  }
+]

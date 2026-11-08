@@ -1,0 +1,681 @@
+{
+  "addons": {
+    "1.6": {
+      "components": {
+        "minecraft:block_climber": {
+          "present": false
+        },
+        "minecraft:exhaustion_values": {
+          "present": false
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "format_version": "1.11.0",
+      "sha256": "ec003a118515a8ef9ae5fa3222fe9a618d06a887e24aee4467a0e0c5d908857f"
+    },
+    "2.8.14": {
+      "components": {
+        "minecraft:block_climber": {
+          "present": false
+        },
+        "minecraft:exhaustion_values": {
+          "present": false
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player",
+              "default_player"
+            ]
+          }
+        }
+      },
+      "format_version": "1.11.0",
+      "sha256": "d25d5fe1e885ef35c4027cc25290950b814b96e48a3a211b87bdabc77df2000f"
+    },
+    "2.8.8": {
+      "components": {
+        "minecraft:block_climber": {
+          "present": false
+        },
+        "minecraft:exhaustion_values": {
+          "present": false
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player",
+              "default_player"
+            ]
+          }
+        }
+      },
+      "format_version": "1.11.0",
+      "sha256": "2f499faf84dfc33f9ad0ad0d43ae18b3645ba4c15213b79a511ac7b6776972a3"
+    }
+  },
+  "method": "literal player component values from all named vanilla entities.brarchive containing player.json; no conclusion about active pack stack",
+  "references": [
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": ""
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "c19aa2a9dc1c03da28037ef758a2c110af9188855694353dc8ff44060c835b65"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": ""
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.16.100/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "50e665e36944a982a98576a499abb09c613a1ab881408c4c0f17b984228817f9"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": ""
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.16/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "7ace12a5c3ca58118507022b861888444f6c316c1cde3c7177b3a2c0f4994657"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": ""
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.17.10/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "50e665e36944a982a98576a499abb09c613a1ab881408c4c0f17b984228817f9"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": ""
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 4,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "value": 20
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.18.10/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "e65b15f1797d4013979c2e81624c305df7d3709b8acbb6e6d956d4673ea23325"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6,
+            "jump": 0.05,
+            "mine": 0.005,
+            "sprint": 0.01,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.18.20/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "fd6b61fd9c79c4b205077e27ee4f2f46cf198667e5606ccccfcc4c706f214e3b"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6,
+            "jump": 0.05,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.19.40/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "e41729258c367b52b637961662a1a9971c159c4aa361abed29290378d8082d0f"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6,
+            "jump": 0.05,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.19.50/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "ba566b7f4bc184e547b50237f18aa923fc93c375fe9954763b4630fbd306ba81"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6,
+            "jump": 0.05,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.20.80/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "cc581b5606d539ce7a066283cf5b2f31c9ba7c042fe6cac087c6ef1dfcaea9fb"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6,
+            "jump": 0.05,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.21.0/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "353fbbb3cb569a64bfdc3e021a7402e3a8f8d0170fb3e40cf0e5f092d0676fdf"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6.0,
+            "jump": 0.05,
+            "lunge": 4.0,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.21.130/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.0",
+      "sha256": "ac47ad507888e4922c8b98259011ca912314ea71b08d7eabf210ffcb3969a057"
+    },
+    {
+      "components": {
+        "minecraft:block_climber": {
+          "present": true,
+          "value": {}
+        },
+        "minecraft:exhaustion_values": {
+          "present": true,
+          "value": {
+            "attack": 0.1,
+            "damage": 0.1,
+            "heal": 6.0,
+            "jump": 0.05,
+            "lunge": 4.0,
+            "mine": 0.005,
+            "sprint": 0.1,
+            "sprint_jump": 0.2,
+            "swim": 0.01,
+            "walk": 0.0
+          }
+        },
+        "minecraft:player.exhaustion": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 0
+          }
+        },
+        "minecraft:player.saturation": {
+          "present": true,
+          "value": {
+            "max": 20,
+            "value": 5
+          }
+        },
+        "minecraft:scaffolding_climber": {
+          "present": false
+        },
+        "minecraft:type_family": {
+          "present": true,
+          "value": {
+            "family": [
+              "player"
+            ]
+          }
+        }
+      },
+      "container": "behavior_packs/vanilla_1.26.30/__brarchive/entities.brarchive",
+      "entry": "player.json",
+      "format_version": "1.26.30",
+      "sha256": "144eedc7eba887a3c95f5a4c716f41f68af07197e4166f7d4543bf3d7f95595c"
+    }
+  ],
+  "server_zip_md5": "4a23794a882b008d3f0a5fde8b338f55",
+  "server_zip_sha256": "50cdb466cddef99066b888e2198479a9b352ea1535f00820b0204e92baa1ab0a"
+}

@@ -1,0 +1,223 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:35:16:602 INFO] Starting Server
+SERVER [2026-11-07 09:35:16:602 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:35:16:602 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:35:16:602 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:35:16:602 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:35:16:602 INFO] Configuration: Publish
+SERVER [2026-11-07 09:35:16:602 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:35:16:603 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:35:16:603 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:35:16:603 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:35:16:604 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:35:16:969 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:35:16:969 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:35:17:366 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:35:17:366 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:35:17:366 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:35:17:366 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:35:17:582 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:35:17:582 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:35:17:665 INFO] Server started.
+SERVER [2026-11-07 09:35:17:665 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:35:17:665 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:35:17:665 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:35:17:665 INFO] 
+SERVER [2026-11-07 09:35:17:665 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:35:17:665 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:35:17:665 INFO] ======================================================
+SERVER [2026-11-07 09:35:17:725 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:35:19:752 INFO] Player connected: ArenaSpectral, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"2","position":{"x":-4.850135803222656,"y":105,"z":35.45000076293945}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:pig","runtime":"4","position":{"x":16.903139114379883,"y":78,"z":49.7076416015625}}
+BOT ENTITY {"type":"minecraft:pig","runtime":"3","position":{"x":16.450000762939453,"y":78,"z":48.495792388916016}}
+SERVER [2026-11-07 09:35:24:752 INFO] Player Spawned: ArenaSpectral xuid: , BOT SPAWN
+COMMAND tp ArenaSpectral 50 100 50
+SERVER [2026-11-07 09:35:24:870 INFO] Teleported ArenaSpectral to 50.50, 100.00, 50.50
+BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+SERVER [2026-11-07 09:35:25:704 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:pig","runtime":"5","position":{"x":54,"y":81,"z":81}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"8","position":{"x":49,"y":70,"z":34}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"7","position":{"x":49,"y":125,"z":34}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"6","position":{"x":49,"y":125,"z":34}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"9","position":{"x":50.91616439819336,"y":125,"z":34.12920379638672}}
+SERVER [2026-11-07 09:35:26:704 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:sheep","runtime":"10","position":{"x":63.06913757324219,"y":120,"z":25.484739303588867}}
+SERVER [2026-11-07 09:35:27:704 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:28:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:29:704 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:30:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:31:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:32:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND fill 45 99 45 58 99 55 stone
+SERVER [2026-11-07 09:35:32:849 INFO] 111 blocks filled
+SERVER [2026-11-07 09:35:33:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND fill 45 100 45 58 105 55 air
+SERVER [2026-11-07 09:35:33:850 INFO] 308 blocks filled
+SERVER [2026-11-07 09:35:34:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND gamemode survival ArenaSpectral
+SERVER [2026-11-07 09:35:34:849 INFO] Set ArenaSpectral's game mode to Survival
+SERVER [2026-11-07 09:35:35:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND clear ArenaSpectral
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:35:849 ERROR] Could not clear the inventory of ArenaSpectral, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:35:36:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND setblock 53 100 50 stone
+SERVER [2026-11-07 09:35:36:799 INFO] Block placed
+SERVER [2026-11-07 09:35:37:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND setblock 54 100 50 stone ["stone_type"="granite"]
+SERVER [2026-11-07 09:35:37:799 INFO] Block placed
+SERVER [2026-11-07 09:35:38:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND setblock 55 100 50 gold_block
+SERVER [2026-11-07 09:35:38:800 INFO] Block placed
+SERVER [2026-11-07 09:35:39:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 53 100 50 stone
+SERVER [2026-11-07 09:35:39:822 INFO] Successfully found the block at 53,100,50.
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:40:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 54 100 50 stone ["stone_type"="granite"]
+SERVER [2026-11-07 09:35:40:799 INFO] Successfully found the block at 54,100,50.
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:35:41:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 55 100 50 gold_block
+SERVER [2026-11-07 09:35:41:799 INFO] Successfully found the block at 55,100,50.
+SERVER [2026-11-07 09:35:42:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND setblock 52 101 50 effect99:spectral_block
+SERVER [2026-11-07 09:35:42:800 INFO] Block placed
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:35:43:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:44:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:45:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:46:699 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 52 101 50 effect99:spectral_block
+SERVER [2026-11-07 09:35:46:849 ERROR] The block at 52,101,50 is Stone (expected: %tile.effect99:spectral_block.name).
+SERVER [2026-11-07 09:35:47:700 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 52 101 50 stone
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:47:850 INFO] Successfully found the block at 52,101,50.
+SERVER [2026-11-07 09:35:48:704 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaSpectral slot.weapon.mainhand 0 effect:spectral_sword 1
+SERVER [2026-11-07 09:35:48:849 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpectral with 1 * item.effect:spectral_sword
+BOT HELD CONTENT {"network_id":290,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"minecraft:ender_crystal","runtime":"12","position":{"x":50.5,"y":101.80000305175781,"z":50.5}}
+SERVER [2026-11-07 09:35:49:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:50:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:51:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:35:52:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:53:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaSpectral,family=spectral_sword]
+SERVER [2026-11-07 09:35:53:820 INFO] Found ArenaSpectral
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:35:54:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 53 100 50 effect99:spectral_block
+SERVER [2026-11-07 09:35:54:801 INFO] Successfully found the block at 53,100,50.
+SERVER [2026-11-07 09:35:55:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 54 100 50 effect99:spectral_block
+SERVER [2026-11-07 09:35:55:799 INFO] Successfully found the block at 54,100,50.
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"13","position":{"x":43,"y":97,"z":12}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"14","position":{"x":43,"y":97,"z":12}}
+SERVER [2026-11-07 09:35:56:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 55 100 50 gold_block
+SERVER [2026-11-07 09:35:56:799 INFO] Successfully found the block at 55,100,50.
+SERVER [2026-11-07 09:35:57:706 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaSpectral slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:35:57:800 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSpectral with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:35:58:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:35:59:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"17","position":{"x":51,"y":75,"z":40}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"16","position":{"x":51,"y":75,"z":40}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"15","position":{"x":51,"y":75,"z":40}}
+SERVER [2026-11-07 09:36:00:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:01:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:zombie","runtime":"21","position":{"x":58,"y":71,"z":25}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"20","position":{"x":58,"y":71,"z":25}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"18","position":{"x":58,"y":71,"z":25}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"19","position":{"x":58,"y":71,"z":25}}
+SERVER [2026-11-07 09:36:02:706 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaSpectral,family=spectral_sword]
+SERVER [2026-11-07 09:36:02:850 ERROR] No targets matched selector
+SERVER [2026-11-07 09:36:03:706 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 53 100 50 stone ["stone_type"="stone"]
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:36:03:850 INFO] Successfully found the block at 53,100,50.
+BOT ENTITY EVENT {"runtime_entity_id":"17","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"17","event_id":"dust_particles","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"15","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"15","event_id":"dust_particles","data":0}
+SERVER [2026-11-07 09:36:04:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 54 100 50 stone ["stone_type"="granite"]
+SERVER [2026-11-07 09:36:04:851 ERROR] The block at 54,100,50 did not match the expected block state.
+BOT ENTITY EVENT {"runtime_entity_id":"6","event_id":"eat_grass_animation","data":0}
+SERVER [2026-11-07 09:36:05:705 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 54 100 50 stone ["stone_type"="stone"]
+SERVER [2026-11-07 09:36:05:850 INFO] Successfully found the block at 54,100,50.
+BOT ENTITY EVENT {"runtime_entity_id":"14","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"14","event_id":"dust_particles","data":0}
+SERVER [2026-11-07 09:36:06:706 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+COMMAND testforblock 55 100 50 gold_block
+SERVER [2026-11-07 09:36:06:849 INFO] Successfully found the block at 55,100,50.
+SERVER [2026-11-07 09:36:07:706 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaSpectral","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:07:850 INFO] Server stop requested.
+SERVER [2026-11-07 09:36:07:869 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

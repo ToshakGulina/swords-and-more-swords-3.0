@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Arena test setup only",
+    "description": "Controlled loot for isolated tests",
+    "uuid": "6b698188-a660-4db3-adcb-d466d8a928e9",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "588fb7b4-b731-4fef-a13e-967713caf027",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

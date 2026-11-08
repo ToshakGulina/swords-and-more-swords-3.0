@@ -1,0 +1,56 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 16:51:17:848 INFO] Starting Server
+SERVER [2026-11-07 16:51:17:848 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 16:51:17:848 INFO] Build ID: 19782165
+SERVER [2026-11-07 16:51:17:848 INFO] Branch: r/20_u5
+SERVER [2026-11-07 16:51:17:848 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 16:51:17:848 INFO] Configuration: Publish
+SERVER [2026-11-07 16:51:17:848 INFO] Level Name: Arena test
+SERVER [2026-11-07 16:51:17:855 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 16:51:17:855 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 16:51:17:855 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 16:51:17:857 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 16:51:18:211 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 16:51:18:211 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 16:51:18:564 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:51:18:564 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 16:51:18:564 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 16:51:18:564 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 16:51:18:784 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 16:51:18:784 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 16:51:18:858 INFO] Server started.
+SERVER [2026-11-07 16:51:18:858 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 16:51:18:858 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 16:51:18:858 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 16:51:18:858 INFO]
+SERVER [2026-11-07 16:51:18:858 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 16:51:18:858 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 16:51:18:858 INFO] ======================================================
+Server closed connection: undefined
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connect timed out
+    at Timeout.<anonymous> (/tmp/swords-run/bot/node_modules/bedrock-protocol/src/client.js:130:28)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+Emitted 'error' event on Client instance at:
+    at Timeout.<anonymous> (/tmp/swords-run/bot/node_modules/bedrock-protocol/src/client.js:130:14)
+    at listOnTimeout (node:internal/timers:585:17)
+    at process.processTimers (node:internal/timers:521:7)
+
+Node.js v22.22.3
+SERVER [2026-11-07 16:52:13:960 INFO] Server stop requested.
+SERVER [2026-11-07 16:52:13:977 INFO] Stopping server...
+SERVER Quit correctly
+DONE
+Traceback (most recent call last):
+  File "/home/user/swords-and-more-swords-3.0/data/original-mechanics-2026-11-07/followup5/run_blaze_switch.py", line 20, in <module>
+    if not spawn.wait(55):raise RuntimeError('bot did not spawn')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: bot did not spawn

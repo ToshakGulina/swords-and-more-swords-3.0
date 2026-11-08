@@ -1,0 +1,339 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:59:14:896 INFO] Starting Server
+SERVER [2026-11-07 09:59:14:896 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:59:14:896 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:59:14:896 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:59:14:896 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:59:14:896 INFO] Configuration: Publish
+SERVER [2026-11-07 09:59:14:896 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:59:14:897 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:59:14:897 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:59:14:897 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:59:14:897 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:59:14:245 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:59:14:245 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:59:14:640 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:59:14:640 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:59:14:640 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:59:14:640 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:59:15:861 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:59:15:861 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:59:15:941 INFO] Server started.
+SERVER [2026-11-07 09:59:15:941 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:59:15:941 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:59:15:941 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:59:15:941 INFO] 
+SERVER [2026-11-07 09:59:15:941 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:59:15:941 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:59:15:941 INFO] ======================================================
+SERVER [2026-11-07 09:59:15:000 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:59:17:000 INFO] Player connected: ArenaWall, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:spider","runtime":"2","position":{"x":27,"y":28,"z":-54.8300895690918}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:cow","runtime":"4","position":{"x":79,"y":66,"z":-54}}
+BOT ENTITY {"type":"minecraft:cow","runtime":"3","position":{"x":79,"y":66,"z":-54}}
+SERVER [2026-11-07 09:59:22:668 INFO] Player Spawned: ArenaWall xuid: , BOT SPAWN
+COMMAND gamemode survival ArenaWall
+SERVER [2026-11-07 09:59:22:836 INFO] Set ArenaWall's game mode to Survival
+BOT ENTITY {"type":"minecraft:chicken","runtime":"5","position":{"x":66,"y":65,"z":-69}}
+BOT ENTITY {"type":"minecraft:chicken","runtime":"6","position":{"x":66,"y":65,"z":-69}}
+SERVER [2026-11-07 09:59:22:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:llama","runtime":"8","position":{"x":44,"y":65,"z":-97}}
+BOT ENTITY {"type":"minecraft:llama","runtime":"7","position":{"x":44,"y":65,"z":-97}}
+BOT ENTITY {"type":"minecraft:cow","runtime":"9","position":{"x":8,"y":66,"z":-71}}
+BOT ENTITY {"type":"minecraft:cow","runtime":"10","position":{"x":8,"y":66,"z":-71}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"12","position":{"x":80.07614135742188,"y":65,"z":-37.838539123535156}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"11","position":{"x":81.63284301757812,"y":66,"z":-37.527156829833984}}
+COMMAND tp ArenaWall 200 100 200
+SERVER [2026-11-07 09:59:23:770 INFO] Teleported ArenaWall to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+SERVER [2026-11-07 09:59:23:969 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:24:973 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:25:969 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:59:26:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:27:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:28:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:29:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 194 99 194 206 99 215 stone
+SERVER [2026-11-07 09:59:30:771 INFO] 286 blocks filled
+SERVER [2026-11-07 09:59:30:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND fill 194 100 194 206 106 215 air
+SERVER [2026-11-07 09:59:31:770 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:59:31:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND clear ArenaWall
+SERVER [2026-11-07 09:59:32:770 ERROR] Could not clear the inventory of ArenaWall, no items to remove
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:59:32:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaWall slot.weapon.mainhand 0 effect:ghost_sword 1
+SERVER [2026-11-07 09:59:33:720 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaWall with 1 * item.effect:ghost_sword
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:59:33:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:59:34:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:35:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:36:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaWall,family=ghost_sword]
+SERVER [2026-11-07 09:59:37:721 INFO] Found ArenaWall
+SERVER [2026-11-07 09:59:37:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS WALL Z 202
+COMMAND tp ArenaWall 200 100 200
+SERVER [2026-11-07 09:59:38:722 INFO] Teleported ArenaWall to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+SERVER [2026-11-07 09:59:38:973 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:39:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:40:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:41:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 201 203 105 209 air
+SERVER [2026-11-07 09:59:42:722 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:59:42:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND fill 197 100 202 203 105 202 stone
+SERVER [2026-11-07 09:59:43:771 INFO] 42 blocks filled
+SERVER [2026-11-07 09:59:43:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testforblock 200 101 202 stone
+SERVER [2026-11-07 09:59:44:772 INFO] Successfully found the block at 200,101,202.
+SERVER [2026-11-07 09:59:44:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 09:59:45:771 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:59:45:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":6}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"14","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+SERVER [2026-11-07 09:59:46:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:47:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:48:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:49:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 09:59:50:772 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:59:50:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testforblock 200 101 202 stone
+SERVER [2026-11-07 09:59:51:723 INFO] Successfully found the block at 200,101,202.
+SERVER [2026-11-07 09:59:51:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+HARNESS WALL Z 204
+COMMAND tp ArenaWall 200 100 200
+SERVER [2026-11-07 09:59:52:721 INFO] Teleported ArenaWall to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+SERVER [2026-11-07 09:59:52:974 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:53:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:59:54:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:59:55:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND fill 197 100 201 203 105 209 air
+SERVER [2026-11-07 09:59:56:771 INFO] 42 blocks filled
+SERVER [2026-11-07 09:59:56:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND fill 197 100 204 203 105 204 stone
+SERVER [2026-11-07 09:59:57:772 INFO] 42 blocks filled
+SERVER [2026-11-07 09:59:57:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 200 101 204 stone
+SERVER [2026-11-07 09:59:58:770 INFO] Successfully found the block at 200,101,204.
+SERVER [2026-11-07 09:59:58:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 09:59:59:770 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:59:59:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":12}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"16","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+BOT POSITION {"x":200.5,"y":103.24002075195312,"z":204}
+SERVER [2026-11-07 10:00:00:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:01:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 10:00:02:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:03:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 10:00:04:771 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 103.2400207519531,
+SERVER          "z" : 204.0
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 10:00:04:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testforblock 200 101 204 stone
+SERVER [2026-11-07 10:00:05:733 INFO] Successfully found the block at 200,101,204.
+SERVER [2026-11-07 10:00:05:970 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS WALL Z 206
+COMMAND tp ArenaWall 200 100 200
+SERVER [2026-11-07 10:00:06:721 INFO] Teleported ArenaWall to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+SERVER [2026-11-07 10:00:06:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:07:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:08:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:09:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 201 203 105 209 air
+SERVER [2026-11-07 10:00:10:720 INFO] 42 blocks filled
+SERVER [2026-11-07 10:00:10:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND fill 197 100 206 203 105 206 stone
+SERVER [2026-11-07 10:00:11:722 INFO] 42 blocks filled
+SERVER [2026-11-07 10:00:11:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testforblock 200 101 206 stone
+SERVER [2026-11-07 10:00:12:720 INFO] Successfully found the block at 200,101,206.
+SERVER [2026-11-07 10:00:12:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 10:00:13:722 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 10:00:13:972 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":4,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":18}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"20","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+BOT POSITION {"x":200.5,"y":103.24002075195312,"z":206}
+SERVER [2026-11-07 10:00:14:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:15:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:16:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:17:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaWall]
+SERVER [2026-11-07 10:00:18:771 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 103.2400207519531,
+SERVER          "z" : 206.0
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 10:00:18:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+COMMAND testforblock 200 101 206 stone
+SERVER [2026-11-07 10:00:19:770 INFO] Successfully found the block at 200,101,206.
+SERVER [2026-11-07 10:00:19:971 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaWall","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 10:00:20:771 INFO] Server stop requested.
+SERVER [2026-11-07 10:00:20:783 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

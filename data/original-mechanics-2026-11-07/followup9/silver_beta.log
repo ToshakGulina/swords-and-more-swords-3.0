@@ -1,0 +1,95 @@
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Starting Server
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Version: 1.20.50.03
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Build ID: 19782165
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Branch: r/20_u5
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Configuration: Publish
+1136.302 SERVER [2026-11-07 18:36:03:302 INFO] Level Name: Bedrock level
+1136.303 SERVER [2026-11-07 18:36:03:303 INFO] No CDN config file found for dedicated server
+1136.303 SERVER [2026-11-07 18:36:03:303 INFO] Game mode: 0 Survival
+1136.303 SERVER [2026-11-07 18:36:03:303 INFO] Difficulty: 1 EASY
+1136.304 SERVER [2026-11-07 18:36:03:304 INFO] Content logging to console is enabled.
+1136.735 SERVER [2026-11-07 18:36:03:735 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+1136.735 SERVER [2026-11-07 18:36:03:735 INFO] Opening level 'worlds/Bedrock level/db'
+1137.145 SERVER [2026-11-07 18:36:04:145 ERROR] [FeatureRegistry] Bedrock level | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1137.146 SERVER [2026-11-07 18:36:04:145 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:quartz_diamond_ore'
+1137.146 SERVER [2026-11-07 18:36:04:145 ERROR] [FeatureRegistry] Bedrock level | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+1137.146 SERVER [2026-11-07 18:36:04:145 ERROR] [FeatureRegistry] Bedrock level | No definition found for feature 'effect99:silver_ore'
+1137.357 SERVER [2026-11-07 18:36:04:356 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+1137.357 SERVER [2026-11-07 18:36:04:356 INFO] IPv6 supported, port: 19133: Used for gameplay
+1137.429 SERVER [2026-11-07 18:36:04:429 INFO] Server started.
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] ================ TELEMETRY MESSAGE ===================
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] Server Telemetry is currently not enabled.
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] Enabling this telemetry helps us improve the game.
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO]
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] to the server.properties file in the handheld/src-server directory
+1137.430 SERVER [2026-11-07 18:36:04:429 INFO] ======================================================
+1138.064 SERVER [2026-11-07 18:36:04:063 INFO] Player connected: ArenaSilver, xuid:
+1138.446 BOT BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+1138.604 BOT BOT HELD CONTENT {"network_id":0}
+1138.692 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1142.193 BOT BOT ENTITY {"type":"minecraft:skeleton","runtime":"2","position":{"x":-35.71913146972656,"y":34,"z":46.471168518066406}}
+1142.194 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1144.430 SERVER [2026-11-07 18:36:11:430 INFO] Player Spawned: ArenaSilver xuid: ,
+1144.446 BOT BOT SPAWN 1
+COMMAND gamemode creative ArenaSilver
+1144.570 SERVER [2026-11-07 18:36:11:569 INFO] Set ArenaSilver's game mode to Creative
+COMMAND gamerule doMobSpawning false
+COMMAND gamerule dodaylightcycle false
+1146.195 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND time set day
+1146.887 SERVER [2026-11-07 18:36:13:887 INFO] Set the time to 25000
+COMMAND weather clear 200
+1147.683 SERVER [2026-11-07 18:36:14:682 INFO] Changing to clear weather
+COMMAND tp ArenaSilver 50 100 50
+1148.482 SERVER [2026-11-07 18:36:15:482 INFO] Teleported ArenaSilver to 50.50, 100.00, 50.50
+1148.492 BOT BOT POSITION {"x":50.5,"y":101.62001037597656,"z":50.5}
+1148.593 BOT BOT ENTITY {"type":"minecraft:zombie_pigman","runtime":"4","position":{"x":51.32975769042969,"y":100,"z":50.375511169433594}}
+1150.191 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 46 99 46 56 99 56 stone
+1151.532 SERVER [2026-11-07 18:36:18:532 ERROR] 0 blocks filled
+COMMAND fill 46 100 46 56 105 56 air
+1152.337 SERVER [2026-11-07 18:36:19:337 ERROR] 0 blocks filled
+COMMAND kill @e[type=entity:alpha_wolf]
+1153.133 SERVER [2026-11-07 18:36:19:132 ERROR] No targets matched selector
+COMMAND summon entity:alpha_wolf 51 100 50
+1153.933 SERVER [2026-11-07 18:36:20:932 INFO] Object successfully summoned
+1153.991 BOT BOT ENTITY {"type":"entity:alpha_wolf","runtime":"5","position":{"x":51.5,"y":100,"z":50.5}}
+1154.195 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tag @e[type=entity:alpha_wolf,c=1] add probe
+1154.934 SERVER [2026-11-07 18:36:21:933 ERROR] No targets matched selector
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 effect:silver_sword 1
+1155.738 SERVER [2026-11-07 18:36:22:738 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * item.effect:silver_sword
+1155.749 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+MARK SILVER FRESH
+1157.649 BOT BOT ATTACK BEGIN 5 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1158.186 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1158.250 BOT BOT ATTACK SENT 1
+1158.267 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 iron_sword 1
+1160.682 SERVER [2026-11-07 18:36:27:682 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * Iron Sword
+1160.689 BOT BOT HELD CONTENT {"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1162.190 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK IRON
+1162.649 BOT BOT ATTACK BEGIN 5 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1163.249 BOT BOT ATTACK SENT 1
+1163.280 BOT BOT HELD CONTENT {"network_id":352,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND replaceitem entity ArenaSilver slot.weapon.mainhand 0 effect:silver_sword 1
+1165.682 SERVER [2026-11-07 18:36:32:682 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaSilver with 1 * item.effect:silver_sword
+1165.688 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1165.789 BOT BOT ENTITY {"type":"minecraft:lightning_bolt","runtime":"6","position":{"x":60,"y":64,"z":20}}
+1166.185 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SILVER VS RESISTANCE
+1167.650 BOT BOT ATTACK BEGIN 5 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1168.256 BOT BOT ATTACK SENT 1
+1168.290 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1170.196 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+MARK SILVER AFTER CLEAR
+1170.650 BOT BOT ATTACK BEGIN 5 {"x":50.5,"y":101.62001037597656,"z":50.5}
+1171.251 BOT BOT ATTACK SENT 1
+1171.274 BOT BOT HELD CONTENT {"network_id":288,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+1174.196 BOT BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+1174.733 SERVER [2026-11-07 18:36:41:732 INFO] Server stop requested.
+1174.736 SERVER [2026-11-07 18:36:41:736 INFO] Stopping server...
+DONE

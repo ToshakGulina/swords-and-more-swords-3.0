@@ -1,0 +1,57 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:10:01:969 INFO] Starting Server
+SERVER [2026-11-07 08:10:01:969 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:10:01:969 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:10:01:969 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:10:01:969 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:10:01:969 INFO] Configuration: Publish
+SERVER [2026-11-07 08:10:01:970 INFO] Level Name: Bot baseline
+SERVER [2026-11-07 08:10:01:970 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:10:01:970 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:10:01:970 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:10:01:971 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:10:02:331 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__08_10_02
+SERVER [2026-11-07 08:10:02:331 INFO] Opening level 'worlds/Bot baseline/db'
+SERVER [2026-11-07 08:10:02:844 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:10:02:844 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:10:02:851 INFO] Server started.
+SERVER [2026-11-07 08:10:02:851 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:10:02:851 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:10:02:851 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:10:02:851 INFO] 
+SERVER [2026-11-07 08:10:02:851 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:10:02:851 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:10:02:851 INFO] ======================================================
+SERVER [2026-11-07 08:10:04:902 INFO] Player connected: ArenaBot, xuid: 
+BOT START_GAME {"runtime_id":"1","position":{"x":0.5,"y":32769.62109375,"z":0.5}}
+BOT SPAWN
+COMMAND fill 8 99 8 20 99 12 stone
+SERVER [2026-11-07 08:10:09:582 INFO] 65 blocks filled
+COMMAND fill 8 100 8 20 103 12 air
+SERVER [2026-11-07 08:10:10:514 ERROR] 0 blocks filled
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:10:11:514 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+BOT TELEPORT {"x":10.5,"y":101.62001037597656,"z":10.5}
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=1]
+SERVER [2026-11-07 08:10:13:514 ERROR] No targets matched selector
+HARNESS instruct bot WALK
+BOT WALK BEGIN position={"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT WRITE ERROR TypeError: SizeOf error for undefined : Cannot mix BigInt and other types, use explicit conversions
+    at Object.sizeOfVarInt [as varint] (/home/user/swords-analysis/bot/node_modules/protodef/src/datatypes/varint.js:33:16)
+    at Object.packet_move_player (eval at compile (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:2688:27)
+    at eval (eval at compile (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:1976:62)
+    at mcpe_packet (eval at compile (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:262:12), <anonymous>:2166:9)
+    at CompiledProtodef.sizeOf (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:89:14)
+    at e.message (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:96:40)
+    at tryCatch (/home/user/swords-analysis/bot/node_modules/protodef/src/utils.js:50:16)
+    at CompiledProtodef.createPacketBuffer (/home/user/swords-analysis/bot/node_modules/protodef/src/compiler.js:96:20)
+    at Serializer.createPacketBuffer (/home/user/swords-analysis/bot/node_modules/protodef/src/serializer.js:12:23)
+    at Client.queue (/home/user/swords-analysis/bot/node_modules/bedrock-protocol/src/connection.js:82:36)
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=2]
+SERVER [2026-11-07 08:10:19:514 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaBot,x=10,y=100,z=10,r=1]
+SERVER [2026-11-07 08:10:20:564 INFO] Found ArenaBot
+SERVER [2026-11-07 08:10:21:565 INFO] Server stop requested.
+SERVER [2026-11-07 08:10:21:611 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT player_spawned= True server_exit= 0

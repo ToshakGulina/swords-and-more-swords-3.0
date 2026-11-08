@@ -1,0 +1,73 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:48:08:037 INFO] Starting Server
+[2026-11-07 07:48:08:037 INFO] Version: 1.20.50.03
+[2026-11-07 07:48:08:037 INFO] Build ID: 19782165
+[2026-11-07 07:48:08:037 INFO] Branch: r/20_u5
+[2026-11-07 07:48:08:037 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:48:08:037 INFO] Configuration: Publish
+[2026-11-07 07:48:08:037 INFO] Level Name: Arena original
+[2026-11-07 07:48:08:038 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:48:08:038 INFO] Game mode: 1 Creative
+[2026-11-07 07:48:08:038 INFO] Difficulty: 1 EASY
+[2026-11-07 07:48:08:039 INFO] Content logging to console is enabled.
+[2026-11-07 07:48:08:388 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_48_08
+[2026-11-07 07:48:08:389 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:48:08:389 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:48:09:758 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:48:09:758 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:48:09:758 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:48:09:758 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:48:09:977 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:48:09:977 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:48:09:060 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 260 0 3 sponge_rain true
+[2026-11-07 07:48:09:060 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:48:09:060 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:48:09:060 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:48:09:060 INFO] 
+[2026-11-07 07:48:09:060 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:48:09:060 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:48:09:060 INFO] ======================================================
+[2026-11-07 07:48:09:287 INFO] Added ticking area centered at 8, 0, 8 with a radius of 3 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:48:21:138 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:48:21:494 INFO] Killed item.effect:wet_sponge_sword
+HARNESS COMMAND: fill 35 259 15 39 259 19 stone
+[2026-11-07 07:48:22:939 INFO] 25 blocks filled
+HARNESS COMMAND: fill 35 260 15 39 319 19 air
+[2026-11-07 07:48:22:339 ERROR] 0 blocks filled
+HARNESS COMMAND: loot spawn 37 260 17 loot "arena/sponge_sword"
+[2026-11-07 07:48:23:744 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:48:23:243 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: tag @e[type=item] add sponge_sword
+[2026-11-07 07:48:23:543 INFO] Added tag 'sponge_sword' to item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=sponge_sword]
+[2026-11-07 07:48:24:838 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=sponge_sword]
+[2026-11-07 07:48:28:839 INFO] Found item.effect:sponge_sword
+HARNESS COMMAND: weather rain 60
+[2026-11-07 07:48:28:243 INFO] Changing to rainy weather
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:48:36:188 INFO] Found item.effect:wet_sponge_sword
+HARNESS COMMAND: testfor @e[type=item,tag=sponge_sword]
+[2026-11-07 07:48:37:688 ERROR] No targets matched selector
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:48:37:188 INFO] Changing to clear weather
+HARNESS COMMAND: tickingarea remove sponge_rain
+[2026-11-07 07:48:37:588 INFO] Removed ticking area(s)
+- sponge_rain (Circle): 8 0 8 Radius: 3 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:48:39:894 INFO] Server stop requested.
+[2026-11-07 07:48:39:923 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

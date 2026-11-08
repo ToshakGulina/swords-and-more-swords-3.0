@@ -1,0 +1,258 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:17:54:250 INFO] Starting Server
+SERVER [2026-11-07 09:17:54:250 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:17:54:250 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:17:54:250 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:17:54:250 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:17:54:250 INFO] Configuration: Publish
+SERVER [2026-11-07 09:17:54:250 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:17:54:251 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:17:54:251 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:17:54:251 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:17:54:252 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:17:54:594 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:17:54:594 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:17:54:953 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:17:54:953 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:17:54:953 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:17:54:953 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:17:55:216 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:17:55:216 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:17:55:290 INFO] Server started.
+SERVER [2026-11-07 09:17:55:290 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:17:55:290 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:17:55:290 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:17:55:290 INFO] 
+SERVER [2026-11-07 09:17:55:290 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:17:55:290 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:17:55:290 INFO] ======================================================
+SERVER [2026-11-07 09:17:55:374 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:17:57:350 INFO] Player connected: ArenaGhost, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:01:239 INFO] Player Spawned: ArenaGhost xuid: , BOT SPAWN
+COMMAND tp ArenaGhost 20 106 12
+SERVER [2026-11-07 09:18:01:370 INFO] Teleported ArenaGhost to 20.50, 106.00, 12.50
+BOT POSITION {"x":20.5,"y":107.62001037597656,"z":12.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:pig","runtime":"2","position":{"x":34.49408721923828,"y":100,"z":30.5}}
+SERVER [2026-11-07 09:18:05:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:06:350 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:07:346 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:08:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND gamemode creative ArenaGhost
+SERVER [2026-11-07 09:18:09:287 INFO] Set ArenaGhost's game mode to Creative
+SERVER [2026-11-07 09:18:09:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 16 98 16 27 105 25 air
+SERVER [2026-11-07 09:18:10:292 INFO] 71 blocks filled
+SERVER [2026-11-07 09:18:10:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND fill 18 99 18 22 101 22 stone
+SERVER [2026-11-07 09:18:11:292 INFO] 75 blocks filled
+SERVER [2026-11-07 09:18:11:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND fill 19 99 19 21 99 21 sandstone
+SERVER [2026-11-07 09:18:12:291 INFO] 9 blocks filled
+SERVER [2026-11-07 09:18:12:343 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND fill 19 100 19 21 101 21 air
+SERVER [2026-11-07 09:18:13:291 INFO] 18 blocks filled
+SERVER [2026-11-07 09:18:13:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 19 100 19 21 100 21 water
+SERVER [2026-11-07 09:18:14:292 INFO] 9 blocks filled
+SERVER [2026-11-07 09:18:14:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND setblock 19 102 19 sandstone
+SERVER [2026-11-07 09:18:15:291 INFO] Block placed
+SERVER [2026-11-07 09:18:15:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND setblock 21 102 19 sandstone
+SERVER [2026-11-07 09:18:16:291 INFO] Block placed
+SERVER [2026-11-07 09:18:16:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND setblock 19 102 21 sandstone
+SERVER [2026-11-07 09:18:17:291 INFO] Block placed
+SERVER [2026-11-07 09:18:17:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND setblock 21 102 21 sandstone
+SERVER [2026-11-07 09:18:18:291 INFO] Block placed
+SERVER [2026-11-07 09:18:18:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND setblock 20 104 20 air
+SERVER [2026-11-07 09:18:19:291 ERROR] The block couldn't be placed
+SERVER [2026-11-07 09:18:19:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 09:18:20:342 ERROR] No targets matched selector
+SERVER [2026-11-07 09:18:20:343 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND scriptevent arena:spawn plain
+SERVER [2026-11-07 09:18:21:341 INFO] Script event arena:spawn has been sent
+SERVER [2026-11-07 09:18:21:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:21:343 WARN] [Scripting] ARENA_SPAWN {"kind":"plain","type":"effect:quartz_diamond","actorName":""}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:22:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:22:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.0517578125,"y":100.0064468383789,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:23:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:23:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.24964714050293,"y":100.2453842163086,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:24:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:24:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.357826232910156,"y":100.59056854248047,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:25:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:25:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.417423248291016,"y":100.6093978881836,"z":19.125}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:26:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:26:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.450252532958984,"y":100.3758773803711,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:27:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:27:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.468198776245117,"y":100.53514099121094,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:28:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:28:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.478063583374023,"y":100.48173522949219,"z":19.125}}
+SERVER 
+COMMAND testfor @e[type=item,tag=wish_1,x=20,y=100,z=20,r=6]
+SERVER [2026-11-07 09:18:29:293 ERROR] No targets matched selector
+SERVER [2026-11-07 09:18:29:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:29:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"actorName":"","tags":[],"position":{"x":21.483470916748047,"y":100.63700103759766,"z":19.125}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 09:18:30:293 INFO] Killed item.effect:quartz_diamond
+SERVER [2026-11-07 09:18:30:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+COMMAND scriptevent arena:spawn named
+SERVER [2026-11-07 09:18:31:292 INFO] Script event arena:spawn has been sent
+SERVER [2026-11-07 09:18:31:293 WARN] [Scripting] ARENA_SPAWN {"kind":"named","type":"effect:quartz_diamond","name":"Quartz Diamond","actorName":""}
+SERVER 
+SERVER [2026-11-07 09:18:31:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:31:343 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.530582427978516,"y":100.1990966796875,"z":20.526567459106445}}
+SERVER 
+SERVER [2026-11-07 09:18:32:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:32:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.97683334350586,"y":100.01063537597656,"z":20.914228439331055}}
+SERVER 
+SERVER [2026-11-07 09:18:33:343 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:33:343 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.13893699645996,"y":100.26435089111328,"z":21.055051803588867}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:34:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:34:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.22759246826172,"y":100.58030700683594,"z":21.13206672668457}}
+SERVER 
+SERVER [2026-11-07 09:18:35:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:35:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.276416778564453,"y":100.62047576904297,"z":21.174480438232422}}
+SERVER 
+SERVER [2026-11-07 09:18:36:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:36:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.303327560424805,"y":100.37483215332031,"z":21.197851181030273}}
+SERVER 
+SERVER [2026-11-07 09:18:37:343 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:37:343 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.31802749633789,"y":100.55125427246094,"z":21.210628509521484}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:38:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:38:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.32611083984375,"y":100.48043060302734,"z":21.2176513671875}}
+SERVER 
+COMMAND testfor @e[type=item,tag=wish_1,x=20,y=100,z=20,r=6]
+SERVER [2026-11-07 09:18:39:292 INFO] Found Quartz Diamond
+SERVER [2026-11-07 09:18:39:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:39:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.33053970336914,"y":100.61202239990234,"z":21.221498489379883}}
+SERVER 
+COMMAND testfor @e[type=item,name="Quartz Diamond",x=20,y=100,z=20,r=6]
+SERVER [2026-11-07 09:18:40:341 INFO] Found Quartz Diamond
+SERVER [2026-11-07 09:18:40:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:40:342 WARN] [Scripting] ARENA_ITEM {"type":"effect:quartz_diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":21.332979202270508,"y":100.43468475341797,"z":21.223621368408203}}
+SERVER 
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 09:18:41:342 INFO] Killed Quartz Diamond
+SERVER [2026-11-07 09:18:41:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND scriptevent arena:spawn other
+SERVER [2026-11-07 09:18:42:341 INFO] Script event arena:spawn has been sent
+SERVER [2026-11-07 09:18:42:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:42:342 WARN] [Scripting] ARENA_SPAWN {"kind":"other","type":"minecraft:diamond","name":"Quartz Diamond","actorName":""}
+SERVER 
+SERVER [2026-11-07 09:18:43:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:43:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.385108947753906,"y":100.0064468383789,"z":19.26346778869629}}
+SERVER 
+SERVER [2026-11-07 09:18:44:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:44:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.343900680541992,"y":100.2453842163086,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:45:341 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:45:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.321372985839844,"y":100.59056854248047,"z":19.125}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:18:46:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:46:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.30896759033203,"y":100.6093978881836,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:47:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:47:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.3021297454834,"y":100.3758773803711,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:48:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:48:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.29839324951172,"y":100.53514099121094,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:49:344 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:49:344 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.296344757080078,"y":100.48173522949219,"z":19.125}}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @e[type=item,tag=wish_1,x=20,y=100,z=20,r=6]
+SERVER [2026-11-07 09:18:50:292 INFO] Found Quartz Diamond
+SERVER [2026-11-07 09:18:50:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:50:342 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.29522132873535,"y":100.63700103759766,"z":19.125}}
+SERVER 
+COMMAND testfor @e[type=item,name="Quartz Diamond",x=20,y=100,z=20,r=6]
+SERVER [2026-11-07 09:18:51:292 INFO] Found Quartz Diamond
+SERVER [2026-11-07 09:18:51:342 WARN] [Scripting] ARENA_HEALTH {"health":5,"max":10}
+SERVER 
+SERVER [2026-11-07 09:18:51:343 WARN] [Scripting] ARENA_ITEM {"type":"minecraft:diamond","amount":1,"stackName":"Quartz Diamond","actorName":"","tags":["wish_1"],"position":{"x":20.294601440429688,"y":100.431640625,"z":19.125}}
+SERVER 
+SERVER [2026-11-07 09:18:52:293 INFO] Server stop requested.
+SERVER [2026-11-07 09:18:52:326 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

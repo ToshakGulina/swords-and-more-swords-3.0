@@ -1,0 +1,76 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 17:05:30:206 INFO] Starting Server
+SERVER [2026-11-07 17:05:30:206 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 17:05:30:206 INFO] Build ID: 19782165
+SERVER [2026-11-07 17:05:30:206 INFO] Branch: r/20_u5
+SERVER [2026-11-07 17:05:30:206 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 17:05:30:206 INFO] Configuration: Publish
+SERVER [2026-11-07 17:05:30:206 INFO] Level Name: Arena test
+SERVER [2026-11-07 17:05:30:207 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 17:05:30:207 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 17:05:30:207 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 17:05:30:208 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 17:05:30:566 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 17:05:30:566 INFO] Opening level 'worlds/Arena test/db'
+SERVER [2026-11-07 17:05:30:955 ERROR] [FeatureRegistry] Arena test | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:05:30:955 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 17:05:30:955 ERROR] [FeatureRegistry] Arena test | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 17:05:30:955 ERROR] [FeatureRegistry] Arena test | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 17:05:31:199 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 17:05:31:199 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 17:05:31:289 INFO] Server started.
+SERVER [2026-11-07 17:05:31:289 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 17:05:31:289 INFO] Server Telemetry is currently not enabled.
+SERVER [2026-11-07 17:05:31:289 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 17:05:31:289 INFO]
+SERVER [2026-11-07 17:05:31:289 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 17:05:31:289 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 17:05:31:289 INFO] ======================================================
+SERVER [2026-11-07 17:05:31:902 INFO] Player connected: ArenaTag, xuid:
+BOT BOT RESPAWN {"position":{"x":0.5,"y":32769.62109375,"z":0.5},"state":0,"runtime_entity_id":"0"}
+BOT BOT RESPAWN READY
+BOT BOT RESPAWN {"position":{"x":0.5,"y":32768,"z":0.5},"state":0,"runtime_entity_id":"0"}
+BOT BOT RESPAWN READY
+BOT BOT RESPAWN {"position":{"x":0.5,"y":103.62001037597656,"z":0.5},"state":1,"runtime_entity_id":"0"}
+BOT BOT ACTION RESPAWN
+SERVER [2026-11-07 17:05:36:738 INFO] Player Spawned: ArenaTag xuid: ,
+BOT BOT SPAWN
+COMMAND gamemode survival ArenaTag
+SERVER [2026-11-07 17:05:36:863 INFO] Set ArenaTag's game mode to Survival
+COMMAND tag ArenaTag add pumpkin_sword
+SERVER [2026-11-07 17:05:37:797 INFO] Added tag 'pumpkin_sword' to ArenaTag
+COMMAND testfor @a[name=ArenaTag,tag=pumpkin_sword]
+SERVER [2026-11-07 17:05:38:790 INFO] Found ArenaTag
+COMMAND kill ArenaTag
+SERVER [2026-11-07 17:05:39:791 INFO] Killed ArenaTag
+BOT BOT TEXT {"type":"translation","needs_translation":true,"message":"death.attack.generic","parameters":["ArenaTag"],"xuid":"","platform_chat_id":""}
+BOT BOT RESPAWN {"position":{"x":0.5,"y":103.62001037597656,"z":0.5},"state":0,"runtime_entity_id":"0"}
+BOT BOT RESPAWN READY
+COMMAND testfor @a[name=ArenaTag,tag=pumpkin_sword]
+SERVER [2026-11-07 17:05:46:796 INFO] Found ArenaTag
+COMMAND tag ArenaTag list
+SERVER [2026-11-07 17:05:47:797 ERROR] No targets matched selector
+MARK LOGOUT
+MARK RECONNECT
+SERVER [2026-11-07 17:05:53:433 INFO] Player connected: ArenaTag, xuid:
+SERVER [2026-11-07 17:05:53:433 INFO] Player disconnected: ArenaTag, xuid: ,
+BOT BOT RESPAWN {"position":{"x":0.5,"y":32769.62109375,"z":0.5},"state":0,"runtime_entity_id":"0"}
+BOT BOT RESPAWN READY
+BOT BOT RESPAWN {"position":{"x":0.5,"y":32768,"z":0.5},"state":0,"runtime_entity_id":"0"}
+BOT BOT RESPAWN READY
+BOT BOT RESPAWN {"position":{"x":0.5,"y":103.62001037597656,"z":0.5},"state":1,"runtime_entity_id":"0"}
+BOT BOT ACTION RESPAWN
+SERVER [2026-11-07 17:05:57:594 INFO] Player Spawned: ArenaTag xuid: ,
+BOT BOT SPAWN
+COMMAND testfor @a[name=ArenaTag,tag=pumpkin_sword]
+SERVER [2026-11-07 17:05:57:696 ERROR] No targets matched selector
+COMMAND tag ArenaTag list
+SERVER [2026-11-07 17:05:58:647 INFO] ArenaTag has no tags
+SERVER [2026-11-07 17:05:59:647 INFO] Server stop requested.
+SERVER [2026-11-07 17:05:59:664 INFO] Stopping server...
+SERVER Quit correctly
+DONE

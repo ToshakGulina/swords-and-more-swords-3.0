@@ -1,0 +1,124 @@
+SERVER NO LOG FILE! - setting up server logging...
+
+SERVER [2026-11-07 08:21:15:986 INFO] Starting Server
+
+SERVER [2026-11-07 08:21:15:986 INFO] Version: 1.20.50.03
+
+SERVER [2026-11-07 08:21:15:986 INFO] Build ID: 19782165
+
+SERVER [2026-11-07 08:21:15:987 INFO] Branch: r/20_u5
+
+SERVER [2026-11-07 08:21:15:987 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+
+SERVER [2026-11-07 08:21:15:987 INFO] Configuration: Publish
+
+SERVER [2026-11-07 08:21:15:987 INFO] Level Name: Bot movement
+
+SERVER [2026-11-07 08:21:15:988 INFO] No CDN config file found for dedicated server
+
+SERVER [2026-11-07 08:21:15:988 INFO] Game mode: 1 Creative
+
+SERVER [2026-11-07 08:21:15:988 INFO] Difficulty: 1 EASY
+
+SERVER [2026-11-07 08:21:15:989 INFO] Content logging to console is enabled.
+
+SERVER [2026-11-07 08:21:15:362 INFO] Opening level 'worlds/Bot movement/db'
+
+SERVER [2026-11-07 08:21:16:924 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+
+SERVER [2026-11-07 08:21:16:924 INFO] IPv6 supported, port: 19133: Used for gameplay
+
+SERVER [2026-11-07 08:21:16:931 INFO] Server started.
+
+SERVER [2026-11-07 08:21:16:931 INFO] ================ TELEMETRY MESSAGE ===================
+
+SERVER [2026-11-07 08:21:16:931 INFO] Server Telemetry is currently not enabled. 
+
+SERVER [2026-11-07 08:21:16:931 INFO] Enabling this telemetry helps us improve the game.
+
+SERVER [2026-11-07 08:21:16:931 INFO] 
+
+SERVER [2026-11-07 08:21:16:931 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+
+SERVER [2026-11-07 08:21:16:931 INFO] to the server.properties file in the handheld/src-server directory
+
+SERVER [2026-11-07 08:21:16:931 INFO] ======================================================
+
+SERVER [2026-11-07 08:21:18:037 INFO] Player connected: ArenaBot, xuid: 
+
+BOT START {"position":{"x":-377.5,"y":32769.62109375,"z":-396.5},"movement":"server","tick":"445"}
+BOT SYNC 1794039678536 445
+SERVER [2026-11-07 08:21:24:708 INFO] Player Spawned: ArenaBot xuid: , 
+BOT SPAWN
+COMMAND tp ArenaBot 10 100 10
+SERVER [2026-11-07 08:21:24:822 INFO] Teleported ArenaBot to 10.50, 100.00, 10.50
+
+BOT SERVER MOVE {"position":{"x":10.5,"y":101.62001037597656,"z":10.5},"mode":"teleport","tick":"0"}
+BOT RECEIVED TEXT {"type":"json","needs_translation":false,"message":"{\"rawtext\":[{\"translate\":\"commands.tp.successVictim\",\"with\":{\"rawtext\":[{\"text\":\"10.50, 100.00, 10.50\"}]}}]}\n","xuid":"","platform_chat_id":""}
+BOT SYNC 0 566
+BOT SYNC 566 576
+BOT SYNC 576 586
+BOT SYNC 586 596
+BOT SYNC 596 606
+BOT SYNC 606 616
+BOT SYNC 616 626
+BOT SYNC 626 636
+BOT SYNC 636 646
+BOT SYNC 646 656
+BOT SYNC 656 666
+BOT SYNC 666 676
+BOT SYNC 676 686
+BOT SYNC 686 696
+BOT SYNC 696 706
+COMMAND fill 8 99 8 20 99 12 stone
+BOT SYNC 706 716
+SERVER [2026-11-07 08:21:32:759 INFO] 65 blocks filled
+
+BOT SYNC 716 726
+COMMAND fill 8 100 8 20 103 12 air
+BOT SYNC 726 736
+SERVER [2026-11-07 08:21:33:759 ERROR] 0 blocks filled
+
+BOT SYNC 736 746
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=1]
+BOT SYNC 746 756
+SERVER [2026-11-07 08:21:34:759 ERROR] No targets matched selector
+
+BOT SYNC 756 766
+HARNESS instruct bot WALK
+BOT BEGIN WALK {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT SYNC 766 776
+BOT RECEIVED TEXT {"type":"chat","needs_translation":false,"source_name":"ArenaBot","message":"arena_control_test","xuid":"","platform_chat_id":""}
+BOT HEARTBEAT {"position":{"x":10.58,"y":101.62001037597656,"z":10.5},"tick":"663","remaining":59,"serverTick":"776"}
+BOT SYNC 776 786
+BOT SYNC 786 796
+BOT HEARTBEAT {"position":{"x":12.180000000000001,"y":101.62001037597656,"z":10.5},"tick":"683","remaining":39,"serverTick":"796"}
+BOT SYNC 796 806
+BOT HEARTBEAT {"position":{"x":13.780000000000003,"y":101.62001037597656,"z":10.5},"tick":"703","remaining":19,"serverTick":"816"}
+BOT SYNC 806 816
+BOT SYNC 816 826
+BOT SYNC 826 836
+BOT SYNC 836 846
+BOT SYNC 846 856
+BOT SYNC 856 866
+BOT SYNC 866 876
+BOT SYNC 876 886
+BOT SYNC 886 896
+BOT SYNC 896 906
+COMMAND testfor @a[name=ArenaBot,x=15,y=100,z=10,r=2]
+BOT SYNC 906 916
+SERVER [2026-11-07 08:21:42:759 ERROR] No targets matched selector
+
+BOT SYNC 916 926
+COMMAND testfor @a[name=ArenaBot,x=10,y=100,z=10,r=1]
+BOT SYNC 926 936
+SERVER [2026-11-07 08:21:43:759 INFO] Found ArenaBot
+
+BOT SYNC 936 946
+SERVER [2026-11-07 08:21:44:759 INFO] Server stop requested.
+
+SERVER [2026-11-07 08:21:44:801 INFO] Stopping server...
+
+SERVER Quit correctly
+
+HARNESS RESULT player_spawned= True server_exit= 0

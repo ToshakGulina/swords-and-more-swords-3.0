@@ -1,0 +1,89 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:46:45:537 INFO] Starting Server
+[2026-11-07 07:46:45:537 INFO] Version: 1.20.50.03
+[2026-11-07 07:46:45:537 INFO] Build ID: 19782165
+[2026-11-07 07:46:45:537 INFO] Branch: r/20_u5
+[2026-11-07 07:46:45:537 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:46:45:537 INFO] Configuration: Publish
+[2026-11-07 07:46:45:537 INFO] Level Name: Arena original
+[2026-11-07 07:46:45:538 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:46:45:538 INFO] Game mode: 1 Creative
+[2026-11-07 07:46:45:538 INFO] Difficulty: 1 EASY
+[2026-11-07 07:46:45:539 INFO] Content logging to console is enabled.
+[2026-11-07 07:46:46:890 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_46_46
+[2026-11-07 07:46:46:890 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:46:46:891 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:46:46:257 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:46:46:257 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:46:46:257 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:46:46:257 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:46:46:531 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:46:46:531 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:46:46:621 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 0 100 0 3 fountain_lab true
+[2026-11-07 07:46:46:621 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:46:46:621 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:46:46:621 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:46:46:621 INFO] 
+[2026-11-07 07:46:46:621 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:46:46:621 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:46:46:621 INFO] ======================================================
+[2026-11-07 07:46:47:842 INFO] Added ticking area centered at 8, 0, 8 with a radius of 3 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:46:59:698 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:46:59:093 INFO] Killed item.effect:sponge_sword
+HARNESS COMMAND: fill 17 98 17 27 105 23 air
+[2026-11-07 07:46:59:499 INFO] 50 blocks filled
+HARNESS COMMAND: fill 19 99 19 21 99 21 sandstone
+[2026-11-07 07:47:00:893 INFO] 9 blocks filled
+HARNESS COMMAND: fill 19 100 19 21 100 21 water
+[2026-11-07 07:47:00:294 INFO] 9 blocks filled
+HARNESS COMMAND: setblock 19 102 19 sandstone
+[2026-11-07 07:47:01:698 INFO] Block placed
+HARNESS COMMAND: setblock 21 102 19 sandstone
+[2026-11-07 07:47:01:993 INFO] Block placed
+HARNESS COMMAND: setblock 19 102 21 sandstone
+[2026-11-07 07:47:01:293 INFO] Block placed
+HARNESS COMMAND: setblock 21 102 21 sandstone
+[2026-11-07 07:47:01:598 INFO] Block placed
+HARNESS COMMAND: setblock 20 104 20 air
+[2026-11-07 07:47:02:893 ERROR] The block couldn't be placed
+HARNESS COMMAND: fill 24 100 19 26 100 21 stone
+[2026-11-07 07:47:02:198 INFO] 9 blocks filled
+HARNESS COMMAND: loot spawn 25 101 20 loot "arena/quartz_nine"
+[2026-11-07 07:47:02:599 INFO] 1 items were dropped.
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:47:03:198 INFO] Found item.effect:quartz_diamond
+HARNESS COMMAND: tag @e[type=item] add wish_1
+[2026-11-07 07:47:04:698 INFO] Added tag 'wish_1' to item.effect:quartz_diamond
+HARNESS COMMAND: tp @e[type=item,tag=wish_1] 20.5 100 20.5
+[2026-11-07 07:47:04:098 INFO] Teleported item.effect:quartz_diamond to 20.50, 100.00, 20.50
+HARNESS COMMAND: testfor @e[type=item,tag=wish_1]
+[2026-11-07 07:47:05:699 INFO] Found item.effect:quartz_diamond
+HARNESS COMMAND: testfor @e[type=item,tag=wish_1]
+[2026-11-07 07:47:09:698 INFO] Found item.effect:quartz_diamond
+HARNESS COMMAND: setblock 20 104 20 sandstone
+[2026-11-07 07:47:09:199 INFO] Block placed
+HARNESS COMMAND: testforblock 20 104 20 sandstone
+[2026-11-07 07:47:09:643 INFO] Successfully found the block at 20,104,20.
+HARNESS COMMAND: testfor @e[type=item,tag=wish_1]
+[2026-11-07 07:47:13:643 ERROR] No targets matched selector
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:47:14:243 INFO] Found Seeds
+HARNESS COMMAND: tickingarea remove fountain_lab
+[2026-11-07 07:47:15:848 INFO] Removed ticking area(s)
+- fountain_lab (Circle): 8 0 8 Radius: 3 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:47:16:198 INFO] Server stop requested.
+[2026-11-07 07:47:16:239 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

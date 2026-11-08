@@ -1,0 +1,257 @@
+{
+  "scope": "Google Drive direct folder listing; downloaded bytes matched Drive MD5 and earlier OCR SHA-256; image pixel decode; not a verified transcription",
+  "files": [
+    {
+      "name": "Screenshot_20261104_115821_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "18mrcZhBh-Z3MbkF1Su19Yu7C9HNa31zs",
+      "drive_md5": "0861dabc838b2cbbed970e721d35dbb4",
+      "sha256": "861130e986c13e923f7b527cf103cf06041de16da2c5e046252bdf57014ba680",
+      "bytes": 643398,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115826_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "18SAkmYz1M8hva9FAv8bJfFTWOM7OD8F6",
+      "drive_md5": "a54b1c1ac70c692cc91c0b40c69df1dd",
+      "sha256": "46e9b004ce9c488cfb7b3f11e0467a610abecd6bf48eac75113e3bf4b396df8b",
+      "bytes": 661802,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115830_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1u4b1golY1UN59CFF3zifu2aqiLwI5ypW",
+      "drive_md5": "cb3c04bd4f04780b35453611c78ddf99",
+      "sha256": "7fce6af28feb396380a97390658201e0ca8aa3a085997c50ed0e954664d69757",
+      "bytes": 622302,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115837_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1eO2vurHVipmTvKj_7XzYz3KWOhZA23ic",
+      "drive_md5": "977f6f401f97c94c94d536f65cf5a0b7",
+      "sha256": "e932260379d64d3d608e97e842dc43d9cb015d388937a8085befc80fa4322648",
+      "bytes": 541500,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115842_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "117ulXVShaEZGyc0CdADa5mQUYlmAveAT",
+      "drive_md5": "88b6450f69b92de8ce443e35f09071ce",
+      "sha256": "965e147c912cd70eb635b384ce13bafda24117a4139c0e9378fae80792dc1a5b",
+      "bytes": 642001,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115849_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1YEOBZ0aW8jOnH1Uw26aexwJX-C9nx5Jq",
+      "drive_md5": "921b8ab2ab3863043461327b81ba80a7",
+      "sha256": "956058ad8fec154d3db0d14a74760e65f55eb12b40cadc343aa8a6953d99a1d4",
+      "bytes": 660642,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115853_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1g4UIpjMFNG1uYe8hAo8IOzVw5ctqxL-i",
+      "drive_md5": "89f16f33d70b6ffb0e64b871af3a598f",
+      "sha256": "280e8eead0f845630b4a4d9c17b4160c94d404ce8c7045c50c81742a5753b640",
+      "bytes": 557775,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115858_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1fvRODDZrL5CDlRdyvi4iuqupiY0pkRmc",
+      "drive_md5": "40c1adf4dbe0979fedc6fa8747fc37a1",
+      "sha256": "28ff0fd8851724cd07d8c566002ddc62d5ea195c8c4ec7b4dd3fda1ea0e103d2",
+      "bytes": 676319,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115902_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1bdPcV4MdHpWMaTX-HNVZZEjPZ7XbuusZ",
+      "drive_md5": "d1c67d9182cdf12d63ed7c2d39a8d5b1",
+      "sha256": "8e956ba98048aab45569bd8db2381a782ff89c08933166df3d5ade5eb2d463b0",
+      "bytes": 602998,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115910_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1rCL9RKVJCIfjHme7CkmOEe82NpJyCn1A",
+      "drive_md5": "4eb7aeedf7df42d019bf06795e4beb5f",
+      "sha256": "bfad50183376d689803f34462bf58767c5352cbb854e596f9e3815a0e18ec992",
+      "bytes": 662854,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115915_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1PepsprtsCCeeGxcvjyUMemLzYdbtQMM6",
+      "drive_md5": "acaa6e875d497711324daf9cb0889a13",
+      "sha256": "05bb7221dcb0530a112ce09e9484b8bcf16c1637531105e5bbe3c653f72a46d4",
+      "bytes": 761114,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115920_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1ym1j2BhOsqJPPwqRzdPf0JUlIqYyPK4s",
+      "drive_md5": "d67745c137019f8090cfb18ef86a43cd",
+      "sha256": "b4fc314ffaf43ca59a8b7654629cd57d6986e15c94aeedd59de86c7f39987506",
+      "bytes": 634174,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115934_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "12oKa5cnYV5yDSpreB54Pfe2KaqOx8FaK",
+      "drive_md5": "fd9c235e1465581e1e972490f9ae8ea5",
+      "sha256": "55e5192b79c94fc2cdc3f45244352e3e47d166e9896e0cfa7a9a2223a84e7d40",
+      "bytes": 638287,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_115955_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1a7kOeS7_zMxTw7QFgoCGLAlh_f1O3_vp",
+      "drive_md5": "1edf6b4c43686aacae60d2df4feaffa5",
+      "sha256": "ce6b729c673dcee51f3b322c423fbf6093c0ef3f5da26f1ea3d15099fc030736",
+      "bytes": 703429,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120003_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1tAeJ-EbPeExgoe9AX_AR_p9cgZEangmO",
+      "drive_md5": "48e780a81cd43831bb7d896637ae3c71",
+      "sha256": "d12991058469166352421a765a7b6691e0aa70fb1917470557423de2402edc5a",
+      "bytes": 662733,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120007_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "18xMWPEmEQ3k8DUxotbJS2CD1IIXMbY6s",
+      "drive_md5": "7b43c2005d0e3983f53525abec7044ad",
+      "sha256": "a10d3085eb39ebb721f15069e451201dcb99f6d87332c22e22944dcaadbd74da",
+      "bytes": 595964,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120011_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1tY_bT4l7lOkdHRfKqglYbqXP2_FiM70D",
+      "drive_md5": "c4b06500de6033acef309bde825ae33f",
+      "sha256": "ff6d6f365932585b08b1e12746e9c8974902d0d97d87dd5e9167f879a7d7170d",
+      "bytes": 707964,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120025_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1vSQHbdMLZTGGVBVDzBWT7r_Vm9oyZznG",
+      "drive_md5": "04db20f9dc0e3ffb9b81fbb19092d66f",
+      "sha256": "51ce1e01e844247ddd28e3787bfe7a377b3bc56c53cfaada1b5f27fd9c6f5e33",
+      "bytes": 763292,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120034_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "14nhZwfS8-jwjz2vOlAQQd2-LXzlnE2l4",
+      "drive_md5": "3a2e5eaf7861be483124d0ff1e27f751",
+      "sha256": "8c9b1137236e447294ccf6de71520be361e0dcd4c148225aa586ce9036151703",
+      "bytes": 763299,
+      "dimensions": [
+        1272,
+        2800
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_120050_com_kayenworks_mcpeaddons_AddonDetailActivity.jpg",
+      "drive_id": "1QxBp8CUoeiK1tSXeUCHVwz48f_9-dqGc",
+      "drive_md5": "6519d154f208d9ec65849c0067934734",
+      "sha256": "95a181d431de78e8c220c38067fba128d601ba9412b890a4584f4b307458d8f4",
+      "bytes": 342332,
+      "dimensions": [
+        1272,
+        1273
+      ],
+      "sha256_matches_ocr_index": true
+    },
+    {
+      "name": "Screenshot_20261104_132138_com_yandex_browser_YandexBrowserMainActivity.jpg",
+      "drive_id": "1BFVh1NkvtZvu3vVO5h3k3_-jQb1h64qR",
+      "drive_md5": "288ea067be5ebfae395644e58e10df43",
+      "sha256": "b3d92dbc007a453f6bce4565d45ef864a6df5ad0fc310a79f3c0f228de588684",
+      "bytes": 774369,
+      "dimensions": [
+        1272,
+        2160
+      ],
+      "sha256_matches_ocr_index": true
+    }
+  ]
+}

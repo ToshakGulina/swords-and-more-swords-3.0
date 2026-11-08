@@ -1,0 +1,123 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:44:29:751 INFO] Starting Server
+SERVER [2026-11-07 08:44:29:751 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:44:29:751 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:44:29:751 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:44:29:751 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:44:29:751 INFO] Configuration: Publish
+SERVER [2026-11-07 08:44:29:751 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 08:44:29:752 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:44:29:752 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:44:29:752 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:44:29:752 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:44:29:103 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:44:29:103 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 08:44:30:459 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:44:30:459 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:44:30:459 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:44:30:459 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:44:30:682 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:44:30:682 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:44:30:760 INFO] Server started.
+SERVER [2026-11-07 08:44:30:761 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:44:30:761 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:44:30:761 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:44:30:761 INFO] 
+SERVER [2026-11-07 08:44:30:761 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:44:30:761 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:44:30:761 INFO] ======================================================
+SERVER [2026-11-07 08:44:32:820 INFO] Player connected: ArenaFighter, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 08:44:36:992 INFO] Player Spawned: ArenaFighter xuid: , BOT SPAWN
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tp ArenaFighter 10 100 10
+SERVER [2026-11-07 08:44:36:159 INFO] Teleported ArenaFighter to 10.50, 100.00, 10.50
+BOT POSITION {"x":10.5,"y":101.62001037597656,"z":10.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND gamemode survival ArenaFighter
+SERVER [2026-11-07 08:44:44:089 INFO] Set ArenaFighter's game mode to Survival
+COMMAND clear ArenaFighter
+SERVER [2026-11-07 08:44:45:094 ERROR] Could not clear the inventory of ArenaFighter, no items to remove
+BOT HELD CONTENT {"network_id":0}
+COMMAND effect ArenaFighter clear
+SERVER [2026-11-07 08:44:46:094 ERROR] Couldn't take any effects from ArenaFighter as they do not have any
+COMMAND replaceitem entity ArenaFighter slot.weapon.mainhand 0 effect:blaze_sword 1
+SERVER [2026-11-07 08:44:47:094 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaFighter with 1 * item.effect:blaze_sword
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaFighter,hasitem={item=effect:blaze_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:44:52:039 INFO] Found ArenaFighter
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword]
+SERVER [2026-11-07 08:44:53:039 INFO] Found ArenaFighter
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword_skill]
+SERVER [2026-11-07 08:44:54:039 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+HARNESS USE FIRST
+BOT USE BEGIN {"pos":{"x":10.5,"y":101.62001037597656,"z":10.5},"network_id":261}
+BOT USE SENT
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":24,"amplifier":0,"particles":false,"duration":140}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"add","effect_id":27,"amplifier":3,"particles":false,"duration":200}
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword_skill]
+SERVER [2026-11-07 08:44:57:044 INFO] Found ArenaFighter
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"hurt_animation","data":9}
+BOT HELD CONTENT {"network_id":261,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":10}}}},"can_place_on":[],"can_destroy":[]}}
+BOT HELD CONTENT {"network_id":0}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"death_animation","data":0}
+BOT TEXT {"type":"translation","needs_translation":true,"message":"death.attack.drown","parameters":["ArenaFighter"],"xuid":"","platform_chat_id":""}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":24,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+BOT MOB EFFECT {"runtime_entity_id":"1","event_id":"remove","effect_id":27,"amplifier":0,"particles":false,"duration":0}
+HARNESS USE EARLY
+BOT USE BEGIN {"pos":{"x":10.5,"y":101.62001037597656,"z":10.5},"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword_skill]
+SERVER [2026-11-07 08:45:00:094 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword_skill]
+SERVER [2026-11-07 08:45:10:089 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS USE LATE
+BOT USE BEGIN {"pos":{"x":10.5,"y":101.62001037597656,"z":10.5},"network_id":0}
+COMMAND testfor @a[name=ArenaFighter,family=blaze_sword_skill]
+SERVER [2026-11-07 08:45:23:089 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 08:45:24:090 INFO] Server stop requested.
+SERVER [2026-11-07 08:45:24:092 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

@@ -1,0 +1,87 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 08:39:50:760 INFO] Starting Server
+SERVER [2026-11-07 08:39:50:760 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 08:39:50:760 INFO] Build ID: 19782165
+SERVER [2026-11-07 08:39:50:760 INFO] Branch: r/20_u5
+SERVER [2026-11-07 08:39:50:760 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 08:39:50:760 INFO] Configuration: Publish
+SERVER [2026-11-07 08:39:50:760 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 08:39:50:761 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 08:39:50:761 INFO] Game mode: 1 Creative
+SERVER [2026-11-07 08:39:50:761 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 08:39:50:761 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 08:39:50:114 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 08:39:50:114 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 08:39:51:467 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:39:51:467 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 08:39:51:468 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 08:39:51:468 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 08:39:51:681 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 08:39:51:681 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 08:39:51:756 INFO] Server started.
+SERVER [2026-11-07 08:39:51:756 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 08:39:51:756 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 08:39:51:756 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 08:39:51:756 INFO] 
+SERVER [2026-11-07 08:39:51:756 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 08:39:51:756 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 08:39:51:756 INFO] ======================================================
+SERVER [2026-11-07 08:39:53:803 INFO] Player connected: ArenaDrop, xuid: 
+BOT CUSTOM ITEMS [{"name":"effect:obsidian_sword","runtime_id":280,"component_based":true},{"name":"effect:glass_sword","runtime_id":271,"component_based":true},{"name":"effect:sponge_sword","runtime_id":292,"component_based":true},{"name":"effect:wet_sponge_sword","runtime_id":296,"component_based":true},{"name":"effect:fire_sword","runtime_id":269,"component_based":true}]
+BOT HELD {"network_id":0}
+SERVER [2026-11-07 08:39:59:021 INFO] Player Spawned: ArenaDrop xuid: , BOT SPAWN
+COMMAND tp ArenaDrop 10 100 10
+SERVER [2026-11-07 08:39:59:207 INFO] Teleported ArenaDrop to 10.50, 100.00, 10.50
+BOT DROP ENTITY {"item":{"network_id":269,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},"position":{"x":9.973841667175293,"y":63.125,"z":27.968849182128906},"velocity":{"x":-0.00002493967804184649,"y":0,"z":0.0013106776168569922}}
+COMMAND fill 7 99 7 16 99 17 stone
+SERVER [2026-11-07 08:40:07:129 ERROR] 0 blocks filled
+COMMAND fill 7 100 7 16 103 17 air
+SERVER [2026-11-07 08:40:08:133 INFO] 320 blocks filled
+COMMAND gamemode survival ArenaDrop
+SERVER [2026-11-07 08:40:09:129 INFO] Set ArenaDrop's game mode to Survival
+COMMAND clear ArenaDrop
+SERVER [2026-11-07 08:40:10:131 ERROR] Could not clear the inventory of ArenaDrop, no items to remove
+BOT HELD {"network_id":0}
+COMMAND kill @e[type=item]
+SERVER [2026-11-07 08:40:11:129 INFO] Killed item.effect:fire_sword
+BOT REMOVE ENTITY {"entity_id_self":"-12884901885"}
+COMMAND fill 8 100 8 15 102 16 water
+SERVER [2026-11-07 08:40:12:130 INFO] 216 blocks filled
+COMMAND replaceitem entity ArenaDrop slot.weapon.mainhand 0 effect:fire_sword 1
+SERVER [2026-11-07 08:40:13:131 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaDrop with 1 * item.effect:fire_sword
+BOT HELD {"network_id":269,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=effect:fire_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:40:15:129 INFO] Found ArenaDrop
+HARNESS hotbar
+BOT COMMAND hotbar HELD {"network_id":269,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT REQUEST SENT
+BOT STACK RESPONSE {"responses":[{"status":"ok","request_id":-1,"containers":[{"slot_type":"hotbar","slots":[{"slot":0,"hotbar_slot":0,"count":0,"item_stack_id":0,"custom_name":"","durability_correction":0}]}]}]}
+BOT DROP ENTITY {"item":{"network_id":269,"count":1,"metadata":0,"has_stack_id":0,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}},"position":{"x":10.5,"y":101.24501037597656,"z":10.5},"velocity":{"x":-0.0023627118207514286,"y":0,"z":0.3008418381214142}}
+COMMAND tp ArenaDrop 10 106 4
+SERVER [2026-11-07 08:40:17:073 INFO] Teleported ArenaDrop to 10.50, 106.00, 4.50
+BOT REMOVE ENTITY {"entity_id_self":"-12884901883"}
+BOT REMOVE ENTITY {"entity_id_self":"-12884901886"}
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=effect:fire_sword,location=slot.weapon.mainhand}]
+SERVER [2026-11-07 08:40:18:074 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,x=10,y=101,z=11,r=10]
+SERVER [2026-11-07 08:40:19:073 ERROR] No targets matched selector
+COMMAND execute as @e[type=item,x=10,y=101,z=11,r=10] at @s run testforblock ~ ~ ~ water
+SERVER [2026-11-07 08:40:20:074 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,tag=fire_sword,x=10,y=101,z=11,r=10]
+SERVER [2026-11-07 08:40:21:073 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,x=10,y=101,z=11,r=10]
+SERVER [2026-11-07 08:40:29:123 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,tag=fire_sword,x=10,y=101,z=11,r=10]
+SERVER [2026-11-07 08:40:30:078 ERROR] No targets matched selector
+COMMAND testfor @e[type=item,x=10,y=101,z=11,r=10]
+SERVER [2026-11-07 08:40:34:078 ERROR] No targets matched selector
+COMMAND testfor @a[name=ArenaDrop,hasitem={item=effect:fire_sword}]
+SERVER [2026-11-07 08:40:35:079 ERROR] No targets matched selector
+SERVER [2026-11-07 08:40:36:076 INFO] Server stop requested.
+SERVER [2026-11-07 08:40:36:111 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

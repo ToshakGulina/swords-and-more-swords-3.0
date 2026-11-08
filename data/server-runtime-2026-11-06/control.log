@@ -1,0 +1,19 @@
+Version: 1.26.62.1
+Pack Stack - None
+HARNESS: server ready, send commands
+HARNESS COMMAND: list
+HARNESS COMMAND: help tickingarea
+HARNESS COMMAND: give @a minecraft:diamond 1
+HARNESS COMMAND: give @a effect:bee_sword 1
+HARNESS COMMAND: give @a effect:not_real_item 1
+HARNESS COMMAND: tickingarea add circle 0 100 0 2 arena_lab true
+HARNESS COMMAND: summon minecraft:pig 0 100 0
+HARNESS COMMAND: summon entity:alpha_wolf 0 100 0
+HARNESS COMMAND: summon minecraft:armor_stand 0 100 0
+HARNESS COMMAND: testfor @e[type=minecraft:armor_stand]
+HARNESS COMMAND: replaceitem entity @e[type=minecraft:armor_stand,c=1] slot.armor.head 0 minecraft:diamond 1
+HARNESS COMMAND: testfor @e[type=minecraft:armor_stand,hasitem={item=minecraft:diamond,location=slot.armor.head}]
+HARNESS COMMAND: replaceitem entity @e[type=minecraft:armor_stand,c=1] slot.armor.head 0 effect:bee_sword 1
+HARNESS COMMAND: tickingarea remove arena_lab
+HARNESS COMMAND: stop
+HARNESS: exit 0

@@ -1,0 +1,71 @@
+NO LOG FILE! - setting up server logging...
+[2026-11-07 07:50:11:624 INFO] Starting Server
+[2026-11-07 07:50:11:624 INFO] Version: 1.20.50.03
+[2026-11-07 07:50:11:624 INFO] Build ID: 19782165
+[2026-11-07 07:50:11:624 INFO] Branch: r/20_u5
+[2026-11-07 07:50:11:624 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+[2026-11-07 07:50:11:624 INFO] Configuration: Publish
+[2026-11-07 07:50:11:624 INFO] Level Name: Arena original
+[2026-11-07 07:50:11:625 INFO] No CDN config file found for dedicated server
+[2026-11-07 07:50:11:625 INFO] Game mode: 1 Creative
+[2026-11-07 07:50:11:625 INFO] Difficulty: 1 EASY
+[2026-11-07 07:50:11:626 INFO] Content logging to console is enabled.
+[2026-11-07 07:50:12:982 INFO] Content logging to disk is enabled. Writing log to: ContentLog__Saturday__2026_November_07__07_50_12
+[2026-11-07 07:50:12:982 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+[2026-11-07 07:50:12:982 INFO] Opening level 'worlds/Arena original/db'
+[2026-11-07 07:50:12:338 ERROR] [FeatureRegistry] Arena original | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:50:12:338 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:quartz_diamond_ore'
+
+[2026-11-07 07:50:12:338 ERROR] [FeatureRegistry] Arena original | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+
+[2026-11-07 07:50:12:338 ERROR] [FeatureRegistry] Arena original | No definition found for feature 'effect99:silver_ore'
+
+[2026-11-07 07:50:12:558 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+[2026-11-07 07:50:12:558 INFO] IPv6 supported, port: 19133: Used for gameplay
+[2026-11-07 07:50:12:634 INFO] Server started.
+HARNESS: server ready, send commands
+HARNESS COMMAND: tickingarea add circle 48 260 48 3 fire_rain true
+[2026-11-07 07:50:12:634 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-11-07 07:50:12:634 INFO] Server Telemetry is currently not enabled. 
+[2026-11-07 07:50:12:634 INFO] Enabling this telemetry helps us improve the game.
+[2026-11-07 07:50:12:634 INFO] 
+[2026-11-07 07:50:12:634 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-11-07 07:50:12:634 INFO] to the server.properties file in the handheld/src-server directory
+[2026-11-07 07:50:12:634 INFO] ======================================================
+[2026-11-07 07:50:13:855 INFO] Added ticking area centered at 56, 0, 56 with a radius of 3 chunks marked for preload.
+1/10 ticking areas in use.
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:50:25:706 INFO] Changing to clear weather
+HARNESS COMMAND: kill @e[type=item]
+[2026-11-07 07:50:25:102 INFO] Killed item.effect:glass_sword
+HARNESS COMMAND: fill 56 259 56 64 259 64 stone
+[2026-11-07 07:50:25:507 INFO] 81 blocks filled
+HARNESS COMMAND: fill 56 260 56 64 319 64 air
+[2026-11-07 07:50:26:907 ERROR] 0 blocks filled
+HARNESS COMMAND: loot spawn 60 260 60 loot "arena/fire_sword"
+[2026-11-07 07:50:26:302 INFO] 1 items were dropped.
+HARNESS COMMAND: tag @e[type=item] add fire_sword
+[2026-11-07 07:50:27:806 INFO] Added tag 'fire_sword' to item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:50:27:101 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:50:31:101 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: weather rain 60
+[2026-11-07 07:50:31:506 INFO] Changing to rainy weather
+HARNESS COMMAND: testfor @e[type=item]
+[2026-11-07 07:50:43:506 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: testfor @e[type=item,tag=fire_sword]
+[2026-11-07 07:50:44:006 INFO] Found item.effect:fire_sword
+HARNESS COMMAND: weather clear 6000
+[2026-11-07 07:50:44:401 INFO] Changing to clear weather
+HARNESS COMMAND: tickingarea remove fire_rain
+[2026-11-07 07:50:45:701 INFO] Removed ticking area(s)
+- fire_rain (Circle): 56 0 56 Radius: 3 chunks Preload
+
+0/10 ticking areas in use.
+HARNESS COMMAND: stop
+[2026-11-07 07:50:46:007 INFO] Server stop requested.
+[2026-11-07 07:50:46:010 INFO] Stopping server...
+Quit correctly
+HARNESS: exit 0

@@ -1,0 +1,455 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 09:36:27:361 INFO] Starting Server
+SERVER [2026-11-07 09:36:27:361 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 09:36:27:361 INFO] Build ID: 19782165
+SERVER [2026-11-07 09:36:27:361 INFO] Branch: r/20_u5
+SERVER [2026-11-07 09:36:27:361 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 09:36:27:361 INFO] Configuration: Publish
+SERVER [2026-11-07 09:36:27:361 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 09:36:27:362 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 09:36:27:362 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 09:36:27:362 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 09:36:27:362 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 09:36:27:708 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 09:36:27:708 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 09:36:28:073 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:36:28:073 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 09:36:28:073 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 09:36:28:073 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 09:36:28:295 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 09:36:28:295 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 09:36:28:365 INFO] Server started.
+SERVER [2026-11-07 09:36:28:365 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 09:36:28:365 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 09:36:28:365 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 09:36:28:365 INFO] 
+SERVER [2026-11-07 09:36:28:365 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 09:36:28:365 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 09:36:28:365 INFO] ======================================================
+SERVER [2026-11-07 09:36:28:406 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 09:36:30:472 INFO] Player connected: ArenaHeight, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"3","position":{"x":44.02093505859375,"y":118,"z":19.481096267700195}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"4","position":{"x":40.2447624206543,"y":81,"z":21.997318267822266}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"7","position":{"x":44.84754180908203,"y":94.83354187011719,"z":10.902185440063477}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"5","position":{"x":36.308135986328125,"y":123,"z":23.00745391845703}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"6","position":{"x":46.329227447509766,"y":124.23152160644531,"z":35.62379455566406}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"12","position":{"x":54.48094177246094,"y":71.6875,"z":32.34543228149414}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"9","position":{"x":51.42015838623047,"y":73,"z":38.80367660522461}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"8","position":{"x":60.81349563598633,"y":118,"z":34.18933868408203}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"10","position":{"x":48.61188507080078,"y":70,"z":35.79229736328125}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"11","position":{"x":49.46516036987305,"y":71,"z":39.884193420410156}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"15","position":{"x":51.87256622314453,"y":73,"z":23.501920700073242}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"14","position":{"x":57.31698989868164,"y":70,"z":25.394676208496094}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"13","position":{"x":58.082881927490234,"y":70,"z":24.299999237060547}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:36:40:958 INFO] Player Spawned: ArenaHeight xuid: , BOT SPAWN
+COMMAND gamemode creative ArenaHeight
+SERVER [2026-11-07 09:36:41:078 INFO] Set ArenaHeight's game mode to Creative
+BOT ENTITY {"type":"minecraft:sheep","runtime":"17","position":{"x":2,"y":134,"z":-38}}
+BOT ENTITY {"type":"minecraft:sheep","runtime":"16","position":{"x":2,"y":134,"z":-38}}
+SERVER [2026-11-07 09:36:41:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND clear ArenaHeight
+SERVER [2026-11-07 09:36:42:011 ERROR] Could not clear the inventory of ArenaHeight, no items to remove
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"19","position":{"x":-42,"y":134,"z":-1}}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"18","position":{"x":-42,"y":134,"z":-1}}
+SERVER [2026-11-07 09:36:42:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS HEIGHT -10
+COMMAND tp ArenaHeight 80 -10 80
+SERVER [2026-11-07 09:36:43:010 INFO] Teleported ArenaHeight to 80.50, -10.00, 80.50
+BOT POSITION {"x":80.5,"y":-8.379989624023438,"z":80.5}
+BOT ENTITY {"type":"minecraft:pig","runtime":"20","position":{"x":41.938350677490234,"y":80,"z":83.66515350341797}}
+SERVER [2026-11-07 09:36:43:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"21","position":{"x":109,"y":-8,"z":66}}
+SERVER [2026-11-07 09:36:44:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:45:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:46:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:36:47:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:48:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:zombie","runtime":"24","position":{"x":69,"y":-20,"z":55}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"23","position":{"x":69,"y":-20,"z":55}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"22","position":{"x":69,"y":-20,"z":55}}
+COMMAND fill 78 -11 78 85 -11 82 stone
+SERVER [2026-11-07 09:36:49:010 INFO] 40 blocks filled
+SERVER [2026-11-07 09:36:49:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND fill 78 -10 78 85 -6 82 air
+SERVER [2026-11-07 09:36:50:011 INFO] 200 blocks filled
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"29","position":{"x":83.5,"y":-4.539999961853027,"z":82.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"28","position":{"x":84.5,"y":-4.539999961853027,"z":82.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"27","position":{"x":82.5,"y":-4.539999961853027,"z":82.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"26","position":{"x":81.5,"y":-4.539999961853027,"z":82.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"25","position":{"x":80.5,"y":-4.539999961853027,"z":82.5}}
+SERVER [2026-11-07 09:36:50:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND setblock 83 -10 80 stone
+SERVER [2026-11-07 09:36:51:010 INFO] Block placed
+SERVER [2026-11-07 09:36:51:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 83 -10 80 stone
+SERVER [2026-11-07 09:36:52:010 INFO] Successfully found the block at 83,-10,80.
+SERVER [2026-11-07 09:36:52:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaHeight]
+SERVER [2026-11-07 09:36:53:010 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 80.50,
+SERVER          "y" : -8.379989624023438,
+SERVER          "z" : 80.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:36:53:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:zombie","runtime":"30","position":{"x":103,"y":9,"z":58}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"32","position":{"x":103,"y":-19,"z":58}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"31","position":{"x":103,"y":9,"z":58}}
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 effect:spectral_sword 1
+SERVER [2026-11-07 09:36:54:011 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * item.effect:spectral_sword
+BOT HELD CONTENT {"network_id":290,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"34","position":{"x":99,"y":21,"z":87}}
+BOT ENTITY {"type":"minecraft:zombie_villager_v2","runtime":"35","position":{"x":99,"y":21,"z":87}}
+BOT ENTITY {"type":"minecraft:zombie","runtime":"33","position":{"x":99,"y":21,"z":87}}
+SERVER [2026-11-07 09:36:54:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:ender_crystal","runtime":"36","position":{"x":80.5,"y":-8.199999809265137,"z":80.5}}
+SERVER [2026-11-07 09:36:55:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:56:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:36:57:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaHeight,family=spectral_sword]
+SERVER [2026-11-07 09:36:58:014 INFO] Found ArenaHeight
+SERVER [2026-11-07 09:36:58:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:creeper","runtime":"37","position":{"x":109,"y":2,"z":57}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 83 -10 80 effect99:spectral_block
+SERVER [2026-11-07 09:36:59:011 ERROR] The block at 83,-10,80 is Stone (expected: %tile.effect99:spectral_block.name).
+SERVER [2026-11-07 09:36:59:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"38","position":{"x":74,"y":25,"z":82}}
+COMMAND testforblock 83 -10 80 stone
+SERVER [2026-11-07 09:37:00:011 INFO] Successfully found the block at 83,-10,80.
+SERVER [2026-11-07 09:37:00:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:spider","runtime":"39","position":{"x":81,"y":-41,"z":60}}
+BOT ENTITY {"type":"minecraft:slime","runtime":"40","position":{"x":105,"y":23,"z":94}}
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:37:01:011 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"41","position":{"x":103,"y":22,"z":94}}
+SERVER [2026-11-07 09:37:01:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:02:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:03:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+HARNESS HEIGHT 7
+COMMAND tp ArenaHeight 110 7 80
+SERVER [2026-11-07 09:37:04:061 INFO] Teleported ArenaHeight to 110.50, 7.00, 80.50
+BOT POSITION {"x":110.5,"y":8.620010375976562,"z":80.5}
+SERVER [2026-11-07 09:37:04:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"43","position":{"x":147,"y":-10,"z":77}}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"42","position":{"x":147,"y":-10,"z":77}}
+SERVER [2026-11-07 09:37:05:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:06:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:spider","runtime":"44","position":{"x":81,"y":23,"z":95}}
+BOT ENTITY {"type":"minecraft:spider","runtime":"45","position":{"x":70,"y":8,"z":73}}
+SERVER [2026-11-07 09:37:07:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:spider","runtime":"46","position":{"x":80,"y":-18,"z":67}}
+SERVER [2026-11-07 09:37:08:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"48","position":{"x":92,"y":12,"z":43}}
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"47","position":{"x":92,"y":12,"z":43}}
+SERVER [2026-11-07 09:37:09:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"49","position":{"x":106,"y":-16,"z":72}}
+BOT ENTITY {"type":"minecraft:creeper","runtime":"50","position":{"x":91,"y":23,"z":99}}
+COMMAND fill 108 6 78 115 6 82 stone
+SERVER [2026-11-07 09:37:10:011 INFO] 17 blocks filled
+SERVER [2026-11-07 09:37:10:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"51","position":{"x":112,"y":9.999990463256836,"z":45}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"31","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"31","event_id":"dust_particles","data":0}
+COMMAND fill 108 7 78 115 11 82 air
+SERVER [2026-11-07 09:37:11:012 INFO] 197 blocks filled
+SERVER [2026-11-07 09:37:11:364 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND setblock 113 7 80 stone
+SERVER [2026-11-07 09:37:12:013 INFO] Block placed
+SERVER [2026-11-07 09:37:12:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 113 7 80 stone
+SERVER [2026-11-07 09:37:13:012 INFO] Successfully found the block at 113,7,80.
+SERVER [2026-11-07 09:37:13:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaHeight]
+SERVER [2026-11-07 09:37:14:012 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 110.50,
+SERVER          "y" : 8.620010375976562,
+SERVER          "z" : 80.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:37:14:364 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 effect:spectral_sword 1
+SERVER [2026-11-07 09:37:15:011 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * item.effect:spectral_sword
+BOT HELD CONTENT {"network_id":290,"count":1,"metadata":0,"has_stack_id":1,"stack_id":2,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:37:15:364 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"52","position":{"x":115,"y":10,"z":44}}
+BOT ENTITY {"type":"minecraft:ender_crystal","runtime":"53","position":{"x":110.5,"y":8.800000190734863,"z":80.5}}
+SERVER [2026-11-07 09:37:16:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:17:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:18:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testfor @a[name=ArenaHeight,family=spectral_sword]
+SERVER [2026-11-07 09:37:19:012 INFO] Found ArenaHeight
+SERVER [2026-11-07 09:37:19:364 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 113 7 80 effect99:spectral_block
+SERVER [2026-11-07 09:37:20:012 ERROR] The block at 113,7,80 is Stone (expected: %tile.effect99:spectral_block.name).
+SERVER [2026-11-07 09:37:20:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 113 7 80 stone
+SERVER [2026-11-07 09:37:21:011 INFO] Successfully found the block at 113,7,80.
+SERVER [2026-11-07 09:37:21:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:37:22:062 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:37:22:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:23:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:24:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+HARNESS HEIGHT 8
+COMMAND tp ArenaHeight 140 8 80
+SERVER [2026-11-07 09:37:25:061 INFO] Teleported ArenaHeight to 140.50, 8.00, 80.50
+BOT POSITION {"x":140.5,"y":9.620010375976562,"z":80.5}
+SERVER [2026-11-07 09:37:25:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:creeper","runtime":"54","position":{"x":156,"y":-19,"z":58}}
+SERVER [2026-11-07 09:37:26:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:27:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:28:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:creeper","runtime":"55","position":{"x":175,"y":11,"z":82}}
+SERVER [2026-11-07 09:37:29:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:30:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 138 7 78 145 7 82 stone
+SERVER [2026-11-07 09:37:31:011 INFO] 31 blocks filled
+SERVER [2026-11-07 09:37:31:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND fill 138 8 78 145 12 82 air
+SERVER [2026-11-07 09:37:32:012 INFO] 85 blocks filled
+SERVER [2026-11-07 09:37:32:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND setblock 143 8 80 stone
+SERVER [2026-11-07 09:37:33:011 INFO] Block placed
+SERVER [2026-11-07 09:37:33:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 143 8 80 stone
+SERVER [2026-11-07 09:37:34:011 INFO] Successfully found the block at 143,8,80.
+SERVER [2026-11-07 09:37:34:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaHeight]
+SERVER [2026-11-07 09:37:34:011 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 140.50,
+SERVER          "y" : 9.620010375976562,
+SERVER          "z" : 80.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:37:35:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 effect:spectral_sword 1
+SERVER [2026-11-07 09:37:36:013 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * item.effect:spectral_sword
+BOT HELD CONTENT {"network_id":290,"count":1,"metadata":0,"has_stack_id":1,"stack_id":3,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:37:36:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:ender_crystal","runtime":"56","position":{"x":140.5,"y":9.800000190734863,"z":80.5}}
+SERVER [2026-11-07 09:37:37:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:38:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:39:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaHeight,family=spectral_sword]
+SERVER [2026-11-07 09:37:40:061 INFO] Found ArenaHeight
+SERVER [2026-11-07 09:37:40:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 143 8 80 effect99:spectral_block
+SERVER [2026-11-07 09:37:41:061 INFO] Successfully found the block at 143,8,80.
+SERVER [2026-11-07 09:37:41:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 143 8 80 stone
+SERVER [2026-11-07 09:37:42:062 ERROR] The block at 143,8,80 is %tile.effect99:spectral_block.name (expected: Stone).
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"58","position":{"x":173,"y":3.9999899864196777,"z":58}}
+BOT ENTITY {"type":"minecraft:glow_squid","runtime":"57","position":{"x":173,"y":4.999989986419678,"z":58}}
+SERVER [2026-11-07 09:37:42:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:37:43:062 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:37:43:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:44:363 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:45:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+HARNESS HEIGHT 260
+COMMAND tp ArenaHeight 170 260 80
+SERVER [2026-11-07 09:37:46:015 INFO] Teleported ArenaHeight to 170.50, 260.00, 80.50
+BOT POSITION {"x":170.5,"y":261.6199951171875,"z":80.5}
+SERVER [2026-11-07 09:37:46:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:47:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:48:364 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:49:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:37:50:362 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:51:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND fill 168 259 78 175 259 82 stone
+SERVER [2026-11-07 09:37:52:012 INFO] 40 blocks filled
+SERVER [2026-11-07 09:37:52:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND fill 168 260 78 175 264 82 air
+SERVER [2026-11-07 09:37:52:011 ERROR] 0 blocks filled
+SERVER [2026-11-07 09:37:53:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND setblock 173 260 80 stone
+SERVER [2026-11-07 09:37:54:012 INFO] Block placed
+SERVER [2026-11-07 09:37:54:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 173 260 80 stone
+SERVER [2026-11-07 09:37:54:011 INFO] Successfully found the block at 173,260,80.
+SERVER [2026-11-07 09:37:55:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND querytarget @a[name=ArenaHeight]
+SERVER [2026-11-07 09:37:55:011 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -17179869183,
+SERVER       "position" : {
+SERVER          "x" : 170.50,
+SERVER          "y" : 261.6199951171875,
+SERVER          "z" : 80.50
+SERVER       },
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+SERVER [2026-11-07 09:37:56:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 effect:spectral_sword 1
+SERVER [2026-11-07 09:37:56:010 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * item.effect:spectral_sword
+BOT HELD CONTENT {"network_id":290,"count":1,"metadata":0,"has_stack_id":1,"stack_id":4,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+SERVER [2026-11-07 09:37:57:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY {"type":"minecraft:ender_crystal","runtime":"60","position":{"x":170.5,"y":261.79998779296875,"z":80.5}}
+SERVER [2026-11-07 09:37:58:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:37:59:372 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:38:00:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testfor @a[name=ArenaHeight,family=spectral_sword]
+SERVER [2026-11-07 09:38:01:060 INFO] Found ArenaHeight
+SERVER [2026-11-07 09:38:01:361 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND testforblock 173 260 80 effect99:spectral_block
+SERVER [2026-11-07 09:38:02:061 ERROR] The block at 173,260,80 is Stone (expected: %tile.effect99:spectral_block.name).
+SERVER [2026-11-07 09:38:02:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 173 260 80 stone
+SERVER [2026-11-07 09:38:03:060 INFO] Successfully found the block at 173,260,80.
+SERVER [2026-11-07 09:38:03:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+COMMAND replaceitem entity ArenaHeight slot.weapon.mainhand 0 air
+SERVER [2026-11-07 09:38:04:060 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaHeight with 1 * Air
+BOT HELD CONTENT {"network_id":0}
+SERVER [2026-11-07 09:38:04:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:38:05:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+SERVER [2026-11-07 09:38:06:360 WARN] [Scripting] ARENA_PLAYER_HEALTH {"name":"ArenaHeight","health":20,"max":20}
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 09:38:07:060 INFO] Server stop requested.
+SERVER [2026-11-07 09:38:07:079 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0

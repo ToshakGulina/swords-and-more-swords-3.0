@@ -1,0 +1,305 @@
+SERVER NO LOG FILE! - setting up server logging...
+SERVER [2026-11-07 13:26:55:708 INFO] Starting Server
+SERVER [2026-11-07 13:26:55:708 INFO] Version: 1.20.50.03
+SERVER [2026-11-07 13:26:55:708 INFO] Build ID: 19782165
+SERVER [2026-11-07 13:26:55:708 INFO] Branch: r/20_u5
+SERVER [2026-11-07 13:26:55:708 INFO] Commit ID: e6d2c18ba9d27b694621a3d69c8114aaf1bd64ac
+SERVER [2026-11-07 13:26:55:708 INFO] Configuration: Publish
+SERVER [2026-11-07 13:26:55:709 INFO] Level Name: Bot original attack
+SERVER [2026-11-07 13:26:55:709 INFO] No CDN config file found for dedicated server
+SERVER [2026-11-07 13:26:55:709 INFO] Game mode: 0 Survival
+SERVER [2026-11-07 13:26:55:709 INFO] Difficulty: 1 EASY
+SERVER [2026-11-07 13:26:55:710 INFO] Content logging to console is enabled.
+SERVER [2026-11-07 13:26:56:050 INFO] Experiment(s) active: ddi_, ucft, gtst, mola
+SERVER [2026-11-07 13:26:56:050 INFO] Opening level 'worlds/Bot original attack/db'
+SERVER [2026-11-07 13:26:56:396 ERROR] [FeatureRegistry] Bot original attack | effect99:quartz_diamond_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 13:26:56:396 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:quartz_diamond_ore'
+SERVER 
+SERVER [2026-11-07 13:26:56:396 ERROR] [FeatureRegistry] Bot original attack | effect99:silver_ore | The feature uses the feature type 'minecraft:structure_template_feature', which is considered internal and thus not compatible with this engine version of the game.
+SERVER 
+SERVER [2026-11-07 13:26:56:396 ERROR] [FeatureRegistry] Bot original attack | No definition found for feature 'effect99:silver_ore'
+SERVER 
+SERVER [2026-11-07 13:26:56:582 INFO] IPv4 supported, port: 19132: Used for gameplay and LAN discovery
+SERVER [2026-11-07 13:26:56:582 INFO] IPv6 supported, port: 19133: Used for gameplay
+SERVER [2026-11-07 13:26:56:647 INFO] Server started.
+SERVER [2026-11-07 13:26:56:647 INFO] ================ TELEMETRY MESSAGE ===================
+SERVER [2026-11-07 13:26:56:647 INFO] Server Telemetry is currently not enabled. 
+SERVER [2026-11-07 13:26:56:647 INFO] Enabling this telemetry helps us improve the game.
+SERVER [2026-11-07 13:26:56:647 INFO] 
+SERVER [2026-11-07 13:26:56:647 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+SERVER [2026-11-07 13:26:56:647 INFO] to the server.properties file in the handheld/src-server directory
+SERVER [2026-11-07 13:26:56:647 INFO] ======================================================
+SERVER [2026-11-07 13:26:56:693 WARN] [Scripting] ARENA_OBSERVER_READY
+SERVER 
+SERVER [2026-11-07 13:26:58:694 INFO] Player connected: ArenaRange, xuid: 
+BOT START_GAME {"runtime_id":"undefined","movement":"client"}
+BOT HELD CONTENT {"network_id":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 13:27:02:655 INFO] Player Spawned: ArenaRange xuid: , BOT SPAWN
+COMMAND gamemode creative ArenaRange
+SERVER [2026-11-07 13:27:02:767 INFO] Set ArenaRange's game mode to Creative
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:fox","runtime":"5","position":{"x":50,"y":95,"z":48}}
+BOT ENTITY {"type":"minecraft:fox","runtime":"4","position":{"x":50,"y":95,"z":48}}
+COMMAND tp ArenaRange 200 100 200 0 0
+SERVER [2026-11-07 13:27:03:704 INFO] Teleported ArenaRange to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+BOT ENTITY {"type":"minecraft:cow","runtime":"7","position":{"x":172,"y":91,"z":176}}
+BOT ENTITY {"type":"minecraft:cow","runtime":"6","position":{"x":172,"y":91,"z":176}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:fox","runtime":"9","position":{"x":229.3000030517578,"y":103,"z":205}}
+BOT ENTITY {"type":"minecraft:fox","runtime":"8","position":{"x":229.3000030517578,"y":103,"z":205}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tickingarea add 192 90 192 207 110 1743 GhostLong
+SERVER [2026-11-07 13:27:11:754 INFO] Added ticking area from 192, 0, 192 to 207, 0, 1743.
+SERVER 1/10 ticking areas in use.
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 99 197 203 99 205 stone
+SERVER [2026-11-07 13:27:41:756 INFO] 63 blocks filled
+COMMAND replaceitem entity ArenaRange slot.weapon.mainhand 0 effect:ghost_sword 1
+SERVER [2026-11-07 13:27:42:706 INFO] Replaced slot.weapon.mainhand slot 0 of ArenaRange with 1 * item.effect:ghost_sword
+BOT HELD CONTENT {"network_id":270,"count":1,"metadata":0,"has_stack_id":1,"stack_id":1,"block_runtime_id":0,"extra":{"has_nbt":true,"nbt":{"version":1,"nbt":{"type":"compound","name":"","value":{"Damage":{"type":"int","value":0}}}},"can_place_on":[],"can_destroy":[]}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS RANGE 512
+COMMAND kill @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:27:46:706 ERROR] No targets matched selector
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND tp ArenaRange 200 100 200 0 0
+SERVER [2026-11-07 13:27:47:756 INFO] Teleported ArenaRange to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"73","position":{"x":206.5,"y":98.5,"z":200.5}}
+COMMAND fill 197 100 201 203 108 600 air
+SERVER [2026-11-07 13:27:50:761 INFO] 783 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 601 203 108 1000 air
+SERVER [2026-11-07 13:27:52:759 INFO] 150 blocks filled
+COMMAND fill 197 100 1001 203 108 1400 air
+SERVER [2026-11-07 13:27:54:758 ERROR] 0 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 1401 203 108 1740 air
+SERVER [2026-11-07 13:27:56:759 ERROR] 0 blocks filled
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"83","position":{"x":181,"y":86,"z":232}}
+COMMAND fill 197 100 712 203 108 712 stone
+SERVER [2026-11-07 13:27:58:706 INFO] 63 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 200 101 712 stone
+SERVER [2026-11-07 13:28:00:757 INFO] Successfully found the block at 200,101,712.
+BOT ENTITY {"type":"minecraft:cow","runtime":"84","position":{"x":171,"y":90,"z":182}}
+COMMAND testforblock 200 101 712 stone
+SERVER [2026-11-07 13:28:01:760 INFO] Successfully found the block at 200,101,712.
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"85","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"87","position":{"x":201.5,"y":98.5,"z":195.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"93","position":{"x":240,"y":104,"z":195}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaRange]
+SERVER [2026-11-07 13:28:37:707 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "uniqueId" : "1a795784-041a-34fb-bcc7-9f6a89a64d78",
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:28:39:706 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934507,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 450.3529968261719
+SERVER       },
+SERVER       "uniqueId" : "-8589934507",
+SERVER       "yRot" : 5.008963398722699e-06
+SERVER    }
+SERVER ]
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"arm_swing","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"93","event_id":"hurt_animation","data":2}
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"dust_particles","data":0}
+HARNESS RANGE 1024
+COMMAND kill @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:28:41:707 INFO] Killed entity.entity:ghost_projectile.name
+COMMAND tp ArenaRange 200 100 200 0 0
+SERVER [2026-11-07 13:28:42:757 INFO] Teleported ArenaRange to 200.50, 100.00, 200.50
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"99","position":{"x":174,"y":87,"z":212}}
+COMMAND fill 197 100 201 203 108 600 air
+SERVER [2026-11-07 13:28:45:761 INFO] 7 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 601 203 108 1000 air
+SERVER [2026-11-07 13:28:47:758 INFO] 63 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"arm_swing","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"93","event_id":"death_animation","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"hurt_animation","data":5}
+BOT ENTITY EVENT {"runtime_entity_id":"8","event_id":"dust_particles","data":0}
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"102","position":{"x":174,"y":87,"z":215}}
+COMMAND fill 197 100 1001 203 108 1400 air
+SERVER [2026-11-07 13:28:49:759 ERROR] 0 blocks filled
+BOT ENTITY {"type":"minecraft:fox","runtime":"105","position":{"x":242,"y":107,"z":189}}
+BOT ENTITY {"type":"minecraft:fox","runtime":"104","position":{"x":242,"y":107,"z":189}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 1401 203 108 1740 air
+SERVER [2026-11-07 13:28:51:758 ERROR] 0 blocks filled
+COMMAND fill 197 100 1224 203 108 1224 stone
+SERVER [2026-11-07 13:28:53:757 INFO] 63 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 200 101 1224 stone
+SERVER [2026-11-07 13:28:55:707 INFO] Successfully found the block at 200,101,1224.
+COMMAND testforblock 200 101 712 air
+SERVER [2026-11-07 13:28:56:706 INFO] Successfully found the block at 200,101,712.
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"108","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+BOT ENTITY {"type":"minecraft:fox","runtime":"109","position":{"x":159,"y":90,"z":207}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"111","position":{"x":199.5,"y":102.5,"z":200.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"110","position":{"x":199.5,"y":101.5,"z":199.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"112","position":{"x":205.5,"y":98.5,"z":201.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"115","position":{"x":200.5,"y":98.5,"z":196.5}}
+BOT ENTITY {"type":"minecraft:falling_block","runtime":"116","position":{"x":198.5,"y":101.5,"z":200.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaRange]
+SERVER [2026-11-07 13:29:32:757 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "uniqueId" : "1a795784-041a-34fb-bcc7-9f6a89a64d78",
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+COMMAND querytarget @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:29:34:757 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934484,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 450.3559265136719
+SERVER       },
+SERVER       "uniqueId" : "-8589934484",
+SERVER       "yRot" : 5.008963398722699e-06
+SERVER    }
+SERVER ]
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+HARNESS RANGE 1536
+COMMAND kill @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:29:36:756 INFO] Killed entity.entity:ghost_projectile.name
+COMMAND tp ArenaRange 200 100 200 0 0
+SERVER [2026-11-07 13:29:37:756 INFO] Teleported ArenaRange to 200.50, 100.00, 200.50
+BOT POSITION {"x":200.5,"y":101.62001037597656,"z":200.5}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 201 203 108 600 air
+SERVER [2026-11-07 13:29:40:757 ERROR] 0 blocks filled
+COMMAND fill 197 100 601 203 108 1000 air
+SERVER [2026-11-07 13:29:42:759 ERROR] 0 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND fill 197 100 1001 203 108 1400 air
+SERVER [2026-11-07 13:29:44:708 INFO] 63 blocks filled
+COMMAND fill 197 100 1401 203 108 1740 air
+SERVER [2026-11-07 13:29:46:707 ERROR] 0 blocks filled
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:fox","runtime":"118","position":{"x":162,"y":90,"z":198}}
+COMMAND fill 197 100 1736 203 108 1736 stone
+SERVER [2026-11-07 13:29:48:786 INFO] 63 blocks filled
+BOT ENTITY {"type":"minecraft:rabbit","runtime":"120","position":{"x":203,"y":98,"z":163}}
+COMMAND testforblock 200 101 1736 stone
+SERVER [2026-11-07 13:29:50:756 INFO] Successfully found the block at 200,101,1736.
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND testforblock 200 101 712 air
+SERVER [2026-11-07 13:29:51:756 INFO] Successfully found the block at 200,101,712.
+HARNESS GHOST USE
+BOT USE BEGIN {"pos":{"x":200.5,"y":101.62001037597656,"z":200.5},"network_id":270}
+BOT USE SENT
+BOT ENTITY {"type":"entity:ghost_projectile","runtime":"121","position":{"x":200.5,"y":101.62001037597656,"z":200.5}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:fox","runtime":"122","position":{"x":198.3000030517578,"y":82,"z":230}}
+BOT ENTITY {"type":"minecraft:skeleton","runtime":"123","position":{"x":171,"y":77,"z":214}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY {"type":"minecraft:spider","runtime":"126","position":{"x":168,"y":75,"z":213}}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+COMMAND querytarget @a[name=ArenaRange]
+SERVER [2026-11-07 13:30:27:757 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934591,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 200.50
+SERVER       },
+SERVER       "uniqueId" : "1a795784-041a-34fb-bcc7-9f6a89a64d78",
+SERVER       "yRot" : 0.0
+SERVER    }
+SERVER ]
+SERVER 
+COMMAND querytarget @e[type=entity:ghost_projectile]
+SERVER [2026-11-07 13:30:29:758 INFO] Target data: [
+SERVER    {
+SERVER       "dimension" : 0,
+SERVER       "id" : -8589934471,
+SERVER       "position" : {
+SERVER          "x" : 200.50,
+SERVER          "y" : 101.6200103759766,
+SERVER          "z" : 450.3544616699219
+SERVER       },
+SERVER       "uniqueId" : "-8589934471",
+SERVER       "yRot" : 5.008963398722699e-06
+SERVER    }
+SERVER ]
+SERVER 
+BOT ENTITY EVENT {"runtime_entity_id":"1","event_id":"player_check_treasure_hunter_achievement","data":0}
+SERVER [2026-11-07 13:30:31:758 INFO] Server stop requested.
+SERVER [2026-11-07 13:30:31:771 INFO] Stopping server...
+SERVER Quit correctly
+HARNESS RESULT True 0
